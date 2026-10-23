@@ -103,10 +103,21 @@ Implement the event → animation table in design.md ("The world" → Event → 
 - Try CC0 low-poly packs first (Kenney's furniture and nature kits for the room and the view outside; Quaternius or similar for animals). Record every pack, author and license in `world/assets/CREDITS.md`. Nothing non-CC0 without asking Zach.
 - An axolotl, moth or beaver may not exist in CC0 packs. If not, build them from simple shapes in three.js (capsules, spheres, cones): rounded, big-eyed, cute. Same for props. That's fine for W0; custom art can replace it later.
 
-## 9. Performance
+## 9. Look settings (for the polish pass)
+After Codex builds W0, Claude does a visual polish pass by tuning values, not rewriting code. So every look value lives in **one file**, `world/src/look.js` (or similar), as a plain, commented object. The rest of the code reads from it, with no look numbers hard-coded elsewhere.
+- **Light:** each lamp's color and strength, fire glow color and flicker, window light color and strength, ambient light, shadow softness.
+- **Glow and fog:** glow on or off, strength and threshold; fog color and distance.
+- **Palette:** wall, floor, wood, fabric and outline colors; the tint for each agent.
+- **Weather and ambient:** how fast and how thick the snow falls, how much dust drifts, mug steam.
+- **Camera:** tilt, yaw, default zoom, zoom limits.
+- **Motion:** walk duration, plane flight formula constants, idle-motion amount, shimmer speed.
+
+The page reloads cleanly when `look.js` changes (or hot-reloads, if the build tooling makes that easy). The apartment will later get its own look file with the same shape, plus neon colors.
+
+## 10. Performance
 - 60 fps on the desktop or laptop integrated graphics with 12 agents. The M0 GPUs are busy with models, so it must stay light: low poly counts, few lights, one shadow-casting light, no post-processing beyond simple outlines if cheap.
 
-## 10. Done when
+## 11. Done when
 - [ ] `fake_log.py` writes a deterministic log that passes its own `--check`.
 - [ ] The page loads `fake-run.jsonl` and plays it start to finish at 1x, 4x and 16x without errors in the console.
 - [ ] All 12 agents are visible, each species and each agent within a species is tellable apart at default zoom.
@@ -115,6 +126,7 @@ Implement the event → animation table in design.md ("The world" → Event → 
 - [ ] During the busy stretch the view stays within ~5 s of the log.
 - [ ] Clicking an agent shows the card with correct current state and raw events; follow mode works.
 - [ ] A line with an unknown event type or extra fields is ignored without breaking playback.
+- [ ] Every look value is in the look-settings file, and changing one there changes the scene.
 - [ ] `CREDITS.md` lists every asset; `world/README.md` says how to generate the fake log and open the page.
 - [ ] Runs at a steady frame rate on integrated graphics.
 - [ ] A short screen recording or a few screenshots go in `docs/` with a dated progress note.
