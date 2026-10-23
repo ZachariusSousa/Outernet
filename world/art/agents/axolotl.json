@@ -1,81 +1,93 @@
 {
   "size": [
-    512,
-    512
+    144,
+    112
   ],
   "foot": [
-    256,
-    490
+    56,
+    96
   ],
   "anchors": {
     "head": [
-      256,
-      65
+      56,
+      12
     ],
     "hand": [
-      365,
-      335
+      104,
+      72
     ]
   },
   "parts": [
     {
-      "name": "gills",
-      "file": "axolotl/gills.png",
+      "name": "tail",
+      "file": "axolotl/tail.svg",
       "pivot": [
-        256,
-        430
+        56,
+        56
       ],
       "position": [
-        256,
-        430
+        56,
+        56
+      ]
+    },
+    {
+      "name": "gills",
+      "file": "axolotl/gills.svg",
+      "pivot": [
+        56,
+        56
+      ],
+      "position": [
+        56,
+        56
       ]
     },
     {
       "name": "body",
-      "file": "axolotl/body.png",
+      "file": "axolotl/body.svg",
       "pivot": [
-        256,
-        430
+        56,
+        56
       ],
       "position": [
-        256,
-        430
+        56,
+        56
       ]
     },
     {
-      "name": "head",
-      "file": "axolotl/head.png",
+      "name": "feet",
+      "file": "axolotl/feet.svg",
       "pivot": [
-        256,
-        260
+        56,
+        56
       ],
       "position": [
-        256,
-        260
+        56,
+        56
       ]
     },
     {
       "name": "eyes-open",
-      "file": "axolotl/eyes-open.png",
+      "file": "axolotl/eyes-open.svg",
       "pivot": [
-        256,
-        260
+        56,
+        56
       ],
       "position": [
-        256,
-        260
+        56,
+        56
       ]
     },
     {
       "name": "eyes-closed",
-      "file": "axolotl/eyes-closed.png",
+      "file": "axolotl/eyes-closed.svg",
       "pivot": [
-        256,
-        260
+        56,
+        56
       ],
       "position": [
-        256,
-        260
+        56,
+        56
       ]
     }
   ]

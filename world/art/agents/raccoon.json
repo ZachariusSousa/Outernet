@@ -1,93 +1,105 @@
 {
   "size": [
-    512,
-    512
+    144,
+    112
   ],
   "foot": [
-    256,
-    490
+    56,
+    96
   ],
   "anchors": {
     "head": [
-      256,
-      65
+      56,
+      12
     ],
     "hand": [
-      365,
-      335
+      104,
+      72
     ]
   },
   "parts": [
     {
-      "name": "ringed-tail",
-      "file": "raccoon/ringed-tail.png",
+      "name": "tail",
+      "file": "raccoon/tail.svg",
       "pivot": [
-        256,
-        430
+        56,
+        56
       ],
       "position": [
-        256,
-        430
+        56,
+        56
       ]
     },
     {
-      "name": "arms",
-      "file": "raccoon/arms.png",
+      "name": "ears",
+      "file": "raccoon/ears.svg",
       "pivot": [
-        256,
-        430
+        56,
+        56
       ],
       "position": [
-        256,
-        430
+        56,
+        56
       ]
     },
     {
       "name": "body",
-      "file": "raccoon/body.png",
+      "file": "raccoon/body.svg",
       "pivot": [
-        256,
-        430
+        56,
+        56
       ],
       "position": [
-        256,
-        430
+        56,
+        56
       ]
     },
     {
-      "name": "head",
-      "file": "raccoon/head.png",
+      "name": "mask",
+      "file": "raccoon/mask.svg",
       "pivot": [
-        256,
-        260
+        56,
+        56
       ],
       "position": [
-        256,
-        260
+        56,
+        56
       ]
     },
     {
       "name": "eyes-open",
-      "file": "raccoon/eyes-open.png",
+      "file": "raccoon/eyes-open.svg",
       "pivot": [
-        256,
-        260
+        56,
+        56
       ],
       "position": [
-        256,
-        260
+        56,
+        56
+      ]
+    },
+    {
+      "name": "feet",
+      "file": "raccoon/feet.svg",
+      "pivot": [
+        56,
+        56
+      ],
+      "position": [
+        56,
+        56
       ]
     },
     {
       "name": "eyes-closed",
-      "file": "raccoon/eyes-closed.png",
+      "file": "raccoon/eyes-closed.svg",
       "pivot": [
-        256,
-        260
+        56,
+        56
       ],
       "position": [
-        256,
-        260
+        56,
+        56
       ]
     }
   ]

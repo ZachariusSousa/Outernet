@@ -120,10 +120,10 @@ A small animated world where the agents live, driven by the real event log. The 
 Build order: **the pretty version first**. It still runs on real events from the start, so it can double as a debugging view later.
 
 ### Look
-- **2.5D pixel-block illustration**: "3D but not entirely". Each space is a flat pixel-block illustration (8 px grid, flat colors, blocks with cut corners, like the creatures in `world/art/agents/style-test.svg`) split into a few depth layers (sky, room, furniture, front, light, shade), with soft parallax, like a lofi YouTube background that is alive. Creatures are 2D cut-out puppets animated by code. (Tried first: low-poly 3D built from code, then a pixel-3D style. Both looked rigid. Then a painterly cute style looked too AI-generated. Simple flat blocks won.)
+- **Pre-rendered isometric diorama**: each space is an isometric cutaway room built and rendered once in Blender by a script (soft bounce light, warm lamp pools, dark corners, like the references in `docs/look-refs/`). The first space is rendered at low resolution and scaled up with crisp pixels and a small palette, for a pixel-art look with real lighting. The page shows the render as a fixed background and draws the creatures live in three.js on top, with a matching camera and the render's depth so furniture can hide them. Creatures are chunky 3D blocks from the approved pixel designs (`world/art/agents/style-test.svg`), like toys in a dollhouse. (Tried first: low-poly 3D built in code, a pixel-3D pass, 2D painted layers, glossy cute creatures. Code-built rooms looked rigid; the lighting needs a real renderer. Simple block creatures won.)
 - **The art is the look.** It's made separately (by an artist or a tool Zach picks) against an art brief, then dropped in as files. Code ships with rough placeholders in the same format. Every image's source and license goes in a `CREDITS.md`.
 - **Lofi style everywhere:** soft light, warm or gently neon palettes, easy bloom where it fits, slow ambient motion (snow, rain, steam, flicker). Each space should look like a still from a lofi YouTube video.
-- **Sound:** ambient loops per space (fire crackle and wind in the cabin, rain and distant traffic in the apartment), an optional lofi music loop, and a soft chime when a message lands. Off by default, and a single toggle switches it on.
+- **Sound:** ambient loops per space (wind, a passing tram and a ticking radiator in the flat, distant traffic in the penthouse, fire crackle and wind in the cabin, rain in the apartment), an optional lofi music loop, and a soft chime when a message lands. Off by default, and a single toggle switches it on.
 - **Time of day is a user setting:** either follow the viewer's real clock, or a fixed time picked from dawn, noon, golden hour or night. At night, windows and lanterns light up.
 
 ### Spaces
@@ -131,8 +131,10 @@ The world is a set of small cozy **spaces**, each one scene rather than a whole 
 
 | Space | Vibe | Study spot | Play spot | Help spot | Homes |
 |---|---|---|---|---|---|
-| **Cabin** (first) | A Kananaskis mountain lodge in winter: warm amber lamps, wood and forest tones, a fireplace, and snow falling past a big window onto pines and peaks | Bookshelves and armchairs by the fire | Game table on a rug | Mail desk with cubbyholes by the door | Sleeping cubbies and loft bunks, one per agent |
-| **Apartment** (second) | A mellow Shibuya night: a small building cut open like a dollhouse, soft RGB neon, gentle bloom, city lights and rain outside | Reading room | Game room / arcade corner | Mailroom in the lobby | Little flats |
+| **Flat** (first) | Eastern Bloc, snowy, early 2000s: a cutaway flat in a concrete panel block at night, warm yellow windows, orange streetlights, heavy snow, a tram below; inside a wall rug, a CRT, tea in glasses, radiators | Sofa under the wall rug, CRT and bookshelf | Kitchen table with stools | Desk with an old PC and mail cubbies by the door | Bunks and fold-out cots, 12 spots |
+| **Penthouse** (later) | The top floor of a downtown New York high-rise at night, cut open: warm lamps inside, a cool blue city of towers with scattered lit windows, water towers and fog outside the floor-to-ceiling windows | Sofa, armchair and bookshelf on a rug | Dining table under pendant lamps | Desk by the elevator with mail slots | Sleeping loft with 12 small pods |
+| **Cabin** (later) | A Kananaskis mountain lodge in winter: warm amber lamps, wood and forest tones, a fireplace, and snow falling past a big window onto pines and peaks | Bookshelves and armchairs by the fire | Game table on a rug | Mail desk with cubbyholes by the door | Sleeping cubbies and loft bunks, one per agent |
+| **Apartment** (later) | A mellow Shibuya night: a small building cut open like a dollhouse, soft RGB neon, gentle bloom, city lights and rain outside | Reading room | Game room / arcade corner | Mailroom in the lobby | Little flats |
 | Later | Coffee shop and more, all in the same lofi style | | | | |
 
 Each space is a **kit**: the room or building, the four kinds of spots, props, lighting, and ambient sound. Adding a space means adding a kit, not changing how the world works.
@@ -188,28 +190,28 @@ Playback rules for the coder:
 - It works live (tailing the simulator's JSONL) and as a replay of a finished run, with 1x / 4x / 16x speed.
 
 ### What the viewer can do
-- The view is fixed, with slight mouse parallax and a soft zoom when following an agent. No rotation. Click an agent to open a small card showing its name, interest, model, state, current tool, library size and its last few events. Follow mode keeps the camera on one agent.
+- The camera is fixed to the render's angle, with a little zoom and pan and a soft zoom when following an agent. No rotation. Click an agent to open a small card showing its name, interest, model, state, current tool, library size and its last few events. Follow mode keeps the camera on one agent.
 - Your own agent is highlighted, and "find my agent" flies the camera to it.
 - **Chat overlay** (only once there are real users, M4): a semi-transparent panel over the edge of the world, so you can keep watching while you chat. It looks like most agent harnesses: your messages, your agent's replies, collapsible "thinking" blocks, and tool calls shown as compact rows (tool name, short argument, result preview, expandable). An `ask_peer` row links to its paper plane in the world, and clicking it flies the camera there. It can be hidden with one key. The overlay only ever shows **your own** agent. Other agents' cards show their events, never their owners' chats.
 - **Connect screen:** the frontend doesn't host anything. The user points their agent at a model endpoint they run themselves, either on their own PC or on their own cloud box. Hosting and its cost are up to the user; OuterNet only provides the way to connect.
 
 ### Scale
-M0's 12 agents share the cabin. With a real network, the view shows your home space, plus visitors when peers help you. Other spaces could show up later as lit windows or a small map. Showing every node is never the goal.
+M0's 12 agents share the flat. With a real network, the view shows your home space, plus visitors when peers help you. Other spaces could show up later as lit windows or a small map. Showing every node is never the goal.
 
 ### Data the view needs
-- A `roster` event at the start of a run: each node's id, name, model, engine, interest, home space and library size. The run config sets home spaces. W0 has only the cabin, so all 12 agents live there; from W1 on they are split between the cabin and the apartment.
+- A `roster` event at the start of a run: each node's id, name, model, engine, interest, home space and library size. The run config sets home spaces. W0 has only the flat, so all 12 agents live there; from W1 on they are split across spaces.
 - Optionally, `correct` (true/false) on scored `answer` events, for a later wrong-answers overlay.
 - For the chat overlay (M4): owner-chat events with a `role` of `user`, `assistant`, `thinking` or `tool`. They stay on the owner's machine and never go into anything shared.
 - Nothing else. Everything else comes from the event types that already exist.
 - Because the world only reads the event log, any harness that writes this event format could show up in the world. Supporting people's own harnesses is a later idea (see below), but nothing in the frontend should assume it's our harness.
 
 ### Tech notes for the coder
-- A browser page using a 2D renderer (PixiJS or similar). It reads a JSONL file, or a live stream (SSE) from the simulator. Build tooling is the coder's pick.
+- A browser page using three.js over a background pre-rendered in Blender (by a script, so it can be re-rendered). It reads a JSONL file, or a live stream (SSE) from the simulator. Build tooling is the coder's pick.
 - Keep it light. The desktop's GPUs are busy serving models in M0, so the page should run smoothly on a laptop's integrated graphics, or be viewed from another machine.
 
 ### World milestones
-- **W0:** one space (the cabin) with all 12 agents, replaying a generated fake log (M0 logs once they exist) with the full event → animation table, plus camera controls and the agent card. Build spec: `docs/world-w0-spec.md`.
-- **W1:** the apartment, choosing a home space, and the time-of-day setting.
+- **W0:** one space (the Eastern Bloc flat) with all 12 agents, replaying a generated fake log (M0 logs once they exist) with the full event → animation table, plus camera controls and the agent card. Build spec: `docs/world-w0-spec.md`.
+- **W1:** a second space (the penthouse, the cabin or the apartment), choosing a home space, and the time-of-day setting.
 - **Later:** the coffee shop and other spaces.
 - **W2:** debug overlays (message lines, load heat, wrong answers) and a timeline scrubber.
 - **W3:** the chat overlay, the connect screen and "find my agent", together with M4.
@@ -263,7 +265,7 @@ This is a fun experiment, not a proof, so there are no pass/fail thresholds for 
 ## Open questions
 1. How is an expertise ID computed: library embedding, answered-question history, or both?
 2. Where do play problems come from: generated synthetic puzzles, or existing public datasets with answer keys?
-3. The world: which spaces come after the cabin and the apartment (the coffee shop is the first idea)?
+3. The world: which spaces come after the penthouse, the cabin and the apartment (the coffee shop is the first idea)?
 4. Connecting a user's own endpoint or harness: what is the smallest contract (model API shape, event format) we can ask for?
 5. Public library licensing: stick to openly licensed sources like Common Pile, as Murmur did? (M0 default: seeds are Wikipedia and openly licensed sources, but crawled links may leave them.)
 

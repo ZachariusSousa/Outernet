@@ -1,93 +1,93 @@
 {
   "size": [
-    512,
-    512
+    144,
+    112
   ],
   "foot": [
-    256,
-    490
+    56,
+    96
   ],
   "anchors": {
     "head": [
-      256,
-      65
+      56,
+      12
     ],
     "hand": [
-      365,
-      335
+      104,
+      72
     ]
   },
   "parts": [
     {
       "name": "wings",
-      "file": "moth/wings.png",
+      "file": "moth/wings.svg",
       "pivot": [
-        256,
-        430
+        56,
+        56
       ],
       "position": [
-        256,
-        430
+        56,
+        56
+      ]
+    },
+    {
+      "name": "wing-spots",
+      "file": "moth/wing-spots.svg",
+      "pivot": [
+        56,
+        56
+      ],
+      "position": [
+        56,
+        56
       ]
     },
     {
       "name": "antennae",
-      "file": "moth/antennae.png",
+      "file": "moth/antennae.svg",
       "pivot": [
-        256,
-        430
+        56,
+        56
       ],
       "position": [
-        256,
-        430
+        56,
+        56
       ]
     },
     {
       "name": "body",
-      "file": "moth/body.png",
+      "file": "moth/body.svg",
       "pivot": [
-        256,
-        430
+        56,
+        56
       ],
       "position": [
-        256,
-        430
-      ]
-    },
-    {
-      "name": "head",
-      "file": "moth/head.png",
-      "pivot": [
-        256,
-        260
-      ],
-      "position": [
-        256,
-        260
+        56,
+        56
       ]
     },
     {
       "name": "eyes-open",
-      "file": "moth/eyes-open.png",
+      "file": "moth/eyes-open.svg",
       "pivot": [
-        256,
-        260
+        56,
+        56
       ],
       "position": [
-        256,
-        260
+        56,
+        56
       ]
     },
     {
       "name": "eyes-closed",
-      "file": "moth/eyes-closed.png",
+      "file": "moth/eyes-closed.svg",
       "pivot": [
-        256,
-        260
+        56,
+        56
       ],
       "position": [
-        256,
-        260
+        56,
+        56
       ]
     }
   ]

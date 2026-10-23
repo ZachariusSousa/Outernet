@@ -1,561 +1,317 @@
 {
-  "width": 3840,
-  "height": 2160,
+  "width": 1920,
+  "height": 1080,
   "layers": {
-    "sky": "sky.png",
-    "room": "room.png",
-    "front": "front.png",
-    "light": "light.png",
-    "night": "night.png"
+    "sky": "sky.svg",
+    "room": "room.svg",
+    "front": "front.svg",
+    "light": "light.svg",
+    "night": "night.svg"
   },
   "window": {
-    "x": 1300,
-    "y": 160,
-    "w": 1500,
-    "h": 650
+    "x": 736,
+    "y": 80,
+    "w": 704,
+    "h": 336
   },
   "furniture": [
     {
-      "id": "chair-a",
-      "file": "furniture/chair-a.png",
-      "footY": 1150,
+      "id": "chair-480",
+      "file": "furniture/chair-480.svg",
+      "footY": 680,
       "x": 0,
       "y": 0,
-      "lineX": 1250,
-      "lineWidth": 300
+      "lineX": 464,
+      "lineWidth": 160
     },
     {
-      "id": "chair-b",
-      "file": "furniture/chair-b.png",
-      "footY": 1150,
+      "id": "chair-704",
+      "file": "furniture/chair-704.svg",
+      "footY": 680,
       "x": 0,
       "y": 0,
-      "lineX": 1700,
-      "lineWidth": 300
+      "lineX": 688,
+      "lineWidth": 160
+    },
+    {
+      "id": "lamp",
+      "file": "furniture/lamp.svg",
+      "footY": 624,
+      "x": 0,
+      "y": 0,
+      "lineX": 848,
+      "lineWidth": 96
     },
     {
       "id": "game-table",
-      "file": "furniture/game-table.png",
-      "footY": 1440,
+      "file": "furniture/game-table.svg",
+      "footY": 840,
       "x": 0,
       "y": 0,
-      "lineX": 2250,
-      "lineWidth": 750
+      "lineX": 1120,
+      "lineWidth": 240
+    },
+    {
+      "id": "seat-1152-592",
+      "file": "furniture/seat-1152-592.svg",
+      "footY": 632,
+      "x": 0,
+      "y": 0,
+      "lineX": 1112,
+      "lineWidth": 80
+    },
+    {
+      "id": "seat-1328-592",
+      "file": "furniture/seat-1328-592.svg",
+      "footY": 632,
+      "x": 0,
+      "y": 0,
+      "lineX": 1288,
+      "lineWidth": 80
+    },
+    {
+      "id": "seat-1152-896",
+      "file": "furniture/seat-1152-896.svg",
+      "footY": 936,
+      "x": 0,
+      "y": 0,
+      "lineX": 1112,
+      "lineWidth": 80
+    },
+    {
+      "id": "seat-1328-896",
+      "file": "furniture/seat-1328-896.svg",
+      "footY": 936,
+      "x": 0,
+      "y": 0,
+      "lineX": 1288,
+      "lineWidth": 80
     },
     {
       "id": "mail-desk",
-      "file": "furniture/mail-desk.png",
-      "footY": 1200,
+      "file": "furniture/mail-desk.svg",
+      "footY": 664,
       "x": 0,
       "y": 0,
-      "lineX": 3200,
-      "lineWidth": 550
-    },
-    {
-      "id": "side-table",
-      "file": "furniture/side-table.png",
-      "footY": 1380,
-      "x": 0,
-      "y": 0,
-      "lineX": 1100,
-      "lineWidth": 180
-    },
-    {
-      "id": "bunk-front",
-      "file": "furniture/bunk-front.png",
-      "footY": 1940,
-      "x": 0,
-      "y": 0,
-      "lineX": 60,
-      "lineWidth": 1050
+      "lineX": 1648,
+      "lineWidth": 248
     }
   ],
   "spots": {
+    "home": [
+      {
+        "x": 48,
+        "y": 712,
+        "facing": 1,
+        "pose": "sleep",
+        "scale": 0.42
+      },
+      {
+        "x": 112,
+        "y": 712,
+        "facing": 1,
+        "pose": "sleep",
+        "scale": 0.42
+      },
+      {
+        "x": 176,
+        "y": 712,
+        "facing": 1,
+        "pose": "sleep",
+        "scale": 0.42
+      },
+      {
+        "x": 240,
+        "y": 712,
+        "facing": 1,
+        "pose": "sleep",
+        "scale": 0.42
+      },
+      {
+        "x": 304,
+        "y": 712,
+        "facing": 1,
+        "pose": "sleep",
+        "scale": 0.42
+      },
+      {
+        "x": 368,
+        "y": 712,
+        "facing": 1,
+        "pose": "sleep",
+        "scale": 0.42
+      },
+      {
+        "x": 48,
+        "y": 888,
+        "facing": 1,
+        "pose": "sleep",
+        "scale": 0.42
+      },
+      {
+        "x": 112,
+        "y": 888,
+        "facing": 1,
+        "pose": "sleep",
+        "scale": 0.42
+      },
+      {
+        "x": 176,
+        "y": 888,
+        "facing": 1,
+        "pose": "sleep",
+        "scale": 0.42
+      },
+      {
+        "x": 240,
+        "y": 888,
+        "facing": 1,
+        "pose": "sleep",
+        "scale": 0.42
+      },
+      {
+        "x": 304,
+        "y": 888,
+        "facing": 1,
+        "pose": "sleep",
+        "scale": 0.42
+      },
+      {
+        "x": 368,
+        "y": 888,
+        "facing": 1,
+        "pose": "sleep",
+        "scale": 0.42
+      }
+    ],
     "study": [
       {
-        "x": 1300,
-        "y": 1450,
+        "x": 544,
+        "y": 680,
         "facing": 1,
         "pose": "sit"
       },
       {
-        "x": 1600,
-        "y": 1450,
+        "x": 768,
+        "y": 680,
         "facing": 1,
         "pose": "sit"
       },
       {
-        "x": 1900,
-        "y": 1450,
+        "x": 480,
+        "y": 824,
         "facing": 1,
-        "pose": "sit"
+        "pose": "stand"
       },
       {
-        "x": 2200,
-        "y": 1450,
+        "x": 656,
+        "y": 824,
         "facing": 1,
-        "pose": "sit"
+        "pose": "stand"
       },
       {
-        "x": 1300,
-        "y": 1730,
+        "x": 832,
+        "y": 824,
         "facing": 1,
-        "pose": "sit"
+        "pose": "stand"
       },
       {
-        "x": 1600,
-        "y": 1730,
+        "x": 480,
+        "y": 1000,
         "facing": 1,
-        "pose": "sit"
+        "pose": "stand"
       },
       {
-        "x": 1900,
-        "y": 1730,
+        "x": 656,
+        "y": 1000,
         "facing": 1,
-        "pose": "sit"
+        "pose": "stand"
       },
       {
-        "x": 2200,
-        "y": 1730,
+        "x": 832,
+        "y": 1000,
         "facing": 1,
-        "pose": "sit"
-      },
-      {
-        "x": 1300,
-        "y": 2010,
-        "facing": 1,
-        "pose": "sit"
-      },
-      {
-        "x": 1600,
-        "y": 2010,
-        "facing": 1,
-        "pose": "sit"
-      },
-      {
-        "x": 1900,
-        "y": 2010,
-        "facing": 1,
-        "pose": "sit"
-      },
-      {
-        "x": 2200,
-        "y": 2010,
-        "facing": 1,
-        "pose": "sit"
+        "pose": "stand"
       }
     ],
     "play": [
       {
-        "x": 2250,
-        "y": 1080,
+        "x": 1152,
+        "y": 592,
         "facing": 1,
         "pose": "sit"
       },
       {
-        "x": 2550,
-        "y": 1080,
+        "x": 1328,
+        "y": 592,
         "facing": 1,
         "pose": "sit"
       },
       {
-        "x": 2850,
-        "y": 1080,
+        "x": 1152,
+        "y": 896,
         "facing": 1,
         "pose": "sit"
       },
       {
-        "x": 3150,
-        "y": 1080,
+        "x": 1328,
+        "y": 896,
         "facing": 1,
         "pose": "sit"
-      },
-      {
-        "x": 2250,
-        "y": 1600,
-        "facing": 1,
-        "pose": "stand"
-      },
-      {
-        "x": 2550,
-        "y": 1600,
-        "facing": 1,
-        "pose": "stand"
-      },
-      {
-        "x": 2850,
-        "y": 1600,
-        "facing": 1,
-        "pose": "stand"
-      },
-      {
-        "x": 3150,
-        "y": 1600,
-        "facing": 1,
-        "pose": "stand"
-      },
-      {
-        "x": 2250,
-        "y": 1870,
-        "facing": 1,
-        "pose": "stand"
-      },
-      {
-        "x": 2550,
-        "y": 1870,
-        "facing": 1,
-        "pose": "stand"
-      },
-      {
-        "x": 2850,
-        "y": 1870,
-        "facing": 1,
-        "pose": "stand"
-      },
-      {
-        "x": 3150,
-        "y": 1870,
-        "facing": 1,
-        "pose": "stand"
       }
     ],
     "help": [
       {
-        "x": 3250,
-        "y": 1330,
+        "x": 1680,
+        "y": 816,
         "facing": -1,
         "pose": "stand"
       },
       {
-        "x": 3550,
-        "y": 1330,
+        "x": 1840,
+        "y": 816,
         "facing": -1,
         "pose": "stand"
       },
       {
-        "x": 3250,
-        "y": 1470,
+        "x": 1680,
+        "y": 992,
         "facing": -1,
         "pose": "stand"
       },
       {
-        "x": 3550,
-        "y": 1470,
+        "x": 1840,
+        "y": 992,
         "facing": -1,
         "pose": "stand"
-      },
-      {
-        "x": 3250,
-        "y": 1610,
-        "facing": -1,
-        "pose": "stand"
-      },
-      {
-        "x": 3550,
-        "y": 1610,
-        "facing": -1,
-        "pose": "stand"
-      },
-      {
-        "x": 3250,
-        "y": 1750,
-        "facing": -1,
-        "pose": "stand"
-      },
-      {
-        "x": 3550,
-        "y": 1750,
-        "facing": -1,
-        "pose": "stand"
-      },
-      {
-        "x": 3250,
-        "y": 1890,
-        "facing": -1,
-        "pose": "stand"
-      },
-      {
-        "x": 3550,
-        "y": 1890,
-        "facing": -1,
-        "pose": "stand"
-      },
-      {
-        "x": 3250,
-        "y": 2030,
-        "facing": -1,
-        "pose": "stand"
-      },
-      {
-        "x": 3550,
-        "y": 2030,
-        "facing": -1,
-        "pose": "stand"
-      }
-    ],
-    "home": [
-      {
-        "x": 230,
-        "y": 1230,
-        "facing": 1,
-        "pose": "sleep"
-      },
-      {
-        "x": 530,
-        "y": 1230,
-        "facing": 1,
-        "pose": "sleep"
-      },
-      {
-        "x": 830,
-        "y": 1230,
-        "facing": 1,
-        "pose": "sleep"
-      },
-      {
-        "x": 230,
-        "y": 1500,
-        "facing": 1,
-        "pose": "sleep"
-      },
-      {
-        "x": 530,
-        "y": 1500,
-        "facing": 1,
-        "pose": "sleep"
-      },
-      {
-        "x": 830,
-        "y": 1500,
-        "facing": 1,
-        "pose": "sleep"
-      },
-      {
-        "x": 230,
-        "y": 1770,
-        "facing": 1,
-        "pose": "sleep"
-      },
-      {
-        "x": 530,
-        "y": 1770,
-        "facing": 1,
-        "pose": "sleep"
-      },
-      {
-        "x": 830,
-        "y": 1770,
-        "facing": 1,
-        "pose": "sleep"
-      },
-      {
-        "x": 230,
-        "y": 2040,
-        "facing": 1,
-        "pose": "sleep"
-      },
-      {
-        "x": 530,
-        "y": 2040,
-        "facing": 1,
-        "pose": "sleep"
-      },
-      {
-        "x": 830,
-        "y": 2040,
-        "facing": 1,
-        "pose": "sleep"
       }
     ]
   },
-  "paths": [
-    {
-      "from": "study",
-      "to": "play",
-      "points": [
-        {
-          "x": 1150,
-          "y": 2050
-        },
-        {
-          "x": 3000,
-          "y": 2050
-        }
-      ]
-    },
-    {
-      "from": "study",
-      "to": "help",
-      "points": [
-        {
-          "x": 1150,
-          "y": 2050
-        },
-        {
-          "x": 3000,
-          "y": 2050
-        }
-      ]
-    },
-    {
-      "from": "study",
-      "to": "home",
-      "points": [
-        {
-          "x": 1150,
-          "y": 2050
-        },
-        {
-          "x": 3000,
-          "y": 2050
-        }
-      ]
-    },
-    {
-      "from": "play",
-      "to": "study",
-      "points": [
-        {
-          "x": 1150,
-          "y": 2050
-        },
-        {
-          "x": 3000,
-          "y": 2050
-        }
-      ]
-    },
-    {
-      "from": "play",
-      "to": "help",
-      "points": [
-        {
-          "x": 1150,
-          "y": 2050
-        },
-        {
-          "x": 3000,
-          "y": 2050
-        }
-      ]
-    },
-    {
-      "from": "play",
-      "to": "home",
-      "points": [
-        {
-          "x": 1150,
-          "y": 2050
-        },
-        {
-          "x": 3000,
-          "y": 2050
-        }
-      ]
-    },
-    {
-      "from": "help",
-      "to": "study",
-      "points": [
-        {
-          "x": 1150,
-          "y": 2050
-        },
-        {
-          "x": 3000,
-          "y": 2050
-        }
-      ]
-    },
-    {
-      "from": "help",
-      "to": "play",
-      "points": [
-        {
-          "x": 1150,
-          "y": 2050
-        },
-        {
-          "x": 3000,
-          "y": 2050
-        }
-      ]
-    },
-    {
-      "from": "help",
-      "to": "home",
-      "points": [
-        {
-          "x": 1150,
-          "y": 2050
-        },
-        {
-          "x": 3000,
-          "y": 2050
-        }
-      ]
-    },
-    {
-      "from": "home",
-      "to": "study",
-      "points": [
-        {
-          "x": 1150,
-          "y": 2050
-        },
-        {
-          "x": 3000,
-          "y": 2050
-        }
-      ]
-    },
-    {
-      "from": "home",
-      "to": "play",
-      "points": [
-        {
-          "x": 1150,
-          "y": 2050
-        },
-        {
-          "x": 3000,
-          "y": 2050
-        }
-      ]
-    },
-    {
-      "from": "home",
-      "to": "help",
-      "points": [
-        {
-          "x": 1150,
-          "y": 2050
-        },
-        {
-          "x": 3000,
-          "y": 2050
-        }
-      ]
-    }
-  ],
+  "paths": [],
   "decor": [
     {
       "home": 0,
       "stickers": [
         {
-          "file": "../agents/decor/shelf.png",
-          "x": 110,
-          "y": 1010
+          "file": "../agents/decor/shelf.svg",
+          "x": 24,
+          "y": 608,
+          "width": 16,
+          "height": 16
         },
         {
-          "file": "../agents/decor/jars.png",
-          "x": 180,
-          "y": 1010
+          "file": "../agents/decor/jars.svg",
+          "x": 40,
+          "y": 608,
+          "width": 16,
+          "height": 16
         },
         {
-          "file": "../agents/decor/poster.png",
-          "x": 250,
-          "y": 1010
+          "file": "../agents/decor/poster.svg",
+          "x": 56,
+          "y": 608,
+          "width": 16,
+          "height": 16
         }
       ]
     },
@@ -563,19 +319,25 @@
       "home": 1,
       "stickers": [
         {
-          "file": "../agents/decor/shelf.png",
-          "x": 410,
-          "y": 1010
+          "file": "../agents/decor/shelf.svg",
+          "x": 88,
+          "y": 608,
+          "width": 16,
+          "height": 16
         },
         {
-          "file": "../agents/decor/jars.png",
-          "x": 480,
-          "y": 1010
+          "file": "../agents/decor/jars.svg",
+          "x": 104,
+          "y": 608,
+          "width": 16,
+          "height": 16
         },
         {
-          "file": "../agents/decor/poster.png",
-          "x": 550,
-          "y": 1010
+          "file": "../agents/decor/poster.svg",
+          "x": 120,
+          "y": 608,
+          "width": 16,
+          "height": 16
         }
       ]
     },
@@ -583,19 +345,25 @@
       "home": 2,
       "stickers": [
         {
-          "file": "../agents/decor/shelf.png",
-          "x": 710,
-          "y": 1010
+          "file": "../agents/decor/shelf.svg",
+          "x": 152,
+          "y": 608,
+          "width": 16,
+          "height": 16
         },
         {
-          "file": "../agents/decor/jars.png",
-          "x": 780,
-          "y": 1010
+          "file": "../agents/decor/jars.svg",
+          "x": 168,
+          "y": 608,
+          "width": 16,
+          "height": 16
         },
         {
-          "file": "../agents/decor/poster.png",
-          "x": 850,
-          "y": 1010
+          "file": "../agents/decor/poster.svg",
+          "x": 184,
+          "y": 608,
+          "width": 16,
+          "height": 16
         }
       ]
     },
@@ -603,19 +371,25 @@
       "home": 3,
       "stickers": [
         {
-          "file": "../agents/decor/shelf.png",
-          "x": 110,
-          "y": 1280
+          "file": "../agents/decor/shelf.svg",
+          "x": 216,
+          "y": 608,
+          "width": 16,
+          "height": 16
         },
         {
-          "file": "../agents/decor/jars.png",
-          "x": 180,
-          "y": 1280
+          "file": "../agents/decor/jars.svg",
+          "x": 232,
+          "y": 608,
+          "width": 16,
+          "height": 16
         },
         {
-          "file": "../agents/decor/poster.png",
-          "x": 250,
-          "y": 1280
+          "file": "../agents/decor/poster.svg",
+          "x": 248,
+          "y": 608,
+          "width": 16,
+          "height": 16
         }
       ]
     },
@@ -623,19 +397,25 @@
       "home": 4,
       "stickers": [
         {
-          "file": "../agents/decor/shelf.png",
-          "x": 410,
-          "y": 1280
+          "file": "../agents/decor/shelf.svg",
+          "x": 280,
+          "y": 608,
+          "width": 16,
+          "height": 16
         },
         {
-          "file": "../agents/decor/jars.png",
-          "x": 480,
-          "y": 1280
+          "file": "../agents/decor/jars.svg",
+          "x": 296,
+          "y": 608,
+          "width": 16,
+          "height": 16
         },
         {
-          "file": "../agents/decor/poster.png",
-          "x": 550,
-          "y": 1280
+          "file": "../agents/decor/poster.svg",
+          "x": 312,
+          "y": 608,
+          "width": 16,
+          "height": 16
         }
       ]
     },
@@ -643,19 +423,25 @@
       "home": 5,
       "stickers": [
         {
-          "file": "../agents/decor/shelf.png",
-          "x": 710,
-          "y": 1280
+          "file": "../agents/decor/shelf.svg",
+          "x": 344,
+          "y": 608,
+          "width": 16,
+          "height": 16
         },
         {
-          "file": "../agents/decor/jars.png",
-          "x": 780,
-          "y": 1280
+          "file": "../agents/decor/jars.svg",
+          "x": 360,
+          "y": 608,
+          "width": 16,
+          "height": 16
         },
         {
-          "file": "../agents/decor/poster.png",
-          "x": 850,
-          "y": 1280
+          "file": "../agents/decor/poster.svg",
+          "x": 376,
+          "y": 608,
+          "width": 16,
+          "height": 16
         }
       ]
     },
@@ -663,19 +449,25 @@
       "home": 6,
       "stickers": [
         {
-          "file": "../agents/decor/shelf.png",
-          "x": 110,
-          "y": 1550
+          "file": "../agents/decor/shelf.svg",
+          "x": 24,
+          "y": 784,
+          "width": 16,
+          "height": 16
         },
         {
-          "file": "../agents/decor/jars.png",
-          "x": 180,
-          "y": 1550
+          "file": "../agents/decor/jars.svg",
+          "x": 40,
+          "y": 784,
+          "width": 16,
+          "height": 16
         },
         {
-          "file": "../agents/decor/poster.png",
-          "x": 250,
-          "y": 1550
+          "file": "../agents/decor/poster.svg",
+          "x": 56,
+          "y": 784,
+          "width": 16,
+          "height": 16
         }
       ]
     },
@@ -683,19 +475,25 @@
       "home": 7,
       "stickers": [
         {
-          "file": "../agents/decor/shelf.png",
-          "x": 410,
-          "y": 1550
+          "file": "../agents/decor/shelf.svg",
+          "x": 88,
+          "y": 784,
+          "width": 16,
+          "height": 16
         },
         {
-          "file": "../agents/decor/jars.png",
-          "x": 480,
-          "y": 1550
+          "file": "../agents/decor/jars.svg",
+          "x": 104,
+          "y": 784,
+          "width": 16,
+          "height": 16
         },
         {
-          "file": "../agents/decor/poster.png",
-          "x": 550,
-          "y": 1550
+          "file": "../agents/decor/poster.svg",
+          "x": 120,
+          "y": 784,
+          "width": 16,
+          "height": 16
         }
       ]
     },
@@ -703,19 +501,25 @@
       "home": 8,
       "stickers": [
         {
-          "file": "../agents/decor/shelf.png",
-          "x": 710,
-          "y": 1550
+          "file": "../agents/decor/shelf.svg",
+          "x": 152,
+          "y": 784,
+          "width": 16,
+          "height": 16
         },
         {
-          "file": "../agents/decor/jars.png",
-          "x": 780,
-          "y": 1550
+          "file": "../agents/decor/jars.svg",
+          "x": 168,
+          "y": 784,
+          "width": 16,
+          "height": 16
         },
         {
-          "file": "../agents/decor/poster.png",
-          "x": 850,
-          "y": 1550
+          "file": "../agents/decor/poster.svg",
+          "x": 184,
+          "y": 784,
+          "width": 16,
+          "height": 16
         }
       ]
     },
@@ -723,19 +527,25 @@
       "home": 9,
       "stickers": [
         {
-          "file": "../agents/decor/shelf.png",
-          "x": 110,
-          "y": 1820
+          "file": "../agents/decor/shelf.svg",
+          "x": 216,
+          "y": 784,
+          "width": 16,
+          "height": 16
         },
         {
-          "file": "../agents/decor/jars.png",
-          "x": 180,
-          "y": 1820
+          "file": "../agents/decor/jars.svg",
+          "x": 232,
+          "y": 784,
+          "width": 16,
+          "height": 16
         },
         {
-          "file": "../agents/decor/poster.png",
-          "x": 250,
-          "y": 1820
+          "file": "../agents/decor/poster.svg",
+          "x": 248,
+          "y": 784,
+          "width": 16,
+          "height": 16
         }
       ]
     },
@@ -743,19 +553,25 @@
       "home": 10,
       "stickers": [
         {
-          "file": "../agents/decor/shelf.png",
-          "x": 410,
-          "y": 1820
+          "file": "../agents/decor/shelf.svg",
+          "x": 280,
+          "y": 784,
+          "width": 16,
+          "height": 16
         },
         {
-          "file": "../agents/decor/jars.png",
-          "x": 480,
-          "y": 1820
+          "file": "../agents/decor/jars.svg",
+          "x": 296,
+          "y": 784,
+          "width": 16,
+          "height": 16
         },
         {
-          "file": "../agents/decor/poster.png",
-          "x": 550,
-          "y": 1820
+          "file": "../agents/decor/poster.svg",
+          "x": 312,
+          "y": 784,
+          "width": 16,
+          "height": 16
         }
       ]
     },
@@ -763,19 +579,25 @@
       "home": 11,
       "stickers": [
         {
-          "file": "../agents/decor/shelf.png",
-          "x": 710,
-          "y": 1820
+          "file": "../agents/decor/shelf.svg",
+          "x": 344,
+          "y": 784,
+          "width": 16,
+          "height": 16
         },
         {
-          "file": "../agents/decor/jars.png",
-          "x": 780,
-          "y": 1820
+          "file": "../agents/decor/jars.svg",
+          "x": 360,
+          "y": 784,
+          "width": 16,
+          "height": 16
         },
         {
-          "file": "../agents/decor/poster.png",
-          "x": 850,
-          "y": 1820
+          "file": "../agents/decor/poster.svg",
+          "x": 376,
+          "y": 784,
+          "width": 16,
+          "height": 16
         }
       ]
     }
@@ -783,16 +605,16 @@
   "lights": [
     {
       "x": 400,
-      "y": 650,
-      "w": 800,
-      "h": 800,
+      "y": 440,
+      "w": 432,
+      "h": 336,
       "key": "fire"
     },
     {
-      "x": 1100,
-      "y": 650,
-      "w": 500,
-      "h": 800,
+      "x": 832,
+      "y": 440,
+      "w": 144,
+      "h": 224,
       "key": "lamp"
     }
   ]

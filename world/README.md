@@ -22,3 +22,8 @@ Press P. Playback freezes while editing. Drag colored spot circles, path waypoin
 To regenerate original placeholders from the repository root: `node world/tools/placeholder_art.mjs` (overwrites art and placements; do not run after adding final art).
 
 Canvas 2D draws sky, room, foot-sorted furniture/puppets, front, additive light regions, then multiply night. Settings live in src/look.js; positional art metadata lives in scene.json and puppet JSON.
+
+## Locked block SVG art (2026-10-24)
+The active cabin layers/furniture are now 1920×1080 SVGs. Four roster species use SVG parts split directly from style-test.svg, in 144×112 canvases. Props are 64×64, planes 80×64, decor 32×32. scene.json references the active files. The older PNG files are inactive for the roster but retained for fallback species. Do not run placeholder_art.mjs over this art. Press P to adjust scene placements and copy the JSON.
+
+See docs/progress-2026-10-24-block-art.md for checklist limitations.

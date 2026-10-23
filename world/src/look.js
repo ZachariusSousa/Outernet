@@ -9,3 +9,9 @@ export const look={
  effects:{height:280,font:'48px sans-serif',planeWidth:140,planeHeight:90},
  placement:{radius:20,lineWidth:5,font:'32px sans-serif',spot:'#76dfbd',path:'#e2bb73',foot:'#df87ba'},
 };
+// Locked block-art presentation. Artwork geometry lives in SVG; placement in scene.json.
+look.agents.size=128;look.agents.bob=4;look.agents.hop=8;look.agents.hover=4;
+look.agents.sit=1;look.agents.sleep=1;look.agents.squash=0;
+look.grid={step:8,small:4};look.view.top=144;look.view.bottom=96;look.view.parallax=0;
+look.effects.height=136;look.effects.planeWidth=64;look.effects.planeHeight=48;
+look.props={size:32};look.weather.far.size=4;look.weather.near.size=8;

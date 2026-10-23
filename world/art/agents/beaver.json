@@ -1,93 +1,105 @@
 {
   "size": [
-    512,
-    512
+    144,
+    112
   ],
   "foot": [
-    256,
-    490
+    56,
+    96
   ],
   "anchors": {
     "head": [
-      256,
-      65
+      56,
+      12
     ],
     "hand": [
-      365,
-      335
+      104,
+      72
     ]
   },
   "parts": [
     {
-      "name": "paddle-tail",
-      "file": "beaver/paddle-tail.png",
+      "name": "tail",
+      "file": "beaver/tail.svg",
       "pivot": [
-        256,
-        430
+        56,
+        56
       ],
       "position": [
-        256,
-        430
+        56,
+        56
       ]
     },
     {
-      "name": "arms",
-      "file": "beaver/arms.png",
+      "name": "ears",
+      "file": "beaver/ears.svg",
       "pivot": [
-        256,
-        430
+        56,
+        56
       ],
       "position": [
-        256,
-        430
+        56,
+        56
       ]
     },
     {
       "name": "body",
-      "file": "beaver/body.png",
+      "file": "beaver/body.svg",
       "pivot": [
-        256,
-        430
+        56,
+        56
       ],
       "position": [
-        256,
-        430
-      ]
-    },
-    {
-      "name": "head",
-      "file": "beaver/head.png",
-      "pivot": [
-        256,
-        260
-      ],
-      "position": [
-        256,
-        260
+        56,
+        56
       ]
     },
     {
       "name": "eyes-open",
-      "file": "beaver/eyes-open.png",
+      "file": "beaver/eyes-open.svg",
       "pivot": [
-        256,
-        260
+        56,
+        56
       ],
       "position": [
-        256,
-        260
+        56,
+        56
+      ]
+    },
+    {
+      "name": "tooth",
+      "file": "beaver/tooth.svg",
+      "pivot": [
+        56,
+        56
+      ],
+      "position": [
+        56,
+        56
+      ]
+    },
+    {
+      "name": "feet",
+      "file": "beaver/feet.svg",
+      "pivot": [
+        56,
+        56
+      ],
+      "position": [
+        56,
+        56
       ]
     },
     {
       "name": "eyes-closed",
-      "file": "beaver/eyes-closed.png",
+      "file": "beaver/eyes-closed.svg",
       "pivot": [
-        256,
-        260
+        56,
+        56
       ],
       "position": [
-        256,
-        260
+        56,
+        56
       ]
     }
   ]
