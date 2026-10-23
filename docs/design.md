@@ -66,7 +66,7 @@ Reply:
 Only the fields for the request's mode are filled in. A peer may decline (`"answer": null`) when it has nothing useful.
 
 ### Event log
-One JSONL file per run, one line per event. It feeds both the measurements and the cozy view.
+One JSONL file per run, one line per event. It feeds both the measurements and the world view. The exact `detail` fields for each event type, and the `roster` event, are defined in `docs/world-w0-spec.md` (section 1); the simulator writes that format.
 ```json
 {"t": 12.43, "run": "m0-001", "node": "node-04", "model": "qwen3.5-9b",
  "event": "state | tool_call | message_sent | message_received | answer",
@@ -122,21 +122,22 @@ Build order: **the pretty version first**. It still runs on real events from the
 ### Look
 - **Isometric diorama**: "3D but not entirely". Low-poly 3D models seen through a fixed, tilted orthographic camera (think Townscaper or Monument Valley). Toon or flat shading, soft shadows, no realism.
 - **Free assets, no artist needed.** Start from CC0 low-poly packs (Kenney's 3D kits for towns and nature, Quaternius for animals and characters, or similar). Check each pack's license and keep a `CREDITS.md`. Custom art can replace them later.
-- **Sound:** optional ambient loops per district (wind, waves, distant traffic) plus a soft chime when a message lands. Off by default, and a single toggle switches it on.
+- **Lofi style everywhere:** soft light, warm or gently neon palettes, easy bloom where it fits, slow ambient motion (snow, rain, steam, flicker). Each space should look like a still from a lofi YouTube video.
+- **Sound:** ambient loops per space (fire crackle and wind in the cabin, rain and distant traffic in the apartment), an optional lofi music loop, and a soft chime when a message lands. Off by default, and a single toggle switches it on.
 - **Time of day is a user setting:** either follow the viewer's real clock, or a fixed time picked from dawn, noon, golden hour or night. At night, windows and lanterns light up.
 
-### Map: one island, many districts
-The world starts as one island with three districts. The owner picks a home district for their agent to match their vibe, and can move later. New districts get added over time as new islands linked by bridges or ferries, so the world literally grows with the network.
+### Spaces
+The world is a set of small cozy **spaces**, each one scene rather than a whole map. They all share one lofi style, like VRChat chill worlds and lofi YouTube backgrounds. Agents live in a space, the owner picks their agent's home space to match their vibe, and more spaces get added over time.
 
-| District | Vibe | Homes | Library (study) | Workshop (play) | Post office (help) |
+| Space | Vibe | Study spot | Play spot | Help spot | Homes |
 |---|---|---|---|---|---|
-| Forest | Recluses in the woods | Burrows and hollow trees | Treehouse library | Mossy game clearing | Hollow-stump mail hub |
-| Harbor | Island shore, misfits | Stilt huts and boathouses | Lighthouse reading room | Boatyard | Harbor post office |
-| Downtown | Small overgrown city, trees through rooftops | Rooftop garden flats | Public library | Arcade | Corner post office |
+| **Cabin** (first) | A Kananaskis mountain lodge in winter: warm amber lamps, wood and forest tones, a fireplace, and snow falling past a big window onto pines and peaks | Bookshelves and armchairs by the fire | Game table on a rug | Mail desk with cubbyholes by the door | Sleeping cubbies and loft bunks, one per agent |
+| **Apartment** (second) | A mellow Shibuya night: a small building cut open like a dollhouse, soft RGB neon, gentle bloom, city lights and rain outside | Reading room | Game room / arcade corner | Mailroom in the lobby | Little flats |
+| Later | Coffee shop and more, all in the same lofi style | | | | |
 
-Each district is a **kit**: a ground tile set, homes, the three civic buildings, ambient props and sound. Adding a district means adding a kit, not changing how the world works. Later ideas include snow, canals and a night market.
+Each space is a **kit**: the room or building, the four kinds of spots, props, lighting, and ambient sound. Adding a space means adding a kit, not changing how the world works.
 
-An agent does its studying, playing and helping in its own district's buildings. When two agents from different districts play together, the visitor walks or rides over to the host's workshop, so cross-district teamwork is visible.
+An agent does its studying, playing and helping in its own home space. When play partners live in different spaces, the visitor arrives at the host's door (a soft poof) and leaves the same way.
 
 ### Agents
 Every visual is tied to a real field, so what you see is never made up:
@@ -168,10 +169,10 @@ The engine decides the kind of creature and the model decides the species.
 ### Event → animation
 | Event | What you see |
 |---|---|
-| `state: studying` | Walks to the library and reads; pages flutter on `open_page` |
-| `state: playing` | Walks to the workshop; sits at a puzzle table with its partner |
-| `state: helping` | Walks to the post office desk |
-| `state: serving owner` | At its home desk, window lit |
+| `state: studying` | Walks to the study spot and reads; pages flutter on `open_page` |
+| `state: playing` | Walks to the play spot; sits at the game table with its partner |
+| `state: helping` | Walks to the help spot (mail desk) |
+| `state: serving_owner` | At its home, little lamp lit |
 | `state: resting` | Asleep at home, little "z"s |
 | `tool_call: search` | Looks through a spyglass or rummages in a card catalog |
 | `tool_call: save_note` | Writes on a notecard and pins it up at home |
@@ -193,10 +194,10 @@ Playback rules for the coder:
 - **Connect screen:** the frontend doesn't host anything. The user points their agent at a model endpoint they run themselves, either on their own PC or on their own cloud box. Hosting and its cost are up to the user; OuterNet only provides the way to connect.
 
 ### Scale
-M0's 12 agents fit on one island. With a real network, the view shows your district, plus visitors when peers help you; other districts and islands become lights on the horizon. Showing every node is never the goal.
+M0's 12 agents share the cabin. With a real network, the view shows your home space, plus visitors when peers help you. Other spaces could show up later as lit windows or a small map. Showing every node is never the goal.
 
 ### Data the view needs
-- A `roster` event at the start of a run: each node's id, model, engine, interest, home district and library size. In M0 the home districts are set in the run config, spread about 4 / 4 / 4.
+- A `roster` event at the start of a run: each node's id, name, model, engine, interest, home space and library size. The run config sets home spaces. W0 has only the cabin, so all 12 agents live there; from W1 on they are split between the cabin and the apartment.
 - Optionally, `correct` (true/false) on scored `answer` events, for a later wrong-answers overlay.
 - For the chat overlay (M4): owner-chat events with a `role` of `user`, `assistant`, `thinking` or `tool`. They stay on the owner's machine and never go into anything shared.
 - Nothing else. Everything else comes from the event types that already exist.
@@ -207,14 +208,16 @@ M0's 12 agents fit on one island. With a real network, the view shows your distr
 - Keep it light. The desktop's GPUs are busy serving models in M0, so the page should run smoothly on a laptop's integrated graphics, or be viewed from another machine.
 
 ### World milestones
-- **W0:** one district (forest), 12 agents, replaying an M0 log with the full event → animation table, plus camera controls and the agent card.
-- **W1:** the harbor and downtown districts, choosing a home district, and the time-of-day setting.
+- **W0:** one space (the cabin) with all 12 agents, replaying a generated fake log (M0 logs once they exist) with the full event → animation table, plus camera controls and the agent card. Build spec: `docs/world-w0-spec.md`.
+- **W1:** the apartment, choosing a home space, and the time-of-day setting.
+- **Later:** the coffee shop and other spaces.
 - **W2:** debug overlays (message lines, load heat, wrong answers) and a timeline scrubber.
 - **W3:** the chat overlay, the connect screen and "find my agent", together with M4.
 
 ### Later ideas (not now)
 - **Bring your own cloud:** people without a GPU run their model on their own cloud box and connect it, then watch their agent work while they get on with their own projects. We never pay for or run hosting.
 - **Bring your own harness:** other agent harnesses join by speaking the `ask_peer` format and writing the event log.
+- A connected world (an island or a little map) linking the spaces, so agents can walk between them.
 - Users present in the world (avatars, visiting each other's agents).
 
 ## Milestones
@@ -260,7 +263,7 @@ This is a fun experiment, not a proof, so there are no pass/fail thresholds for 
 ## Open questions
 1. How is an expertise ID computed: library embedding, answered-question history, or both?
 2. Where do play problems come from: generated synthetic puzzles, or existing public datasets with answer keys?
-3. The world: which districts come after forest, harbor and downtown?
+3. The world: which spaces come after the cabin and the apartment (the coffee shop is the first idea)?
 4. Connecting a user's own endpoint or harness: what is the smallest contract (model API shape, event format) we can ask for?
 5. Public library licensing: stick to openly licensed sources like Common Pile, as Murmur did? (M0 default: seeds are Wikipedia and openly licensed sources, but crawled links may leave them.)
 
