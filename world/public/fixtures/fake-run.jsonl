@@ -1,0 +1,530 @@
+{"t":0,"run":"fake-001","node":"sim","model":"sim","event":"roster","detail":{"nodes":[{"node":"node-01","name":"Pip","model":"llada2.2-mini","engine":"diffusion","interest":"beekeeping","space":"cabin","library_pages":30},{"node":"node-02","name":"Lumo","model":"llada2.2-mini","engine":"diffusion","interest":"jazz","space":"cabin","library_pages":100},{"node":"node-03","name":"Fen","model":"llada2.2-mini","engine":"diffusion","interest":"deep-sea creatures","space":"cabin","library_pages":200},{"node":"node-04","name":"Wisp","model":"dream-v0-instruct-7b","engine":"diffusion","interest":"volcanoes","space":"cabin","library_pages":30},{"node":"node-05","name":"Dusk","model":"dream-v0-instruct-7b","engine":"diffusion","interest":"mushrooms","space":"cabin","library_pages":100},{"node":"node-06","name":"Sable","model":"dream-v0-instruct-7b","engine":"diffusion","interest":"Japanese woodblock prints","space":"cabin","library_pages":200},{"node":"node-07","name":"Rook","model":"qwen3.5-9b","engine":"ar","interest":"chess openings","space":"cabin","library_pages":30},{"node":"node-08","name":"Tamsin","model":"qwen3.5-9b","engine":"ar","interest":"Formula 1","space":"cabin","library_pages":100},{"node":"node-09","name":"Odo","model":"qwen3.5-9b","engine":"ar","interest":"the Apollo program","space":"cabin","library_pages":200},{"node":"node-10","name":"Bram","model":"gemma-4-e4b","engine":"ar","interest":"Byzantine history","space":"cabin","library_pages":30},{"node":"node-11","name":"Curd","model":"gemma-4-e4b","engine":"ar","interest":"cheese making","space":"cabin","library_pages":100},{"node":"node-12","name":"Meeple","model":"gemma-4-e4b","engine":"ar","interest":"board game design","space":"cabin","library_pages":200}]}}
+{"t":0,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"state","detail":{"state":"studying"}}
+{"t":0,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"state","detail":{"state":"playing","partner":"node-01"}}
+{"t":0,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"state","detail":{"state":"helping"}}
+{"t":0,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"state","detail":{"state":"serving_owner"}}
+{"t":0,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"state","detail":{"state":"resting"}}
+{"t":0,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"state","detail":{"state":"studying"}}
+{"t":0,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"state","detail":{"state":"playing","partner":"node-08"}}
+{"t":0,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"state","detail":{"state":"helping"}}
+{"t":0,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"state","detail":{"state":"serving_owner"}}
+{"t":0,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"state","detail":{"state":"resting"}}
+{"t":0,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"state","detail":{"state":"studying"}}
+{"t":0,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"state","detail":{"state":"playing","partner":"node-11"}}
+{"t":4,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"search","arg":"beekeeping"}}
+{"t":4,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"load_skill","arg":"jazz"}}
+{"t":4,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"ask_peer","arg":"deep-sea creatures"}}
+{"t":4,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"answer","arg":"volcanoes"}}
+{"t":4,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"search","arg":"Japanese woodblock prints"}}
+{"t":4,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"load_skill","arg":"chess openings"}}
+{"t":4,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"ask_peer","arg":"Formula 1"}}
+{"t":4,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"answer","arg":"the Apollo program"}}
+{"t":4,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"search","arg":"cheese making"}}
+{"t":4,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"load_skill","arg":"board game design"}}
+{"t":6,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"message_sent","detail":{"msg_id":"2-2","kind":"request","to":"node-08","mode":"forward"},"sim_latency_ms":156}
+{"t":6,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"message_sent","detail":{"msg_id":"3-3","kind":"request","to":"node-09","mode":"canvas"},"sim_latency_ms":153}
+{"t":6,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"message_sent","detail":{"msg_id":"7-7","kind":"request","to":"node-01","mode":"canvas"},"sim_latency_ms":68}
+{"t":6,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"message_sent","detail":{"msg_id":"8-8","kind":"request","to":"node-02","mode":"text_help"},"sim_latency_ms":180}
+{"t":6.068,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"message_received","detail":{"msg_id":"7-7","kind":"request","from":"node-08","mode":"canvas"}}
+{"t":6.153,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"message_received","detail":{"msg_id":"3-3","kind":"request","from":"node-04","mode":"canvas"}}
+{"t":6.156,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"message_received","detail":{"msg_id":"2-2","kind":"request","from":"node-03","mode":"forward"}}
+{"t":6.18,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"message_received","detail":{"msg_id":"8-8","kind":"request","from":"node-09","mode":"text_help"}}
+{"t":7,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"open_page","arg":"beekeeping"}}
+{"t":7,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"open_page","arg":"Japanese woodblock prints"}}
+{"t":7,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"open_page","arg":"cheese making"}}
+{"t":10,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"save_note","arg":"beekeeping"}}
+{"t":10,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"save_note","arg":"Japanese woodblock prints"}}
+{"t":10,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"save_note","arg":"cheese making"}}
+{"t":12,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"message_sent","detail":{"msg_id":"2-2","kind":"reply","to":"node-03","mode":"forward","declined":false},"sim_latency_ms":156}
+{"t":12,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"message_sent","detail":{"msg_id":"3-3","kind":"reply","to":"node-04","mode":"canvas","declined":false},"sim_latency_ms":153}
+{"t":12,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"message_sent","detail":{"msg_id":"7-7","kind":"reply","to":"node-08","mode":"canvas","declined":true},"sim_latency_ms":68}
+{"t":12,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"message_sent","detail":{"msg_id":"8-8","kind":"reply","to":"node-09","mode":"text_help","declined":false},"sim_latency_ms":180}
+{"t":12.068,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"message_received","detail":{"msg_id":"7-7","kind":"reply","from":"node-01","mode":"canvas"}}
+{"t":12.153,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"message_received","detail":{"msg_id":"3-3","kind":"reply","from":"node-09","mode":"canvas"}}
+{"t":12.156,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"message_received","detail":{"msg_id":"2-2","kind":"reply","from":"node-08","mode":"forward"}}
+{"t":12.18,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"message_received","detail":{"msg_id":"8-8","kind":"reply","from":"node-02","mode":"text_help"}}
+{"t":13,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"load_skill","arg":"beekeeping"}}
+{"t":13,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"load_skill","arg":"Japanese woodblock prints"}}
+{"t":13,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"load_skill","arg":"cheese making"}}
+{"t":16,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"answer","detail":{"question_id":"2-2","correct":true}}
+{"t":16,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"answer","detail":{"question_id":"3-3","correct":true}}
+{"t":16,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"answer","detail":{"question_id":"7-7","correct":true}}
+{"t":16,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"answer","detail":{"question_id":"8-8","correct":false}}
+{"t":39.2,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"state","detail":{"state":"helping"}}
+{"t":42.093,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"state","detail":{"state":"playing","partner":"node-02"}}
+{"t":43.2,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"ask_peer","arg":"jazz"}}
+{"t":45.2,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"message_sent","detail":{"msg_id":"1-2","kind":"request","to":"node-07","mode":"text_help"},"sim_latency_ms":57}
+{"t":45.257,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"message_received","detail":{"msg_id":"1-2","kind":"request","from":"node-02","mode":"text_help"}}
+{"t":46.093,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"load_skill","arg":"beekeeping"}}
+{"t":46.732,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"state","detail":{"state":"serving_owner"}}
+{"t":50.732,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"answer","arg":"deep-sea creatures"}}
+{"t":51.2,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"message_sent","detail":{"msg_id":"1-2","kind":"reply","to":"node-02","mode":"text_help","declined":true},"sim_latency_ms":57}
+{"t":51.257,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"message_received","detail":{"msg_id":"1-2","kind":"reply","from":"node-07","mode":"text_help"}}
+{"t":52.732,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"message_sent","detail":{"msg_id":"2-3","kind":"request","to":"node-08","mode":"canvas"},"sim_latency_ms":125}
+{"t":52.857,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"message_received","detail":{"msg_id":"2-3","kind":"request","from":"node-03","mode":"canvas"}}
+{"t":53.988,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"state","detail":{"state":"helping"}}
+{"t":54.235,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"state","detail":{"state":"playing","partner":"node-05"}}
+{"t":55.2,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"answer","detail":{"question_id":"1-2","correct":true}}
+{"t":57.575,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"state","detail":{"state":"studying"}}
+{"t":57.988,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"ask_peer","arg":"board game design"}}
+{"t":58.235,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"load_skill","arg":"Japanese woodblock prints"}}
+{"t":58.732,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"message_sent","detail":{"msg_id":"2-3","kind":"reply","to":"node-03","mode":"canvas","declined":true},"sim_latency_ms":125}
+{"t":58.857,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"message_received","detail":{"msg_id":"2-3","kind":"reply","from":"node-08","mode":"canvas"}}
+{"t":59.988,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"message_sent","detail":{"msg_id":"11-12","kind":"request","to":"node-05","mode":"forward"},"sim_latency_ms":147}
+{"t":60.135,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"message_received","detail":{"msg_id":"11-12","kind":"request","from":"node-12","mode":"forward"}}
+{"t":61.575,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"search","arg":"Byzantine history"}}
+{"t":62.732,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"answer","detail":{"question_id":"2-3","correct":false}}
+{"t":63.041,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"state","detail":{"state":"resting"}}
+{"t":64.575,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"open_page","arg":"Byzantine history"}}
+{"t":65.988,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"message_sent","detail":{"msg_id":"11-12","kind":"reply","to":"node-12","mode":"forward","declined":false},"sim_latency_ms":147}
+{"t":66.135,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"message_received","detail":{"msg_id":"11-12","kind":"reply","from":"node-05","mode":"forward"}}
+{"t":67.575,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"save_note","arg":"Byzantine history"}}
+{"t":69.988,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"answer","detail":{"question_id":"11-12","correct":false}}
+{"t":70.575,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"load_skill","arg":"Byzantine history"}}
+{"t":70.77,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"state","detail":{"state":"serving_owner"}}
+{"t":74.77,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"answer","arg":"Formula 1"}}
+{"t":76.77,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"message_sent","detail":{"msg_id":"7-8","kind":"request","to":"node-01","mode":"text_help"},"sim_latency_ms":113}
+{"t":76.883,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"message_received","detail":{"msg_id":"7-8","kind":"request","from":"node-08","mode":"text_help"}}
+{"t":78.463,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"state","detail":{"state":"helping"}}
+{"t":82.463,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"ask_peer","arg":"chess openings"}}
+{"t":82.77,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"message_sent","detail":{"msg_id":"7-8","kind":"reply","to":"node-08","mode":"text_help","declined":false},"sim_latency_ms":113}
+{"t":82.883,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"message_received","detail":{"msg_id":"7-8","kind":"reply","from":"node-01","mode":"text_help"}}
+{"t":84.463,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"message_sent","detail":{"msg_id":"6-7","kind":"request","to":"node-12","mode":"canvas"},"sim_latency_ms":134}
+{"t":84.597,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"message_received","detail":{"msg_id":"6-7","kind":"request","from":"node-07","mode":"canvas"}}
+{"t":85.333,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"state","detail":{"state":"studying"}}
+{"t":86.77,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"answer","detail":{"question_id":"7-8","correct":true}}
+{"t":89.333,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"search","arg":"mushrooms"}}
+{"t":90.463,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"message_sent","detail":{"msg_id":"6-7","kind":"reply","to":"node-07","mode":"canvas","declined":false},"sim_latency_ms":134}
+{"t":90.597,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"message_received","detail":{"msg_id":"6-7","kind":"reply","from":"node-12","mode":"canvas"}}
+{"t":92.333,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"open_page","arg":"mushrooms"}}
+{"t":94.463,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"answer","detail":{"question_id":"6-7","correct":true}}
+{"t":95.333,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"save_note","arg":"mushrooms"}}
+{"t":98.333,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"load_skill","arg":"mushrooms"}}
+{"t":103.534,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"state","detail":{"state":"resting"}}
+{"t":117.64,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"state","detail":{"state":"playing","partner":"node-12"}}
+{"t":120.0,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"search","arg":"Busy afternoon correspondence"}}
+{"t":120.08,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"open_page","arg":"Busy afternoon correspondence"}}
+{"t":120.16,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"save_note","arg":"Busy afternoon correspondence"}}
+{"t":120.24,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"load_skill","arg":"Busy afternoon correspondence"}}
+{"t":120.32,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"ask_peer","arg":"Busy afternoon correspondence"}}
+{"t":120.4,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"answer","arg":"Busy afternoon correspondence"}}
+{"t":120.48,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"search","arg":"Busy afternoon correspondence"}}
+{"t":120.56,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"open_page","arg":"Busy afternoon correspondence"}}
+{"t":120.64,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"save_note","arg":"Busy afternoon correspondence"}}
+{"t":120.72,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"load_skill","arg":"Busy afternoon correspondence"}}
+{"t":120.8,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"ask_peer","arg":"Busy afternoon correspondence"}}
+{"t":120.88,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"answer","arg":"Busy afternoon correspondence"}}
+{"t":120.96,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"search","arg":"Busy afternoon correspondence"}}
+{"t":121.04,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"open_page","arg":"Busy afternoon correspondence"}}
+{"t":121.12,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"save_note","arg":"Busy afternoon correspondence"}}
+{"t":121.2,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"load_skill","arg":"Busy afternoon correspondence"}}
+{"t":121.28,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"ask_peer","arg":"Busy afternoon correspondence"}}
+{"t":121.36,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"answer","arg":"Busy afternoon correspondence"}}
+{"t":121.44,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"search","arg":"Busy afternoon correspondence"}}
+{"t":121.52,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"open_page","arg":"Busy afternoon correspondence"}}
+{"t":121.6,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"save_note","arg":"Busy afternoon correspondence"}}
+{"t":121.64,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"load_skill","arg":"cheese making"}}
+{"t":121.68,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"load_skill","arg":"Busy afternoon correspondence"}}
+{"t":121.76,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"ask_peer","arg":"Busy afternoon correspondence"}}
+{"t":121.84,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"answer","arg":"Busy afternoon correspondence"}}
+{"t":121.92,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"search","arg":"Busy afternoon correspondence"}}
+{"t":122.0,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"open_page","arg":"Busy afternoon correspondence"}}
+{"t":122.08,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"save_note","arg":"Busy afternoon correspondence"}}
+{"t":122.16,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"load_skill","arg":"Busy afternoon correspondence"}}
+{"t":122.24,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"ask_peer","arg":"Busy afternoon correspondence"}}
+{"t":122.32,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"answer","arg":"Busy afternoon correspondence"}}
+{"t":122.4,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"search","arg":"Busy afternoon correspondence"}}
+{"t":122.48,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"open_page","arg":"Busy afternoon correspondence"}}
+{"t":122.56,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"save_note","arg":"Busy afternoon correspondence"}}
+{"t":122.64,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"load_skill","arg":"Busy afternoon correspondence"}}
+{"t":122.72,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"ask_peer","arg":"Busy afternoon correspondence"}}
+{"t":122.8,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"answer","arg":"Busy afternoon correspondence"}}
+{"t":122.88,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"search","arg":"Busy afternoon correspondence"}}
+{"t":122.96,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"open_page","arg":"Busy afternoon correspondence"}}
+{"t":123.04,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"save_note","arg":"Busy afternoon correspondence"}}
+{"t":123.12,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"load_skill","arg":"Busy afternoon correspondence"}}
+{"t":123.2,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"ask_peer","arg":"Busy afternoon correspondence"}}
+{"t":123.28,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"answer","arg":"Busy afternoon correspondence"}}
+{"t":123.36,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"search","arg":"Busy afternoon correspondence"}}
+{"t":123.44,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"open_page","arg":"Busy afternoon correspondence"}}
+{"t":123.52,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"save_note","arg":"Busy afternoon correspondence"}}
+{"t":123.6,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"load_skill","arg":"Busy afternoon correspondence"}}
+{"t":123.68,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"ask_peer","arg":"Busy afternoon correspondence"}}
+{"t":123.76,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"answer","arg":"Busy afternoon correspondence"}}
+{"t":123.84,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"search","arg":"Busy afternoon correspondence"}}
+{"t":123.92,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"open_page","arg":"Busy afternoon correspondence"}}
+{"t":124.0,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"save_note","arg":"Busy afternoon correspondence"}}
+{"t":124.08,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"load_skill","arg":"Busy afternoon correspondence"}}
+{"t":124.16,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"ask_peer","arg":"Busy afternoon correspondence"}}
+{"t":124.24,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"answer","arg":"Busy afternoon correspondence"}}
+{"t":124.32,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"search","arg":"Busy afternoon correspondence"}}
+{"t":124.4,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"open_page","arg":"Busy afternoon correspondence"}}
+{"t":124.48,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"save_note","arg":"Busy afternoon correspondence"}}
+{"t":124.56,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"load_skill","arg":"Busy afternoon correspondence"}}
+{"t":124.64,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"ask_peer","arg":"Busy afternoon correspondence"}}
+{"t":124.72,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"answer","arg":"Busy afternoon correspondence"}}
+{"t":124.8,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"search","arg":"Busy afternoon correspondence"}}
+{"t":124.88,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"open_page","arg":"Busy afternoon correspondence"}}
+{"t":124.96,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"save_note","arg":"Busy afternoon correspondence"}}
+{"t":125.04,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"load_skill","arg":"Busy afternoon correspondence"}}
+{"t":125.12,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"ask_peer","arg":"Busy afternoon correspondence"}}
+{"t":125.2,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"answer","arg":"Busy afternoon correspondence"}}
+{"t":125.28,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"search","arg":"Busy afternoon correspondence"}}
+{"t":125.36,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"open_page","arg":"Busy afternoon correspondence"}}
+{"t":125.44,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"save_note","arg":"Busy afternoon correspondence"}}
+{"t":125.52,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"load_skill","arg":"Busy afternoon correspondence"}}
+{"t":125.6,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"ask_peer","arg":"Busy afternoon correspondence"}}
+{"t":125.68,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"answer","arg":"Busy afternoon correspondence"}}
+{"t":125.76,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"search","arg":"Busy afternoon correspondence"}}
+{"t":125.84,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"open_page","arg":"Busy afternoon correspondence"}}
+{"t":125.92,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"save_note","arg":"Busy afternoon correspondence"}}
+{"t":126.0,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"load_skill","arg":"Busy afternoon correspondence"}}
+{"t":126.08,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"ask_peer","arg":"Busy afternoon correspondence"}}
+{"t":126.16,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"answer","arg":"Busy afternoon correspondence"}}
+{"t":126.24,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"search","arg":"Busy afternoon correspondence"}}
+{"t":126.32,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"open_page","arg":"Busy afternoon correspondence"}}
+{"t":126.4,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"save_note","arg":"Busy afternoon correspondence"}}
+{"t":126.48,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"load_skill","arg":"Busy afternoon correspondence"}}
+{"t":126.56,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"ask_peer","arg":"Busy afternoon correspondence"}}
+{"t":126.64,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"answer","arg":"Busy afternoon correspondence"}}
+{"t":126.72,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"search","arg":"Busy afternoon correspondence"}}
+{"t":126.8,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"open_page","arg":"Busy afternoon correspondence"}}
+{"t":126.88,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"save_note","arg":"Busy afternoon correspondence"}}
+{"t":126.96,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"load_skill","arg":"Busy afternoon correspondence"}}
+{"t":127.04,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"ask_peer","arg":"Busy afternoon correspondence"}}
+{"t":127.12,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"answer","arg":"Busy afternoon correspondence"}}
+{"t":127.2,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"search","arg":"Busy afternoon correspondence"}}
+{"t":127.28,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"open_page","arg":"Busy afternoon correspondence"}}
+{"t":127.36,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"save_note","arg":"Busy afternoon correspondence"}}
+{"t":127.44,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"load_skill","arg":"Busy afternoon correspondence"}}
+{"t":127.52,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"ask_peer","arg":"Busy afternoon correspondence"}}
+{"t":127.6,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"answer","arg":"Busy afternoon correspondence"}}
+{"t":127.68,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"search","arg":"Busy afternoon correspondence"}}
+{"t":127.76,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"open_page","arg":"Busy afternoon correspondence"}}
+{"t":127.84,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"save_note","arg":"Busy afternoon correspondence"}}
+{"t":127.92,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"load_skill","arg":"Busy afternoon correspondence"}}
+{"t":131.768,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"state","detail":{"state":"resting"}}
+{"t":133.555,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"state","detail":{"state":"helping"}}
+{"t":135.407,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"state","detail":{"state":"studying"}}
+{"t":137.555,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"ask_peer","arg":"Japanese woodblock prints"}}
+{"t":139.407,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"search","arg":"the Apollo program"}}
+{"t":139.555,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"message_sent","detail":{"msg_id":"5-7","kind":"request","to":"node-11","mode":"canvas"},"sim_latency_ms":51}
+{"t":139.606,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"message_received","detail":{"msg_id":"5-7","kind":"request","from":"node-06","mode":"canvas"}}
+{"t":142.407,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"open_page","arg":"the Apollo program"}}
+{"t":145.407,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"save_note","arg":"the Apollo program"}}
+{"t":145.555,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"message_sent","detail":{"msg_id":"5-7","kind":"reply","to":"node-06","mode":"canvas","declined":false},"sim_latency_ms":51}
+{"t":145.606,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"message_received","detail":{"msg_id":"5-7","kind":"reply","from":"node-11","mode":"canvas"}}
+{"t":148.362,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"state","detail":{"state":"helping"}}
+{"t":148.407,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"load_skill","arg":"the Apollo program"}}
+{"t":149.555,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"answer","detail":{"question_id":"5-7","correct":true}}
+{"t":152.362,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"ask_peer","arg":"beekeeping"}}
+{"t":153.724,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"state","detail":{"state":"serving_owner"}}
+{"t":154.362,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"message_sent","detail":{"msg_id":"0-2","kind":"request","to":"node-06","mode":"forward"},"sim_latency_ms":115}
+{"t":154.477,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"message_received","detail":{"msg_id":"0-2","kind":"request","from":"node-01","mode":"forward"}}
+{"t":157.333,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"state","detail":{"state":"resting"}}
+{"t":157.724,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"answer","arg":"jazz"}}
+{"t":159.724,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"message_sent","detail":{"msg_id":"1-3","kind":"request","to":"node-07","mode":"text_help"},"sim_latency_ms":105}
+{"t":159.829,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"message_received","detail":{"msg_id":"1-3","kind":"request","from":"node-02","mode":"text_help"}}
+{"t":160.362,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"message_sent","detail":{"msg_id":"0-2","kind":"reply","to":"node-01","mode":"forward","declined":true},"sim_latency_ms":115}
+{"t":160.477,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"message_received","detail":{"msg_id":"0-2","kind":"reply","from":"node-06","mode":"forward"}}
+{"t":164.362,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"answer","detail":{"question_id":"0-2","correct":false}}
+{"t":164.841,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"state","detail":{"state":"playing","partner":"node-09"}}
+{"t":165.724,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"message_sent","detail":{"msg_id":"1-3","kind":"reply","to":"node-02","mode":"text_help","declined":false},"sim_latency_ms":105}
+{"t":165.829,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"message_received","detail":{"msg_id":"1-3","kind":"reply","from":"node-07","mode":"text_help"}}
+{"t":166.288,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"state","detail":{"state":"serving_owner"}}
+{"t":167.015,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"state","detail":{"state":"playing","partner":"node-10"}}
+{"t":167.369,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"state","detail":{"state":"playing","partner":"node-06"}}
+{"t":168.024,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"state","detail":{"state":"studying"}}
+{"t":168.841,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"load_skill","arg":"Byzantine history"}}
+{"t":169.724,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"answer","detail":{"question_id":"1-3","correct":true}}
+{"t":170.288,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"answer","arg":"board game design"}}
+{"t":171.015,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"load_skill","arg":"the Apollo program"}}
+{"t":171.369,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"load_skill","arg":"mushrooms"}}
+{"t":172.024,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"search","arg":"Formula 1"}}
+{"t":172.288,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"message_sent","detail":{"msg_id":"11-13","kind":"request","to":"node-05","mode":"canvas"},"sim_latency_ms":186}
+{"t":172.474,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"message_received","detail":{"msg_id":"11-13","kind":"request","from":"node-12","mode":"canvas"}}
+{"t":172.487,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"state","detail":{"state":"studying"}}
+{"t":175.024,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"open_page","arg":"Formula 1"}}
+{"t":176.487,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"search","arg":"volcanoes"}}
+{"t":178.024,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"save_note","arg":"Formula 1"}}
+{"t":178.288,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"message_sent","detail":{"msg_id":"11-13","kind":"reply","to":"node-12","mode":"canvas","declined":false},"sim_latency_ms":186}
+{"t":178.474,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"message_received","detail":{"msg_id":"11-13","kind":"reply","from":"node-05","mode":"canvas"}}
+{"t":179.487,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"open_page","arg":"volcanoes"}}
+{"t":180.874,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"state","detail":{"state":"serving_owner"}}
+{"t":181.024,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"load_skill","arg":"Formula 1"}}
+{"t":182.288,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"answer","detail":{"question_id":"11-13","correct":true}}
+{"t":182.487,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"save_note","arg":"volcanoes"}}
+{"t":184.874,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"answer","arg":"chess openings"}}
+{"t":185.487,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"load_skill","arg":"volcanoes"}}
+{"t":186.874,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"message_sent","detail":{"msg_id":"6-8","kind":"request","to":"node-12","mode":"canvas"},"sim_latency_ms":95}
+{"t":186.969,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"message_received","detail":{"msg_id":"6-8","kind":"request","from":"node-07","mode":"canvas"}}
+{"t":192.874,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"message_sent","detail":{"msg_id":"6-8","kind":"reply","to":"node-07","mode":"canvas","declined":false},"sim_latency_ms":95}
+{"t":192.969,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"message_received","detail":{"msg_id":"6-8","kind":"reply","from":"node-12","mode":"canvas"}}
+{"t":196.874,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"answer","detail":{"question_id":"6-8","correct":true}}
+{"t":202.167,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"state","detail":{"state":"resting"}}
+{"t":210.197,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"state","detail":{"state":"helping"}}
+{"t":210.236,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"state","detail":{"state":"serving_owner"}}
+{"t":211.002,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"state","detail":{"state":"helping"}}
+{"t":212.391,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"state","detail":{"state":"playing","partner":"node-07"}}
+{"t":214.197,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"ask_peer","arg":"the Apollo program"}}
+{"t":214.236,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"answer","arg":"Japanese woodblock prints"}}
+{"t":215.002,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"ask_peer","arg":"cheese making"}}
+{"t":216.197,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"message_sent","detail":{"msg_id":"8-12","kind":"request","to":"node-02","mode":"canvas"},"sim_latency_ms":91}
+{"t":216.236,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"message_sent","detail":{"msg_id":"5-8","kind":"request","to":"node-11","mode":"canvas"},"sim_latency_ms":102}
+{"t":216.288,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"message_received","detail":{"msg_id":"8-12","kind":"request","from":"node-09","mode":"canvas"}}
+{"t":216.338,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"message_received","detail":{"msg_id":"5-8","kind":"request","from":"node-06","mode":"canvas"}}
+{"t":216.391,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"load_skill","arg":"Formula 1"}}
+{"t":217.002,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"message_sent","detail":{"msg_id":"10-12","kind":"request","to":"node-04","mode":"canvas"},"sim_latency_ms":59}
+{"t":217.061,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"message_received","detail":{"msg_id":"10-12","kind":"request","from":"node-11","mode":"canvas"}}
+{"t":220.864,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"state","detail":{"state":"serving_owner"}}
+{"t":222.197,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"message_sent","detail":{"msg_id":"8-12","kind":"reply","to":"node-09","mode":"canvas","declined":false},"sim_latency_ms":91}
+{"t":222.236,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"message_sent","detail":{"msg_id":"5-8","kind":"reply","to":"node-06","mode":"canvas","declined":false},"sim_latency_ms":102}
+{"t":222.288,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"message_received","detail":{"msg_id":"8-12","kind":"reply","from":"node-02","mode":"canvas"}}
+{"t":222.338,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"message_received","detail":{"msg_id":"5-8","kind":"reply","from":"node-11","mode":"canvas"}}
+{"t":222.774,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"state","detail":{"state":"helping"}}
+{"t":223.002,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"message_sent","detail":{"msg_id":"10-12","kind":"reply","to":"node-11","mode":"canvas","declined":false},"sim_latency_ms":59}
+{"t":223.061,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"message_received","detail":{"msg_id":"10-12","kind":"reply","from":"node-04","mode":"canvas"}}
+{"t":224.864,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"answer","arg":"beekeeping"}}
+{"t":226.197,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"answer","detail":{"question_id":"8-12","correct":false}}
+{"t":226.236,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"answer","detail":{"question_id":"5-8","correct":true}}
+{"t":226.774,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"ask_peer","arg":"Byzantine history"}}
+{"t":226.864,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"message_sent","detail":{"msg_id":"0-3","kind":"request","to":"node-06","mode":"text_help"},"sim_latency_ms":103}
+{"t":226.967,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"message_received","detail":{"msg_id":"0-3","kind":"request","from":"node-01","mode":"text_help"}}
+{"t":227.002,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"answer","detail":{"question_id":"10-12","correct":false}}
+{"t":228.774,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"message_sent","detail":{"msg_id":"9-12","kind":"request","to":"node-03","mode":"text_help"},"sim_latency_ms":90}
+{"t":228.864,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"message_received","detail":{"msg_id":"9-12","kind":"request","from":"node-10","mode":"text_help"}}
+{"t":231.211,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"state","detail":{"state":"resting"}}
+{"t":232.864,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"message_sent","detail":{"msg_id":"0-3","kind":"reply","to":"node-01","mode":"text_help","declined":true},"sim_latency_ms":103}
+{"t":232.967,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"message_received","detail":{"msg_id":"0-3","kind":"reply","from":"node-06","mode":"text_help"}}
+{"t":234.774,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"message_sent","detail":{"msg_id":"9-12","kind":"reply","to":"node-10","mode":"text_help","declined":false},"sim_latency_ms":90}
+{"t":234.864,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"message_received","detail":{"msg_id":"9-12","kind":"reply","from":"node-03","mode":"text_help"}}
+{"t":235.803,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"state","detail":{"state":"studying"}}
+{"t":236.864,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"answer","detail":{"question_id":"0-3","correct":true}}
+{"t":238.774,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"answer","detail":{"question_id":"9-12","correct":false}}
+{"t":239.803,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"search","arg":"board game design"}}
+{"t":242.803,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"open_page","arg":"board game design"}}
+{"t":245.803,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"save_note","arg":"board game design"}}
+{"t":248.803,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"load_skill","arg":"board game design"}}
+{"t":249.914,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"state","detail":{"state":"serving_owner"}}
+{"t":253.914,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"answer","arg":"cheese making"}}
+{"t":255.613,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"state","detail":{"state":"helping"}}
+{"t":255.914,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"message_sent","detail":{"msg_id":"10-13","kind":"request","to":"node-04","mode":"canvas"},"sim_latency_ms":160}
+{"t":256.074,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"message_received","detail":{"msg_id":"10-13","kind":"request","from":"node-11","mode":"canvas"}}
+{"t":259.613,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"ask_peer","arg":"mushrooms"}}
+{"t":261.613,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"message_sent","detail":{"msg_id":"4-7","kind":"request","to":"node-10","mode":"forward"},"sim_latency_ms":178}
+{"t":261.791,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"message_received","detail":{"msg_id":"4-7","kind":"request","from":"node-05","mode":"forward"}}
+{"t":261.914,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"message_sent","detail":{"msg_id":"10-13","kind":"reply","to":"node-11","mode":"canvas","declined":false},"sim_latency_ms":160}
+{"t":262.074,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"message_received","detail":{"msg_id":"10-13","kind":"reply","from":"node-04","mode":"canvas"}}
+{"t":264.509,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"state","detail":{"state":"serving_owner"}}
+{"t":265.914,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"answer","detail":{"question_id":"10-13","correct":false}}
+{"t":267.613,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"message_sent","detail":{"msg_id":"4-7","kind":"reply","to":"node-05","mode":"forward","declined":true},"sim_latency_ms":178}
+{"t":267.791,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"message_received","detail":{"msg_id":"4-7","kind":"reply","from":"node-10","mode":"forward"}}
+{"t":268.509,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"answer","arg":"Byzantine history"}}
+{"t":270.509,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"message_sent","detail":{"msg_id":"9-13","kind":"request","to":"node-03","mode":"canvas"},"sim_latency_ms":59}
+{"t":270.568,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"message_received","detail":{"msg_id":"9-13","kind":"request","from":"node-10","mode":"canvas"}}
+{"t":271.613,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"answer","detail":{"question_id":"4-7","correct":true}}
+{"t":272.312,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"state","detail":{"state":"playing","partner":"node-03"}}
+{"t":274.926,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"state","detail":{"state":"studying"}}
+{"t":276.312,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"load_skill","arg":"volcanoes"}}
+{"t":276.509,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"message_sent","detail":{"msg_id":"9-13","kind":"reply","to":"node-10","mode":"canvas","declined":false},"sim_latency_ms":59}
+{"t":276.568,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"message_received","detail":{"msg_id":"9-13","kind":"reply","from":"node-03","mode":"canvas"}}
+{"t":277.775,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"state","detail":{"state":"playing","partner":"node-11"}}
+{"t":278.926,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"search","arg":"deep-sea creatures"}}
+{"t":280.509,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"answer","detail":{"question_id":"9-13","correct":true}}
+{"t":281.775,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"load_skill","arg":"board game design"}}
+{"t":281.926,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"open_page","arg":"deep-sea creatures"}}
+{"t":283.535,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"state","detail":{"state":"resting"}}
+{"t":284.926,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"save_note","arg":"deep-sea creatures"}}
+{"t":287.926,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"load_skill","arg":"deep-sea creatures"}}
+{"t":288.365,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"state","detail":{"state":"resting"}}
+{"t":289.22,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"state","detail":{"state":"serving_owner"}}
+{"t":289.312,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"state","detail":{"state":"resting"}}
+{"t":289.855,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"state","detail":{"state":"helping"}}
+{"t":293.22,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"answer","arg":"the Apollo program"}}
+{"t":293.855,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"ask_peer","arg":"Formula 1"}}
+{"t":295.22,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"message_sent","detail":{"msg_id":"8-13","kind":"request","to":"node-02","mode":"forward"},"sim_latency_ms":182}
+{"t":295.402,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"message_received","detail":{"msg_id":"8-13","kind":"request","from":"node-09","mode":"forward"}}
+{"t":295.855,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"message_sent","detail":{"msg_id":"7-12","kind":"request","to":"node-01","mode":"forward"},"sim_latency_ms":119}
+{"t":295.974,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"message_received","detail":{"msg_id":"7-12","kind":"request","from":"node-08","mode":"forward"}}
+{"t":301.22,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"message_sent","detail":{"msg_id":"8-13","kind":"reply","to":"node-09","mode":"forward","declined":false},"sim_latency_ms":182}
+{"t":301.402,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"message_received","detail":{"msg_id":"8-13","kind":"reply","from":"node-02","mode":"forward"}}
+{"t":301.855,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"message_sent","detail":{"msg_id":"7-12","kind":"reply","to":"node-08","mode":"forward","declined":false},"sim_latency_ms":119}
+{"t":301.974,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"message_received","detail":{"msg_id":"7-12","kind":"reply","from":"node-01","mode":"forward"}}
+{"t":305.22,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"answer","detail":{"question_id":"8-13","correct":true}}
+{"t":305.855,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"answer","detail":{"question_id":"7-12","correct":false}}
+{"t":322.765,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"state","detail":{"state":"helping"}}
+{"t":326.765,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"ask_peer","arg":"board game design"}}
+{"t":328.765,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"message_sent","detail":{"msg_id":"11-17","kind":"request","to":"node-05","mode":"canvas"},"sim_latency_ms":104}
+{"t":328.869,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"message_received","detail":{"msg_id":"11-17","kind":"request","from":"node-12","mode":"canvas"}}
+{"t":329.944,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"state","detail":{"state":"studying"}}
+{"t":331.262,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"state","detail":{"state":"resting"}}
+{"t":333.944,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"search","arg":"jazz"}}
+{"t":334.765,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"message_sent","detail":{"msg_id":"11-17","kind":"reply","to":"node-12","mode":"canvas","declined":false},"sim_latency_ms":104}
+{"t":334.869,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"message_received","detail":{"msg_id":"11-17","kind":"reply","from":"node-05","mode":"canvas"}}
+{"t":336.944,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"open_page","arg":"jazz"}}
+{"t":338.765,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"answer","detail":{"question_id":"11-17","correct":false}}
+{"t":339.944,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"save_note","arg":"jazz"}}
+{"t":342.944,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"load_skill","arg":"jazz"}}
+{"t":346.361,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"state","detail":{"state":"studying"}}
+{"t":349.998,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"state","detail":{"state":"playing","partner":"node-04"}}
+{"t":350.361,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"search","arg":"Japanese woodblock prints"}}
+{"t":353.361,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"open_page","arg":"Japanese woodblock prints"}}
+{"t":353.998,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"load_skill","arg":"deep-sea creatures"}}
+{"t":354.761,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"state","detail":{"state":"resting"}}
+{"t":354.96,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"state","detail":{"state":"serving_owner"}}
+{"t":356.361,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"save_note","arg":"Japanese woodblock prints"}}
+{"t":358.96,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"answer","arg":"mushrooms"}}
+{"t":359.361,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"load_skill","arg":"Japanese woodblock prints"}}
+{"t":360.778,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"state","detail":{"state":"serving_owner"}}
+{"t":360.96,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"message_sent","detail":{"msg_id":"4-8","kind":"request","to":"node-10","mode":"canvas"},"sim_latency_ms":190}
+{"t":361.15,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"message_received","detail":{"msg_id":"4-8","kind":"request","from":"node-05","mode":"canvas"}}
+{"t":364.778,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"answer","arg":"Formula 1"}}
+{"t":366.778,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"message_sent","detail":{"msg_id":"7-13","kind":"request","to":"node-01","mode":"text_help"},"sim_latency_ms":177}
+{"t":366.955,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"message_received","detail":{"msg_id":"7-13","kind":"request","from":"node-08","mode":"text_help"}}
+{"t":366.96,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"message_sent","detail":{"msg_id":"4-8","kind":"reply","to":"node-05","mode":"canvas","declined":true},"sim_latency_ms":190}
+{"t":367.15,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"message_received","detail":{"msg_id":"4-8","kind":"reply","from":"node-10","mode":"canvas"}}
+{"t":368.752,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"state","detail":{"state":"helping"}}
+{"t":370.96,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"answer","detail":{"question_id":"4-8","correct":false}}
+{"t":372.752,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"ask_peer","arg":"volcanoes"}}
+{"t":372.778,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"message_sent","detail":{"msg_id":"7-13","kind":"reply","to":"node-08","mode":"text_help","declined":false},"sim_latency_ms":177}
+{"t":372.955,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"message_received","detail":{"msg_id":"7-13","kind":"reply","from":"node-01","mode":"text_help"}}
+{"t":374.752,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"message_sent","detail":{"msg_id":"3-7","kind":"request","to":"node-09","mode":"forward"},"sim_latency_ms":162}
+{"t":374.914,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"message_received","detail":{"msg_id":"3-7","kind":"request","from":"node-04","mode":"forward"}}
+{"t":376.778,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"answer","detail":{"question_id":"7-13","correct":true}}
+{"t":379.248,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"state","detail":{"state":"studying"}}
+{"t":380.752,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"message_sent","detail":{"msg_id":"3-7","kind":"reply","to":"node-04","mode":"forward","declined":false},"sim_latency_ms":162}
+{"t":380.914,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"message_received","detail":{"msg_id":"3-7","kind":"reply","from":"node-09","mode":"forward"}}
+{"t":381.107,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"state","detail":{"state":"resting"}}
+{"t":383.248,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"search","arg":"cheese making"}}
+{"t":384.752,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"answer","detail":{"question_id":"3-7","correct":true}}
+{"t":386.248,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"open_page","arg":"cheese making"}}
+{"t":389.248,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"save_note","arg":"cheese making"}}
+{"t":390.225,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"state","detail":{"state":"studying"}}
+{"t":392.248,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"load_skill","arg":"cheese making"}}
+{"t":394.225,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"search","arg":"chess openings"}}
+{"t":396.345,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"state","detail":{"state":"studying"}}
+{"t":397.225,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"open_page","arg":"chess openings"}}
+{"t":400.225,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"save_note","arg":"chess openings"}}
+{"t":400.345,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"search","arg":"beekeeping"}}
+{"t":403.225,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"load_skill","arg":"chess openings"}}
+{"t":403.345,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"open_page","arg":"beekeeping"}}
+{"t":406.345,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"save_note","arg":"beekeeping"}}
+{"t":406.783,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"state","detail":{"state":"serving_owner"}}
+{"t":409.345,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"load_skill","arg":"beekeeping"}}
+{"t":410.783,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"answer","arg":"board game design"}}
+{"t":412.783,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"message_sent","detail":{"msg_id":"11-18","kind":"request","to":"node-05","mode":"text_help"},"sim_latency_ms":144}
+{"t":412.927,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"message_received","detail":{"msg_id":"11-18","kind":"request","from":"node-12","mode":"text_help"}}
+{"t":418.783,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"message_sent","detail":{"msg_id":"11-18","kind":"reply","to":"node-12","mode":"text_help","declined":false},"sim_latency_ms":144}
+{"t":418.858,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"state","detail":{"state":"resting"}}
+{"t":418.927,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"message_received","detail":{"msg_id":"11-18","kind":"reply","from":"node-05","mode":"text_help"}}
+{"t":422.783,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"answer","detail":{"question_id":"11-18","correct":true}}
+{"t":426.257,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"state","detail":{"state":"playing","partner":"node-05"}}
+{"t":430.257,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"load_skill","arg":"Japanese woodblock prints"}}
+{"t":435.895,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"state","detail":{"state":"playing","partner":"node-12"}}
+{"t":436.587,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"state","detail":{"state":"studying"}}
+{"t":439.895,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"load_skill","arg":"cheese making"}}
+{"t":440.587,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"search","arg":"the Apollo program"}}
+{"t":443.587,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"open_page","arg":"the Apollo program"}}
+{"t":444.469,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"state","detail":{"state":"playing","partner":"node-01"}}
+{"t":446.587,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"save_note","arg":"the Apollo program"}}
+{"t":448.469,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"load_skill","arg":"jazz"}}
+{"t":449.587,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"load_skill","arg":"the Apollo program"}}
+{"t":462.432,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"state","detail":{"state":"studying"}}
+{"t":462.993,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"state","detail":{"state":"resting"}}
+{"t":466.432,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"search","arg":"Byzantine history"}}
+{"t":467.047,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"state","detail":{"state":"helping"}}
+{"t":468.812,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"state","detail":{"state":"serving_owner"}}
+{"t":469.432,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"open_page","arg":"Byzantine history"}}
+{"t":470.682,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"state","detail":{"state":"resting"}}
+{"t":471.047,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"ask_peer","arg":"deep-sea creatures"}}
+{"t":472.432,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"save_note","arg":"Byzantine history"}}
+{"t":472.812,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"answer","arg":"volcanoes"}}
+{"t":473.047,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"message_sent","detail":{"msg_id":"2-7","kind":"request","to":"node-08","mode":"canvas"},"sim_latency_ms":98}
+{"t":473.145,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"message_received","detail":{"msg_id":"2-7","kind":"request","from":"node-03","mode":"canvas"}}
+{"t":474.812,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"message_sent","detail":{"msg_id":"3-8","kind":"request","to":"node-09","mode":"canvas"},"sim_latency_ms":150}
+{"t":474.962,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"message_received","detail":{"msg_id":"3-8","kind":"request","from":"node-04","mode":"canvas"}}
+{"t":475.432,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"load_skill","arg":"Byzantine history"}}
+{"t":479.047,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"message_sent","detail":{"msg_id":"2-7","kind":"reply","to":"node-03","mode":"canvas","declined":false},"sim_latency_ms":98}
+{"t":479.145,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"message_received","detail":{"msg_id":"2-7","kind":"reply","from":"node-08","mode":"canvas"}}
+{"t":479.759,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"state","detail":{"state":"studying"}}
+{"t":480.812,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"message_sent","detail":{"msg_id":"3-8","kind":"reply","to":"node-04","mode":"canvas","declined":false},"sim_latency_ms":150}
+{"t":480.962,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"message_received","detail":{"msg_id":"3-8","kind":"reply","from":"node-09","mode":"canvas"}}
+{"t":481.015,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"state","detail":{"state":"playing","partner":"node-02"}}
+{"t":483.047,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"answer","detail":{"question_id":"2-7","correct":false}}
+{"t":483.759,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"search","arg":"Formula 1"}}
+{"t":484.812,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"answer","detail":{"question_id":"3-8","correct":true}}
+{"t":485.015,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"load_skill","arg":"beekeeping"}}
+{"t":486.759,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"open_page","arg":"Formula 1"}}
+{"t":489.759,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"save_note","arg":"Formula 1"}}
+{"t":491.963,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"state","detail":{"state":"playing","partner":"node-08"}}
+{"t":492.759,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"load_skill","arg":"Formula 1"}}
+{"t":495.499,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"state","detail":{"state":"playing","partner":"node-10"}}
+{"t":495.963,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"load_skill","arg":"chess openings"}}
+{"t":499.499,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"load_skill","arg":"the Apollo program"}}
+{"t":507.869,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"state","detail":{"state":"playing","partner":"node-09"}}
+{"t":510.877,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"state","detail":{"state":"helping"}}
+{"t":511.869,"run":"fake-001","node":"node-10","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"load_skill","arg":"Byzantine history"}}
+{"t":514.877,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"ask_peer","arg":"cheese making"}}
+{"t":516.877,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"message_sent","detail":{"msg_id":"10-17","kind":"request","to":"node-04","mode":"text_help"},"sim_latency_ms":152}
+{"t":517.029,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"message_received","detail":{"msg_id":"10-17","kind":"request","from":"node-11","mode":"text_help"}}
+{"t":522.877,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"message_sent","detail":{"msg_id":"10-17","kind":"reply","to":"node-11","mode":"text_help","declined":false},"sim_latency_ms":152}
+{"t":523.029,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"message_received","detail":{"msg_id":"10-17","kind":"reply","from":"node-04","mode":"text_help"}}
+{"t":524.226,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"state","detail":{"state":"helping"}}
+{"t":526.877,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"answer","detail":{"question_id":"10-17","correct":true}}
+{"t":528.226,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"ask_peer","arg":"jazz"}}
+{"t":530.226,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"message_sent","detail":{"msg_id":"1-7","kind":"request","to":"node-07","mode":"text_help"},"sim_latency_ms":109}
+{"t":530.335,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"message_received","detail":{"msg_id":"1-7","kind":"request","from":"node-02","mode":"text_help"}}
+{"t":536.226,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"message_sent","detail":{"msg_id":"1-7","kind":"reply","to":"node-02","mode":"text_help","declined":false},"sim_latency_ms":109}
+{"t":536.335,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"message_received","detail":{"msg_id":"1-7","kind":"reply","from":"node-07","mode":"text_help"}}
+{"t":540.226,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"answer","detail":{"question_id":"1-7","correct":false}}
+{"t":540.949,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"state","detail":{"state":"helping"}}
+{"t":541.05,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"state","detail":{"state":"resting"}}
+{"t":544.949,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"ask_peer","arg":"Japanese woodblock prints"}}
+{"t":546.949,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"message_sent","detail":{"msg_id":"5-12","kind":"request","to":"node-11","mode":"text_help"},"sim_latency_ms":174}
+{"t":547.123,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"message_received","detail":{"msg_id":"5-12","kind":"request","from":"node-06","mode":"text_help"}}
+{"t":552.684,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"state","detail":{"state":"studying"}}
+{"t":552.949,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"message_sent","detail":{"msg_id":"5-12","kind":"reply","to":"node-06","mode":"text_help","declined":false},"sim_latency_ms":174}
+{"t":553.123,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"message_received","detail":{"msg_id":"5-12","kind":"reply","from":"node-11","mode":"text_help"}}
+{"t":555.004,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"state","detail":{"state":"serving_owner"}}
+{"t":556.684,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"search","arg":"mushrooms"}}
+{"t":556.949,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"answer","detail":{"question_id":"5-12","correct":false}}
+{"t":559.004,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"answer","arg":"cheese making"}}
+{"t":559.684,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"open_page","arg":"mushrooms"}}
+{"t":561.004,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"message_sent","detail":{"msg_id":"10-18","kind":"request","to":"node-04","mode":"text_help"},"sim_latency_ms":194}
+{"t":561.198,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"message_received","detail":{"msg_id":"10-18","kind":"request","from":"node-11","mode":"text_help"}}
+{"t":562.684,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"save_note","arg":"mushrooms"}}
+{"t":565.684,"run":"fake-001","node":"node-05","model":"dream-v0-instruct-7b","event":"tool_call","detail":{"tool":"load_skill","arg":"mushrooms"}}
+{"t":567.004,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"message_sent","detail":{"msg_id":"10-18","kind":"reply","to":"node-11","mode":"text_help","declined":false},"sim_latency_ms":194}
+{"t":567.198,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"message_received","detail":{"msg_id":"10-18","kind":"reply","from":"node-04","mode":"text_help"}}
+{"t":571.004,"run":"fake-001","node":"node-11","model":"gemma-4-e4b","event":"answer","detail":{"question_id":"10-18","correct":false}}
+{"t":571.061,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"state","detail":{"state":"studying"}}
+{"t":573.205,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"state","detail":{"state":"serving_owner"}}
+{"t":575.061,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"search","arg":"board game design"}}
+{"t":577.205,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"answer","arg":"deep-sea creatures"}}
+{"t":578.061,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"open_page","arg":"board game design"}}
+{"t":579.205,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"message_sent","detail":{"msg_id":"2-8","kind":"request","to":"node-08","mode":"canvas"},"sim_latency_ms":150}
+{"t":579.355,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"message_received","detail":{"msg_id":"2-8","kind":"request","from":"node-03","mode":"canvas"}}
+{"t":580.059,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"state","detail":{"state":"helping"}}
+{"t":581.061,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"save_note","arg":"board game design"}}
+{"t":581.418,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"state","detail":{"state":"playing","partner":"node-07"}}
+{"t":582.284,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"state","detail":{"state":"helping"}}
+{"t":584.059,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"tool_call","detail":{"tool":"ask_peer","arg":"beekeeping"}}
+{"t":584.061,"run":"fake-001","node":"node-12","model":"gemma-4-e4b","event":"tool_call","detail":{"tool":"load_skill","arg":"board game design"}}
+{"t":585.205,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"message_sent","detail":{"msg_id":"2-8","kind":"reply","to":"node-03","mode":"canvas","declined":false},"sim_latency_ms":150}
+{"t":585.355,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"message_received","detail":{"msg_id":"2-8","kind":"reply","from":"node-08","mode":"canvas"}}
+{"t":585.418,"run":"fake-001","node":"node-08","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"load_skill","arg":"Formula 1"}}
+{"t":586.059,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"message_sent","detail":{"msg_id":"0-7","kind":"request","to":"node-06","mode":"canvas"},"sim_latency_ms":164}
+{"t":586.223,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"message_received","detail":{"msg_id":"0-7","kind":"request","from":"node-01","mode":"canvas"}}
+{"t":586.284,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"ask_peer","arg":"the Apollo program"}}
+{"t":588.284,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"message_sent","detail":{"msg_id":"8-17","kind":"request","to":"node-02","mode":"forward"},"sim_latency_ms":126}
+{"t":588.41,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"message_received","detail":{"msg_id":"8-17","kind":"request","from":"node-09","mode":"forward"}}
+{"t":589.205,"run":"fake-001","node":"node-03","model":"llada2.2-mini","event":"answer","detail":{"question_id":"2-8","correct":true}}
+{"t":592.059,"run":"fake-001","node":"node-06","model":"dream-v0-instruct-7b","event":"message_sent","detail":{"msg_id":"0-7","kind":"reply","to":"node-01","mode":"canvas","declined":false},"sim_latency_ms":164}
+{"t":592.223,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"message_received","detail":{"msg_id":"0-7","kind":"reply","from":"node-06","mode":"canvas"}}
+{"t":594.284,"run":"fake-001","node":"node-02","model":"llada2.2-mini","event":"message_sent","detail":{"msg_id":"8-17","kind":"reply","to":"node-09","mode":"forward","declined":true},"sim_latency_ms":126}
+{"t":594.41,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"message_received","detail":{"msg_id":"8-17","kind":"reply","from":"node-02","mode":"forward"}}
+{"t":595.443,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"state","detail":{"state":"helping"}}
+{"t":596.059,"run":"fake-001","node":"node-01","model":"llada2.2-mini","event":"answer","detail":{"question_id":"0-7","correct":true}}
+{"t":598.284,"run":"fake-001","node":"node-09","model":"qwen3.5-9b","event":"answer","detail":{"question_id":"8-17","correct":true}}
+{"t":598.818,"run":"fake-001","node":"node-04","model":"dream-v0-instruct-7b","event":"state","detail":{"state":"studying"}}
+{"t":599.443,"run":"fake-001","node":"node-07","model":"qwen3.5-9b","event":"tool_call","detail":{"tool":"ask_peer","arg":"chess openings"}}

@@ -11,8 +11,10 @@ The apartment and any other space, choosing a home space, time-of-day setting (W
 ## Where it lives
 ```
 world/
-  index.html, src/...        the page (three.js; build tooling is your pick, keep it simple)
-  assets/                    3D models and textures, plus CREDITS.md
+  index.html, src/...        the page (a 2D renderer such as PixiJS; build tooling is your pick, keep it simple)
+  art/cabin/                 layer PNGs, furniture PNGs, scene.json
+  art/agents/                puppet parts and pivots per species, props, planes
+  art/CREDITS.md
   fixtures/fake-run.jsonl    generated fake log (see below)
   tools/fake_log.py          the fake-log generator
   README.md                  how to run it
@@ -65,18 +67,27 @@ Interests are assigned across models with three unrelated interests per model. N
 
 Species comes from `model` (unknown diffusion model = jellyfish, unknown AR model = red panda, per design.md). The three agents sharing a species also get a small color tint each so they can be told apart.
 
-## 4. The cabin
-One room, seen as an isometric cutaway (two walls and the floor, orthographic camera, ~35° tilt, 45° yaw), like a dollhouse room or a lofi YouTube background. Mood: a Kananaskis mountain lodge on a winter evening.
-- **Light:** warm amber lamps and the fireplace glow are the main lights; cool blue-white light comes in from the window. One shadow-casting light. A cheap soft glow on lamps and fire is welcome if it stays light on the GPU.
-- **Materials:** wood, wool, stone; forest greens, browns and deep reds. Toon or flat shading.
-- **Window:** a big window with snow falling outside onto pines and mountain peaks (a simple backdrop plane or a few low-poly shapes; doesn't need to be 3D).
-- **Spots** (spaced so walks take 2-3 s at 1x):
-  - study: bookshelves and two or three armchairs by the fireplace;
-  - play: a game table on a rug, seats for two pairs;
-  - help: a mail desk with cubbyholes near the door;
-  - homes: 12 sleeping cubbies or loft bunks along one wall, one per agent, each with a tiny lamp and a spot to pin notes. Decor grows with `library_pages`: 0-50 bare, 51-150 a small shelf, 151+ shelf, jars and posters.
-- **Spots hold a crowd:** several agents can be at the same spot (gather around the fire, queue at the mail desk). Give each spot a few standing or sitting positions and use the next free one.
-- **Ambient:** falling snow, flickering fire, a little steam from a mug, drifting dust in the lamp light. Nothing that looks like an agent event.
+## 4. The cabin (2.5D pixel-block illustration)
+The cabin is a **flat pixel-block illustration (same style as the creatures, section 8) in a few depth layers**, with 2D creatures animated on top, like a lofi YouTube background that is alive. No 3D models and no models built from code: the look comes from the art. Mood: a Kananaskis mountain lodge on a winter evening.
+
+**Framing:** one fixed 16:9 view of the fireside half of the lodge (fireplace, armchairs, floor lamp, big window, game table) with the bunks and the mail desk at the edges. The camera doesn't rotate.
+
+**Layers** (back to front), each an SVG drawn on an 8 px grid at 1920x1080 (the page scales it up or down by whole steps where it can and keeps edges crisp):
+1. `sky`: night sky, layered mountain silhouettes, snowy pines, a small moon (seen through the window).
+2. `room`: walls, floor, window frame, fireplace, shelves, bunks, everything that never sits in front of an agent.
+3. `furniture/*.png`: one PNG per piece that agents can be in front of or behind (armchairs, game table, mail desk, side table, bunk fronts). Each has a foot line (the y where it touches the floor) so the page can sort it against agents.
+4. `front`: a few things that frame the shot and are always in front (a beam edge, a plant, a blanket over a chair arm).
+5. `light`: a glow layer of flat light shapes (lamp and fire light pools), drawn additively and flickered by code.
+6. `night`: a shading layer of flat dark shapes (multiply) that darkens corners. It's the main source of mood.
+
+Code adds weather and life on top: snow at two depths outside the window, fire flicker, steam from a mug, dust motes in the lamp light.
+
+**Scene file:** `world/art/cabin/scene.json` lists the layers, the furniture foot lines, the spots and the walk paths, all in image pixel coordinates:
+- spots: `study` (armchairs and rug by the fire), `play` (game table, 4 seats), `help` (mail desk, a short queue), and 12 `home` spots (one bunk each). Each spot has several positions with x, y, facing and pose (`stand`, `sit`, `sleep`). An agent takes the next free position, so agents never overlap.
+- paths: a few waypoint polylines between spots. A walk across the scene takes 2-3 s at 1x.
+- home decor: for each bunk, the positions of 3 optional decor stickers (shelf, jars, poster), shown by `library_pages` (0-50 none, 51-150 one, 151+ all three).
+
+A small **placement mode** (a key toggles it) shows spots, paths and foot lines over the art, and lets you drag them and copy the JSON. When the art changes, the scene file gets fixed in a few minutes without touching code.
 
 ## 5. Agents and animation
 Implement the event → animation table in design.md ("The world" → Event → animation), with these specifics:
@@ -86,6 +97,9 @@ Implement the event → animation table in design.md ("The world" → Event → 
 - **Paper planes:** one plane per `message_sent`, flying from sender to receiver along a gentle arc. Flight time at 1x = clamp(1.5 s + `sim_latency_ms` / 100 s, 1.5 s, 4 s). Letter for `forward`, a small bundle for `text_help`, a sheet with blanks for `canvas`. A declined reply flies back empty and flutters down. If `message_received` comes before the plane lands, the plane just keeps flying; never cut it short.
 - **Answer:** a small stamp or bell at the asking agent's spot.
 - **Idle motions** (bobbing, page turning, stretching) stay in the agent's current place.
+- **Creatures are cut-out puppets**, not frame-by-frame animation. Each species is a handful of PNG parts (body, eyes, eyes closed, feet, and the species parts: gills, wings, antennae, ears, mask, tails, tooth) with pivot points in `world/art/agents/<species>.json`. Code animates them: a bob that moves in whole grid steps, blinking every 3-6 s, a hop while walking, poses for sit and sleep, and the head turning toward a nearby plane. Props are separate PNGs attached to a head or hand anchor.
+- **Depth:** agents and furniture are drawn in order of their foot y, so an agent behind the game table is hidden by it.
+- **Size:** one agent is about 1/8 of the frame height.
 
 ## 6. Playback
 - Load a JSONL file by drag-and-drop or a file picker. Show the file's `run` id in a corner (so `fake-` runs are obvious).
@@ -94,39 +108,44 @@ Implement the event → animation table in design.md ("The world" → Event → 
 - Catch-up rule: if an agent has more queued animation than 5 s behind, its walks become a soft "poof" teleport and tool animations shorten. Never drop an event's visible effect entirely, and never show anything not in the log.
 - At 16x, all walks are poofs.
 
-## 7. Camera and agent card
-- Mouse drag to pan, wheel to zoom (clamped), Q/E or buttons to rotate in 90° steps. When the camera rotates, whichever walls face it fade out or hide so the room always stays open like a dollhouse.
-- Click an agent: a small card with name, species, model, interest, current state, current tool and `arg`, library pages, and the last 5 events as raw JSON (expandable). A "follow" button keeps the camera on that agent; drag or Esc stops following.
+## 7. View and agent card
+- The view is fixed. A slight parallax (layers drift a few pixels with the mouse) and a gentle zoom toward a followed agent are the only camera moves. No rotation and no free panning.
+- The scene fills the window with letterboxing as needed and never stretches the art.
+- Click an agent: a small card with name, species, model, interest, current state, current tool and `arg`, library pages, and the last 5 events as raw JSON (expandable). A "follow" button keeps a soft zoom on that agent; Esc stops following.
 - Agents get a name label on hover.
 
-## 8. Assets
-- Try CC0 low-poly packs first (Kenney's furniture and nature kits for the room and the view outside; Quaternius or similar for animals). Record every pack, author and license in `world/assets/CREDITS.md`. Nothing non-CC0 without asking Zach.
-- An axolotl, moth or beaver may not exist in CC0 packs. If not, build them from simple shapes in three.js (capsules, spheres, cones): rounded, big-eyed, cute. Same for props. That's fine for W0; custom art can replace it later.
+## 8. Art
+The art decides the look, so it is made separately from the code and dropped in.
+- **Art style (locked 2026-10-24):** flat pixel-block art on an 8 px grid, drawn as SVG by Claude. Only flat colors: no gradients, shine, blush or outlines. Shapes are blocks with cut corners. The reference is `world/art/agents/style-test.svg`: each creature is a notched block body, two square eyes, two wide feet and one species feature (axolotl gill stubs and tail, moth square wings and antennae and no feet, raccoon ears, mask band and ringed tail, beaver ears, one tooth and paddle tail). They are inspired by the simplicity of the Claude Code crab but must not copy it: no tall bar eyes, no four thin legs. The cabin, props and planes use the same blocks and grid. Colors: warm amber light (#ffb35c to #ffcf8a) against a cool blue night (#1c2638 to #2b3a52), with honey and brown wood for the lodge.
+- **Deliverables:** the six layers and the furniture PNGs from section 4; for each of the 4 species, the puppet parts (split from style-test.svg); the 12 interest props (section 3); decor stickers; the paper plane in 3 kinds (letter, bundle, sheet with blanks).
+- **Placeholders first:** until the real art exists, Codex makes plain placeholder art in exactly this format (simple shapes are fine, clearly rough), so all the code can be built and tested. Swapping in real art must need only new files and a scene.json update.
+- Record the source and license of every image in `world/art/CREDITS.md`. Any image that isn't made for us or CC0 needs Zach's OK.
 
 ## 9. Look settings (for the polish pass)
 After Codex builds W0, Claude does a visual polish pass by tuning values, not rewriting code. So every look value lives in **one file**, `world/src/look.js` (or similar), as a plain, commented object. The rest of the code reads from it, with no look numbers hard-coded elsewhere.
-- **Light:** each lamp's color and strength, fire glow color and flicker, window light color and strength, ambient light, shadow softness.
-- **Glow and fog:** glow on or off, strength and threshold; fog color and distance.
-- **Palette:** wall, floor, wood, fabric and outline colors; the tint for each agent.
-- **Weather and ambient:** how fast and how thick the snow falls, how much dust drifts, mug steam.
-- **Camera:** tilt, yaw, default zoom, zoom limits.
-- **Motion:** walk duration, plane flight formula constants, idle-motion amount, shimmer speed.
+- **Light:** strength and flicker of the `light` layer per lamp and for the fire (each lamp is a region of it, or its own sublayer), strength of the `night` layer, soft bloom strength and threshold.
+- **Grade:** overall color grade (warmth, contrast, saturation), vignette, film grain.
+- **Agents:** size, per-agent tint, rim light, bob amount, blink timing, walk hop.
+- **Weather and ambient:** snow speed and thickness at each depth, dust, steam.
+- **View:** parallax amount, follow zoom.
+- **Motion:** walk duration, plane flight formula constants, shimmer speed.
 
-The page reloads cleanly when `look.js` changes (or hot-reloads, if the build tooling makes that easy). The apartment will later get its own look file with the same shape, plus neon colors.
+The page reloads cleanly when `look.js` changes (or hot-reloads, if the build tooling makes that easy). The apartment will later get its own art folder and look file with the same shape, plus neon colors.
 
 ## 10. Performance
-- 60 fps on the desktop or laptop integrated graphics with 12 agents. The M0 GPUs are busy with models, so it must stay light: low poly counts, few lights, one shadow-casting light, no post-processing beyond simple outlines if cheap.
+- 60 fps on integrated graphics with 12 agents. A 2D renderer (PixiJS or similar) with a few filters is enough; the M0 GPUs are busy with models.
 
 ## 11. Done when
 - [ ] `fake_log.py` writes a deterministic log that passes its own `--check`.
 - [ ] The page loads `fake-run.jsonl` and plays it start to finish at 1x, 4x and 16x without errors in the console.
-- [ ] All 12 agents are visible, each species and each agent within a species is tellable apart at default zoom.
+- [ ] All 12 agents are visible, each species and each agent within a species is tellable apart, and no agent ever overlaps another agent or sits inside furniture.
 - [ ] Every row of the event → animation table has been seen on screen during the fake run.
 - [ ] Planes go to the right agent, declined replies look different, and timing follows the formula.
 - [ ] During the busy stretch the view stays within ~5 s of the log.
 - [ ] Clicking an agent shows the card with correct current state and raw events; follow mode works.
 - [ ] A line with an unknown event type or extra fields is ignored without breaking playback.
 - [ ] Every look value is in the look-settings file, and changing one there changes the scene.
-- [ ] `CREDITS.md` lists every asset; `world/README.md` says how to generate the fake log and open the page.
+- [ ] Swapping a placeholder layer for a new PNG of the same size works with no code change, and placement mode can fix scene.json.
+- [ ] `art/CREDITS.md` lists every image; `world/README.md` says how to generate the fake log and open the page.
 - [ ] Runs at a steady frame rate on integrated graphics.
 - [ ] A short screen recording or a few screenshots go in `docs/` with a dated progress note.

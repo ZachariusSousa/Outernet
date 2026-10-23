@@ -1,0 +1,94 @@
+{
+  "size": [
+    512,
+    512
+  ],
+  "foot": [
+    256,
+    490
+  ],
+  "anchors": {
+    "head": [
+      256,
+      65
+    ],
+    "hand": [
+      365,
+      335
+    ]
+  },
+  "parts": [
+    {
+      "name": "paddle-tail",
+      "file": "beaver/paddle-tail.png",
+      "pivot": [
+        256,
+        430
+      ],
+      "position": [
+        256,
+        430
+      ]
+    },
+    {
+      "name": "arms",
+      "file": "beaver/arms.png",
+      "pivot": [
+        256,
+        430
+      ],
+      "position": [
+        256,
+        430
+      ]
+    },
+    {
+      "name": "body",
+      "file": "beaver/body.png",
+      "pivot": [
+        256,
+        430
+      ],
+      "position": [
+        256,
+        430
+      ]
+    },
+    {
+      "name": "head",
+      "file": "beaver/head.png",
+      "pivot": [
+        256,
+        260
+      ],
+      "position": [
+        256,
+        260
+      ]
+    },
+    {
+      "name": "eyes-open",
+      "file": "beaver/eyes-open.png",
+      "pivot": [
+        256,
+        260
+      ],
+      "position": [
+        256,
+        260
+      ]
+    },
+    {
+      "name": "eyes-closed",
+      "file": "beaver/eyes-closed.png",
+      "pivot": [
+        256,
+        260
+      ],
+      "position": [
+        256,
+        260
+      ]
+    }
+  ]
+}

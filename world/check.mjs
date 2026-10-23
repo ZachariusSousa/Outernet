@@ -1,0 +1,3 @@
+import { chromium } from 'playwright';
+const browser=await chromium.launch({headless:true,channel:"msedge"});const page=await browser.newPage({viewport:{width:1440,height:1000}});const errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('http://127.0.0.1:5173');await page.waitForTimeout(5000);await page.screenshot({path:'docs/world-w0-cabin.png'});await page.selectOption('#speed','16');await page.waitForTimeout(42000);await page.screenshot({path:'docs/world-w0-evening.png'});console.log(JSON.stringify({errors,state:await page.evaluate(()=>({agents:world.agents.length,cursor:world.cursor,total:world.total,sim:world.sim}))}));await browser.close();
+

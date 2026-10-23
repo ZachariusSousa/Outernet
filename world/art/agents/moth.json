@@ -1,0 +1,94 @@
+{
+  "size": [
+    512,
+    512
+  ],
+  "foot": [
+    256,
+    490
+  ],
+  "anchors": {
+    "head": [
+      256,
+      65
+    ],
+    "hand": [
+      365,
+      335
+    ]
+  },
+  "parts": [
+    {
+      "name": "wings",
+      "file": "moth/wings.png",
+      "pivot": [
+        256,
+        430
+      ],
+      "position": [
+        256,
+        430
+      ]
+    },
+    {
+      "name": "antennae",
+      "file": "moth/antennae.png",
+      "pivot": [
+        256,
+        430
+      ],
+      "position": [
+        256,
+        430
+      ]
+    },
+    {
+      "name": "body",
+      "file": "moth/body.png",
+      "pivot": [
+        256,
+        430
+      ],
+      "position": [
+        256,
+        430
+      ]
+    },
+    {
+      "name": "head",
+      "file": "moth/head.png",
+      "pivot": [
+        256,
+        260
+      ],
+      "position": [
+        256,
+        260
+      ]
+    },
+    {
+      "name": "eyes-open",
+      "file": "moth/eyes-open.png",
+      "pivot": [
+        256,
+        260
+      ],
+      "position": [
+        256,
+        260
+      ]
+    },
+    {
+      "name": "eyes-closed",
+      "file": "moth/eyes-closed.png",
+      "pivot": [
+        256,
+        260
+      ],
+      "position": [
+        256,
+        260
+      ]
+    }
+  ]
+}

@@ -1,0 +1,799 @@
+{
+  "width": 3840,
+  "height": 2160,
+  "layers": {
+    "sky": "sky.png",
+    "room": "room.png",
+    "front": "front.png",
+    "light": "light.png",
+    "night": "night.png"
+  },
+  "window": {
+    "x": 1300,
+    "y": 160,
+    "w": 1500,
+    "h": 650
+  },
+  "furniture": [
+    {
+      "id": "chair-a",
+      "file": "furniture/chair-a.png",
+      "footY": 1150,
+      "x": 0,
+      "y": 0,
+      "lineX": 1250,
+      "lineWidth": 300
+    },
+    {
+      "id": "chair-b",
+      "file": "furniture/chair-b.png",
+      "footY": 1150,
+      "x": 0,
+      "y": 0,
+      "lineX": 1700,
+      "lineWidth": 300
+    },
+    {
+      "id": "game-table",
+      "file": "furniture/game-table.png",
+      "footY": 1440,
+      "x": 0,
+      "y": 0,
+      "lineX": 2250,
+      "lineWidth": 750
+    },
+    {
+      "id": "mail-desk",
+      "file": "furniture/mail-desk.png",
+      "footY": 1200,
+      "x": 0,
+      "y": 0,
+      "lineX": 3200,
+      "lineWidth": 550
+    },
+    {
+      "id": "side-table",
+      "file": "furniture/side-table.png",
+      "footY": 1380,
+      "x": 0,
+      "y": 0,
+      "lineX": 1100,
+      "lineWidth": 180
+    },
+    {
+      "id": "bunk-front",
+      "file": "furniture/bunk-front.png",
+      "footY": 1940,
+      "x": 0,
+      "y": 0,
+      "lineX": 60,
+      "lineWidth": 1050
+    }
+  ],
+  "spots": {
+    "study": [
+      {
+        "x": 1300,
+        "y": 1450,
+        "facing": 1,
+        "pose": "sit"
+      },
+      {
+        "x": 1600,
+        "y": 1450,
+        "facing": 1,
+        "pose": "sit"
+      },
+      {
+        "x": 1900,
+        "y": 1450,
+        "facing": 1,
+        "pose": "sit"
+      },
+      {
+        "x": 2200,
+        "y": 1450,
+        "facing": 1,
+        "pose": "sit"
+      },
+      {
+        "x": 1300,
+        "y": 1730,
+        "facing": 1,
+        "pose": "sit"
+      },
+      {
+        "x": 1600,
+        "y": 1730,
+        "facing": 1,
+        "pose": "sit"
+      },
+      {
+        "x": 1900,
+        "y": 1730,
+        "facing": 1,
+        "pose": "sit"
+      },
+      {
+        "x": 2200,
+        "y": 1730,
+        "facing": 1,
+        "pose": "sit"
+      },
+      {
+        "x": 1300,
+        "y": 2010,
+        "facing": 1,
+        "pose": "sit"
+      },
+      {
+        "x": 1600,
+        "y": 2010,
+        "facing": 1,
+        "pose": "sit"
+      },
+      {
+        "x": 1900,
+        "y": 2010,
+        "facing": 1,
+        "pose": "sit"
+      },
+      {
+        "x": 2200,
+        "y": 2010,
+        "facing": 1,
+        "pose": "sit"
+      }
+    ],
+    "play": [
+      {
+        "x": 2250,
+        "y": 1080,
+        "facing": 1,
+        "pose": "sit"
+      },
+      {
+        "x": 2550,
+        "y": 1080,
+        "facing": 1,
+        "pose": "sit"
+      },
+      {
+        "x": 2850,
+        "y": 1080,
+        "facing": 1,
+        "pose": "sit"
+      },
+      {
+        "x": 3150,
+        "y": 1080,
+        "facing": 1,
+        "pose": "sit"
+      },
+      {
+        "x": 2250,
+        "y": 1600,
+        "facing": 1,
+        "pose": "stand"
+      },
+      {
+        "x": 2550,
+        "y": 1600,
+        "facing": 1,
+        "pose": "stand"
+      },
+      {
+        "x": 2850,
+        "y": 1600,
+        "facing": 1,
+        "pose": "stand"
+      },
+      {
+        "x": 3150,
+        "y": 1600,
+        "facing": 1,
+        "pose": "stand"
+      },
+      {
+        "x": 2250,
+        "y": 1870,
+        "facing": 1,
+        "pose": "stand"
+      },
+      {
+        "x": 2550,
+        "y": 1870,
+        "facing": 1,
+        "pose": "stand"
+      },
+      {
+        "x": 2850,
+        "y": 1870,
+        "facing": 1,
+        "pose": "stand"
+      },
+      {
+        "x": 3150,
+        "y": 1870,
+        "facing": 1,
+        "pose": "stand"
+      }
+    ],
+    "help": [
+      {
+        "x": 3250,
+        "y": 1330,
+        "facing": -1,
+        "pose": "stand"
+      },
+      {
+        "x": 3550,
+        "y": 1330,
+        "facing": -1,
+        "pose": "stand"
+      },
+      {
+        "x": 3250,
+        "y": 1470,
+        "facing": -1,
+        "pose": "stand"
+      },
+      {
+        "x": 3550,
+        "y": 1470,
+        "facing": -1,
+        "pose": "stand"
+      },
+      {
+        "x": 3250,
+        "y": 1610,
+        "facing": -1,
+        "pose": "stand"
+      },
+      {
+        "x": 3550,
+        "y": 1610,
+        "facing": -1,
+        "pose": "stand"
+      },
+      {
+        "x": 3250,
+        "y": 1750,
+        "facing": -1,
+        "pose": "stand"
+      },
+      {
+        "x": 3550,
+        "y": 1750,
+        "facing": -1,
+        "pose": "stand"
+      },
+      {
+        "x": 3250,
+        "y": 1890,
+        "facing": -1,
+        "pose": "stand"
+      },
+      {
+        "x": 3550,
+        "y": 1890,
+        "facing": -1,
+        "pose": "stand"
+      },
+      {
+        "x": 3250,
+        "y": 2030,
+        "facing": -1,
+        "pose": "stand"
+      },
+      {
+        "x": 3550,
+        "y": 2030,
+        "facing": -1,
+        "pose": "stand"
+      }
+    ],
+    "home": [
+      {
+        "x": 230,
+        "y": 1230,
+        "facing": 1,
+        "pose": "sleep"
+      },
+      {
+        "x": 530,
+        "y": 1230,
+        "facing": 1,
+        "pose": "sleep"
+      },
+      {
+        "x": 830,
+        "y": 1230,
+        "facing": 1,
+        "pose": "sleep"
+      },
+      {
+        "x": 230,
+        "y": 1500,
+        "facing": 1,
+        "pose": "sleep"
+      },
+      {
+        "x": 530,
+        "y": 1500,
+        "facing": 1,
+        "pose": "sleep"
+      },
+      {
+        "x": 830,
+        "y": 1500,
+        "facing": 1,
+        "pose": "sleep"
+      },
+      {
+        "x": 230,
+        "y": 1770,
+        "facing": 1,
+        "pose": "sleep"
+      },
+      {
+        "x": 530,
+        "y": 1770,
+        "facing": 1,
+        "pose": "sleep"
+      },
+      {
+        "x": 830,
+        "y": 1770,
+        "facing": 1,
+        "pose": "sleep"
+      },
+      {
+        "x": 230,
+        "y": 2040,
+        "facing": 1,
+        "pose": "sleep"
+      },
+      {
+        "x": 530,
+        "y": 2040,
+        "facing": 1,
+        "pose": "sleep"
+      },
+      {
+        "x": 830,
+        "y": 2040,
+        "facing": 1,
+        "pose": "sleep"
+      }
+    ]
+  },
+  "paths": [
+    {
+      "from": "study",
+      "to": "play",
+      "points": [
+        {
+          "x": 1150,
+          "y": 2050
+        },
+        {
+          "x": 3000,
+          "y": 2050
+        }
+      ]
+    },
+    {
+      "from": "study",
+      "to": "help",
+      "points": [
+        {
+          "x": 1150,
+          "y": 2050
+        },
+        {
+          "x": 3000,
+          "y": 2050
+        }
+      ]
+    },
+    {
+      "from": "study",
+      "to": "home",
+      "points": [
+        {
+          "x": 1150,
+          "y": 2050
+        },
+        {
+          "x": 3000,
+          "y": 2050
+        }
+      ]
+    },
+    {
+      "from": "play",
+      "to": "study",
+      "points": [
+        {
+          "x": 1150,
+          "y": 2050
+        },
+        {
+          "x": 3000,
+          "y": 2050
+        }
+      ]
+    },
+    {
+      "from": "play",
+      "to": "help",
+      "points": [
+        {
+          "x": 1150,
+          "y": 2050
+        },
+        {
+          "x": 3000,
+          "y": 2050
+        }
+      ]
+    },
+    {
+      "from": "play",
+      "to": "home",
+      "points": [
+        {
+          "x": 1150,
+          "y": 2050
+        },
+        {
+          "x": 3000,
+          "y": 2050
+        }
+      ]
+    },
+    {
+      "from": "help",
+      "to": "study",
+      "points": [
+        {
+          "x": 1150,
+          "y": 2050
+        },
+        {
+          "x": 3000,
+          "y": 2050
+        }
+      ]
+    },
+    {
+      "from": "help",
+      "to": "play",
+      "points": [
+        {
+          "x": 1150,
+          "y": 2050
+        },
+        {
+          "x": 3000,
+          "y": 2050
+        }
+      ]
+    },
+    {
+      "from": "help",
+      "to": "home",
+      "points": [
+        {
+          "x": 1150,
+          "y": 2050
+        },
+        {
+          "x": 3000,
+          "y": 2050
+        }
+      ]
+    },
+    {
+      "from": "home",
+      "to": "study",
+      "points": [
+        {
+          "x": 1150,
+          "y": 2050
+        },
+        {
+          "x": 3000,
+          "y": 2050
+        }
+      ]
+    },
+    {
+      "from": "home",
+      "to": "play",
+      "points": [
+        {
+          "x": 1150,
+          "y": 2050
+        },
+        {
+          "x": 3000,
+          "y": 2050
+        }
+      ]
+    },
+    {
+      "from": "home",
+      "to": "help",
+      "points": [
+        {
+          "x": 1150,
+          "y": 2050
+        },
+        {
+          "x": 3000,
+          "y": 2050
+        }
+      ]
+    }
+  ],
+  "decor": [
+    {
+      "home": 0,
+      "stickers": [
+        {
+          "file": "../agents/decor/shelf.png",
+          "x": 110,
+          "y": 1010
+        },
+        {
+          "file": "../agents/decor/jars.png",
+          "x": 180,
+          "y": 1010
+        },
+        {
+          "file": "../agents/decor/poster.png",
+          "x": 250,
+          "y": 1010
+        }
+      ]
+    },
+    {
+      "home": 1,
+      "stickers": [
+        {
+          "file": "../agents/decor/shelf.png",
+          "x": 410,
+          "y": 1010
+        },
+        {
+          "file": "../agents/decor/jars.png",
+          "x": 480,
+          "y": 1010
+        },
+        {
+          "file": "../agents/decor/poster.png",
+          "x": 550,
+          "y": 1010
+        }
+      ]
+    },
+    {
+      "home": 2,
+      "stickers": [
+        {
+          "file": "../agents/decor/shelf.png",
+          "x": 710,
+          "y": 1010
+        },
+        {
+          "file": "../agents/decor/jars.png",
+          "x": 780,
+          "y": 1010
+        },
+        {
+          "file": "../agents/decor/poster.png",
+          "x": 850,
+          "y": 1010
+        }
+      ]
+    },
+    {
+      "home": 3,
+      "stickers": [
+        {
+          "file": "../agents/decor/shelf.png",
+          "x": 110,
+          "y": 1280
+        },
+        {
+          "file": "../agents/decor/jars.png",
+          "x": 180,
+          "y": 1280
+        },
+        {
+          "file": "../agents/decor/poster.png",
+          "x": 250,
+          "y": 1280
+        }
+      ]
+    },
+    {
+      "home": 4,
+      "stickers": [
+        {
+          "file": "../agents/decor/shelf.png",
+          "x": 410,
+          "y": 1280
+        },
+        {
+          "file": "../agents/decor/jars.png",
+          "x": 480,
+          "y": 1280
+        },
+        {
+          "file": "../agents/decor/poster.png",
+          "x": 550,
+          "y": 1280
+        }
+      ]
+    },
+    {
+      "home": 5,
+      "stickers": [
+        {
+          "file": "../agents/decor/shelf.png",
+          "x": 710,
+          "y": 1280
+        },
+        {
+          "file": "../agents/decor/jars.png",
+          "x": 780,
+          "y": 1280
+        },
+        {
+          "file": "../agents/decor/poster.png",
+          "x": 850,
+          "y": 1280
+        }
+      ]
+    },
+    {
+      "home": 6,
+      "stickers": [
+        {
+          "file": "../agents/decor/shelf.png",
+          "x": 110,
+          "y": 1550
+        },
+        {
+          "file": "../agents/decor/jars.png",
+          "x": 180,
+          "y": 1550
+        },
+        {
+          "file": "../agents/decor/poster.png",
+          "x": 250,
+          "y": 1550
+        }
+      ]
+    },
+    {
+      "home": 7,
+      "stickers": [
+        {
+          "file": "../agents/decor/shelf.png",
+          "x": 410,
+          "y": 1550
+        },
+        {
+          "file": "../agents/decor/jars.png",
+          "x": 480,
+          "y": 1550
+        },
+        {
+          "file": "../agents/decor/poster.png",
+          "x": 550,
+          "y": 1550
+        }
+      ]
+    },
+    {
+      "home": 8,
+      "stickers": [
+        {
+          "file": "../agents/decor/shelf.png",
+          "x": 710,
+          "y": 1550
+        },
+        {
+          "file": "../agents/decor/jars.png",
+          "x": 780,
+          "y": 1550
+        },
+        {
+          "file": "../agents/decor/poster.png",
+          "x": 850,
+          "y": 1550
+        }
+      ]
+    },
+    {
+      "home": 9,
+      "stickers": [
+        {
+          "file": "../agents/decor/shelf.png",
+          "x": 110,
+          "y": 1820
+        },
+        {
+          "file": "../agents/decor/jars.png",
+          "x": 180,
+          "y": 1820
+        },
+        {
+          "file": "../agents/decor/poster.png",
+          "x": 250,
+          "y": 1820
+        }
+      ]
+    },
+    {
+      "home": 10,
+      "stickers": [
+        {
+          "file": "../agents/decor/shelf.png",
+          "x": 410,
+          "y": 1820
+        },
+        {
+          "file": "../agents/decor/jars.png",
+          "x": 480,
+          "y": 1820
+        },
+        {
+          "file": "../agents/decor/poster.png",
+          "x": 550,
+          "y": 1820
+        }
+      ]
+    },
+    {
+      "home": 11,
+      "stickers": [
+        {
+          "file": "../agents/decor/shelf.png",
+          "x": 710,
+          "y": 1820
+        },
+        {
+          "file": "../agents/decor/jars.png",
+          "x": 780,
+          "y": 1820
+        },
+        {
+          "file": "../agents/decor/poster.png",
+          "x": 850,
+          "y": 1820
+        }
+      ]
+    }
+  ],
+  "lights": [
+    {
+      "x": 400,
+      "y": 650,
+      "w": 800,
+      "h": 800,
+      "key": "fire"
+    },
+    {
+      "x": 1100,
+      "y": 650,
+      "w": 500,
+      "h": 800,
+      "key": "lamp"
+    }
+  ]
+}

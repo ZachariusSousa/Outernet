@@ -120,8 +120,8 @@ A small animated world where the agents live, driven by the real event log. The 
 Build order: **the pretty version first**. It still runs on real events from the start, so it can double as a debugging view later.
 
 ### Look
-- **Isometric diorama**: "3D but not entirely". Low-poly 3D models seen through a fixed, tilted orthographic camera (think Townscaper or Monument Valley). Toon or flat shading, soft shadows, no realism.
-- **Free assets, no artist needed.** Start from CC0 low-poly packs (Kenney's 3D kits for towns and nature, Quaternius for animals and characters, or similar). Check each pack's license and keep a `CREDITS.md`. Custom art can replace them later.
+- **2.5D pixel-block illustration**: "3D but not entirely". Each space is a flat pixel-block illustration (8 px grid, flat colors, blocks with cut corners, like the creatures in `world/art/agents/style-test.svg`) split into a few depth layers (sky, room, furniture, front, light, shade), with soft parallax, like a lofi YouTube background that is alive. Creatures are 2D cut-out puppets animated by code. (Tried first: low-poly 3D built from code, then a pixel-3D style. Both looked rigid. Then a painterly cute style looked too AI-generated. Simple flat blocks won.)
+- **The art is the look.** It's made separately (by an artist or a tool Zach picks) against an art brief, then dropped in as files. Code ships with rough placeholders in the same format. Every image's source and license goes in a `CREDITS.md`.
 - **Lofi style everywhere:** soft light, warm or gently neon palettes, easy bloom where it fits, slow ambient motion (snow, rain, steam, flicker). Each space should look like a still from a lofi YouTube video.
 - **Sound:** ambient loops per space (fire crackle and wind in the cabin, rain and distant traffic in the apartment), an optional lofi music loop, and a soft chime when a message lands. Off by default, and a single toggle switches it on.
 - **Time of day is a user setting:** either follow the viewer's real clock, or a fixed time picked from dawn, noon, golden hour or night. At night, windows and lanterns light up.
@@ -188,7 +188,7 @@ Playback rules for the coder:
 - It works live (tailing the simulator's JSONL) and as a replay of a finished run, with 1x / 4x / 16x speed.
 
 ### What the viewer can do
-- Pan, zoom and rotate the camera in 90° steps (the usual diorama controls). Click an agent to open a small card showing its name, interest, model, state, current tool, library size and its last few events. Follow mode keeps the camera on one agent.
+- The view is fixed, with slight mouse parallax and a soft zoom when following an agent. No rotation. Click an agent to open a small card showing its name, interest, model, state, current tool, library size and its last few events. Follow mode keeps the camera on one agent.
 - Your own agent is highlighted, and "find my agent" flies the camera to it.
 - **Chat overlay** (only once there are real users, M4): a semi-transparent panel over the edge of the world, so you can keep watching while you chat. It looks like most agent harnesses: your messages, your agent's replies, collapsible "thinking" blocks, and tool calls shown as compact rows (tool name, short argument, result preview, expandable). An `ask_peer` row links to its paper plane in the world, and clicking it flies the camera there. It can be hidden with one key. The overlay only ever shows **your own** agent. Other agents' cards show their events, never their owners' chats.
 - **Connect screen:** the frontend doesn't host anything. The user points their agent at a model endpoint they run themselves, either on their own PC or on their own cloud box. Hosting and its cost are up to the user; OuterNet only provides the way to connect.
@@ -204,7 +204,7 @@ M0's 12 agents share the cabin. With a real network, the view shows your home sp
 - Because the world only reads the event log, any harness that writes this event format could show up in the world. Supporting people's own harnesses is a later idea (see below), but nothing in the frontend should assume it's our harness.
 
 ### Tech notes for the coder
-- A browser page using three.js with an orthographic camera. It reads a JSONL file, or a live stream (SSE) from the simulator. Build tooling is the coder's pick.
+- A browser page using a 2D renderer (PixiJS or similar). It reads a JSONL file, or a live stream (SSE) from the simulator. Build tooling is the coder's pick.
 - Keep it light. The desktop's GPUs are busy serving models in M0, so the page should run smoothly on a laptop's integrated graphics, or be viewed from another machine.
 
 ### World milestones

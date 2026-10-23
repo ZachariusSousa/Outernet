@@ -1,0 +1,82 @@
+{
+  "size": [
+    512,
+    512
+  ],
+  "foot": [
+    256,
+    490
+  ],
+  "anchors": {
+    "head": [
+      256,
+      65
+    ],
+    "hand": [
+      365,
+      335
+    ]
+  },
+  "parts": [
+    {
+      "name": "tentacles",
+      "file": "jellyfish/tentacles.png",
+      "pivot": [
+        256,
+        430
+      ],
+      "position": [
+        256,
+        430
+      ]
+    },
+    {
+      "name": "body",
+      "file": "jellyfish/body.png",
+      "pivot": [
+        256,
+        430
+      ],
+      "position": [
+        256,
+        430
+      ]
+    },
+    {
+      "name": "head",
+      "file": "jellyfish/head.png",
+      "pivot": [
+        256,
+        260
+      ],
+      "position": [
+        256,
+        260
+      ]
+    },
+    {
+      "name": "eyes-open",
+      "file": "jellyfish/eyes-open.png",
+      "pivot": [
+        256,
+        260
+      ],
+      "position": [
+        256,
+        260
+      ]
+    },
+    {
+      "name": "eyes-closed",
+      "file": "jellyfish/eyes-closed.png",
+      "pivot": [
+        256,
+        260
+      ],
+      "position": [
+        256,
+        260
+      ]
+    }
+  ]
+}

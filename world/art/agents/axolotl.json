@@ -1,0 +1,82 @@
+{
+  "size": [
+    512,
+    512
+  ],
+  "foot": [
+    256,
+    490
+  ],
+  "anchors": {
+    "head": [
+      256,
+      65
+    ],
+    "hand": [
+      365,
+      335
+    ]
+  },
+  "parts": [
+    {
+      "name": "gills",
+      "file": "axolotl/gills.png",
+      "pivot": [
+        256,
+        430
+      ],
+      "position": [
+        256,
+        430
+      ]
+    },
+    {
+      "name": "body",
+      "file": "axolotl/body.png",
+      "pivot": [
+        256,
+        430
+      ],
+      "position": [
+        256,
+        430
+      ]
+    },
+    {
+      "name": "head",
+      "file": "axolotl/head.png",
+      "pivot": [
+        256,
+        260
+      ],
+      "position": [
+        256,
+        260
+      ]
+    },
+    {
+      "name": "eyes-open",
+      "file": "axolotl/eyes-open.png",
+      "pivot": [
+        256,
+        260
+      ],
+      "position": [
+        256,
+        260
+      ]
+    },
+    {
+      "name": "eyes-closed",
+      "file": "axolotl/eyes-closed.png",
+      "pivot": [
+        256,
+        260
+      ],
+      "position": [
+        256,
+        260
+      ]
+    }
+  ]
+}
