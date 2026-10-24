@@ -1,0 +1,21 @@
+Use the attached image as the STYLE reference only: same isometric pixel art style, pixel size, palette, furniture style and warm lighting. Draw a new, cozier version of this penthouse as a standalone finished furnished illustration, landscape 4:3. The reference is a browser screenshot; exclude ALL interface, lettering, characters, background city and purple lighting strips. Fill the image with the architecture, with a small magenta margin around the sides and roof. The supporting skyscraper continues down to the bottom edge.
+
+Shape:
+- The apartment is L-shaped, wrapping around a snowy roof terrace in the inside corner of the L.
+- One outer corner of the window wall is a visibly curved floor-to-ceiling glass corner, with segmented curved mullions.
+- The living area is sunken TWO steps down, with visible low steps on every side.
+- Furniture is grouped into cozy zones that fill the room, with clear walking paths between zones, NOT one big empty floor. Furnishings are substantial, appropriately scaled, comfortable and close together.
+
+Zones:
+- Sunken living area: a cream L-shaped sectional with cushions and throws, two overlapping rugs, floor cushions, a low coffee table with a board game and two mugs, facing a wall TV over a long, low glowing fireplace. All of this reads as one inviting conversation area.
+- Window corner: a cushioned window seat in the curved glass with a blanket, and a rattan egg chair hanging beside it.
+- Kitchen in one arm of the L: an island with two stools, tall dark cabinets with a fridge, and a little coffee corner with a kettle and open shelves of mugs.
+- Desk nook by the glass: a desk with two monitors and a gaming chair.
+- Along the solid walls: a tall bookshelf, a record player on a low cabinet, a guitar leaning on the wall, framed posters WITHOUT text, a big monstera, two beanbags and warm floor lamps casting soft pools of light.
+- Terrace: a glass railing, snowy planters with little pines, TWO loungers, a small round fire pit and a tall glowing patio heater.
+
+Building and background:
+- The penthouse sits on the roof of a tall skyscraper whose top floors step back in tiers, dark blue stone with vertical ribs and a few warm lit windows, continuing to the bottom edge. This is the building supporting the apartment, NOT a separate Empire State Building.
+- EVERY window pane and the WHOLE background around the building are EXACT solid flat magenta #FF00FF, nothing visible through the glass. Even curved window panes are filled pure magenta between their frames. No city skyline, no sky, no scenery painted behind or through windows. Magenta is a chroma key: absolutely uniform, unshaded, no glow, shadows or gradients on it. Window frames stay dark.
+
+Classic 2:1 isometric angle, vertical walls vertical, near walls removed so the whole interior is visible. Warm amber lamp light inside, with soft light pools represented by clean flat pixel shading bands and darker corners. Clean crisp pixels, limited warm cream/walnut/plum/green palette with cold blue stone and white snow, smooth walls and floor with no blotchy texture. NO dithering, NO grain, NO text, NO people, NO characters, NO animals, NO string lights, NO LED strips, NO purple strip along the walls. Style should remain hand-drawn isometric pixel art, not a photoreal or 3D render.

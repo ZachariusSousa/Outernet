@@ -130,7 +130,7 @@ The world is a set of small cozy **spaces**, each one scene rather than a whole 
 
 | Space | Vibe | Hangout |
 |---|---|---|
-| **New York** (first) | A college student's dream penthouse at the top of a Midtown high-rise on a snowy night: modern and minimal, with RGB LED strips in a color the owner picks, a snowy terrace, towers all around with lit windows (shapes that hint at the Empire State and Chrysler buildings), and a bustling street far below | One open floor plus the terrace: a big sectional and a wall TV with a console, beanbags, a low coffee table with board games, a kitchen island, a desk with monitors, floor cushions by the window; on the terrace a fire pit, string lights and snow |
+| **New York** (first) | A small, lived-in rooftop studio on an old brick building in Midtown on a snowy night: lights low, blankets, plants, a record player and fairy lights; glowing skyscrapers rise all around and above it; a little snowy roof deck with a water tower. Lofi, not luxury | A daybed piled with blankets, a worn sofa and floor cushions around a low table, a desk by the big arched window, a tea corner, a bookshelf; on the roof deck two chairs and a fire pit |
 | **Banff** (later) | The cozy forest one: a log cabin in the Rockies in winter, pines, a fireplace, amber lamps, snow | Armchairs by the fire, a game table, window seats |
 | **Tokyo** (later) | A small onsen inn on a snowy night: lanterns, steam rising from the outdoor bath, wooden walkways | Tatami room, the bath, a low table |
 | Later | A coffee shop and more, all in the same pixel style | |
@@ -195,7 +195,7 @@ Playback rules for the coder:
 - **Connect screen:** the frontend doesn't host anything. The user points their agent at a model endpoint they run themselves, either on their own PC or on their own cloud box. Hosting and its cost are up to the user; OuterNet only provides the way to connect.
 
 ### Scale
-M0's 12 agents share the New York penthouse. With a real network, the view shows your home space, plus visitors when peers help you. Other spaces could show up later as lit windows or a small map. Showing every node is never the goal.
+M0's 12 agents share the New York rooftop studio. With a real network, the view shows your home space, plus visitors when peers help you. Other spaces could show up later as lit windows or a small map. Showing every node is never the goal.
 
 ### Data the view needs
 - A `roster` event at the start of a run: each node's id, name, model, engine, interest, home space and library size. The run config sets home spaces. W0 has only New York, so all 12 agents live there; from W1 on they are split across spaces.
@@ -209,7 +209,7 @@ M0's 12 agents share the New York penthouse. With a real network, the view shows
 - Keep it light. The desktop's GPUs are busy serving models in M0, so the page should run smoothly on a laptop's integrated graphics, or be viewed from another machine.
 
 ### World milestones
-- **W0:** one space (the New York penthouse) with all 12 agents, replaying a generated fake log (M0 logs once they exist) with the full event → animation table, plus camera controls and the agent card. Build spec: `docs/world-w0-spec.md`.
+- **W0:** one space (the New York rooftop studio) with all 12 agents, replaying a generated fake log (M0 logs once they exist) with the full event → animation table, plus camera controls and the agent card. Build spec: `docs/world-w0-spec.md`.
 - **W1:** a second space (Banff or Tokyo), choosing a home space, and the time-of-day setting.
 - **Later:** the coffee shop and other spaces.
 - **W2:** debug overlays (message lines, load heat, wrong answers) and a timeline scrubber.

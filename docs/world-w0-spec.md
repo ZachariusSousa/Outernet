@@ -3,7 +3,7 @@
 This is the handoff for the first build of the world frontend. `docs/design.md` ("The world" section) is the vision. This file is what to build now. If the two disagree, this file wins for W0. Ask Zach if something here is unclear rather than guessing.
 
 ## Goal
-A browser page showing **a college student's dream penthouse in Midtown New York on a snowy night, as an isometric pixel-art room**, with **12 agents** going about their day, replaying an event log. Pretty first: it should feel like a VRChat hangout world or a lofi YouTube background you leave open on a second monitor, an escape while you work. Starting with one room keeps W0 small; more spaces come later. People only watch; nothing in the world is clickable except agents (to inspect them) and the camera.
+A browser page showing **a small, lived-in rooftop studio on an old brick building in Midtown New York, on a snowy night, as an isometric pixel-art room**, with **12 agents** going about their day, replaying an event log. Pretty first: it should feel like a VRChat hangout world or a lofi YouTube background you leave open on a second monitor, an escape while you work. Starting with one room keeps W0 small; more spaces come later. People only watch; nothing in the world is clickable except agents (to inspect them) and the camera.
 
 ## Out of scope for W0
 The apartment and any other space, choosing a home space, time-of-day and weather settings (W0 is fixed at a snowy evening, but keep them as look values), sound and music, debug overlays, timeline scrubber, live streaming from the simulator, chat overlay, connect screen, reputation lanterns, user avatars. Don't build hooks for these beyond keeping the code tidy.
@@ -68,16 +68,16 @@ Interests are assigned across models with three unrelated interests per model. N
 
 Species comes from `model` (unknown diffusion model = jellyfish, unknown AR model = red panda, per design.md). The three agents sharing a species also get a small color tint each so they can be told apart.
 
-## 4. The New York penthouse (isometric pixel room)
+## 4. The New York rooftop studio (isometric pixel room)
 **Target look:** `docs/look-refs/ref-iso-pixel-room.png`: a hand-drawn-style isometric pixel-art cutaway room (two walls and a floor, the near walls removed), warm and cozy, clean pixels, soft pixel lighting. Mood and color: the lofi references (`ref-lofi-window-tokyo.webp`, `ref-lofi-neon-room.png`, `ref-lofi-terrace.webp`, `ref-anime-city-night.png`): warm lamps inside, purple RGB glow, a glowing night city with snow beyond big windows. Layout ideas: `concept-nyc-ai.webp`.
 
 **Why 2D:** the 3D builds (`hd2d-close-final.webp`, `hd2d-far-final.webp`) got clean but never got the painted lofi warmth. The look comes from illustration, so W0 is a single illustrated pixel room with live animation on top.
 
 **How the room is made: one furnished image, plus a few changeable layers.** (A fully modular version, with every furniture piece as a separate sprite, was tried and lost the composition, scale and shared lighting that make the room look good; see `docs/look-refs/modular-attempt.png`.)
-- **City backdrop** (`art/nyc/backdrop.png`): a wide pixel skyline at night in snow, drawn behind everything, with slight parallax when panning.
-- **Furnished room on its tower** (`art/nyc/room.png`): one AI-generated image of the whole penthouse with all its furniture, composed and lit together. It shows an L-shaped apartment wrapping a snowy terrace, a curved glass corner, a sunken living area, and the tower below with Art Deco setbacks. Window panes and everything outside the building are magenta `#FF00FF` and become transparent, so the backdrop shows through.
-- **One pixel scale:** room and backdrop go through the same cleanup (`tools/pixel_clean.py` or unfake.js, whichever won) to the same art-pixel size. Creatures are sized against the real sofa (about a third of its width).
-- **Depth from outlines (occluders):** in placement mode, draw polygons around furniture agents can walk behind (sofa back, kitchen island, desk, shelves, big plants) and set each one's **foot line**. The page re-draws an occluder over any agent whose feet are behind its foot line.
+- **City backdrop** (`art/nyc/backdrop.png`): a wide pixel skyline at night in snow, seen from a low rooftop, so the glowing skyscrapers rise *above* the studio and loom around it. Drawn behind everything, with slight parallax when panning.
+- **The furnished studio on its building** (`art/nyc/room.png`): one AI-generated image, composed and lit together. **Why a studio:** "penthouse" read as luxury and showroom, the opposite of lofi. Lofi rooms are small, lived-in and a bit messy, with the city huge outside. The scene: a small cozy studio built on the roof of an old 6-8 storey brick building, cut open isometrically. Inside: a big arched factory window, a desk by the window with a laptop, a monitor and a lamp, a daybed or bed nook piled with blankets and pillows, a worn sofa or floor cushions around a low table, a bookshelf, a record player with a vinyl crate, a radiator under the window, posters and plants everywhere, rugs, and a tea corner (a kettle and mugs on a small cabinet). No kitchen. Outside the door: a small snowy roof deck on the tar roof with an old water tower, two worn chairs and a small fire pit, vent pipes and a chimney with snow. Lights low at night: the room mostly in blue-purple shadow, lit by a lamp, the desk screen, fairy-light glow and the fire pit. Window panes and everything outside the building are magenta `#FF00FF` and become transparent, so the backdrop shows through.
+- **One pixel scale:** room and backdrop go through the same cleanup (`tools/pixel_clean.py` or unfake.js, whichever won) to the same art-pixel size. Creatures are sized against the real sofa or daybed (about a third of its width).
+- **Depth from outlines (occluders):** in placement mode, draw polygons around furniture agents can walk behind (sofa back, daybed, desk, shelves, big plants, the water tower legs) and set each one's **foot line**. The page re-draws an occluder over any agent whose feet are behind its foot line.
 - **Small decor sprites** (`art/nyc/sprites/*.png`): a few swappable small items (plants, posters, mugs, a book stack, a record crate), cut from a magenta sprite sheet by `tools/sprite_cut.py` and placed by `layout.json`, depth-sorted by their base line. Big furniture changes are made by editing or regenerating the room image.
 - Until Zach's images exist, keep clearly-placeholder art in the same format.
 
@@ -147,7 +147,7 @@ Changing look.js updates the page on reload.
 - [ ] The room is crisp pixel art at a whole-number scale, letterboxed, never stretched or blurred.
 - [ ] The cleanup turns AI images into clean pixel art at one shared scale (no dithering, palette-snapped, true pixel grid), and `sprite_cut.py` splits sprite sheets into trimmed, named sprites.
 - [ ] All 12 agents are visible as pixel sprites; each species and each agent within a species is tellable apart; agents never overlap each other.
-- [ ] Occluders work: an agent behind the sofa or island is hidden by it, and one in front is not; small decor sprites sort by their base line.
+- [ ] Occluders work: an agent behind the sofa or daybed is hidden by it, and one in front is not; small decor sprites sort by their base line.
 - [ ] Small decor sprites can be moved, flipped, added or removed in placement mode with no new art.
 - [ ] The window panes and surroundings are transparent: the backdrop city shows through and around the building.
 - [ ] String lights, fairy lights and the LED strip are code-drawn along editable polylines.

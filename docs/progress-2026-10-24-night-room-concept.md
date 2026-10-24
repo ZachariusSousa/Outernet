@@ -1,0 +1,3 @@
+# Late-night room concept — 2026-10-24
+
+Edited concept-cozy-penthouse-v3.png with built-in OpenAI imagegen. Saved as docs/look-refs/concept-cozy-penthouse-v4-night.png; exact prompt is beside it. Same furnished layout with deep blue-purple shadow, two warm lamps/fireplace, TV and monitor glow, terrace fire/heater light, closer framing and only the top band of the supporting tower. Apartment panes/background remain magenta; the curved tower below uses ordinary dark windows. Generation fills more than the requested approximate 75% width, with narrower magenta side margins; lighting and layout are the focus of this variant. Live scene unchanged, no design-doc edits or commit.
