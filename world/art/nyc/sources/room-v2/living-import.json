@@ -1,0 +1,79 @@
+[
+  {
+    "sprite": "sectional",
+    "size": [
+      65,
+      38
+    ]
+  },
+  {
+    "sprite": "coffee-table",
+    "size": [
+      36,
+      24
+    ]
+  },
+  {
+    "sprite": "large-rug",
+    "size": [
+      84,
+      44
+    ]
+  },
+  {
+    "sprite": "round-rug",
+    "size": [
+      38,
+      21
+    ]
+  },
+  {
+    "sprite": "beanbag-plum",
+    "size": [
+      24,
+      21
+    ]
+  },
+  {
+    "sprite": "beanbag-cream",
+    "size": [
+      24,
+      22
+    ]
+  },
+  {
+    "sprite": "floor-cushion",
+    "size": [
+      18,
+      10
+    ]
+  },
+  {
+    "sprite": "wall-tv",
+    "size": [
+      32,
+      34
+    ]
+  },
+  {
+    "sprite": "fireplace",
+    "size": [
+      38,
+      28
+    ]
+  },
+  {
+    "sprite": "window-seat",
+    "size": [
+      42,
+      28
+    ]
+  },
+  {
+    "sprite": "egg-chair",
+    "size": [
+      30,
+      51
+    ]
+  }
+]

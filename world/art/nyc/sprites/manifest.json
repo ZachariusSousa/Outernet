@@ -1,0 +1,922 @@
+{
+  "version": 1,
+  "pixelScale": 4,
+  "sheets": {
+    "placeholder-a-living.png": {
+      "sourceSize": [
+        1792,
+        960
+      ],
+      "artSize": [
+        448,
+        240
+      ],
+      "cleaned": "_sheets/placeholder-a-living.png",
+      "names": [
+        "sectional",
+        "coffee-table",
+        "large-rug",
+        "round-rug",
+        "beanbag-plum",
+        "beanbag-cream",
+        "floor-cushion",
+        "wall-tv",
+        "fireplace",
+        "window-seat",
+        "egg-chair"
+      ]
+    },
+    "placeholder-b-kitchen.png": {
+      "sourceSize": [
+        1792,
+        640
+      ],
+      "artSize": [
+        448,
+        160
+      ],
+      "cleaned": "_sheets/placeholder-b-kitchen.png",
+      "names": [
+        "island",
+        "stool-a",
+        "stool-b",
+        "coffee-corner",
+        "cabinets-fridge",
+        "dual-monitor-desk",
+        "gaming-chair",
+        "bookshelf"
+      ]
+    },
+    "placeholder-c-decor.png": {
+      "sourceSize": [
+        1792,
+        1280
+      ],
+      "artSize": [
+        448,
+        320
+      ],
+      "cleaned": "_sheets/placeholder-c-decor.png",
+      "names": [
+        "monstera",
+        "hanging-pothos",
+        "small-plant-a",
+        "small-plant-b",
+        "small-plant-c",
+        "floor-lamp-a",
+        "floor-lamp-b",
+        "table-lamp",
+        "record-player",
+        "record-crate",
+        "guitar",
+        "poster-a",
+        "poster-b",
+        "poster-c",
+        "moon-sign"
+      ]
+    },
+    "placeholder-d-terrace.png": {
+      "sourceSize": [
+        1792,
+        640
+      ],
+      "artSize": [
+        448,
+        160
+      ],
+      "cleaned": "_sheets/placeholder-d-terrace.png",
+      "names": [
+        "lounger-a",
+        "lounger-b",
+        "fire-pit",
+        "patio-heater",
+        "pine-a",
+        "pine-b",
+        "pine-c",
+        "snowman"
+      ]
+    }
+  },
+  "sprites": {
+    "sectional": {
+      "file": "sectional-v2.png",
+      "size": [
+        65,
+        38
+      ],
+      "width": 65,
+      "height": 38,
+      "baseLine": 38,
+      "source": "sources/room-v2/living-original.png",
+      "generated": true
+    },
+    "coffee-table": {
+      "file": "coffee-table-v2.png",
+      "size": [
+        36,
+        24
+      ],
+      "width": 36,
+      "height": 24,
+      "baseLine": 24,
+      "source": "sources/room-v2/living-original.png",
+      "generated": true
+    },
+    "large-rug": {
+      "file": "large-rug-v2.png",
+      "size": [
+        84,
+        44
+      ],
+      "width": 84,
+      "height": 44,
+      "baseLine": 44,
+      "source": "sources/room-v2/living-original.png",
+      "generated": true
+    },
+    "round-rug": {
+      "file": "round-rug-v2.png",
+      "size": [
+        38,
+        21
+      ],
+      "width": 38,
+      "height": 21,
+      "baseLine": 21,
+      "source": "sources/room-v2/living-original.png",
+      "generated": true
+    },
+    "beanbag-plum": {
+      "file": "beanbag-plum-v2.png",
+      "size": [
+        24,
+        21
+      ],
+      "width": 24,
+      "height": 21,
+      "baseLine": 21,
+      "source": "sources/room-v2/living-original.png",
+      "generated": true
+    },
+    "beanbag-cream": {
+      "file": "beanbag-cream-v2.png",
+      "size": [
+        24,
+        22
+      ],
+      "width": 24,
+      "height": 22,
+      "baseLine": 22,
+      "source": "sources/room-v2/living-original.png",
+      "generated": true
+    },
+    "floor-cushion": {
+      "file": "floor-cushion-v2.png",
+      "size": [
+        18,
+        10
+      ],
+      "width": 18,
+      "height": 10,
+      "baseLine": 10,
+      "source": "sources/room-v2/living-original.png",
+      "generated": true
+    },
+    "wall-tv": {
+      "file": "wall-tv-v2.png",
+      "size": [
+        32,
+        34
+      ],
+      "width": 32,
+      "height": 34,
+      "baseLine": 34,
+      "source": "sources/room-v2/living-original.png",
+      "generated": true
+    },
+    "fireplace": {
+      "file": "fireplace-v2.png",
+      "size": [
+        38,
+        28
+      ],
+      "width": 38,
+      "height": 28,
+      "baseLine": 28,
+      "source": "sources/room-v2/living-original.png",
+      "generated": true
+    },
+    "window-seat": {
+      "file": "window-seat-v2.png",
+      "size": [
+        42,
+        28
+      ],
+      "width": 42,
+      "height": 28,
+      "baseLine": 28,
+      "source": "sources/room-v2/living-original.png",
+      "generated": true
+    },
+    "egg-chair": {
+      "file": "egg-chair-v2.png",
+      "size": [
+        30,
+        51
+      ],
+      "width": 30,
+      "height": 51,
+      "baseLine": 51,
+      "source": "sources/room-v2/living-original.png",
+      "generated": true
+    },
+    "island": {
+      "file": "island-v2.png",
+      "size": [
+        40,
+        30
+      ],
+      "width": 40,
+      "height": 30,
+      "baseLine": 30,
+      "source": "sources/room-v2/kitchen-original.png",
+      "generated": true
+    },
+    "stool-a": {
+      "file": "stool-a-v2.png",
+      "size": [
+        12,
+        20
+      ],
+      "width": 12,
+      "height": 20,
+      "baseLine": 20,
+      "source": "sources/room-v2/kitchen-original.png",
+      "generated": true
+    },
+    "stool-b": {
+      "file": "stool-b-v2.png",
+      "size": [
+        12,
+        20
+      ],
+      "width": 12,
+      "height": 20,
+      "baseLine": 20,
+      "source": "sources/room-v2/kitchen-original.png",
+      "generated": true
+    },
+    "coffee-corner": {
+      "file": "coffee-corner-v2.png",
+      "size": [
+        34,
+        40
+      ],
+      "width": 34,
+      "height": 40,
+      "baseLine": 40,
+      "source": "sources/room-v2/kitchen-original.png",
+      "generated": true
+    },
+    "cabinets-fridge": {
+      "file": "cabinets-fridge-v2.png",
+      "size": [
+        44,
+        56
+      ],
+      "width": 44,
+      "height": 56,
+      "baseLine": 56,
+      "source": "sources/room-v2/kitchen-original.png",
+      "generated": true
+    },
+    "dual-monitor-desk": {
+      "file": "dual-monitor-desk-v2.png",
+      "size": [
+        54,
+        36
+      ],
+      "width": 54,
+      "height": 36,
+      "baseLine": 36,
+      "source": "sources/room-v2/kitchen-original.png",
+      "generated": true
+    },
+    "gaming-chair": {
+      "file": "gaming-chair-v2.png",
+      "size": [
+        20,
+        29
+      ],
+      "width": 20,
+      "height": 29,
+      "baseLine": 29,
+      "source": "sources/room-v2/kitchen-original.png",
+      "generated": true
+    },
+    "bookshelf": {
+      "file": "bookshelf-v2.png",
+      "size": [
+        26,
+        40
+      ],
+      "width": 26,
+      "height": 40,
+      "baseLine": 40,
+      "source": "sources/room-v2/kitchen-original.png",
+      "generated": true
+    },
+    "monstera": {
+      "file": "monstera-v2.png",
+      "size": [
+        24,
+        22
+      ],
+      "width": 24,
+      "height": 22,
+      "baseLine": 22,
+      "source": "sources/room-v2/decor-original.png",
+      "generated": true
+    },
+    "hanging-pothos": {
+      "file": "hanging-pothos-v2.png",
+      "size": [
+        24,
+        34
+      ],
+      "width": 24,
+      "height": 34,
+      "baseLine": 34,
+      "source": "sources/room-v2/decor-original.png",
+      "generated": true
+    },
+    "small-plant-a": {
+      "file": "small-plant-a-v2.png",
+      "size": [
+        10,
+        12
+      ],
+      "width": 10,
+      "height": 12,
+      "baseLine": 12,
+      "source": "sources/room-v2/decor-original.png",
+      "generated": true
+    },
+    "small-plant-b": {
+      "file": "small-plant-b-v2.png",
+      "size": [
+        10,
+        17
+      ],
+      "width": 10,
+      "height": 17,
+      "baseLine": 17,
+      "source": "sources/room-v2/decor-original.png",
+      "generated": true
+    },
+    "small-plant-c": {
+      "file": "small-plant-c-v2.png",
+      "size": [
+        10,
+        8
+      ],
+      "width": 10,
+      "height": 8,
+      "baseLine": 8,
+      "source": "sources/room-v2/decor-original.png",
+      "generated": true
+    },
+    "floor-lamp-a": {
+      "file": "floor-lamp-a-v2.png",
+      "size": [
+        14,
+        42
+      ],
+      "width": 14,
+      "height": 42,
+      "baseLine": 42,
+      "source": "sources/room-v2/decor-original.png",
+      "generated": true
+    },
+    "floor-lamp-b": {
+      "file": "floor-lamp-b-v2.png",
+      "size": [
+        14,
+        18
+      ],
+      "width": 14,
+      "height": 18,
+      "baseLine": 18,
+      "source": "sources/room-v2/decor-original.png",
+      "generated": true
+    },
+    "table-lamp": {
+      "file": "table-lamp-v2.png",
+      "size": [
+        12,
+        17
+      ],
+      "width": 12,
+      "height": 17,
+      "baseLine": 17,
+      "source": "sources/room-v2/decor-original.png",
+      "generated": true
+    },
+    "record-player": {
+      "file": "record-player-v2.png",
+      "size": [
+        32,
+        28
+      ],
+      "width": 32,
+      "height": 28,
+      "baseLine": 28,
+      "source": "sources/room-v2/decor-original.png",
+      "generated": true
+    },
+    "record-crate": {
+      "file": "record-crate-v2.png",
+      "size": [
+        20,
+        20
+      ],
+      "width": 20,
+      "height": 20,
+      "baseLine": 20,
+      "source": "sources/room-v2/decor-original.png",
+      "generated": true
+    },
+    "guitar": {
+      "file": "guitar-v2.png",
+      "size": [
+        12,
+        22
+      ],
+      "width": 12,
+      "height": 22,
+      "baseLine": 22,
+      "source": "sources/room-v2/decor-original.png",
+      "generated": true
+    },
+    "poster-a": {
+      "file": "poster-a-v2.png",
+      "size": [
+        16,
+        24
+      ],
+      "width": 16,
+      "height": 24,
+      "baseLine": 24,
+      "source": "sources/room-v2/decor-original.png",
+      "generated": true
+    },
+    "poster-b": {
+      "file": "poster-b-v2.png",
+      "size": [
+        16,
+        20
+      ],
+      "width": 16,
+      "height": 20,
+      "baseLine": 20,
+      "source": "sources/room-v2/decor-original.png",
+      "generated": true
+    },
+    "poster-c": {
+      "file": "poster-c-v2.png",
+      "size": [
+        16,
+        21
+      ],
+      "width": 16,
+      "height": 21,
+      "baseLine": 21,
+      "source": "sources/room-v2/decor-original.png",
+      "generated": true
+    },
+    "moon-sign": {
+      "file": "moon-sign-v2.png",
+      "size": [
+        16,
+        18
+      ],
+      "width": 16,
+      "height": 18,
+      "baseLine": 18,
+      "source": "sources/room-v2/decor-original.png",
+      "generated": true
+    },
+    "lounger-a": {
+      "file": "lounger-a-v2.png",
+      "size": [
+        31,
+        24
+      ],
+      "width": 31,
+      "height": 24,
+      "baseLine": 24,
+      "source": "sources/room-v2/terrace-original.png",
+      "generated": true
+    },
+    "lounger-b": {
+      "file": "lounger-b-v2.png",
+      "size": [
+        29,
+        24
+      ],
+      "width": 29,
+      "height": 24,
+      "baseLine": 24,
+      "source": "sources/room-v2/terrace-original.png",
+      "generated": true
+    },
+    "fire-pit": {
+      "file": "fire-pit-v2.png",
+      "size": [
+        25,
+        21
+      ],
+      "width": 25,
+      "height": 21,
+      "baseLine": 21,
+      "source": "sources/room-v2/terrace-original.png",
+      "generated": true
+    },
+    "patio-heater": {
+      "file": "patio-heater-v2.png",
+      "size": [
+        16,
+        29
+      ],
+      "width": 16,
+      "height": 29,
+      "baseLine": 29,
+      "source": "sources/room-v2/terrace-original.png",
+      "generated": true
+    },
+    "pine-a": {
+      "file": "pine-a-v2.png",
+      "size": [
+        18,
+        27
+      ],
+      "width": 18,
+      "height": 27,
+      "baseLine": 27,
+      "source": "sources/room-v2/terrace-original.png",
+      "generated": true
+    },
+    "pine-b": {
+      "file": "pine-b-v2.png",
+      "size": [
+        18,
+        33
+      ],
+      "width": 18,
+      "height": 33,
+      "baseLine": 33,
+      "source": "sources/room-v2/terrace-original.png",
+      "generated": true
+    },
+    "pine-c": {
+      "file": "pine-c-v2.png",
+      "size": [
+        18,
+        22
+      ],
+      "width": 18,
+      "height": 22,
+      "baseLine": 22,
+      "source": "sources/room-v2/terrace-original.png",
+      "generated": true
+    },
+    "snowman": {
+      "file": "snowman-v2.png",
+      "size": [
+        17,
+        21
+      ],
+      "width": 17,
+      "height": 21,
+      "baseLine": 21,
+      "source": "sources/room-v2/terrace-original.png",
+      "generated": true
+    },
+    "tower-glass": {
+      "file": "tower-glass.png",
+      "size": [
+        104,
+        236
+      ],
+      "width": 104,
+      "height": 236,
+      "baseLine": 236,
+      "category": "building",
+      "source": "sources/buildings/tower-glass-original.png",
+      "twinkles": [
+        {
+          "x": 32,
+          "y": 30,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 53,
+          "y": 54,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 17,
+          "y": 62,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 80,
+          "y": 66,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 89,
+          "y": 78,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 11,
+          "y": 86,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 17,
+          "y": 90,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 8,
+          "y": 102,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 8,
+          "y": 106,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 83,
+          "y": 114,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 83,
+          "y": 118,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 32,
+          "y": 126,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 35,
+          "y": 130,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 53,
+          "y": 134,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 77,
+          "y": 142,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 5,
+          "y": 150,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 11,
+          "y": 154,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 83,
+          "y": 158,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 17,
+          "y": 166,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 95,
+          "y": 174,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 86,
+          "y": 178,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 83,
+          "y": 182,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 29,
+          "y": 190,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 11,
+          "y": 202,
+          "w": 1,
+          "h": 1
+        }
+      ]
+    },
+    "tower-brick-water": {
+      "file": "tower-brick-water.png",
+      "size": [
+        106,
+        208
+      ],
+      "width": 106,
+      "height": 208,
+      "baseLine": 208,
+      "category": "building",
+      "source": "sources/buildings/tower-brick-water-original.png",
+      "twinkles": [
+        {
+          "x": 77,
+          "y": 30,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 17,
+          "y": 58,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 17,
+          "y": 62,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 29,
+          "y": 66,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 53,
+          "y": 66,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 74,
+          "y": 70,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 53,
+          "y": 74,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 14,
+          "y": 78,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 41,
+          "y": 82,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 41,
+          "y": 86,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 74,
+          "y": 90,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 74,
+          "y": 94,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 29,
+          "y": 102,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 41,
+          "y": 102,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 41,
+          "y": 106,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 14,
+          "y": 110,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 17,
+          "y": 114,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 17,
+          "y": 118,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 14,
+          "y": 130,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 14,
+          "y": 134,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 32,
+          "y": 138,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 32,
+          "y": 142,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 95,
+          "y": 142,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 14,
+          "y": 150,
+          "w": 1,
+          "h": 1
+        }
+      ]
+    }
+  }
+}

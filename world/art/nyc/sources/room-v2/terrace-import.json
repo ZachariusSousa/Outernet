@@ -1,0 +1,58 @@
+[
+  {
+    "sprite": "lounger-a",
+    "size": [
+      31,
+      24
+    ]
+  },
+  {
+    "sprite": "lounger-b",
+    "size": [
+      29,
+      24
+    ]
+  },
+  {
+    "sprite": "fire-pit",
+    "size": [
+      25,
+      21
+    ]
+  },
+  {
+    "sprite": "patio-heater",
+    "size": [
+      16,
+      29
+    ]
+  },
+  {
+    "sprite": "pine-a",
+    "size": [
+      18,
+      27
+    ]
+  },
+  {
+    "sprite": "pine-b",
+    "size": [
+      18,
+      33
+    ]
+  },
+  {
+    "sprite": "pine-c",
+    "size": [
+      18,
+      22
+    ]
+  },
+  {
+    "sprite": "snowman",
+    "size": [
+      17,
+      21
+    ]
+  }
+]

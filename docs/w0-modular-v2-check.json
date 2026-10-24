@@ -1,0 +1,114 @@
+{
+  "runs": [
+    {
+      "speed": 1,
+      "cursor": 529,
+      "total": 529,
+      "overlaps": 0,
+      "maxPending": 2.5999999999999948,
+      "effects": [
+        "search",
+        "load_skill",
+        "ask_peer",
+        "answer",
+        "plane",
+        "open_page",
+        "save_note",
+        "sticky",
+        "sparkle",
+        "poof",
+        "sleep"
+      ]
+    },
+    {
+      "speed": 4,
+      "cursor": 529,
+      "total": 529,
+      "overlaps": 0,
+      "maxPending": 2.5000000000000018,
+      "effects": [
+        "search",
+        "load_skill",
+        "ask_peer",
+        "answer",
+        "plane",
+        "open_page",
+        "save_note",
+        "sticky",
+        "sparkle",
+        "sleep",
+        "poof"
+      ]
+    },
+    {
+      "speed": 16,
+      "cursor": 529,
+      "total": 529,
+      "overlaps": 0,
+      "maxPending": 0,
+      "effects": [
+        "poof",
+        "search",
+        "load_skill",
+        "ask_peer",
+        "answer",
+        "plane",
+        "open_page",
+        "save_note",
+        "sticky",
+        "sparkle"
+      ]
+    }
+  ],
+  "steps": {
+    "viaSteps": true,
+    "levels": [
+      0,
+      -1
+    ],
+    "withoutSteps": null,
+    "onSteps": true,
+    "arrived": true
+  },
+  "depth": {
+    "behind": [
+      243,
+      227,
+      195,
+      255
+    ],
+    "expected": [
+      243,
+      227,
+      195,
+      255
+    ],
+    "front": [
+      225,
+      155,
+      174,
+      255
+    ],
+    "panesTransparent": true,
+    "outsideTransparent": true,
+    "rgbChanged": true
+  },
+  "placement": {
+    "drag": true,
+    "attachedSpot": true,
+    "flip": true,
+    "paletteAddRemove": true,
+    "lightPolyline": true,
+    "exports": true
+  },
+  "parallax": true,
+  "cardFollow": true,
+  "unknownEvent": true,
+  "planes": {
+    "duration": 3.5,
+    "receiver": "node-02",
+    "declined": true,
+    "retained": true
+  },
+  "errors": []
+}

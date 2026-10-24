@@ -1,0 +1,365 @@
+{
+  "version": 1,
+  "placeholder": false,
+  "sprites": [
+    {
+      "id": "sofa",
+      "sprite": "sectional",
+      "x": 102,
+      "y": 175,
+      "scale": 1,
+      "flip": false,
+      "layer": "object",
+      "level": -1
+    },
+    {
+      "id": "living-rug",
+      "sprite": "large-rug",
+      "x": 118,
+      "y": 194,
+      "scale": 1,
+      "flip": false,
+      "layer": "floor",
+      "level": -1
+    },
+    {
+      "id": "table",
+      "sprite": "coffee-table",
+      "x": 175,
+      "y": 213,
+      "scale": 1,
+      "flip": false,
+      "layer": "object",
+      "level": -1
+    },
+    {
+      "id": "tv",
+      "sprite": "wall-tv",
+      "x": 68,
+      "y": 116,
+      "scale": 1,
+      "flip": false,
+      "layer": "object",
+      "level": 0
+    },
+    {
+      "id": "fireplace",
+      "sprite": "fireplace",
+      "x": 62,
+      "y": 154,
+      "scale": 1,
+      "flip": false,
+      "layer": "object",
+      "level": 0
+    },
+    {
+      "id": "kitchen",
+      "sprite": "cabinets-fridge",
+      "x": 172,
+      "y": 70,
+      "scale": 1,
+      "flip": false,
+      "layer": "object",
+      "level": 0
+    },
+    {
+      "id": "island",
+      "sprite": "island",
+      "x": 259,
+      "y": 151,
+      "scale": 1,
+      "flip": false,
+      "layer": "object",
+      "level": 0
+    },
+    {
+      "id": "stool-1",
+      "sprite": "stool-a",
+      "x": 294,
+      "y": 190,
+      "scale": 1,
+      "flip": false,
+      "layer": "object",
+      "level": 0
+    },
+    {
+      "id": "stool-2",
+      "sprite": "stool-b",
+      "x": 319,
+      "y": 202,
+      "scale": 1,
+      "flip": false,
+      "layer": "object",
+      "level": 0
+    },
+    {
+      "id": "desk",
+      "sprite": "dual-monitor-desk",
+      "x": 349,
+      "y": 169,
+      "scale": 1,
+      "flip": false,
+      "layer": "object",
+      "level": 0
+    },
+    {
+      "id": "desk-chair",
+      "sprite": "gaming-chair",
+      "x": 335,
+      "y": 208,
+      "scale": 1,
+      "flip": false,
+      "layer": "object",
+      "level": 0
+    },
+    {
+      "id": "books",
+      "sprite": "bookshelf",
+      "x": 135,
+      "y": 111,
+      "scale": 1,
+      "flip": false,
+      "layer": "object",
+      "level": 0
+    },
+    {
+      "id": "beanbag-1",
+      "sprite": "beanbag-plum",
+      "x": 296,
+      "y": 222,
+      "scale": 1,
+      "flip": false,
+      "layer": "object",
+      "level": 0
+    },
+    {
+      "id": "beanbag-2",
+      "sprite": "beanbag-cream",
+      "x": 341,
+      "y": 227,
+      "scale": 1,
+      "flip": false,
+      "layer": "object",
+      "level": 0
+    },
+    {
+      "id": "plant-left",
+      "sprite": "monstera",
+      "x": 36,
+      "y": 171,
+      "scale": 1,
+      "flip": false,
+      "layer": "object",
+      "level": 0
+    },
+    {
+      "id": "plant-window",
+      "sprite": "monstera",
+      "x": 406,
+      "y": 211,
+      "scale": 1,
+      "flip": false,
+      "layer": "object",
+      "level": 0
+    },
+    {
+      "id": "lamp-left",
+      "sprite": "floor-lamp-a",
+      "x": 75,
+      "y": 149,
+      "scale": 1,
+      "flip": false,
+      "layer": "object",
+      "level": 0
+    },
+    {
+      "id": "lamp-window",
+      "sprite": "floor-lamp-b",
+      "x": 317,
+      "y": 162,
+      "scale": 1,
+      "flip": false,
+      "layer": "object",
+      "level": 0
+    },
+    {
+      "id": "terrace-pine",
+      "sprite": "pine-a",
+      "x": 341,
+      "y": 250,
+      "scale": 1,
+      "flip": false,
+      "layer": "object",
+      "level": 0
+    },
+    {
+      "id": "terrace-fire",
+      "sprite": "fire-pit",
+      "x": 287,
+      "y": 268,
+      "scale": 1,
+      "flip": false,
+      "layer": "object",
+      "level": 0
+    },
+    {
+      "id": "terrace-lounger",
+      "sprite": "lounger-a",
+      "x": 259,
+      "y": 254,
+      "scale": 1,
+      "flip": false,
+      "layer": "object",
+      "level": 0
+    },
+    {
+      "id": "city-far-glass",
+      "sprite": "tower-glass",
+      "x": 26,
+      "y": -78,
+      "scale": 1,
+      "flip": false,
+      "layer": "city",
+      "level": 0
+    },
+    {
+      "id": "city-far-water",
+      "sprite": "tower-brick-water",
+      "x": 136,
+      "y": -12,
+      "scale": 1,
+      "flip": false,
+      "layer": "city",
+      "level": 0
+    },
+    {
+      "id": "city-center-water",
+      "sprite": "tower-brick-water",
+      "x": 232,
+      "y": -30,
+      "scale": 1,
+      "flip": false,
+      "layer": "city",
+      "level": 0
+    },
+    {
+      "id": "city-mid-glass",
+      "sprite": "tower-glass",
+      "x": 294,
+      "y": -62,
+      "scale": 1,
+      "flip": true,
+      "layer": "city",
+      "level": 0
+    },
+    {
+      "id": "city-mid-water",
+      "sprite": "tower-brick-water",
+      "x": 385,
+      "y": 25,
+      "scale": 1,
+      "flip": false,
+      "layer": "city",
+      "level": 0
+    },
+    {
+      "id": "city-mid-water-left",
+      "sprite": "tower-brick-water",
+      "x": 70,
+      "y": -12,
+      "scale": 1,
+      "flip": true,
+      "layer": "city",
+      "level": 0
+    },
+    {
+      "id": "city-neighbor-left",
+      "sprite": "tower-glass",
+      "x": -102,
+      "y": -96,
+      "scale": 2,
+      "flip": false,
+      "layer": "city",
+      "level": 0
+    },
+    {
+      "id": "city-neighbor-right",
+      "sprite": "tower-glass",
+      "x": 388,
+      "y": -112,
+      "scale": 2,
+      "flip": true,
+      "layer": "city",
+      "level": 0
+    },
+    {
+      "id": "city-water-front-right",
+      "sprite": "tower-brick-water",
+      "x": 424,
+      "y": 208,
+      "scale": 1,
+      "flip": true,
+      "layer": "city",
+      "level": 0
+    }
+  ],
+  "lightLines": [
+    {
+      "id": "wall-rgb",
+      "style": "rgb",
+      "enabled": true,
+      "points": [
+        {
+          "x": 35,
+          "y": 101
+        },
+        {
+          "x": 210,
+          "y": 14
+        },
+        {
+          "x": 446,
+          "y": 132
+        }
+      ]
+    },
+    {
+      "id": "terrace-string",
+      "style": "string",
+      "enabled": true,
+      "points": [
+        {
+          "x": 248,
+          "y": 257
+        },
+        {
+          "x": 296,
+          "y": 281
+        },
+        {
+          "x": 370,
+          "y": 242
+        }
+      ]
+    },
+    {
+      "id": "shelf-fairy",
+      "style": "fairy",
+      "enabled": true,
+      "points": [
+        {
+          "x": 137,
+          "y": 101
+        },
+        {
+          "x": 146,
+          "y": 97
+        },
+        {
+          "x": 163,
+          "y": 106
+        }
+      ]
+    }
+  ]
+}

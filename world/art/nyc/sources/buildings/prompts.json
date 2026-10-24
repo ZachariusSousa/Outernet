@@ -1,0 +1,26 @@
+[
+  {
+    "name": "tower-art-deco",
+    "size": [
+      112,
+      264
+    ],
+    "prompt": "Use case: stylized-concept. Asset type: ONE independently movable isometric pixel-art building sprite for a cozy Midtown New York night game. Transparent background, complete isolated building with both facades, roof and base in frame. Classic 2:1 isometric parallel projection, vertical edges vertical, roof edges slope 1:2. Crisp chunky hand-drawn pixel art, designed to reduce to about 100 by 260 art pixels, large readable clusters, limited muted palette, 3-4 flat shading bands, NO dithering, NO noise, NO blur or photographic detail. Colors cool navy #141a2c #1c2638 #2b3a52 #40516c #60758c, snow #cfdbe8 #e9f0f6, amber lit windows #ffcf8a #d0a572; some windows dark. Snow caps on ledges and roof. Night lighting with warm occupied windows against blue stone. No street, no ground tile, no skyline, no other buildings, no characters, no text, no background shadow. Subject: a tall 1930s Midtown limestone Art Deco skyscraper, wedding-cake setbacks near the top, elegant vertical ribs, a small pointed copper crown with a red antenna light. The left facade brighter blue slate, right facade darker navy. Tall slender proportions. Snow collecting on each setback."
+  },
+  {
+    "name": "tower-glass",
+    "size": [
+      104,
+      280
+    ],
+    "prompt": "Use case: stylized-concept. Asset type: ONE independently movable isometric pixel-art building sprite for a cozy Midtown New York night game. Transparent background, complete isolated building with both facades, roof and base in frame. Classic 2:1 isometric parallel projection, vertical edges vertical, roof edges slope 1:2. Crisp chunky hand-drawn pixel art, designed to reduce to about 100 by 260 art pixels, large readable clusters, limited muted palette, 3-4 flat shading bands, NO dithering, NO noise, NO blur or photographic detail. Colors cool navy #141a2c #1c2638 #2b3a52 #40516c #60758c, snow #cfdbe8 #e9f0f6, amber lit windows #ffcf8a #d0a572; some windows dark. Snow caps on ledges and roof. Night lighting with warm occupied windows against blue stone. No street, no ground tile, no skyline, no other buildings, no characters, no text, no background shadow. Subject: one tall modern dark-blue glass office tower with a slanted roof, slightly asymmetric stepped crown, many large rectangular windows grouped in floor bands, mostly dark blue with scattered amber offices and occasional lavender windows. Strong simple silhouette, two visible facades."
+  },
+  {
+    "name": "tower-brick-water",
+    "size": [
+      112,
+      208
+    ],
+    "prompt": "Use case: stylized-concept. Asset type: ONE independently movable isometric pixel-art building sprite for a cozy Midtown New York night game. Transparent background, complete isolated building with both facades, roof and base in frame. Classic 2:1 isometric parallel projection, vertical edges vertical, roof edges slope 1:2. Crisp chunky hand-drawn pixel art, designed to reduce to about 100 by 260 art pixels, large readable clusters, limited muted palette, 3-4 flat shading bands, NO dithering, NO noise, NO blur or photographic detail. Colors cool navy #141a2c #1c2638 #2b3a52 #40516c #60758c, snow #cfdbe8 #e9f0f6, amber lit windows #ffcf8a #d0a572; some windows dark. Snow caps on ledges and roof. Night lighting with warm occupied windows against blue stone. No street, no ground tile, no skyline, no other buildings, no characters, no text, no background shadow. Subject: one sturdy early-1900s New York brick apartment tower, muted plum brown brick rendered in broad flat fields, cornice, small setbacks, snowy flat roof with ONE round wooden water tank on short stilts, rooftop service hut, warmly glowing apartment windows, a simple fire escape along the right facade. No individual brick noise."
+  }
+]

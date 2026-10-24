@@ -1,0 +1,58 @@
+[
+  {
+    "sprite": "island",
+    "size": [
+      40,
+      30
+    ]
+  },
+  {
+    "sprite": "stool-a",
+    "size": [
+      12,
+      20
+    ]
+  },
+  {
+    "sprite": "stool-b",
+    "size": [
+      12,
+      20
+    ]
+  },
+  {
+    "sprite": "coffee-corner",
+    "size": [
+      34,
+      40
+    ]
+  },
+  {
+    "sprite": "cabinets-fridge",
+    "size": [
+      44,
+      56
+    ]
+  },
+  {
+    "sprite": "dual-monitor-desk",
+    "size": [
+      54,
+      36
+    ]
+  },
+  {
+    "sprite": "gaming-chair",
+    "size": [
+      20,
+      29
+    ]
+  },
+  {
+    "sprite": "bookshelf",
+    "size": [
+      26,
+      40
+    ]
+  }
+]

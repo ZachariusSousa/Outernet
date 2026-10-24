@@ -12,7 +12,7 @@ The apartment and any other space, choosing a home space, time-of-day and weathe
 ```
 world/
   index.html, src/...        the page (2D canvas; build tooling is your pick, keep it simple)
-  art/nyc/                   backdrop.png, shell.png, sprites/, layout.json, scene.json (spots, paths, windows, glow), CREDITS.md
+  art/nyc/                   backdrop.png, room.png, sprites/ (small decor), layout.json, scene.json (occluders, spots, paths, windows, glow), CREDITS.md
   art/agents/                style-test.svg (approved creature designs) and the sprites made from it
   tools/pixel_clean.py       snaps an AI image to a clean pixel grid and palette
   tools/sprite_cut.py        cuts a magenta sprite sheet into named, trimmed sprites
@@ -73,13 +73,12 @@ Species comes from `model` (unknown diffusion model = jellyfish, unknown AR mode
 
 **Why 2D:** the 3D builds (`hd2d-close-final.webp`, `hd2d-far-final.webp`) got clean but never got the painted lofi warmth. The look comes from illustration, so W0 is a single illustrated pixel room with live animation on top.
 
-**How the room is made: modular, so it's easy to change.**
+**How the room is made: one furnished image, plus a few changeable layers.** (A fully modular version, with every furniture piece as a separate sprite, was tried and lost the composition, scale and shared lighting that make the room look good; see `docs/look-refs/modular-attempt.png`.)
 - **City backdrop** (`art/nyc/backdrop.png`): a wide pixel skyline at night in snow, drawn behind everything, with slight parallax when panning.
-- **Room shell** (`art/nyc/shell.png`): architecture only. An L-shaped penthouse wrapping a snowy roof terrace, a curved glass corner, a sunken living area with steps, solid walls, window frames and mullions, and the tower below with Art Deco setbacks. No furniture or decor. Window panes and everything outside the building are magenta `#FF00FF` and become transparent, so the backdrop shows through.
-- **Furniture and decor sprites** (`art/nyc/sprites/*.png`): every piece is its own sprite in the same style and isometric angle (sectional, coffee table, rugs, TV, fireplace, window seat, egg chair, kitchen pieces, desk, shelves, plants, lamps, record player, terrace pieces...). Generated as sprite sheets on magenta, then cut apart by `tools/sprite_cut.py` (split on magenta, trim, name, and record each sprite's base line).
-- **Placement:** `art/nyc/layout.json` lists each sprite with its position, an optional horizontal flip and a layer (`floor` for rugs, which agents walk over; `object` for everything else). Placement mode drags sprites, flips them, and adds or removes them from a palette of available sprites.
-- **Depth is automatic:** each `object` sprite is depth-sorted against agents by its base line, so agents walk behind the sofa and in front of it correctly. No occluder polygons are needed.
-- **Pixel scale:** shell, sprites and backdrop all go through the same cleanup (`tools/pixel_clean.py` or unfake.js, whichever won) to the same art-pixel scale. Sprites may be rescaled by whole steps to fit the room.
+- **Furnished room on its tower** (`art/nyc/room.png`): one AI-generated image of the whole penthouse with all its furniture, composed and lit together. It shows an L-shaped apartment wrapping a snowy terrace, a curved glass corner, a sunken living area, and the tower below with Art Deco setbacks. Window panes and everything outside the building are magenta `#FF00FF` and become transparent, so the backdrop shows through.
+- **One pixel scale:** room and backdrop go through the same cleanup (`tools/pixel_clean.py` or unfake.js, whichever won) to the same art-pixel size. Creatures are sized against the real sofa (about a third of its width).
+- **Depth from outlines (occluders):** in placement mode, draw polygons around furniture agents can walk behind (sofa back, kitchen island, desk, shelves, big plants) and set each one's **foot line**. The page re-draws an occluder over any agent whose feet are behind its foot line.
+- **Small decor sprites** (`art/nyc/sprites/*.png`): a few swappable small items (plants, posters, mugs, a book stack, a record crate), cut from a magenta sprite sheet by `tools/sprite_cut.py` and placed by `layout.json`, depth-sorted by their base line. Big furniture changes are made by editing or regenerating the room image.
 - Until Zach's images exist, keep clearly-placeholder art in the same format.
 
 **Code-drawn decor (easy to change):** string lights, fairy lights and the RGB LED strip are drawn by code as pixel lights along polylines in `layout.json`. Each has a color, bulb spacing and twinkle in look.js, and can be switched on or off. Placement mode edits the polylines. The RGB strip uses the owner's chosen color (default purple).
@@ -126,7 +125,7 @@ Implement the event → animation table in design.md ("The world" → Event → 
 - Agents get a name label on hover (pixel font).
 
 ## 8. Art
-- **Backdrop, shell and sprite sheets:** AI-generated from the prompts in `docs/room-prompt.md`, cleaned to the shared pixel scale, sprites cut by `tools/sprite_cut.py`. Record the tool and prompts in `art/nyc/CREDITS.md`.
+- **Backdrop, room and the small decor sheet:** AI-generated from the prompts in `docs/room-prompt.md`, cleaned to the shared pixel scale, decor sprites cut by `tools/sprite_cut.py`. Record the tool and prompts in `art/nyc/CREDITS.md`.
 - **Creatures, props, planes and held items:** pixel sprites from the approved designs; Claude can draw any small sprite that's missing.
 - Anything not made by us, Zach's AI tool, or CC0 needs Zach's OK.
 
@@ -148,8 +147,8 @@ Changing look.js updates the page on reload.
 - [ ] The room is crisp pixel art at a whole-number scale, letterboxed, never stretched or blurred.
 - [ ] The cleanup turns AI images into clean pixel art at one shared scale (no dithering, palette-snapped, true pixel grid), and `sprite_cut.py` splits sprite sheets into trimmed, named sprites.
 - [ ] All 12 agents are visible as pixel sprites; each species and each agent within a species is tellable apart; agents never overlap each other.
-- [ ] Depth works from sprite base lines: an agent behind the sofa or island is hidden by it, and one in front is not.
-- [ ] Furniture and decor are separate sprites placed by layout.json; moving, flipping, adding or removing one in placement mode needs no new art.
+- [ ] Occluders work: an agent behind the sofa or island is hidden by it, and one in front is not; small decor sprites sort by their base line.
+- [ ] Small decor sprites can be moved, flipped, added or removed in placement mode with no new art.
 - [ ] The window panes and surroundings are transparent: the backdrop city shows through and around the building.
 - [ ] String lights, fairy lights and the LED strip are code-drawn along editable polylines.
 - [ ] Every row of the event → animation table has been seen on screen; studying, playing and helping read clearly from what agents hold; resting agents wander naturally.

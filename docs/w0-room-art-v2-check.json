@@ -1,0 +1,12 @@
+{
+  "count": 9,
+  "designs": 2,
+  "backdrop": "sky-river.png",
+  "agents": 12,
+  "dragClippedBuilding": true,
+  "flip": true,
+  "paletteDefaultsToCity": true,
+  "addRemove": true,
+  "layoutExport": true,
+  "consoleErrors": []
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "sprite": "monstera",
+    "size": [
+      24,
+      22
+    ]
+  },
+  {
+    "sprite": "hanging-pothos",
+    "size": [
+      24,
+      34
+    ]
+  },
+  {
+    "sprite": "small-plant-a",
+    "size": [
+      10,
+      12
+    ]
+  },
+  {
+    "sprite": "small-plant-b",
+    "size": [
+      10,
+      17
+    ]
+  },
+  {
+    "sprite": "small-plant-c",
+    "size": [
+      10,
+      8
+    ]
+  },
+  {
+    "sprite": "floor-lamp-a",
+    "size": [
+      14,
+      42
+    ]
+  },
+  {
+    "sprite": "floor-lamp-b",
+    "size": [
+      14,
+      18
+    ]
+  },
+  {
+    "sprite": "table-lamp",
+    "size": [
+      12,
+      17
+    ]
+  },
+  {
+    "sprite": "record-player",
+    "size": [
+      32,
+      28
+    ]
+  },
+  {
+    "sprite": "record-crate",
+    "size": [
+      20,
+      20
+    ]
+  },
+  {
+    "sprite": "guitar",
+    "size": [
+      12,
+      22
+    ]
+  },
+  {
+    "sprite": "poster-a",
+    "size": [
+      16,
+      24
+    ]
+  },
+  {
+    "sprite": "poster-b",
+    "size": [
+      16,
+      20
+    ]
+  },
+  {
+    "sprite": "poster-c",
+    "size": [
+      16,
+      21
+    ]
+  },
+  {
+    "sprite": "moon-sign",
+    "size": [
+      16,
+      18
+    ]
+  }
+]

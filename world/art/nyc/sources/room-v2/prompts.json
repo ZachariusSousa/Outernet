@@ -1,0 +1,134 @@
+[
+  {
+    "name": "living",
+    "grid": [
+      4,
+      3
+    ],
+    "names": [
+      "sectional",
+      "coffee-table",
+      "large-rug",
+      "round-rug",
+      "beanbag-plum",
+      "beanbag-cream",
+      "floor-cushion",
+      "wall-tv",
+      "fireplace",
+      "window-seat",
+      "egg-chair"
+    ],
+    "items": [
+      "cream L-shaped sectional with cushions, knitted throw and a controller, wide low front three-quarter view",
+      "low walnut coffee table with board game and two mugs",
+      "large rectangular soft muted-plum rug, flat isometric diamond",
+      "small round cream rug, flat isometric ellipse",
+      "plum beanbag chair",
+      "cream beanbag chair",
+      "ochre floor cushion",
+      "wide flat wall TV displaying a dim blue city at night, with very small stand",
+      "long low walnut fireplace console, amber flames in dark inset",
+      "cream cushioned window bench with folded blanket",
+      "rattan hanging egg chair with curved supporting stand"
+    ],
+    "prompt": "Use case: stylized-concept. Asset type: modular game sprite sheet. Classic hand-drawn 2:1 isometric pixel-art furniture, cozy New York penthouse at night. Warm cream #f3e3c3, walnut #604438 #85604a #ac815c, plum #554969 #79659a, green #5e7059, amber #ffcf8a. Clean discrete pixel clusters, 3-4 flat shading bands, no dithering, no grain, no blur, NO text, no people or animals. Each item an isolated sprite on EXACT solid magenta #FF00FF. No ground tiles, no cast shadows outside the object, no room, no buildings. All items same 2:1 isometric view with left and right surfaces visible; verticals vertical. One item per cell in an evenly spaced rectangular grid, generous magenta gutters, NOTHING touches cell edges. Objects completely separate, each whole object INCLUDING legs fully in its own cell. Fill cell with the object preserving its natural proportions. Do not draw grid borders or labels. Sheet is exactly 4 columns by 3 rows, equal cells. Strict row-major order LEFT TO RIGHT then TOP TO BOTTOM. 11 objects total, any final unfilled cells pure magenta. Objects in numbered cell order: 1. cream L-shaped sectional with cushions, knitted throw and a controller, wide low front three-quarter view; 2. low walnut coffee table with board game and two mugs; 3. large rectangular soft muted-plum rug, flat isometric diamond; 4. small round cream rug, flat isometric ellipse; 5. plum beanbag chair; 6. cream beanbag chair; 7. ochre floor cushion; 8. wide flat wall TV displaying a dim blue city at night, with very small stand; 9. long low walnut fireplace console, amber flames in dark inset; 10. cream cushioned window bench with folded blanket; 11. rattan hanging egg chair with curved supporting stand."
+  },
+  {
+    "name": "kitchen",
+    "grid": [
+      4,
+      2
+    ],
+    "names": [
+      "island",
+      "stool-a",
+      "stool-b",
+      "coffee-corner",
+      "cabinets-fridge",
+      "dual-monitor-desk",
+      "gaming-chair",
+      "bookshelf"
+    ],
+    "items": [
+      "wide kitchen island, cream stone top and walnut dark base",
+      "round wooden bar stool with dark legs",
+      "second upholstered wooden bar stool",
+      "coffee corner counter, kettle and attached open shelves with mugs",
+      "tall dark walnut kitchen cabinet and brushed cream fridge, compact combined freestanding unit",
+      "wide walnut desk with TWO dark-blue monitors, keyboard and mug",
+      "plum padded gaming chair, hoodie on back",
+      "tall walnut bookshelf packed with uneven stacks of colored books"
+    ],
+    "prompt": "Use case: stylized-concept. Asset type: modular game sprite sheet. Classic hand-drawn 2:1 isometric pixel-art furniture, cozy New York penthouse at night. Warm cream #f3e3c3, walnut #604438 #85604a #ac815c, plum #554969 #79659a, green #5e7059, amber #ffcf8a. Clean discrete pixel clusters, 3-4 flat shading bands, no dithering, no grain, no blur, NO text, no people or animals. Each item an isolated sprite on EXACT solid magenta #FF00FF. No ground tiles, no cast shadows outside the object, no room, no buildings. All items same 2:1 isometric view with left and right surfaces visible; verticals vertical. One item per cell in an evenly spaced rectangular grid, generous magenta gutters, NOTHING touches cell edges. Objects completely separate, each whole object INCLUDING legs fully in its own cell. Fill cell with the object preserving its natural proportions. Do not draw grid borders or labels. Sheet is exactly 4 columns by 2 rows, equal cells. Strict row-major order LEFT TO RIGHT then TOP TO BOTTOM. 8 objects total, any final unfilled cells pure magenta. Objects in numbered cell order: 1. wide kitchen island, cream stone top and walnut dark base; 2. round wooden bar stool with dark legs; 3. second upholstered wooden bar stool; 4. coffee corner counter, kettle and attached open shelves with mugs; 5. tall dark walnut kitchen cabinet and brushed cream fridge, compact combined freestanding unit; 6. wide walnut desk with TWO dark-blue monitors, keyboard and mug; 7. plum padded gaming chair, hoodie on back; 8. tall walnut bookshelf packed with uneven stacks of colored books."
+  },
+  {
+    "name": "decor",
+    "grid": [
+      4,
+      4
+    ],
+    "names": [
+      "monstera",
+      "hanging-pothos",
+      "small-plant-a",
+      "small-plant-b",
+      "small-plant-c",
+      "floor-lamp-a",
+      "floor-lamp-b",
+      "table-lamp",
+      "record-player",
+      "record-crate",
+      "guitar",
+      "poster-a",
+      "poster-b",
+      "poster-c",
+      "moon-sign"
+    ],
+    "items": [
+      "large lush monstera in round cream pot",
+      "trailing pothos in hanging cream planter with connected cord",
+      "small leafy plant in terracotta pot",
+      "small cactus in cream pot",
+      "small bushy plant in plum pot",
+      "tall warm amber floor lamp with cream shade",
+      "arched warm floor lamp with round shade",
+      "small amber table lamp with cream shade",
+      "record player on low walnut cabinet",
+      "small crate full of vinyl records",
+      "walnut acoustic guitar leaning on stand",
+      "framed abstract terracotta and cream art, no text",
+      "framed abstract muted green botanical art, no text",
+      "framed blue and amber moon art, no text",
+      "small warm pink crescent moon wall sign, simple solid crescent"
+    ],
+    "prompt": "Use case: stylized-concept. Asset type: modular game sprite sheet. Classic hand-drawn 2:1 isometric pixel-art furniture, cozy New York penthouse at night. Warm cream #f3e3c3, walnut #604438 #85604a #ac815c, plum #554969 #79659a, green #5e7059, amber #ffcf8a. Clean discrete pixel clusters, 3-4 flat shading bands, no dithering, no grain, no blur, NO text, no people or animals. Each item an isolated sprite on EXACT solid magenta #FF00FF. No ground tiles, no cast shadows outside the object, no room, no buildings. All items same 2:1 isometric view with left and right surfaces visible; verticals vertical. One item per cell in an evenly spaced rectangular grid, generous magenta gutters, NOTHING touches cell edges. Objects completely separate, each whole object INCLUDING legs fully in its own cell. Fill cell with the object preserving its natural proportions. Do not draw grid borders or labels. Sheet is exactly 4 columns by 4 rows, equal cells. Strict row-major order LEFT TO RIGHT then TOP TO BOTTOM. 15 objects total, any final unfilled cells pure magenta. Objects in numbered cell order: 1. large lush monstera in round cream pot; 2. trailing pothos in hanging cream planter with connected cord; 3. small leafy plant in terracotta pot; 4. small cactus in cream pot; 5. small bushy plant in plum pot; 6. tall warm amber floor lamp with cream shade; 7. arched warm floor lamp with round shade; 8. small amber table lamp with cream shade; 9. record player on low walnut cabinet; 10. small crate full of vinyl records; 11. walnut acoustic guitar leaning on stand; 12. framed abstract terracotta and cream art, no text; 13. framed abstract muted green botanical art, no text; 14. framed blue and amber moon art, no text; 15. small warm pink crescent moon wall sign, simple solid crescent."
+  },
+  {
+    "name": "terrace",
+    "grid": [
+      4,
+      2
+    ],
+    "names": [
+      "lounger-a",
+      "lounger-b",
+      "fire-pit",
+      "patio-heater",
+      "pine-a",
+      "pine-b",
+      "pine-c",
+      "snowman"
+    ],
+    "items": [
+      "low wooden terrace lounger with cushions and snow cap",
+      "second low wooden terrace lounger with folded throw and snow",
+      "round black metal fire pit, small warm amber fire",
+      "tall mushroom-top patio heater",
+      "small pine with snowy branches in round dark planter",
+      "small snowy pine in terracotta planter",
+      "short bushy snowy pine in cream round planter",
+      "small snowman with rust scarf, no writing"
+    ],
+    "prompt": "Use case: stylized-concept. Asset type: modular game sprite sheet. Classic hand-drawn 2:1 isometric pixel-art furniture, cozy New York penthouse at night. Warm cream #f3e3c3, walnut #604438 #85604a #ac815c, plum #554969 #79659a, green #5e7059, amber #ffcf8a. Clean discrete pixel clusters, 3-4 flat shading bands, no dithering, no grain, no blur, NO text, no people or animals. Each item an isolated sprite on EXACT solid magenta #FF00FF. No ground tiles, no cast shadows outside the object, no room, no buildings. All items same 2:1 isometric view with left and right surfaces visible; verticals vertical. One item per cell in an evenly spaced rectangular grid, generous magenta gutters, NOTHING touches cell edges. Objects completely separate, each whole object INCLUDING legs fully in its own cell. Fill cell with the object preserving its natural proportions. Do not draw grid borders or labels. Sheet is exactly 4 columns by 2 rows, equal cells. Strict row-major order LEFT TO RIGHT then TOP TO BOTTOM. 8 objects total, any final unfilled cells pure magenta. Objects in numbered cell order: 1. low wooden terrace lounger with cushions and snow cap; 2. second low wooden terrace lounger with folded throw and snow; 3. round black metal fire pit, small warm amber fire; 4. tall mushroom-top patio heater; 5. small pine with snowy branches in round dark planter; 6. small snowy pine in terracotta planter; 7. short bushy snowy pine in cream round planter; 8. small snowman with rust scarf, no writing."
+  }
+]

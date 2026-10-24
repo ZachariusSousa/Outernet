@@ -1,740 +1,819 @@
 {
+  "version": 2,
+  "placeholder": false,
   "width": 480,
   "height": 360,
-  "placeholder": true,
-  "occluders": [
-    {
-      "id": "sofa",
-      "polygon": [
-        [
-          72,
-          176
-        ],
-        [
-          116,
-          153
-        ],
-        [
-          170,
-          180
-        ],
-        [
-          170,
-          195
-        ],
-        [
-          126,
-          217
-        ],
-        [
-          72,
-          190
-        ]
-      ],
-      "foot": {
-        "x": 72,
-        "y": 207
-      }
-    },
-    {
-      "id": "island",
-      "polygon": [
-        [
-          302,
-          185
-        ],
-        [
-          334,
-          169
-        ],
-        [
-          390,
-          197
-        ],
-        [
-          390,
-          215
-        ],
-        [
-          359,
-          232
-        ],
-        [
-          302,
-          203
-        ]
-      ],
-      "foot": {
-        "x": 302,
-        "y": 225
-      }
-    },
-    {
-      "id": "coffee-table",
-      "polygon": [
-        [
-          200,
-          224
-        ],
-        [
-          227,
-          210
-        ],
-        [
-          261,
-          227
-        ],
-        [
-          261,
-          237
-        ],
-        [
-          234,
-          251
-        ],
-        [
-          200,
-          234
-        ]
-      ],
-      "foot": {
-        "x": 200,
-        "y": 245
-      }
-    },
-    {
-      "id": "desk",
-      "polygon": [
-        [
-          150,
-          136
-        ],
-        [
-          177,
-          122
-        ],
-        [
-          213,
-          140
-        ],
-        [
-          213,
-          151
-        ],
-        [
-          186,
-          165
-        ],
-        [
-          150,
-          147
-        ]
-      ],
-      "foot": {
-        "x": 150,
-        "y": 156
-      }
-    },
-    {
-      "id": "tv-unit",
-      "polygon": [
-        [
-          52,
-          144
-        ],
-        [
-          79,
-          130
-        ],
-        [
-          106,
-          143
-        ],
-        [
-          106,
-          156
-        ],
-        [
-          80,
-          170
-        ],
-        [
-          52,
-          156
-        ]
-      ],
-      "foot": {
-        "x": 52,
-        "y": 166
-      }
-    },
-    {
-      "id": "plant",
-      "polygon": [
-        [
-          398,
-          238
-        ],
-        [
-          408,
-          233
-        ],
-        [
-          418,
-          239
-        ],
-        [
-          415,
-          251
-        ],
-        [
-          402,
-          251
-        ]
-      ],
-      "foot": {
-        "x": 398,
-        "y": 252
-      }
-    }
-  ],
+  "assets": {
+    "backdrop": "sky-river.png",
+    "shell": "shell-v2.png",
+    "manifest": "sprites/manifest.json",
+    "pixelScale": 4
+  },
   "spots": [
     {
-      "id": "spot-00",
-      "x": 101,
-      "y": 220,
-      "pose": "sit",
-      "facing": "right",
+      "id": "hangout-00",
+      "x": 79,
+      "y": 196,
+      "level": 0,
       "tags": [
         "comfy"
       ],
-      "group": null
+      "pose": "stand",
+      "facing": "right"
     },
     {
-      "id": "spot-01",
-      "x": 144,
-      "y": 241,
-      "pose": "sit",
-      "facing": "left",
+      "id": "hangout-01",
+      "x": 118,
+      "y": 218,
+      "level": -1,
       "tags": [
         "comfy"
       ],
-      "group": null
-    },
-    {
-      "id": "spot-02",
-      "x": 187,
-      "y": 263,
       "pose": "floor",
-      "facing": "right",
+      "facing": "right"
+    },
+    {
+      "id": "hangout-02",
+      "x": 158,
+      "y": 238,
+      "level": -1,
       "tags": [
         "comfy"
       ],
-      "group": null
-    },
-    {
-      "id": "spot-03",
-      "x": 230,
-      "y": 285,
-      "pose": "lie",
-      "facing": "left",
-      "tags": [
-        "comfy"
-      ],
-      "group": null
-    },
-    {
-      "id": "spot-04",
-      "x": 275,
-      "y": 302,
       "pose": "floor",
-      "facing": "right",
+      "facing": "right"
+    },
+    {
+      "id": "hangout-03",
+      "x": 201,
+      "y": 261,
+      "level": 0,
       "tags": [
         "comfy"
       ],
-      "group": null
+      "pose": "stand",
+      "facing": "right"
     },
     {
-      "id": "spot-05",
-      "x": 320,
-      "y": 278,
-      "pose": "stand",
-      "facing": "left",
+      "id": "hangout-04",
+      "x": 247,
+      "y": 229,
+      "level": 0,
       "tags": [
-        "terrace",
-        "snack"
+        "comfy",
+        "terrace"
       ],
-      "group": null
+      "pose": "stand",
+      "facing": "right"
     },
     {
-      "id": "spot-06",
-      "x": 365,
-      "y": 255,
-      "pose": "stand",
-      "facing": "right",
+      "id": "hangout-05",
+      "x": 289,
+      "y": 247,
+      "level": 0,
       "tags": [
-        "terrace",
-        "snack"
+        "comfy",
+        "terrace"
       ],
-      "group": null
+      "pose": "stand",
+      "facing": "right"
     },
     {
-      "id": "spot-07",
-      "x": 401,
-      "y": 225,
-      "pose": "stand",
-      "facing": "left",
+      "id": "hangout-06",
+      "x": 333,
+      "y": 270,
+      "level": 0,
       "tags": [
-        "terrace",
-        "snack"
+        "comfy",
+        "terrace"
       ],
-      "group": null
+      "pose": "stand",
+      "facing": "right"
     },
     {
-      "id": "spot-08",
-      "x": 354,
-      "y": 186,
-      "pose": "stand",
-      "facing": "right",
+      "id": "hangout-07",
+      "x": 377,
+      "y": 233,
+      "level": 0,
       "tags": [
-        "window",
         "comfy"
       ],
-      "group": null
-    },
-    {
-      "id": "spot-09",
-      "x": 300,
-      "y": 161,
       "pose": "stand",
-      "facing": "left",
-      "tags": [
-        "window",
-        "comfy"
-      ],
-      "group": null
+      "facing": "right"
     },
     {
-      "id": "spot-10",
-      "x": 250,
+      "id": "hangout-08",
+      "x": 350,
+      "y": 182,
+      "level": 0,
+      "tags": [
+        "comfy",
+        "window"
+      ],
+      "pose": "stand",
+      "facing": "right"
+    },
+    {
+      "id": "hangout-09",
+      "x": 303,
+      "y": 159,
+      "level": 0,
+      "tags": [
+        "comfy",
+        "window"
+      ],
+      "pose": "stand",
+      "facing": "right"
+    },
+    {
+      "id": "hangout-10",
+      "x": 257,
       "y": 137,
-      "pose": "stand",
-      "facing": "right",
+      "level": 0,
       "tags": [
-        "window",
-        "comfy"
+        "comfy",
+        "window"
       ],
-      "group": null
+      "pose": "stand",
+      "facing": "right"
     },
     {
-      "id": "spot-11",
-      "x": 206,
-      "y": 161,
-      "pose": "stand",
-      "facing": "left",
+      "id": "hangout-11",
+      "x": 215,
+      "y": 117,
+      "level": 0,
       "tags": [
-        "window",
-        "comfy"
+        "comfy",
+        "window"
       ],
-      "group": null
+      "pose": "stand",
+      "facing": "right"
     },
     {
-      "id": "spot-12",
-      "x": 180,
-      "y": 220,
+      "id": "sofa-seat",
+      "x": 0,
+      "y": 0,
+      "level": -1,
+      "tags": [
+        "comfy"
+      ],
       "pose": "sit",
       "facing": "right",
+      "anchor": {
+        "spriteId": "sofa",
+        "x": 42,
+        "y": 28
+      }
+    },
+    {
+      "id": "game-left",
+      "x": 153,
+      "y": 205,
+      "level": -1,
       "tags": [
         "game",
         "comfy"
       ],
-      "group": "table"
+      "pose": "sit",
+      "facing": "right",
+      "group": "coffee-table"
     },
     {
-      "id": "spot-13",
-      "x": 225,
-      "y": 190,
-      "pose": "sit",
-      "facing": "left",
+      "id": "game-back",
+      "x": 194,
+      "y": 181,
+      "level": -1,
       "tags": [
         "game",
         "comfy"
       ],
-      "group": "table"
+      "pose": "sit",
+      "facing": "right",
+      "group": "coffee-table"
     },
     {
-      "id": "spot-14",
-      "x": 277,
-      "y": 260,
-      "pose": "stand",
-      "facing": "right",
+      "id": "game-right",
+      "x": 229,
+      "y": 213,
+      "level": -1,
       "tags": [
+        "game",
         "comfy"
       ],
-      "group": null
+      "pose": "sit",
+      "facing": "right",
+      "group": "coffee-table"
     },
     {
-      "id": "spot-15",
-      "x": 322,
-      "y": 239,
-      "pose": "stand",
-      "facing": "left",
+      "id": "game-front",
+      "x": 191,
+      "y": 247,
+      "level": -1,
       "tags": [
+        "game",
+        "comfy"
+      ],
+      "pose": "sit",
+      "facing": "right",
+      "group": "coffee-table"
+    },
+    {
+      "id": "free-00",
+      "x": 235,
+      "y": 179,
+      "level": 0,
+      "tags": [
+        "comfy",
         "snack",
-        "comfy"
+        "window"
       ],
-      "group": null
+      "pose": "stand",
+      "facing": "right"
     },
     {
-      "id": "spot-16",
-      "x": 365,
+      "id": "free-01",
+      "x": 282,
+      "y": 201,
+      "level": 0,
+      "tags": [
+        "comfy",
+        "snack",
+        "window"
+      ],
+      "pose": "stand",
+      "facing": "right"
+    },
+    {
+      "id": "free-02",
+      "x": 383,
       "y": 212,
-      "pose": "stand",
-      "facing": "right",
+      "level": 0,
       "tags": [
+        "comfy",
         "snack",
-        "comfy"
+        "window"
       ],
-      "group": null
+      "pose": "stand",
+      "facing": "right"
     },
     {
-      "id": "spot-17",
-      "x": 317,
-      "y": 203,
-      "pose": "stand",
-      "facing": "left",
+      "id": "free-03",
+      "x": 159,
+      "y": 153,
+      "level": 0,
       "tags": [
+        "comfy",
         "snack",
-        "comfy"
+        "window"
       ],
-      "group": null
-    },
-    {
-      "id": "spot-18",
-      "x": 269,
-      "y": 184,
       "pose": "stand",
-      "facing": "right",
-      "tags": [
-        "comfy"
-      ],
-      "group": null
+      "facing": "right"
     },
     {
-      "id": "spot-19",
-      "x": 280,
-      "y": 220,
-      "pose": "sit",
-      "facing": "left",
+      "id": "free-04",
+      "x": 116,
+      "y": 174,
+      "level": 0,
       "tags": [
-        "game",
-        "comfy"
+        "comfy",
+        "snack",
+        "window"
       ],
-      "group": "table"
-    },
-    {
-      "id": "spot-20",
-      "x": 180,
-      "y": 181,
       "pose": "stand",
-      "facing": "right",
-      "tags": [
-        "comfy"
-      ],
-      "group": null
+      "facing": "right"
     },
     {
-      "id": "spot-21",
-      "x": 134,
-      "y": 160,
+      "id": "free-05",
+      "x": 263,
+      "y": 264,
+      "level": 0,
+      "tags": [
+        "comfy",
+        "snack",
+        "window"
+      ],
       "pose": "stand",
-      "facing": "left",
-      "tags": [
-        "comfy"
-      ],
-      "group": null
+      "facing": "right"
     },
     {
-      "id": "spot-22",
-      "x": 88,
-      "y": 181,
+      "id": "free-06",
+      "x": 316,
+      "y": 284,
+      "level": 0,
+      "tags": [
+        "comfy",
+        "snack",
+        "window"
+      ],
       "pose": "stand",
-      "facing": "right",
-      "tags": [
-        "comfy"
-      ],
-      "group": null
+      "facing": "right"
     },
     {
-      "id": "spot-23",
-      "x": 230,
-      "y": 278,
-      "pose": "sit",
-      "facing": "left",
+      "id": "free-07",
+      "x": 369,
+      "y": 209,
+      "level": 0,
       "tags": [
-        "game",
-        "comfy"
+        "comfy",
+        "snack",
+        "window"
       ],
-      "group": "table"
+      "pose": "stand",
+      "facing": "right"
     }
   ],
   "paths": [
     {
-      "id": "aisle",
+      "id": "main-floor",
+      "level": 0,
+      "type": "walk",
       "points": [
         {
-          "x": 95,
-          "y": 224
+          "x": 79,
+          "y": 196,
+          "level": 0
         },
         {
-          "x": 148,
-          "y": 242
+          "x": 85,
+          "y": 212,
+          "level": 0
         },
         {
-          "x": 192,
-          "y": 260
+          "x": 201,
+          "y": 272,
+          "level": 0
         },
         {
-          "x": 235,
-          "y": 283
+          "x": 247,
+          "y": 244,
+          "level": 0
         },
         {
-          "x": 279,
-          "y": 294
+          "x": 289,
+          "y": 247,
+          "level": 0
         },
         {
-          "x": 320,
-          "y": 270
+          "x": 333,
+          "y": 270,
+          "level": 0
         },
         {
-          "x": 365,
-          "y": 246
+          "x": 377,
+          "y": 233,
+          "level": 0
         },
         {
-          "x": 402,
-          "y": 222
+          "x": 415,
+          "y": 215,
+          "level": 0
         },
         {
-          "x": 375,
-          "y": 188
+          "x": 350,
+          "y": 182,
+          "level": 0
         },
         {
-          "x": 329,
-          "y": 165
+          "x": 303,
+          "y": 159,
+          "level": 0
         },
         {
-          "x": 282,
-          "y": 142
+          "x": 257,
+          "y": 137,
+          "level": 0
         },
         {
-          "x": 235,
-          "y": 123
+          "x": 215,
+          "y": 117,
+          "level": 0
         },
         {
-          "x": 203,
-          "y": 157
+          "x": 159,
+          "y": 153,
+          "level": 0
         },
         {
-          "x": 163,
-          "y": 183
+          "x": 116,
+          "y": 174,
+          "level": 0
         },
         {
-          "x": 125,
-          "y": 205
-        },
-        {
-          "x": 95,
-          "y": 224
+          "x": 79,
+          "y": 196,
+          "level": 0
         }
       ]
     },
     {
-      "id": "middle",
+      "id": "step-approach",
+      "level": 0,
+      "type": "walk",
       "points": [
         {
-          "x": 163,
-          "y": 183
+          "x": 257,
+          "y": 137,
+          "level": 0
         },
         {
-          "x": 200,
-          "y": 202
+          "x": 269,
+          "y": 184,
+          "level": 0
         },
         {
-          "x": 250,
-          "y": 194
+          "x": 254,
+          "y": 200,
+          "level": 0
+        }
+      ]
+    },
+    {
+      "id": "living-steps",
+      "type": "steps",
+      "level": 0,
+      "points": [
+        {
+          "x": 254,
+          "y": 200,
+          "level": 0
         },
         {
-          "x": 278,
-          "y": 222
+          "x": 248,
+          "y": 204,
+          "level": 0
         },
         {
-          "x": 320,
-          "y": 243
+          "x": 242,
+          "y": 208,
+          "level": -1
         },
         {
-          "x": 365,
-          "y": 246
+          "x": 235,
+          "y": 211,
+          "level": -1
+        }
+      ]
+    },
+    {
+      "id": "pit-aisle",
+      "level": -1,
+      "type": "walk",
+      "points": [
+        {
+          "x": 235,
+          "y": 211,
+          "level": -1
+        },
+        {
+          "x": 194,
+          "y": 181,
+          "level": -1
+        },
+        {
+          "x": 153,
+          "y": 205,
+          "level": -1
+        },
+        {
+          "x": 118,
+          "y": 218,
+          "level": -1
+        },
+        {
+          "x": 158,
+          "y": 238,
+          "level": -1
+        },
+        {
+          "x": 191,
+          "y": 247,
+          "level": -1
+        },
+        {
+          "x": 229,
+          "y": 213,
+          "level": -1
+        },
+        {
+          "x": 235,
+          "y": 211,
+          "level": -1
         }
       ]
     }
   ],
-  "lights": [
+  "windows": [
     {
-      "id": "lamp-left",
-      "color": "#ffcf8a",
-      "flicker": 1,
+      "id": "pane-0",
       "polygon": [
         [
-          93,
-          140
+          217,
+          22
         ],
         [
-          148,
-          140
+          279,
+          53
         ],
         [
-          160,
-          196
+          279,
+          120
         ],
         [
-          100,
-          210
+          217,
+          89
+        ]
+      ],
+      "reflections": [
+        [
+          [
+            225,
+            29
+          ],
+          [
+            241,
+            53
+          ]
         ]
       ]
     },
     {
-      "id": "lamp-kitchen",
-      "color": "#ffcf8a",
-      "flicker": 0.5,
+      "id": "pane-1",
       "polygon": [
         [
           286,
-          159
+          57
         ],
         [
-          341,
-          172
+          349,
+          88
         ],
         [
-          362,
-          209
+          349,
+          155
         ],
         [
-          297,
-          191
+          286,
+          124
+        ]
+      ],
+      "reflections": [
+        [
+          [
+            294,
+            64
+          ],
+          [
+            310,
+            88
+          ]
         ]
       ]
     },
     {
-      "id": "tv",
-      "color": "#60758c",
-      "flicker": 0.4,
+      "id": "pane-2",
       "polygon": [
         [
-          56,
-          135
+          356,
+          92
         ],
         [
-          103,
-          130
+          414,
+          121
         ],
         [
-          135,
-          189
+          414,
+          188
         ],
         [
-          78,
+          356,
+          159
+        ]
+      ],
+      "reflections": [
+        [
+          [
+            364,
+            99
+          ],
+          [
+            380,
+            123
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "pane-3",
+      "polygon": [
+        [
+          420,
+          125
+        ],
+        [
+          438,
+          137
+        ],
+        [
+          438,
+          199
+        ],
+        [
+          420,
           191
+        ]
+      ],
+      "reflections": [
+        [
+          [
+            428,
+            132
+          ],
+          [
+            444,
+            156
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "pane-4",
+      "polygon": [
+        [
+          438,
+          137
+        ],
+        [
+          449,
+          148
+        ],
+        [
+          449,
+          205
+        ],
+        [
+          438,
+          199
+        ]
+      ],
+      "reflections": [
+        [
+          [
+            446,
+            144
+          ],
+          [
+            462,
+            168
+          ]
         ]
       ]
     }
   ],
-  "rgb": {
-    "id": "rgb",
-    "polygon": [
-      [
-        224,
-        26
-      ],
-      [
-        438,
-        133
-      ],
-      [
-        438,
-        136
-      ],
-      [
-        224,
-        29
-      ]
-    ]
-  },
-  "windows": [
+  "glows": [
     {
-      "id": "city-window",
+      "id": "left-lamp",
+      "style": "lamp",
+      "anchor": {
+        "spriteId": "lamp-left"
+      },
       "polygon": [
         [
-          251,
+          -12,
+          20
+        ],
+        [
+          24,
+          20
+        ],
+        [
+          36,
           52
         ],
         [
-          427,
-          140
-        ],
-        [
-          427,
-          184
-        ],
-        [
-          251,
-          96
+          -20,
+          52
         ]
-      ],
-      "twinkles": [
-        {
-          "x": 269,
-          "y": 81,
-          "w": 2,
-          "h": 2
-        },
-        {
-          "x": 293,
-          "y": 99,
-          "w": 2,
-          "h": 2
-        },
-        {
-          "x": 319,
-          "y": 106,
-          "w": 2,
-          "h": 2
-        },
-        {
-          "x": 347,
-          "y": 126,
-          "w": 2,
-          "h": 2
-        },
-        {
-          "x": 378,
-          "y": 137,
-          "w": 2,
-          "h": 2
-        },
-        {
-          "x": 408,
-          "y": 154,
-          "w": 2,
-          "h": 2
-        }
+      ]
+    },
+    {
+      "id": "window-lamp",
+      "style": "lamp",
+      "anchor": {
+        "spriteId": "lamp-window"
+      },
+      "polygon": [
+        [
+          -12,
+          20
+        ],
+        [
+          24,
+          20
+        ],
+        [
+          36,
+          52
+        ],
+        [
+          -20,
+          52
+        ]
+      ]
+    },
+    {
+      "id": "tv-glow",
+      "style": "tv",
+      "anchor": {
+        "spriteId": "tv"
+      },
+      "polygon": [
+        [
+          3,
+          8
+        ],
+        [
+          49,
+          8
+        ],
+        [
+          55,
+          40
+        ],
+        [
+          -4,
+          40
+        ]
+      ]
+    },
+    {
+      "id": "hearth",
+      "style": "fire",
+      "anchor": {
+        "spriteId": "fireplace"
+      },
+      "polygon": [
+        [
+          3,
+          15
+        ],
+        [
+          64,
+          15
+        ],
+        [
+          64,
+          36
+        ],
+        [
+          3,
+          36
+        ]
+      ]
+    },
+    {
+      "id": "fire-pit-glow",
+      "style": "fire",
+      "anchor": {
+        "spriteId": "terrace-fire"
+      },
+      "polygon": [
+        [
+          -6,
+          5
+        ],
+        [
+          35,
+          5
+        ],
+        [
+          35,
+          25
+        ],
+        [
+          -6,
+          25
+        ]
       ]
     }
   ],
   "steam": [
     {
-      "x": 236,
-      "y": 224
+      "anchor": {
+        "spriteId": "table"
+      },
+      "x": 29,
+      "y": 8
+    }
+  ],
+  "backdropTwinkles": [],
+  "levels": [
+    {
+      "id": 0,
+      "name": "main"
+    },
+    {
+      "id": -1,
+      "name": "sunken living"
     }
   ]
 }

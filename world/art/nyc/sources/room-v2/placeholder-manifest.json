@@ -1,0 +1,1132 @@
+{
+  "version": 1,
+  "pixelScale": 4,
+  "sheets": {
+    "placeholder-a-living.png": {
+      "sourceSize": [
+        1792,
+        960
+      ],
+      "artSize": [
+        448,
+        240
+      ],
+      "cleaned": "_sheets/placeholder-a-living.png",
+      "names": [
+        "sectional",
+        "coffee-table",
+        "large-rug",
+        "round-rug",
+        "beanbag-plum",
+        "beanbag-cream",
+        "floor-cushion",
+        "wall-tv",
+        "fireplace",
+        "window-seat",
+        "egg-chair"
+      ]
+    },
+    "placeholder-b-kitchen.png": {
+      "sourceSize": [
+        1792,
+        640
+      ],
+      "artSize": [
+        448,
+        160
+      ],
+      "cleaned": "_sheets/placeholder-b-kitchen.png",
+      "names": [
+        "island",
+        "stool-a",
+        "stool-b",
+        "coffee-corner",
+        "cabinets-fridge",
+        "dual-monitor-desk",
+        "gaming-chair",
+        "bookshelf"
+      ]
+    },
+    "placeholder-c-decor.png": {
+      "sourceSize": [
+        1792,
+        1280
+      ],
+      "artSize": [
+        448,
+        320
+      ],
+      "cleaned": "_sheets/placeholder-c-decor.png",
+      "names": [
+        "monstera",
+        "hanging-pothos",
+        "small-plant-a",
+        "small-plant-b",
+        "small-plant-c",
+        "floor-lamp-a",
+        "floor-lamp-b",
+        "table-lamp",
+        "record-player",
+        "record-crate",
+        "guitar",
+        "poster-a",
+        "poster-b",
+        "poster-c",
+        "moon-sign"
+      ]
+    },
+    "placeholder-d-terrace.png": {
+      "sourceSize": [
+        1792,
+        640
+      ],
+      "artSize": [
+        448,
+        160
+      ],
+      "cleaned": "_sheets/placeholder-d-terrace.png",
+      "names": [
+        "lounger-a",
+        "lounger-b",
+        "fire-pit",
+        "patio-heater",
+        "pine-a",
+        "pine-b",
+        "pine-c",
+        "snowman"
+      ]
+    }
+  },
+  "sprites": {
+    "sectional": {
+      "file": "sectional.png",
+      "size": [
+        72,
+        38
+      ],
+      "width": 72,
+      "height": 38,
+      "baseLine": 38,
+      "sheet": "placeholder-a-living.png",
+      "bounds": [
+        10,
+        8,
+        82,
+        46
+      ]
+    },
+    "coffee-table": {
+      "file": "coffee-table.png",
+      "size": [
+        38,
+        24
+      ],
+      "width": 38,
+      "height": 24,
+      "baseLine": 24,
+      "sheet": "placeholder-a-living.png",
+      "bounds": [
+        122,
+        8,
+        160,
+        32
+      ]
+    },
+    "large-rug": {
+      "file": "large-rug.png",
+      "size": [
+        84,
+        44
+      ],
+      "width": 84,
+      "height": 44,
+      "baseLine": 44,
+      "sheet": "placeholder-a-living.png",
+      "bounds": [
+        232,
+        8,
+        316,
+        52
+      ]
+    },
+    "round-rug": {
+      "file": "round-rug.png",
+      "size": [
+        38,
+        22
+      ],
+      "width": 38,
+      "height": 22,
+      "baseLine": 22,
+      "sheet": "placeholder-a-living.png",
+      "bounds": [
+        344,
+        8,
+        382,
+        30
+      ]
+    },
+    "beanbag-plum": {
+      "file": "beanbag-plum.png",
+      "size": [
+        24,
+        25
+      ],
+      "width": 24,
+      "height": 25,
+      "baseLine": 25,
+      "sheet": "placeholder-a-living.png",
+      "bounds": [
+        10,
+        88,
+        34,
+        113
+      ]
+    },
+    "beanbag-cream": {
+      "file": "beanbag-cream.png",
+      "size": [
+        24,
+        25
+      ],
+      "width": 24,
+      "height": 25,
+      "baseLine": 25,
+      "sheet": "placeholder-a-living.png",
+      "bounds": [
+        122,
+        88,
+        146,
+        113
+      ]
+    },
+    "floor-cushion": {
+      "file": "floor-cushion.png",
+      "size": [
+        18,
+        14
+      ],
+      "width": 18,
+      "height": 14,
+      "baseLine": 14,
+      "sheet": "placeholder-a-living.png",
+      "bounds": [
+        234,
+        88,
+        252,
+        102
+      ]
+    },
+    "wall-tv": {
+      "file": "wall-tv.png",
+      "size": [
+        48,
+        34
+      ],
+      "width": 48,
+      "height": 34,
+      "baseLine": 34,
+      "sheet": "placeholder-a-living.png",
+      "bounds": [
+        346,
+        88,
+        394,
+        122
+      ]
+    },
+    "fireplace": {
+      "file": "fireplace.png",
+      "size": [
+        62,
+        28
+      ],
+      "width": 62,
+      "height": 28,
+      "baseLine": 28,
+      "sheet": "placeholder-a-living.png",
+      "bounds": [
+        10,
+        168,
+        72,
+        196
+      ]
+    },
+    "window-seat": {
+      "file": "window-seat.png",
+      "size": [
+        54,
+        28
+      ],
+      "width": 54,
+      "height": 28,
+      "baseLine": 28,
+      "sheet": "placeholder-a-living.png",
+      "bounds": [
+        122,
+        168,
+        176,
+        196
+      ]
+    },
+    "egg-chair": {
+      "file": "egg-chair.png",
+      "size": [
+        30,
+        58
+      ],
+      "width": 30,
+      "height": 58,
+      "baseLine": 58,
+      "sheet": "placeholder-a-living.png",
+      "bounds": [
+        234,
+        168,
+        264,
+        226
+      ]
+    },
+    "island": {
+      "file": "island.png",
+      "size": [
+        50,
+        30
+      ],
+      "width": 50,
+      "height": 30,
+      "baseLine": 30,
+      "sheet": "placeholder-b-kitchen.png",
+      "bounds": [
+        10,
+        8,
+        60,
+        38
+      ]
+    },
+    "stool-a": {
+      "file": "stool-a.png",
+      "size": [
+        12,
+        25
+      ],
+      "width": 12,
+      "height": 25,
+      "baseLine": 25,
+      "sheet": "placeholder-b-kitchen.png",
+      "bounds": [
+        122,
+        8,
+        134,
+        33
+      ]
+    },
+    "stool-b": {
+      "file": "stool-b.png",
+      "size": [
+        12,
+        25
+      ],
+      "width": 12,
+      "height": 25,
+      "baseLine": 25,
+      "sheet": "placeholder-b-kitchen.png",
+      "bounds": [
+        234,
+        8,
+        246,
+        33
+      ]
+    },
+    "coffee-corner": {
+      "file": "coffee-corner.png",
+      "size": [
+        48,
+        40
+      ],
+      "width": 48,
+      "height": 40,
+      "baseLine": 40,
+      "sheet": "placeholder-b-kitchen.png",
+      "bounds": [
+        346,
+        8,
+        394,
+        48
+      ]
+    },
+    "cabinets-fridge": {
+      "file": "cabinets-fridge.png",
+      "size": [
+        44,
+        58
+      ],
+      "width": 44,
+      "height": 58,
+      "baseLine": 58,
+      "sheet": "placeholder-b-kitchen.png",
+      "bounds": [
+        10,
+        88,
+        54,
+        146
+      ]
+    },
+    "dual-monitor-desk": {
+      "file": "dual-monitor-desk.png",
+      "size": [
+        56,
+        36
+      ],
+      "width": 56,
+      "height": 36,
+      "baseLine": 36,
+      "sheet": "placeholder-b-kitchen.png",
+      "bounds": [
+        122,
+        88,
+        178,
+        124
+      ]
+    },
+    "gaming-chair": {
+      "file": "gaming-chair.png",
+      "size": [
+        20,
+        35
+      ],
+      "width": 20,
+      "height": 35,
+      "baseLine": 35,
+      "sheet": "placeholder-b-kitchen.png",
+      "bounds": [
+        234,
+        88,
+        254,
+        123
+      ]
+    },
+    "bookshelf": {
+      "file": "bookshelf.png",
+      "size": [
+        26,
+        57
+      ],
+      "width": 26,
+      "height": 57,
+      "baseLine": 57,
+      "sheet": "placeholder-b-kitchen.png",
+      "bounds": [
+        346,
+        88,
+        372,
+        145
+      ]
+    },
+    "monstera": {
+      "file": "monstera.png",
+      "size": [
+        24,
+        40
+      ],
+      "width": 24,
+      "height": 40,
+      "baseLine": 40,
+      "sheet": "placeholder-c-decor.png",
+      "bounds": [
+        10,
+        8,
+        34,
+        48
+      ]
+    },
+    "hanging-pothos": {
+      "file": "hanging-pothos.png",
+      "size": [
+        24,
+        34
+      ],
+      "width": 24,
+      "height": 34,
+      "baseLine": 34,
+      "sheet": "placeholder-c-decor.png",
+      "bounds": [
+        122,
+        8,
+        146,
+        42
+      ]
+    },
+    "small-plant-a": {
+      "file": "small-plant-a.png",
+      "size": [
+        10,
+        21
+      ],
+      "width": 10,
+      "height": 21,
+      "baseLine": 21,
+      "sheet": "placeholder-c-decor.png",
+      "bounds": [
+        234,
+        8,
+        244,
+        29
+      ]
+    },
+    "small-plant-b": {
+      "file": "small-plant-b.png",
+      "size": [
+        10,
+        21
+      ],
+      "width": 10,
+      "height": 21,
+      "baseLine": 21,
+      "sheet": "placeholder-c-decor.png",
+      "bounds": [
+        346,
+        8,
+        356,
+        29
+      ]
+    },
+    "small-plant-c": {
+      "file": "small-plant-c.png",
+      "size": [
+        10,
+        21
+      ],
+      "width": 10,
+      "height": 21,
+      "baseLine": 21,
+      "sheet": "placeholder-c-decor.png",
+      "bounds": [
+        10,
+        88,
+        20,
+        109
+      ]
+    },
+    "floor-lamp-a": {
+      "file": "floor-lamp-a.png",
+      "size": [
+        14,
+        44
+      ],
+      "width": 14,
+      "height": 44,
+      "baseLine": 44,
+      "sheet": "placeholder-c-decor.png",
+      "bounds": [
+        121,
+        88,
+        135,
+        132
+      ]
+    },
+    "floor-lamp-b": {
+      "file": "floor-lamp-b.png",
+      "size": [
+        14,
+        44
+      ],
+      "width": 14,
+      "height": 44,
+      "baseLine": 44,
+      "sheet": "placeholder-c-decor.png",
+      "bounds": [
+        233,
+        88,
+        247,
+        132
+      ]
+    },
+    "table-lamp": {
+      "file": "table-lamp.png",
+      "size": [
+        12,
+        18
+      ],
+      "width": 12,
+      "height": 18,
+      "baseLine": 18,
+      "sheet": "placeholder-c-decor.png",
+      "bounds": [
+        345,
+        88,
+        357,
+        106
+      ]
+    },
+    "record-player": {
+      "file": "record-player.png",
+      "size": [
+        38,
+        28
+      ],
+      "width": 38,
+      "height": 28,
+      "baseLine": 28,
+      "sheet": "placeholder-c-decor.png",
+      "bounds": [
+        10,
+        168,
+        48,
+        196
+      ]
+    },
+    "record-crate": {
+      "file": "record-crate.png",
+      "size": [
+        20,
+        22
+      ],
+      "width": 20,
+      "height": 22,
+      "baseLine": 22,
+      "sheet": "placeholder-c-decor.png",
+      "bounds": [
+        122,
+        168,
+        142,
+        190
+      ]
+    },
+    "guitar": {
+      "file": "guitar.png",
+      "size": [
+        12,
+        36
+      ],
+      "width": 12,
+      "height": 36,
+      "baseLine": 36,
+      "sheet": "placeholder-c-decor.png",
+      "bounds": [
+        234,
+        168,
+        246,
+        204
+      ]
+    },
+    "poster-a": {
+      "file": "poster-a.png",
+      "size": [
+        16,
+        26
+      ],
+      "width": 16,
+      "height": 26,
+      "baseLine": 26,
+      "sheet": "placeholder-c-decor.png",
+      "bounds": [
+        346,
+        168,
+        362,
+        194
+      ]
+    },
+    "poster-b": {
+      "file": "poster-b.png",
+      "size": [
+        16,
+        26
+      ],
+      "width": 16,
+      "height": 26,
+      "baseLine": 26,
+      "sheet": "placeholder-c-decor.png",
+      "bounds": [
+        10,
+        248,
+        26,
+        274
+      ]
+    },
+    "poster-c": {
+      "file": "poster-c.png",
+      "size": [
+        16,
+        26
+      ],
+      "width": 16,
+      "height": 26,
+      "baseLine": 26,
+      "sheet": "placeholder-c-decor.png",
+      "bounds": [
+        122,
+        248,
+        138,
+        274
+      ]
+    },
+    "moon-sign": {
+      "file": "moon-sign.png",
+      "size": [
+        16,
+        24
+      ],
+      "width": 16,
+      "height": 24,
+      "baseLine": 24,
+      "sheet": "placeholder-c-decor.png",
+      "bounds": [
+        234,
+        248,
+        250,
+        272
+      ]
+    },
+    "lounger-a": {
+      "file": "lounger-a.png",
+      "size": [
+        40,
+        24
+      ],
+      "width": 40,
+      "height": 24,
+      "baseLine": 24,
+      "sheet": "placeholder-d-terrace.png",
+      "bounds": [
+        10,
+        8,
+        50,
+        32
+      ]
+    },
+    "lounger-b": {
+      "file": "lounger-b.png",
+      "size": [
+        40,
+        24
+      ],
+      "width": 40,
+      "height": 24,
+      "baseLine": 24,
+      "sheet": "placeholder-d-terrace.png",
+      "bounds": [
+        122,
+        8,
+        162,
+        32
+      ]
+    },
+    "fire-pit": {
+      "file": "fire-pit.png",
+      "size": [
+        26,
+        22
+      ],
+      "width": 26,
+      "height": 22,
+      "baseLine": 22,
+      "sheet": "placeholder-d-terrace.png",
+      "bounds": [
+        234,
+        8,
+        260,
+        30
+      ]
+    },
+    "patio-heater": {
+      "file": "patio-heater.png",
+      "size": [
+        16,
+        45
+      ],
+      "width": 16,
+      "height": 45,
+      "baseLine": 45,
+      "sheet": "placeholder-d-terrace.png",
+      "bounds": [
+        345,
+        8,
+        361,
+        53
+      ]
+    },
+    "pine-a": {
+      "file": "pine-a.png",
+      "size": [
+        18,
+        36
+      ],
+      "width": 18,
+      "height": 36,
+      "baseLine": 36,
+      "sheet": "placeholder-d-terrace.png",
+      "bounds": [
+        10,
+        88,
+        28,
+        124
+      ]
+    },
+    "pine-b": {
+      "file": "pine-b.png",
+      "size": [
+        18,
+        36
+      ],
+      "width": 18,
+      "height": 36,
+      "baseLine": 36,
+      "sheet": "placeholder-d-terrace.png",
+      "bounds": [
+        122,
+        88,
+        140,
+        124
+      ]
+    },
+    "pine-c": {
+      "file": "pine-c.png",
+      "size": [
+        18,
+        36
+      ],
+      "width": 18,
+      "height": 36,
+      "baseLine": 36,
+      "sheet": "placeholder-d-terrace.png",
+      "bounds": [
+        234,
+        88,
+        252,
+        124
+      ]
+    },
+    "snowman": {
+      "file": "snowman.png",
+      "size": [
+        18,
+        30
+      ],
+      "width": 18,
+      "height": 30,
+      "baseLine": 30,
+      "sheet": "placeholder-d-terrace.png",
+      "bounds": [
+        346,
+        88,
+        364,
+        118
+      ]
+    },
+    "tower-glass": {
+      "file": "tower-glass.png",
+      "size": [
+        104,
+        236
+      ],
+      "width": 104,
+      "height": 236,
+      "baseLine": 236,
+      "category": "building",
+      "source": "sources/buildings/tower-glass-original.png",
+      "twinkles": [
+        {
+          "x": 32,
+          "y": 30,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 53,
+          "y": 54,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 17,
+          "y": 62,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 80,
+          "y": 66,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 89,
+          "y": 78,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 11,
+          "y": 86,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 17,
+          "y": 90,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 8,
+          "y": 102,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 8,
+          "y": 106,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 83,
+          "y": 114,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 83,
+          "y": 118,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 32,
+          "y": 126,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 35,
+          "y": 130,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 53,
+          "y": 134,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 77,
+          "y": 142,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 5,
+          "y": 150,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 11,
+          "y": 154,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 83,
+          "y": 158,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 17,
+          "y": 166,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 95,
+          "y": 174,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 86,
+          "y": 178,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 83,
+          "y": 182,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 29,
+          "y": 190,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 11,
+          "y": 202,
+          "w": 1,
+          "h": 1
+        }
+      ]
+    },
+    "tower-brick-water": {
+      "file": "tower-brick-water.png",
+      "size": [
+        106,
+        208
+      ],
+      "width": 106,
+      "height": 208,
+      "baseLine": 208,
+      "category": "building",
+      "source": "sources/buildings/tower-brick-water-original.png",
+      "twinkles": [
+        {
+          "x": 77,
+          "y": 30,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 17,
+          "y": 58,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 17,
+          "y": 62,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 29,
+          "y": 66,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 53,
+          "y": 66,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 74,
+          "y": 70,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 53,
+          "y": 74,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 14,
+          "y": 78,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 41,
+          "y": 82,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 41,
+          "y": 86,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 74,
+          "y": 90,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 74,
+          "y": 94,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 29,
+          "y": 102,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 41,
+          "y": 102,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 41,
+          "y": 106,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 14,
+          "y": 110,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 17,
+          "y": 114,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 17,
+          "y": 118,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 14,
+          "y": 130,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 14,
+          "y": 134,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 32,
+          "y": 138,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 32,
+          "y": 142,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 95,
+          "y": 142,
+          "w": 1,
+          "h": 1
+        },
+        {
+          "x": 14,
+          "y": 150,
+          "w": 1,
+          "h": 1
+        }
+      ]
+    }
+  }
+}
