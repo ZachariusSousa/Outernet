@@ -120,7 +120,7 @@ A small animated world where the agents live, driven by the real event log. The 
 Build order: **the pretty version first**. It still runs on real events from the start, so it can double as a debugging view later.
 
 ### Look
-- **Isometric pixel-art rooms**: each space is an isometric pixel room (cutaway, near walls removed) made of a city backdrop and one furnished room image on its tower, with see-through windows, plus a few small swappable decor sprites (a fully modular version lost the composition and lighting), like `docs/look-refs/ref-iso-pixel-room.png`, with the warmth of lofi city-at-night art (`ref-lofi-*`, `ref-anime-city-night.png`). The room is generated with an AI image tool and cleaned into true pixel art (whole-number scaling, no dithering); agents walk behind furniture via occluder outlines drawn in placement mode. String lights and LED strips are drawn by code so they're easy to change. Live layers add flicker, glass reflections, snow, twinkling city lights and steam. Creatures are pixel sprites from the approved designs (`world/art/agents/style-test.svg`). (Tried first: several 3D approaches, ending in a soft HD-2D three.js city with CC0 models (`docs/look-refs/hd2d-*.webp`). It got clean but never felt like a lofi painting; the vibe lives in illustration.)
+- **Eye-level lofi pixel rooms**: each space is one cozy room seen from inside at eye level, like a lofi stream background (target: `docs/look-refs/ref-lofi-neon-room.png`), as pixel art. One AI-generated room image with see-through windows onto a city backdrop, occluder outlines for depth, a code-drawn neon sign (owner picks color and word or shape), and a lofi grade (night shade, light pools, glow, vignette, grain). Creatures keep the approved block designs (`world/art/agents/style-test.svg`) but are lit by the room (light pools, neon tint, rim light, outline) so they belong. (Tried first: many 3D approaches, then isometric pixel dioramas. Iso felt like looking at a game map, and flat unlit creatures looked like stickers.)
 - **Every space is cozy pixel art at night**, each with its own flavor and the same style. Slow ambient motion (snow, steam, traffic, flicker) keeps it alive.
 - **Sound:** ambient loops per space (muffled traffic, wind, snow hush and a far siren in New York; fire crackle and wind in Banff; water and night insects in Tokyo), an optional lofi music loop, and a soft chime when a message lands. Off by default, and a single toggle switches it on.
 - **Time of day and weather are user settings:** time follows the viewer's real clock or is fixed; weather is picked by the owner (light snow, heavy snow, clear) or left to drift slowly on its own. At night, windows and lamps light up. Street life follows the time: busy in the evening, quieter late at night.
@@ -130,7 +130,7 @@ The world is a set of small cozy **spaces**, each one scene rather than a whole 
 
 | Space | Vibe | Hangout |
 |---|---|---|
-| **New York** (first) | A small, lived-in rooftop studio on an old brick building in Midtown on a snowy night: lights low, blankets, plants, a record player and fairy lights; glowing skyscrapers rise all around and above it; a little snowy roof deck with a water tower. Lofi, not luxury | A daybed piled with blankets, a worn sofa and floor cushions around a low table, a desk by the big arched window, a tea corner, a bookshelf; on the roof deck two chairs and a fire pit |
+| **New York** (first) | A dark, lived-in living room high up in Midtown on a snowy night, seen at eye level: floor-to-ceiling windows on the glowing city, a fireplace, a TV, a neon sign in the owner's color, lights low. Lofi, not luxury | A worn sofa and armchair around a low table on a rug, floor cushions and a beanbag, a desk by the window, a tea tray, a spot by the fire |
 | **Banff** (later) | The cozy forest one: a log cabin in the Rockies in winter, pines, a fireplace, amber lamps, snow | Armchairs by the fire, a game table, window seats |
 | **Tokyo** (later) | A small onsen inn on a snowy night: lanterns, steam rising from the outdoor bath, wooden walkways | Tatami room, the bath, a low table |
 | Later | A coffee shop and more, all in the same pixel style | |
@@ -195,7 +195,7 @@ Playback rules for the coder:
 - **Connect screen:** the frontend doesn't host anything. The user points their agent at a model endpoint they run themselves, either on their own PC or on their own cloud box. Hosting and its cost are up to the user; OuterNet only provides the way to connect.
 
 ### Scale
-M0's 12 agents share the New York rooftop studio. With a real network, the view shows your home space, plus visitors when peers help you. Other spaces could show up later as lit windows or a small map. Showing every node is never the goal.
+M0's 12 agents share the New York living room. With a real network, the view shows your home space, plus visitors when peers help you. Other spaces could show up later as lit windows or a small map. Showing every node is never the goal.
 
 ### Data the view needs
 - A `roster` event at the start of a run: each node's id, name, model, engine, interest, home space and library size. The run config sets home spaces. W0 has only New York, so all 12 agents live there; from W1 on they are split across spaces.
@@ -209,7 +209,7 @@ M0's 12 agents share the New York rooftop studio. With a real network, the view 
 - Keep it light. The desktop's GPUs are busy serving models in M0, so the page should run smoothly on a laptop's integrated graphics, or be viewed from another machine.
 
 ### World milestones
-- **W0:** one space (the New York rooftop studio) with all 12 agents, replaying a generated fake log (M0 logs once they exist) with the full event → animation table, plus camera controls and the agent card. Build spec: `docs/world-w0-spec.md`.
+- **W0:** one space (the New York living room) with all 12 agents, replaying a generated fake log (M0 logs once they exist) with the full event → animation table, plus camera controls and the agent card. Build spec: `docs/world-w0-spec.md`.
 - **W1:** a second space (Banff or Tokyo), choosing a home space, and the time-of-day setting.
 - **Later:** the coffee shop and other spaces.
 - **W2:** debug overlays (message lines, load heat, wrong answers) and a timeline scrubber.

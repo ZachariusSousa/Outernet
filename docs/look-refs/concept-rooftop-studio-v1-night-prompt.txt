@@ -1,0 +1,21 @@
+Use the attached image ONLY as the reference for pixel art style, pixel size, palette and low night lighting. Draw a COMPLETELY DIFFERENT, MUCH SMALLER place. Do NOT reuse the luxury penthouse architecture, huge floor plan, fireplace wall, glass facade or kitchen.
+
+A small, cozy, lived-in studio built on the roof of an old SEVEN-storey New York BRICK building, at night in winter. Isometric cutaway, classic 2:1 angle, near walls removed so the whole studio is visible. Small rectangular rooftop studio with old brick/plaster walls and intimate clustered furniture, a little messy, warm and modest. The view is close: the studio and its adjoining roof deck together fill about 75% of the image WIDTH, centered with generous perfectly flat magenta margins; show only ONE top floor of the brick building below. The building continues beyond the bottom edge. Landscape composition. Most image content should be the studio and deck, not a tall building shaft.
+
+Inside the studio:
+- a big ARCHED old factory window on the back wall, with a radiator under it;
+- a desk by that window with a laptop, a SMALL monitor, a warm desk lamp, a mug and scattered papers;
+- a daybed in a nook, piled with blankets and pillows;
+- a worn sofa and floor cushions around a low table with a board game and TWO mugs;
+- a bookshelf crammed with books, a record player on a low cabinet with a crate of vinyl;
+- a TEA corner: a kettle and mugs on a small cabinet, NO kitchen, no island, no stove;
+- plants on every ledge, a hanging pothos, posters WITHOUT text, TWO overlapping rugs, a guitar.
+The whole studio should feel small and cozy, not a spacious loft: objects close together with a small readable path, no large empty central floor. Daybed and worn sofa are separate.
+
+Outside the door: a SMALL snowy roof deck on the dark tar roof, with an old round WOODEN WATER TOWER ON LEGS, TWO worn chairs around a SMALL fire pit, vent pipes and a chimney with snow on them. Simple old rooftop parapet, not a luxurious glass terrace. The water tank is on the roof deck, clearly visible, with a modest conical top. Cold blue snow caps on parapets, pipes and chimney.
+
+Lights LOW, late at night: the room MOSTLY in DEEP BLUE-PURPLE SHADOW, lit ONLY by a warm desk lamp, the laptop screen, a SMALL TABLE LAMP and the fire pit outside. Soft localized amber pools around the lamps and fire, dim cool screen light at the desk, genuinely dark corners, slightly muted colors. Lofi, calm, nostalgic. Furniture readable in cool shadow but no bright ambient daylight. Use clean restrained flat pixel shading bands for light falloff. No huge bright glowing fireplace inside.
+
+CHROMA KEY: ALL factory window panes and the ENTIRE background outside the building are EXACT solid flat magenta #FF00FF, perfectly uniform. No sky, no skyline or scenery in panes. Magenta must cast NO light: absolutely NO pink tint on brick, snow, furnishings or edges. No magenta shadows, gradients, reflections or glow. Keep non-window architectural materials their proper colors. The old brick building top floor below has normal opaque dark windows, NOT magenta panes.
+
+Clean crisp hand-drawn pixel art, limited palette matching reference: muted walnut/cream/rust brick, dusty plum and olive, amber light, deep cool blue shadows and snow. NO dithering, NO noise, NO blotchy wall/floor textures, NO text, NO people, NO animals, NO characters, NO LED strips or string lights. Keep the crisp visible pixel size of reference rather than a smooth 3D render.

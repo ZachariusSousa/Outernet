@@ -1,0 +1,3 @@
+# Rooftop studio concept — 2026-10-24
+
+Generated a new, smaller rooftop studio concept with built-in OpenAI imagegen, using concept-cozy-penthouse-v4-night.png for style/palette/lighting only. Saved as docs/look-refs/concept-rooftop-studio-v1-night.png, with the exact prompt beside it. Requested an old brick rooftop studio with arched factory window, radiator, daybed, worn living furniture, tea corner, books/records/plants, snowy tar-roof deck, wooden water tower and fire pit. Background and studio panes are magenta for keying. This is a separate concept; live scene and design documents remain unchanged. No commit.

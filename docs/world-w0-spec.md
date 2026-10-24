@@ -3,7 +3,7 @@
 This is the handoff for the first build of the world frontend. `docs/design.md` ("The world" section) is the vision. This file is what to build now. If the two disagree, this file wins for W0. Ask Zach if something here is unclear rather than guessing.
 
 ## Goal
-A browser page showing **a small, lived-in rooftop studio on an old brick building in Midtown New York, on a snowy night, as an isometric pixel-art room**, with **12 agents** going about their day, replaying an event log. Pretty first: it should feel like a VRChat hangout world or a lofi YouTube background you leave open on a second monitor, an escape while you work. Starting with one room keeps W0 small; more spaces come later. People only watch; nothing in the world is clickable except agents (to inspect them) and the camera.
+A browser page showing **a dark, lived-in New York living room on a snowy night, seen at eye level, as lofi pixel art**, with **12 agents** going about their day, replaying an event log. Pretty first: it should feel like a VRChat hangout world or a lofi YouTube background you leave open on a second monitor, an escape while you work. Starting with one room keeps W0 small; more spaces come later. People only watch; nothing in the world is clickable except agents (to inspect them) and the camera.
 
 ## Out of scope for W0
 The apartment and any other space, choosing a home space, time-of-day and weather settings (W0 is fixed at a snowy evening, but keep them as look values), sound and music, debug overlays, timeline scrubber, live streaming from the simulator, chat overlay, connect screen, reputation lanterns, user avatars. Don't build hooks for these beyond keeping the code tidy.
@@ -12,7 +12,7 @@ The apartment and any other space, choosing a home space, time-of-day and weathe
 ```
 world/
   index.html, src/...        the page (2D canvas; build tooling is your pick, keep it simple)
-  art/nyc/                   backdrop.png, room.png, sprites/ (small decor), layout.json, scene.json (occluders, spots, paths, windows, glow), CREDITS.md
+  art/nyc/                   backdrop.png, room.png, sprites/ (small decor), scene.json (occluders, spots, paths, windows, light pools, neon), CREDITS.md
   art/agents/                style-test.svg (approved creature designs) and the sprites made from it
   tools/pixel_clean.py       snaps an AI image to a clean pixel grid and palette
   tools/sprite_cut.py        cuts a magenta sprite sheet into named, trimmed sprites
@@ -68,29 +68,30 @@ Interests are assigned across models with three unrelated interests per model. N
 
 Species comes from `model` (unknown diffusion model = jellyfish, unknown AR model = red panda, per design.md). The three agents sharing a species also get a small color tint each so they can be told apart.
 
-## 4. The New York rooftop studio (isometric pixel room)
-**Target look:** `docs/look-refs/ref-iso-pixel-room.png`: a hand-drawn-style isometric pixel-art cutaway room (two walls and a floor, the near walls removed), warm and cozy, clean pixels, soft pixel lighting. Mood and color: the lofi references (`ref-lofi-window-tokyo.webp`, `ref-lofi-neon-room.png`, `ref-lofi-terrace.webp`, `ref-anime-city-night.png`): warm lamps inside, purple RGB glow, a glowing night city with snow beyond big windows. Layout ideas: `concept-nyc-ai.webp`.
+## 4. The New York living room (eye-level lofi pixel art)
+**Target:** `docs/look-refs/ref-lofi-neon-room.png` is the one Zach picked as "that's it": you are *inside* a dark cozy room at eye level, with a neon sign, a fireplace, a TV, and the night city through floor-to-ceiling glass. We make that as **lofi pixel art** (like pixel lofi stream backgrounds), not as a painting and not isometric. (Iso dioramas felt like looking *at* a game map; see `docs/look-refs/studio-v1-12-agents*.png` for the last iso attempt.)
 
-**Why 2D:** the 3D builds (`hd2d-close-final.webp`, `hd2d-far-final.webp`) got clean but never got the painted lofi warmth. The look comes from illustration, so W0 is a single illustrated pixel room with live animation on top.
+**The scene:** a lived-in (not luxury) living room high up in a Midtown apartment, at night in falling snow, seen from a slightly raised eye-level camera looking toward the windows.
+- Back wall: floor-to-ceiling windows with dark frames, the snowy city glowing beyond.
+- One side: a fireplace with a low fire, a TV above or beside it, shelves with books, records and plants.
+- Front and middle: a big worn sofa and armchair facing a low coffee table on a rug, floor cushions, a beanbag, a side table with a lamp, a tea tray. There's enough visible floor for 12 small creatures to sit, lie, and walk between the sofa, window, fireplace and table.
+- Other side: a small desk by the window with a laptop and a desk lamp, and a big plant.
+- A blank wall area where the neon sign goes (drawn by code).
+- Lights low: the room mostly in deep blue-purple shadow, lit by the fire, the lamp, the TV and the city glow.
 
-**How the room is made: one furnished image, plus a few changeable layers.** (A fully modular version, with every furniture piece as a separate sprite, was tried and lost the composition, scale and shared lighting that make the room look good; see `docs/look-refs/modular-attempt.png`.)
-- **City backdrop** (`art/nyc/backdrop.png`): a wide pixel skyline at night in snow, seen from a low rooftop, so the glowing skyscrapers rise *above* the studio and loom around it. Drawn behind everything, with slight parallax when panning.
-- **The furnished studio on its building** (`art/nyc/room.png`): one AI-generated image, composed and lit together. **Why a studio:** "penthouse" read as luxury and showroom, the opposite of lofi. Lofi rooms are small, lived-in and a bit messy, with the city huge outside. The scene: a small cozy studio built on the roof of an old 6-8 storey brick building, cut open isometrically. Inside: a big arched factory window, a desk by the window with a laptop, a monitor and a lamp, a daybed or bed nook piled with blankets and pillows, a worn sofa or floor cushions around a low table, a bookshelf, a record player with a vinyl crate, a radiator under the window, posters and plants everywhere, rugs, and a tea corner (a kettle and mugs on a small cabinet). No kitchen. Outside the door: a small snowy roof deck on the tar roof with an old water tower, two worn chairs and a small fire pit, vent pipes and a chimney with snow. Lights low at night: the room mostly in blue-purple shadow, lit by a lamp, the desk screen, fairy-light glow and the fire pit. Window panes and everything outside the building are magenta `#FF00FF` and become transparent, so the backdrop shows through.
-- **One pixel scale:** room and backdrop go through the same cleanup (`tools/pixel_clean.py` or unfake.js, whichever won) to the same art-pixel size. Creatures are sized against the real sofa or daybed (about a third of its width).
-- **Depth from outlines (occluders):** in placement mode, draw polygons around furniture agents can walk behind (sofa back, daybed, desk, shelves, big plants, the water tower legs) and set each one's **foot line**. The page re-draws an occluder over any agent whose feet are behind its foot line.
-- **Small decor sprites** (`art/nyc/sprites/*.png`): a few swappable small items (plants, posters, mugs, a book stack, a record crate), cut from a magenta sprite sheet by `tools/sprite_cut.py` and placed by `layout.json`, depth-sorted by their base line. Big furniture changes are made by editing or regenerating the room image.
+**How it's made (layers, back to front):**
+- **City backdrop** (`art/nyc/backdrop.png`): the snowy night skyline as seen through the windows at eye level from a high floor, with slight parallax.
+- **The room** (`art/nyc/room.png`): one AI-generated pixel image of the furnished room, composed and lit together. Window panes are magenta `#FF00FF` and become transparent so the backdrop shows through. Cleaned to true pixel art (no dithering, whole-number scaling) with the winning cleanup.
+- **Glass:** a subtle tint and reflections over the panes, and snow falling outside.
+- **Agents and occluders:** occluder polygons with foot lines around the sofa back, armchair, coffee table, desk and big plant (drawn in placement mode), so agents sit behind and in front of things correctly. Agents nearer the camera (lower on screen) are drawn slightly larger, by whole-pixel steps at most one or two sizes, to give depth.
+- **Code-drawn neon sign:** the owner picks the color (default pink) and a short word or a simple shape (a moon, a heart, a wave). Drawn in a pixel neon font with a glow and a gentle flicker, and its glow tints the nearby wall and creatures.
+- **Lofi grade:** a night layer darkening the room toward blue-purple, soft light pools around the fire, lamps, TV, screens and neon; glow halos; a gentle vignette and grain; steam from mugs; flicker on the fire and TV.
+- **Small decor sprites:** a few swappable small items (plants, mugs, books, posters) cut from a magenta sheet by `tools/sprite_cut.py`.
 - Until Zach's images exist, keep clearly-placeholder art in the same format.
 
-**Code-drawn decor (easy to change):** string lights, fairy lights and the RGB LED strip are drawn by code as pixel lights along polylines in `layout.json`. Each has a color, bulb spacing and twinkle in look.js, and can be switched on or off. Placement mode edits the polylines. The RGB strip uses the owner's chosen color (default purple).
+**Room-lit creatures:** the block creatures keep the approved designs exactly, but are lit by the room: each light pool and the neon tint them by distance (warm near the fire and lamp, pink-purple near the neon, blue near the window), they get a 1-pixel rim highlight on the side facing the nearest strong light, a 1-pixel dark outline in a darker shade of their own color, and a soft contact shadow. The night layer darkens them like everything else. They should look like they're in the room, not pasted on.
 
-**Live layers on top** (all at art-pixel scale, crisp):
-- a subtle glass layer over the window panes: a light blue tint and a few diagonal reflection streaks;
-- gentle flicker for lamps, the fireplace, the fire pit and the TV (small glow regions that follow their sprites); the light itself is in the art;
-- snow falling across the whole view (in front of and behind the building), twinkling windows on the backdrop, steam from mugs, dust in lamp light.
-
-**Two floor levels:** the sunken living area is one level down. Spots and paths carry a floor level, and walking in or out of the pit goes over the steps.
-
-**Scene file** `art/nyc/scene.json` (image pixel coordinates): window pane polygons for the glass layer, glow regions, and **hangout spots**: each with x, y, floor level, pose (`sit`, `lie`, `stand`, `floor`), facing (left or right), and tags (`comfy`, `game` grouped for partners, `window`, `snack`, `terrace`), plus walk paths between spots. Spots can be attached to a sprite, so they move with it. Agents take the nearest free spot for their activity, so they never overlap. Placement mode edits all of it and copies the JSON.
+**Scene file** `art/nyc/scene.json` (image pixel coordinates): occluders and foot lines, window pane polygons, light pools (position, radius, color, strength, flicker), the neon sign's position and size, and **hangout spots**: each with x, y, pose (`sit`, `lie`, `stand`, `floor`), facing (left or right), a depth scale, and tags (`comfy`, `game` grouped for partners, `window`, `snack`, `fire`), plus walk paths. Agents take the nearest free spot for their activity, so they never overlap. Placement mode edits all of it and copies the JSON.
 
 ## 5. Agents and animation
 Implement the event → animation table in design.md ("The world" → Event → animation). Agents act like people: **the activity shows in what an agent holds and does, not at a fixed station.**
@@ -132,7 +133,7 @@ Implement the event → animation table in design.md ("The world" → Event → 
 ## 9. Look settings (for the polish pass)
 Every look value lives in **`world/src/look.js`**, a plain, commented object, with nothing hard-coded elsewhere:
 - art size and default zoom; palette for `pixel_clean.py`;
-- light regions: strength, flicker speed and amount; RGB color (default purple) and glow;
+- light pools: strength, radius, flicker; the neon sign's color (default pink), word or shape, and glow; creature lighting (pool tint strength, rim light, outline);
 - snow: amount per weather, speed, flake sizes, two depths; city twinkle rate; steam and dust;
 - a final grade: warmth, contrast, a soft vignette;
 - agents: tints, bob, hop and blink timing, resting wander timing, plane timing constants.
@@ -147,10 +148,11 @@ Changing look.js updates the page on reload.
 - [ ] The room is crisp pixel art at a whole-number scale, letterboxed, never stretched or blurred.
 - [ ] The cleanup turns AI images into clean pixel art at one shared scale (no dithering, palette-snapped, true pixel grid), and `sprite_cut.py` splits sprite sheets into trimmed, named sprites.
 - [ ] All 12 agents are visible as pixel sprites; each species and each agent within a species is tellable apart; agents never overlap each other.
-- [ ] Occluders work: an agent behind the sofa or daybed is hidden by it, and one in front is not; small decor sprites sort by their base line.
+- [ ] Occluders work: an agent behind the sofa or armchair is hidden by it, and one in front is not; small decor sprites sort by their base line.
 - [ ] Small decor sprites can be moved, flipped, added or removed in placement mode with no new art.
-- [ ] The window panes and surroundings are transparent: the backdrop city shows through and around the building.
-- [ ] String lights, fairy lights and the LED strip are code-drawn along editable polylines.
+- [ ] The window panes are transparent: the backdrop city shows through, with snow outside.
+- [ ] The neon sign is code-drawn; changing its color or word in look.js changes it and the light it casts.
+- [ ] Creatures look lit by the room (light pools, neon tint, rim light, outline, contact shadow), not pasted on.
 - [ ] Every row of the event → animation table has been seen on screen; studying, playing and helping read clearly from what agents hold; resting agents wander naturally.
 - [ ] Planes go to the right agent, declined replies look different, and timing follows the formula.
 - [ ] Lamps, TV and RGB glow flicker gently; snow falls in the window; changing the RGB color in look.js recolors the strip.
