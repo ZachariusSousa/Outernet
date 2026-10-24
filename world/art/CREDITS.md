@@ -6,3 +6,6 @@ All PNGs under cabin/ and agents/ are original plain placeholder images generate
 - agents/style-test.svg: user-supplied project reference. Four species part SVGs are exact shape extractions from that file, with new closed-eye parts. No third-party source imported.
 - cabin/*.svg, cabin/furniture/*.svg, agents/props/*.svg, agents/planes/*.svg, agents/decor/*.svg: original artwork drawn for OuterNet; CC0 1.0.
 - All original placeholder PNG credits above remain applicable to legacy files, which are no longer the active roster/cabin art.
+
+## Blender flat scene (2026-10-24)
+All models and materials in blender/build_flat.py are original procedural geometry created for OuterNet, dedicated to CC0 1.0. No external models, textures or HDRIs. The look-reference images were inspected for lighting/composition only and are not embedded in the output. Blender is a separate GPL application, not an art asset.

@@ -27,3 +27,6 @@ Canvas 2D draws sky, room, foot-sorted furniture/puppets, front, additive light 
 The active cabin layers/furniture are now 1920×1080 SVGs. Four roster species use SVG parts split directly from style-test.svg, in 144×112 canvases. Props are 64×64, planes 80×64, decor 32×32. scene.json references the active files. The older PNG files are inactive for the roster but retained for fallback species. Do not run placeholder_art.mjs over this art. Press P to adjust scene placements and copy the JSON.
 
 See docs/progress-2026-10-24-block-art.md for checklist limitations.
+
+## Blender flat render checkpoint
+From repository root run `world/.tools/blender-4.2.0-windows-x64/blender.exe -b -t 8 -P world/blender/build_flat.py` (or use any installed Blender 4.2+). It uses CPU Cycles. Tune blender/look_render.py. Output is art/flat/beauty.png plus 4× preview, raw render, depth.exr, camera.json and lights.json. The saved source is blender/flat.blend. The current page still uses the earlier renderer until the render is approved and camera/depth matching is implemented.

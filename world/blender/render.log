@@ -1,0 +1,556 @@
+Blender 4.2.0 (hash a51f293548ad built 2024-07-16 06:29:33)
+Info: Total files 0 | Changed 0 | Failed 0
+Fra:1 Mem:64.00M (Peak 64.00M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | four floors below
+Fra:1 Mem:64.00M (Peak 64.00M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snow sill
+Fra:1 Mem:64.01M (Peak 64.01M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | panel seam.001
+Fra:1 Mem:65.01M (Peak 65.01M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | neighbour window.001
+Fra:1 Mem:66.02M (Peak 66.02M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snow sill.001
+Fra:1 Mem:66.03M (Peak 66.03M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | panel seam.002
+Fra:1 Mem:66.04M (Peak 66.04M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | neighbour window.002
+Fra:1 Mem:66.04M (Peak 66.04M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snow sill.002
+Fra:1 Mem:66.06M (Peak 66.06M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | panel seam.003
+Fra:1 Mem:66.06M (Peak 66.06M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | neighbour window.003
+Fra:1 Mem:66.13M (Peak 66.13M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snow sill.003
+Fra:1 Mem:66.23M (Peak 66.23M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | floor seam
+Fra:1 Mem:66.20M (Peak 66.23M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | panel seam.004
+Fra:1 Mem:66.22M (Peak 66.23M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | neighbour window.004
+Fra:1 Mem:66.19M (Peak 66.23M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snow sill.004
+Fra:1 Mem:66.19M (Peak 66.23M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | neighbour window.005
+Fra:1 Mem:66.20M (Peak 66.23M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snow sill.005
+Fra:1 Mem:66.24M (Peak 66.24M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | neighbour window.006
+Fra:1 Mem:66.22M (Peak 66.24M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | panel seam.007
+Fra:1 Mem:66.23M (Peak 66.24M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | neighbour window.007
+Fra:1 Mem:66.24M (Peak 66.24M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snow sill.007
+Fra:1 Mem:66.24M (Peak 66.24M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | neighbour window.008
+Fra:1 Mem:66.30M (Peak 66.30M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snow sill.008
+Fra:1 Mem:66.33M (Peak 66.33M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | neighbour window.009
+Fra:1 Mem:66.32M (Peak 66.33M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snow sill.009
+Fra:1 Mem:66.33M (Peak 66.33M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | neighbour window.010
+Fra:1 Mem:66.37M (Peak 66.37M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snow sill.010
+Fra:1 Mem:66.37M (Peak 66.37M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | panel seam.011
+Fra:1 Mem:66.40M (Peak 66.40M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | neighbour window.011
+Fra:1 Mem:66.42M (Peak 66.42M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snow sill.011
+Fra:1 Mem:66.40M (Peak 66.42M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | panel seam.012
+Fra:1 Mem:66.37M (Peak 66.42M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | neighbour window.012
+Fra:1 Mem:66.40M (Peak 66.42M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | panel seam.013
+Fra:1 Mem:66.43M (Peak 66.43M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | neighbour window.013
+Fra:1 Mem:66.42M (Peak 66.43M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snow sill.013
+Fra:1 Mem:66.45M (Peak 66.45M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | panel seam.014
+Fra:1 Mem:66.48M (Peak 66.48M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snow sill.014
+Fra:1 Mem:66.50M (Peak 66.50M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | neighbour window.015
+Fra:1 Mem:66.49M (Peak 66.50M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snow sill.015
+Fra:1 Mem:66.49M (Peak 66.50M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | floor seam.003
+Fra:1 Mem:66.51M (Peak 66.51M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | slab
+Fra:1 Mem:66.56M (Peak 66.56M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | parquet
+Fra:1 Mem:66.56M (Peak 66.56M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | back wall
+Fra:1 Mem:66.56M (Peak 66.56M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | left wall
+Fra:1 Mem:66.56M (Peak 66.56M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | window
+Fra:1 Mem:66.57M (Peak 66.57M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | mullion
+Fra:1 Mem:66.59M (Peak 66.59M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | sill
+Fra:1 Mem:66.60M (Peak 66.61M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | radiator
+Fra:1 Mem:66.67M (Peak 66.67M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | radiator.001
+Fra:1 Mem:66.65M (Peak 66.67M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | radiator.002
+Fra:1 Mem:66.70M (Peak 66.70M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | radiator.003
+Fra:1 Mem:66.73M (Peak 66.73M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | radiator.004
+Fra:1 Mem:66.70M (Peak 66.73M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | radiator.005
+Fra:1 Mem:66.70M (Peak 66.73M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | window.001
+Fra:1 Mem:66.74M (Peak 66.74M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | window glass.001
+Fra:1 Mem:66.76M (Peak 66.76M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | mullion.001
+Fra:1 Mem:66.79M (Peak 66.79M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | sill.001
+Fra:1 Mem:66.82M (Peak 66.82M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | radiator.007
+Fra:1 Mem:66.79M (Peak 66.82M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | radiator.008
+Fra:1 Mem:66.81M (Peak 66.82M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | radiator.009
+Fra:1 Mem:66.82M (Peak 66.82M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | radiator.010
+Fra:1 Mem:66.82M (Peak 66.82M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | radiator.011
+Fra:1 Mem:66.85M (Peak 66.85M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | radiator.012
+Fra:1 Mem:66.86M (Peak 66.86M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | radiator.013
+Fra:1 Mem:66.88M (Peak 66.88M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | window.002
+Fra:1 Mem:66.89M (Peak 66.89M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | window glass.002
+Fra:1 Mem:66.91M (Peak 66.91M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | mullion.002
+Fra:1 Mem:66.94M (Peak 66.94M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | sill.002
+Fra:1 Mem:66.93M (Peak 66.94M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | radiator.014
+Fra:1 Mem:66.92M (Peak 66.94M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | radiator.015
+Fra:1 Mem:66.97M (Peak 66.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | radiator.016
+Fra:1 Mem:66.98M (Peak 66.98M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | radiator.017
+Fra:1 Mem:66.99M (Peak 66.99M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | radiator.018
+Fra:1 Mem:67.02M (Peak 67.02M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | radiator.019
+Fra:1 Mem:67.01M (Peak 67.02M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | radiator.020
+Fra:1 Mem:67.00M (Peak 67.02M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | wall rug
+Fra:1 Mem:67.04M (Peak 67.04M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | woven diamond
+Fra:1 Mem:67.05M (Peak 67.05M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | woven diamond.001
+Fra:1 Mem:67.06M (Peak 67.06M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | woven diamond.002
+Fra:1 Mem:67.08M (Peak 67.08M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | woven diamond.003
+Fra:1 Mem:67.14M (Peak 67.14M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | woven diamond.004
+Fra:1 Mem:67.11M (Peak 67.14M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | sofa
+Fra:1 Mem:67.13M (Peak 67.14M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | sofa back
+Fra:1 Mem:67.13M (Peak 67.14M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | arm.001
+Fra:1 Mem:67.14M (Peak 67.14M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rug
+Fra:1 Mem:67.16M (Peak 67.16M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | coffee table
+Fra:1 Mem:67.19M (Peak 67.19M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | table leg
+Fra:1 Mem:67.24M (Peak 67.24M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | table leg.001
+Fra:1 Mem:67.24M (Peak 67.24M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | TV cabinet
+Fra:1 Mem:67.22M (Peak 67.24M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CRT TV
+Fra:1 Mem:67.21M (Peak 67.24M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | lamp stand
+Fra:1 Mem:67.22M (Peak 67.24M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | fabric shade
+Fra:1 Mem:67.24M (Peak 67.24M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | linoleum
+Fra:1 Mem:67.26M (Peak 67.26M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | kitchen table
+Fra:1 Mem:67.29M (Peak 67.29M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | table leg.002
+Fra:1 Mem:67.27M (Peak 67.29M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | table leg.003
+Fra:1 Mem:67.27M (Peak 67.29M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | table leg.004
+Fra:1 Mem:67.30M (Peak 67.30M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | table leg.005
+Fra:1 Mem:67.33M (Peak 67.33M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | stool
+Fra:1 Mem:67.37M (Peak 67.37M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | stool base
+Fra:1 Mem:67.34M (Peak 67.37M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | stool.002
+Fra:1 Mem:67.34M (Peak 67.37M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | stool base.002
+Fra:1 Mem:67.35M (Peak 67.37M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | stool base.003
+Fra:1 Mem:67.44M (Peak 67.44M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | tea glass
+Fra:1 Mem:67.47M (Peak 67.47M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | tea
+Fra:1 Mem:67.48M (Peak 67.48M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | tea glass.001
+Fra:1 Mem:67.46M (Peak 67.48M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | tea.001
+Fra:1 Mem:67.47M (Peak 67.48M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | stove
+Fra:1 Mem:67.43M (Peak 67.48M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | tube
+Fra:1 Mem:67.45M (Peak 67.48M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PC screen
+Fra:1 Mem:67.58M (Peak 67.58M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | tower
+Fra:1 Mem:67.55M (Peak 67.58M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | cot
+Fra:1 Mem:67.56M (Peak 67.58M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | cot.001
+Fra:1 Mem:67.54M (Peak 67.58M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | pillow.001
+Fra:1 Mem:67.57M (Peak 67.58M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | pillow.002
+Fra:1 Mem:67.60M (Peak 67.60M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | cot.003
+Fra:1 Mem:67.69M (Peak 67.69M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | pillow.003
+Fra:1 Mem:67.65M (Peak 67.69M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | cot.004
+Fra:1 Mem:67.67M (Peak 67.69M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | pillow.004
+Fra:1 Mem:67.69M (Peak 67.69M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | cot.005
+Fra:1 Mem:67.73M (Peak 67.73M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | pillow.005
+Fra:1 Mem:67.73M (Peak 67.73M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | pillow.006
+Fra:1 Mem:67.75M (Peak 67.75M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | cot.007
+Fra:1 Mem:67.74M (Peak 67.75M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | pillow.007
+Fra:1 Mem:67.76M (Peak 67.76M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | cot.008
+Fra:1 Mem:67.81M (Peak 67.81M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | pillow.008
+Fra:1 Mem:67.81M (Peak 67.81M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | cot.009
+Fra:1 Mem:67.82M (Peak 67.82M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | pillow.009
+Fra:1 Mem:67.83M (Peak 67.83M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | cot.010
+Fra:1 Mem:67.84M (Peak 67.84M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | pillow.010
+Fra:1 Mem:67.84M (Peak 67.84M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | pillow.011
+Fra:1 Mem:67.87M (Peak 67.87M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | ground
+Fra:1 Mem:67.88M (Peak 67.88M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant panelki
+Fra:1 Mem:67.90M (Peak 67.90M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | roof snow
+Fra:1 Mem:67.92M (Peak 67.92M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window
+Fra:1 Mem:67.97M (Peak 67.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.001
+Fra:1 Mem:67.95M (Peak 67.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.002
+Fra:1 Mem:67.94M (Peak 67.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.003
+Fra:1 Mem:67.90M (Peak 67.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.007
+Fra:1 Mem:67.89M (Peak 67.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.008
+Fra:1 Mem:67.89M (Peak 67.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.009
+Fra:1 Mem:67.89M (Peak 67.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.011
+Fra:1 Mem:67.89M (Peak 67.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.012
+Fra:1 Mem:67.89M (Peak 67.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.013
+Fra:1 Mem:67.89M (Peak 67.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.014
+Fra:1 Mem:67.90M (Peak 67.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.015
+Fra:1 Mem:67.90M (Peak 67.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.017
+Fra:1 Mem:67.90M (Peak 67.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.018
+Fra:1 Mem:67.90M (Peak 67.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.020
+Fra:1 Mem:67.91M (Peak 67.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.022
+Fra:1 Mem:67.91M (Peak 67.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.023
+Fra:1 Mem:67.91M (Peak 67.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.025
+Fra:1 Mem:67.91M (Peak 67.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.027
+Fra:1 Mem:67.91M (Peak 67.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.028
+Fra:1 Mem:67.92M (Peak 67.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.031
+Fra:1 Mem:67.92M (Peak 67.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.032
+Fra:1 Mem:67.92M (Peak 67.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.034
+Fra:1 Mem:67.92M (Peak 67.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.036
+Fra:1 Mem:67.93M (Peak 67.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.037
+Fra:1 Mem:67.93M (Peak 67.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.039
+Fra:1 Mem:67.93M (Peak 67.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | roof snow.001
+Fra:1 Mem:67.93M (Peak 67.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.040
+Fra:1 Mem:67.93M (Peak 67.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.041
+Fra:1 Mem:67.94M (Peak 67.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.042
+Fra:1 Mem:67.94M (Peak 67.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.044
+Fra:1 Mem:67.96M (Peak 67.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.045
+Fra:1 Mem:67.97M (Peak 67.97M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.046
+Fra:1 Mem:67.98M (Peak 67.98M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.047
+Fra:1 Mem:67.99M (Peak 67.99M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.049
+Fra:1 Mem:68.00M (Peak 68.00M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.050
+Fra:1 Mem:68.00M (Peak 68.00M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.051
+Fra:1 Mem:67.99M (Peak 68.00M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.052
+Fra:1 Mem:68.00M (Peak 68.00M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.054
+Fra:1 Mem:67.98M (Peak 68.00M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.055
+Fra:1 Mem:67.98M (Peak 68.00M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.058
+Fra:1 Mem:67.98M (Peak 68.00M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.059
+Fra:1 Mem:67.98M (Peak 68.00M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.060
+Fra:1 Mem:67.99M (Peak 68.00M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.061
+Fra:1 Mem:67.99M (Peak 68.00M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.063
+Fra:1 Mem:67.99M (Peak 68.00M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.065
+Fra:1 Mem:67.99M (Peak 68.00M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.066
+Fra:1 Mem:67.99M (Peak 68.00M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.067
+Fra:1 Mem:67.99M (Peak 68.00M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.068
+Fra:1 Mem:68.00M (Peak 68.00M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.069
+Fra:1 Mem:68.00M (Peak 68.00M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.070
+Fra:1 Mem:68.00M (Peak 68.00M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.072
+Fra:1 Mem:68.00M (Peak 68.00M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.074
+Fra:1 Mem:68.01M (Peak 68.01M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.075
+Fra:1 Mem:68.01M (Peak 68.01M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.076
+Fra:1 Mem:68.01M (Peak 68.01M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.077
+Fra:1 Mem:68.01M (Peak 68.01M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.078
+Fra:1 Mem:68.01M (Peak 68.01M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.079
+Fra:1 Mem:68.01M (Peak 68.01M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.081
+Fra:1 Mem:68.02M (Peak 68.02M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.082
+Fra:1 Mem:68.02M (Peak 68.02M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.083
+Fra:1 Mem:68.02M (Peak 68.02M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.084
+Fra:1 Mem:68.02M (Peak 68.02M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.085
+Fra:1 Mem:68.02M (Peak 68.02M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.087
+Fra:1 Mem:68.03M (Peak 68.03M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.088
+Fra:1 Mem:68.03M (Peak 68.03M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.090
+Fra:1 Mem:68.03M (Peak 68.03M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.092
+Fra:1 Mem:68.03M (Peak 68.03M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.094
+Fra:1 Mem:68.03M (Peak 68.03M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.095
+Fra:1 Mem:68.04M (Peak 68.04M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.097
+Fra:1 Mem:68.04M (Peak 68.04M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.098
+Fra:1 Mem:68.04M (Peak 68.04M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.099
+Fra:1 Mem:68.04M (Peak 68.04M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.102
+Fra:1 Mem:68.05M (Peak 68.05M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.103
+Fra:1 Mem:68.05M (Peak 68.05M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.105
+Fra:1 Mem:68.05M (Peak 68.05M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.106
+Fra:1 Mem:68.05M (Peak 68.05M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.107
+Fra:1 Mem:68.06M (Peak 68.06M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.108
+Fra:1 Mem:68.06M (Peak 68.06M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant panelki.002
+Fra:1 Mem:68.06M (Peak 68.06M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | roof snow.002
+Fra:1 Mem:68.07M (Peak 68.07M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.110
+Fra:1 Mem:68.09M (Peak 68.09M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.111
+Fra:1 Mem:68.10M (Peak 68.10M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.112
+Fra:1 Mem:68.12M (Peak 68.12M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.113
+Fra:1 Mem:68.13M (Peak 68.13M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.114
+Fra:1 Mem:68.11M (Peak 68.13M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.115
+Fra:1 Mem:68.12M (Peak 68.13M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.118
+Fra:1 Mem:68.10M (Peak 68.13M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.119
+Fra:1 Mem:68.10M (Peak 68.13M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.122
+Fra:1 Mem:68.10M (Peak 68.13M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.123
+Fra:1 Mem:68.11M (Peak 68.13M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.124
+Fra:1 Mem:68.11M (Peak 68.13M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.125
+Fra:1 Mem:68.11M (Peak 68.13M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.127
+Fra:1 Mem:68.11M (Peak 68.13M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.128
+Fra:1 Mem:68.11M (Peak 68.13M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.129
+Fra:1 Mem:68.11M (Peak 68.13M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.131
+Fra:1 Mem:68.12M (Peak 68.13M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.132
+Fra:1 Mem:68.12M (Peak 68.13M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.133
+Fra:1 Mem:68.12M (Peak 68.13M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.136
+Fra:1 Mem:68.12M (Peak 68.13M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.137
+Fra:1 Mem:68.12M (Peak 68.13M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.139
+Fra:1 Mem:68.13M (Peak 68.13M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.140
+Fra:1 Mem:68.13M (Peak 68.13M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.141
+Fra:1 Mem:68.13M (Peak 68.13M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.142
+Fra:1 Mem:68.13M (Peak 68.13M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant window.144
+Fra:1 Mem:68.13M (Peak 68.13M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | street
+Fra:1 Mem:68.14M (Peak 68.14M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | tram roof
+Fra:1 Mem:68.14M (Peak 68.14M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | tram window
+Fra:1 Mem:68.14M (Peak 68.14M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | tram window.002
+Fra:1 Mem:68.14M (Peak 68.14M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | tram window.003
+Fra:1 Mem:68.31M (Peak 68.31M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | tram window.004
+Fra:1 Mem:68.33M (Peak 68.33M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rail
+Fra:1 Mem:68.28M (Peak 68.33M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rail.001
+Fra:1 Mem:68.30M (Peak 68.33M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | shelter roof
+Fra:1 Mem:68.31M (Peak 68.33M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | kiosk window
+Fra:1 Mem:68.31M (Peak 68.33M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | streetlight
+Fra:1 Mem:68.36M (Peak 68.36M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | sodium lantern
+Fra:1 Mem:68.36M (Peak 68.36M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | streetlight.001
+Fra:1 Mem:68.41M (Peak 68.41M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | sodium lantern.001
+Fra:1 Mem:68.42M (Peak 68.42M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | distant fog
+Fra:1 Mem:68.40M (Peak 68.42M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake
+Fra:1 Mem:68.41M (Peak 68.42M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.001
+Fra:1 Mem:68.39M (Peak 68.42M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.002
+Fra:1 Mem:68.37M (Peak 68.42M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.005
+Fra:1 Mem:68.39M (Peak 68.42M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.007
+Fra:1 Mem:68.39M (Peak 68.42M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.009
+Fra:1 Mem:68.37M (Peak 68.42M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.010
+Fra:1 Mem:68.37M (Peak 68.42M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.011
+Fra:1 Mem:68.37M (Peak 68.42M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.013
+Fra:1 Mem:68.38M (Peak 68.42M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.014
+Fra:1 Mem:68.38M (Peak 68.42M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.016
+Fra:1 Mem:68.38M (Peak 68.42M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.017
+Fra:1 Mem:68.38M (Peak 68.42M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.019
+Fra:1 Mem:68.39M (Peak 68.42M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.020
+Fra:1 Mem:68.39M (Peak 68.42M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.023
+Fra:1 Mem:68.39M (Peak 68.42M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.025
+Fra:1 Mem:68.39M (Peak 68.42M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.027
+Fra:1 Mem:68.39M (Peak 68.42M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.028
+Fra:1 Mem:68.40M (Peak 68.42M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.029
+Fra:1 Mem:68.40M (Peak 68.42M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.030
+Fra:1 Mem:68.40M (Peak 68.42M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.032
+Fra:1 Mem:68.40M (Peak 68.42M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.034
+Fra:1 Mem:68.40M (Peak 68.42M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.035
+Fra:1 Mem:68.41M (Peak 68.42M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.037
+Fra:1 Mem:68.41M (Peak 68.42M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.040
+Fra:1 Mem:68.41M (Peak 68.42M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.041
+Fra:1 Mem:68.42M (Peak 68.42M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.044
+Fra:1 Mem:68.42M (Peak 68.42M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.045
+Fra:1 Mem:68.42M (Peak 68.42M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.047
+Fra:1 Mem:68.42M (Peak 68.42M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.049
+Fra:1 Mem:68.43M (Peak 68.43M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.050
+Fra:1 Mem:68.43M (Peak 68.43M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.052
+Fra:1 Mem:68.43M (Peak 68.43M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.054
+Fra:1 Mem:68.43M (Peak 68.43M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.055
+Fra:1 Mem:68.43M (Peak 68.43M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.056
+Fra:1 Mem:68.43M (Peak 68.43M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.057
+Fra:1 Mem:68.43M (Peak 68.43M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.058
+Fra:1 Mem:68.44M (Peak 68.44M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.059
+Fra:1 Mem:68.44M (Peak 68.44M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.060
+Fra:1 Mem:68.44M (Peak 68.44M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.062
+Fra:1 Mem:68.44M (Peak 68.44M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.063
+Fra:1 Mem:68.45M (Peak 68.45M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.065
+Fra:1 Mem:68.45M (Peak 68.45M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.067
+Fra:1 Mem:68.45M (Peak 68.45M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.068
+Fra:1 Mem:68.45M (Peak 68.45M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.069
+Fra:1 Mem:68.45M (Peak 68.45M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.070
+Fra:1 Mem:68.45M (Peak 68.45M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.073
+Fra:1 Mem:68.46M (Peak 68.46M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.074
+Fra:1 Mem:68.46M (Peak 68.46M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.075
+Fra:1 Mem:68.46M (Peak 68.46M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.078
+Fra:1 Mem:68.46M (Peak 68.46M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.079
+Fra:1 Mem:68.47M (Peak 68.47M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.080
+Fra:1 Mem:68.47M (Peak 68.47M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.082
+Fra:1 Mem:68.47M (Peak 68.47M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.084
+Fra:1 Mem:68.47M (Peak 68.47M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.085
+Fra:1 Mem:68.47M (Peak 68.47M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.087
+Fra:1 Mem:68.48M (Peak 68.48M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.088
+Fra:1 Mem:68.48M (Peak 68.48M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.089
+Fra:1 Mem:68.48M (Peak 68.48M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.090
+Fra:1 Mem:68.48M (Peak 68.48M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.091
+Fra:1 Mem:68.48M (Peak 68.48M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.092
+Fra:1 Mem:68.48M (Peak 68.48M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.093
+Fra:1 Mem:68.48M (Peak 68.48M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.094
+Fra:1 Mem:68.49M (Peak 68.49M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.095
+Fra:1 Mem:68.49M (Peak 68.49M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.096
+Fra:1 Mem:68.49M (Peak 68.49M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.098
+Fra:1 Mem:68.49M (Peak 68.49M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.339
+Fra:1 Mem:68.49M (Peak 68.49M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.100
+Fra:1 Mem:68.49M (Peak 68.49M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.101
+Fra:1 Mem:68.50M (Peak 68.50M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.338
+Fra:1 Mem:68.50M (Peak 68.50M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.103
+Fra:1 Mem:68.50M (Peak 68.50M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.337
+Fra:1 Mem:68.50M (Peak 68.50M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.105
+Fra:1 Mem:68.50M (Peak 68.50M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.106
+Fra:1 Mem:68.50M (Peak 68.50M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.108
+Fra:1 Mem:68.51M (Peak 68.51M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.110
+Fra:1 Mem:68.51M (Peak 68.51M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.336
+Fra:1 Mem:68.51M (Peak 68.51M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.112
+Fra:1 Mem:68.51M (Peak 68.51M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.335
+Fra:1 Mem:68.51M (Peak 68.51M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.114
+Fra:1 Mem:68.51M (Peak 68.51M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.334
+Fra:1 Mem:68.51M (Peak 68.51M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.116
+Fra:1 Mem:68.52M (Peak 68.52M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.333
+Fra:1 Mem:68.52M (Peak 68.52M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.117
+Fra:1 Mem:68.52M (Peak 68.52M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.118
+Fra:1 Mem:68.52M (Peak 68.52M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.119
+Fra:1 Mem:68.52M (Peak 68.52M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.120
+Fra:1 Mem:68.52M (Peak 68.52M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.121
+Fra:1 Mem:68.52M (Peak 68.52M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.122
+Fra:1 Mem:68.52M (Peak 68.52M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.124
+Fra:1 Mem:68.53M (Peak 68.53M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.125
+Fra:1 Mem:68.53M (Peak 68.53M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.126
+Fra:1 Mem:68.53M (Peak 68.53M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.128
+Fra:1 Mem:68.53M (Peak 68.53M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.331
+Fra:1 Mem:68.53M (Peak 68.53M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.330
+Fra:1 Mem:68.54M (Peak 68.54M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.132
+Fra:1 Mem:68.54M (Peak 68.54M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.134
+Fra:1 Mem:68.54M (Peak 68.54M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.135
+Fra:1 Mem:68.54M (Peak 68.54M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.136
+Fra:1 Mem:68.54M (Peak 68.54M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.137
+Fra:1 Mem:68.54M (Peak 68.54M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.138
+Fra:1 Mem:68.54M (Peak 68.54M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.139
+Fra:1 Mem:68.54M (Peak 68.54M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.140
+Fra:1 Mem:68.55M (Peak 68.55M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.141
+Fra:1 Mem:68.55M (Peak 68.55M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.142
+Fra:1 Mem:68.55M (Peak 68.55M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.329
+Fra:1 Mem:68.55M (Peak 68.55M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.143
+Fra:1 Mem:68.55M (Peak 68.55M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.144
+Fra:1 Mem:68.55M (Peak 68.55M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.145
+Fra:1 Mem:68.55M (Peak 68.55M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.146
+Fra:1 Mem:68.55M (Peak 68.55M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.147
+Fra:1 Mem:68.55M (Peak 68.55M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.148
+Fra:1 Mem:68.56M (Peak 68.56M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.328
+Fra:1 Mem:68.56M (Peak 68.56M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.150
+Fra:1 Mem:68.56M (Peak 68.56M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.151
+Fra:1 Mem:68.56M (Peak 68.56M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.152
+Fra:1 Mem:68.56M (Peak 68.56M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.153
+Fra:1 Mem:68.56M (Peak 68.56M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.154
+Fra:1 Mem:68.56M (Peak 68.56M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.155
+Fra:1 Mem:68.56M (Peak 68.56M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.327
+Fra:1 Mem:68.57M (Peak 68.57M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.157
+Fra:1 Mem:68.57M (Peak 68.57M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.158
+Fra:1 Mem:68.57M (Peak 68.57M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.159
+Fra:1 Mem:68.57M (Peak 68.57M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.160
+Fra:1 Mem:68.57M (Peak 68.57M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.161
+Fra:1 Mem:68.57M (Peak 68.57M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.163
+Fra:1 Mem:68.57M (Peak 68.57M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.326
+Fra:1 Mem:68.57M (Peak 68.57M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.165
+Fra:1 Mem:68.58M (Peak 68.58M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.166
+Fra:1 Mem:68.58M (Peak 68.58M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.168
+Fra:1 Mem:68.58M (Peak 68.58M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.169
+Fra:1 Mem:68.58M (Peak 68.58M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.170
+Fra:1 Mem:68.58M (Peak 68.58M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.325
+Fra:1 Mem:68.58M (Peak 68.58M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.172
+Fra:1 Mem:68.58M (Peak 68.58M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.173
+Fra:1 Mem:68.58M (Peak 68.58M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.324
+Fra:1 Mem:68.59M (Peak 68.59M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.174
+Fra:1 Mem:68.59M (Peak 68.59M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.175
+Fra:1 Mem:68.59M (Peak 68.59M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.176
+Fra:1 Mem:68.59M (Peak 68.59M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.177
+Fra:1 Mem:68.59M (Peak 68.59M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.178
+Fra:1 Mem:68.59M (Peak 68.59M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.180
+Fra:1 Mem:68.59M (Peak 68.59M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.181
+Fra:1 Mem:68.60M (Peak 68.60M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.182
+Fra:1 Mem:68.60M (Peak 68.60M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.183
+Fra:1 Mem:68.60M (Peak 68.60M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.184
+Fra:1 Mem:68.60M (Peak 68.60M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.186
+Fra:1 Mem:68.60M (Peak 68.60M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.187
+Fra:1 Mem:68.60M (Peak 68.60M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.188
+Fra:1 Mem:68.60M (Peak 68.60M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.322
+Fra:1 Mem:68.60M (Peak 68.60M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.189
+Fra:1 Mem:68.61M (Peak 68.61M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.190
+Fra:1 Mem:68.61M (Peak 68.61M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.192
+Fra:1 Mem:68.61M (Peak 68.61M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.193
+Fra:1 Mem:68.61M (Peak 68.61M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.194
+Fra:1 Mem:68.61M (Peak 68.61M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.321
+Fra:1 Mem:68.61M (Peak 68.61M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.196
+Fra:1 Mem:68.61M (Peak 68.61M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.320
+Fra:1 Mem:68.62M (Peak 68.62M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.198
+Fra:1 Mem:68.62M (Peak 68.62M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.200
+Fra:1 Mem:68.62M (Peak 68.62M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.201
+Fra:1 Mem:68.62M (Peak 68.62M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.202
+Fra:1 Mem:68.62M (Peak 68.62M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.203
+Fra:1 Mem:68.62M (Peak 68.62M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.205
+Fra:1 Mem:68.62M (Peak 68.62M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.206
+Fra:1 Mem:68.63M (Peak 68.63M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.207
+Fra:1 Mem:68.63M (Peak 68.63M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.208
+Fra:1 Mem:68.63M (Peak 68.63M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.209
+Fra:1 Mem:68.63M (Peak 68.63M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.210
+Fra:1 Mem:68.63M (Peak 68.63M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.211
+Fra:1 Mem:68.63M (Peak 68.63M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.213
+Fra:1 Mem:68.64M (Peak 68.64M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.214
+Fra:1 Mem:68.64M (Peak 68.64M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.216
+Fra:1 Mem:68.64M (Peak 68.64M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.217
+Fra:1 Mem:68.64M (Peak 68.64M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.220
+Fra:1 Mem:68.64M (Peak 68.64M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.221
+Fra:1 Mem:68.64M (Peak 68.64M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.222
+Fra:1 Mem:68.65M (Peak 68.65M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.225
+Fra:1 Mem:68.65M (Peak 68.65M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.226
+Fra:1 Mem:68.65M (Peak 68.65M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.227
+Fra:1 Mem:68.65M (Peak 68.65M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.228
+Fra:1 Mem:68.65M (Peak 68.65M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.230
+Fra:1 Mem:68.65M (Peak 68.65M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.232
+Fra:1 Mem:68.66M (Peak 68.66M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.233
+Fra:1 Mem:68.66M (Peak 68.66M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.316
+Fra:1 Mem:68.66M (Peak 68.66M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.234
+Fra:1 Mem:68.66M (Peak 68.66M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.235
+Fra:1 Mem:68.66M (Peak 68.66M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.236
+Fra:1 Mem:68.66M (Peak 68.66M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.237
+Fra:1 Mem:68.66M (Peak 68.66M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.238
+Fra:1 Mem:68.67M (Peak 68.67M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.239
+Fra:1 Mem:68.67M (Peak 68.67M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.242
+Fra:1 Mem:68.67M (Peak 68.67M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.243
+Fra:1 Mem:68.67M (Peak 68.67M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.244
+Fra:1 Mem:68.67M (Peak 68.67M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.315
+Fra:1 Mem:68.67M (Peak 68.67M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.245
+Fra:1 Mem:68.67M (Peak 68.67M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.314
+Fra:1 Mem:68.67M (Peak 68.67M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.248
+Fra:1 Mem:68.68M (Peak 68.68M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.313
+Fra:1 Mem:68.68M (Peak 68.68M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.249
+Fra:1 Mem:68.68M (Peak 68.68M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.251
+Fra:1 Mem:68.68M (Peak 68.68M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.252
+Fra:1 Mem:68.68M (Peak 68.68M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.253
+Fra:1 Mem:68.68M (Peak 68.68M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.254
+Fra:1 Mem:68.68M (Peak 68.68M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.255
+Fra:1 Mem:68.68M (Peak 68.68M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.312
+Fra:1 Mem:68.69M (Peak 68.69M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.257
+Fra:1 Mem:68.69M (Peak 68.69M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.311
+Fra:1 Mem:68.69M (Peak 68.69M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.258
+Fra:1 Mem:68.69M (Peak 68.69M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.259
+Fra:1 Mem:68.69M (Peak 68.69M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.260
+Fra:1 Mem:68.69M (Peak 68.69M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.262
+Fra:1 Mem:68.69M (Peak 68.69M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.263
+Fra:1 Mem:68.69M (Peak 68.69M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.265
+Fra:1 Mem:68.70M (Peak 68.70M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.266
+Fra:1 Mem:68.70M (Peak 68.70M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.268
+Fra:1 Mem:68.70M (Peak 68.70M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.310
+Fra:1 Mem:68.70M (Peak 68.70M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.270
+Fra:1 Mem:68.70M (Peak 68.70M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.309
+Fra:1 Mem:68.70M (Peak 68.70M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.271
+Fra:1 Mem:68.71M (Peak 68.71M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.273
+Fra:1 Mem:68.71M (Peak 68.71M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.274
+Fra:1 Mem:68.71M (Peak 68.71M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.275
+Fra:1 Mem:68.71M (Peak 68.71M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.276
+Fra:1 Mem:68.71M (Peak 68.71M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.308
+Fra:1 Mem:68.71M (Peak 68.71M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.278
+Fra:1 Mem:68.71M (Peak 68.71M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.307
+Fra:1 Mem:68.72M (Peak 68.72M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.280
+Fra:1 Mem:68.72M (Peak 68.72M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.281
+Fra:1 Mem:68.72M (Peak 68.72M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.282
+Fra:1 Mem:68.72M (Peak 68.72M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.284
+Fra:1 Mem:68.72M (Peak 68.72M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.285
+Fra:1 Mem:68.72M (Peak 68.72M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.286
+Fra:1 Mem:68.73M (Peak 68.73M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.289
+Fra:1 Mem:68.73M (Peak 68.73M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.290
+Fra:1 Mem:68.73M (Peak 68.73M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.291
+Fra:1 Mem:68.73M (Peak 68.73M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.293
+Fra:1 Mem:68.73M (Peak 68.73M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.294
+Fra:1 Mem:68.73M (Peak 68.73M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.295
+Fra:1 Mem:68.73M (Peak 68.73M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.296
+Fra:1 Mem:68.74M (Peak 68.74M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.297
+Fra:1 Mem:68.74M (Peak 68.74M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.299
+Fra:1 Mem:68.74M (Peak 68.74M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.300
+Fra:1 Mem:68.74M (Peak 68.74M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.301
+Fra:1 Mem:68.74M (Peak 68.74M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.302
+Fra:1 Mem:68.74M (Peak 68.74M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | snowflake.304
+Fra:1 Mem:68.75M (Peak 68.75M) | Time:00:00.06 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:44.30M (Peak 68.75M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:44.31M (Peak 68.75M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:44.31M (Peak 68.75M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:44.31M (Peak 68.75M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:44.40M (Peak 68.75M) | Time:00:00.08 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:44.40M (Peak 68.75M) | Time:00:00.08 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:44.40M (Peak 68.75M) | Time:00:00.08 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:44.40M (Peak 68.75M) | Time:00:00.08 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:44.40M (Peak 68.75M) | Time:00:00.08 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:44.40M (Peak 68.75M) | Time:00:00.08 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:44.56M (Peak 68.75M) | Time:00:00.08 | Mem:0.16M, Peak:0.16M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:44.56M (Peak 68.75M) | Time:00:00.08 | Mem:0.16M, Peak:0.16M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:44.56M (Peak 68.75M) | Time:00:00.08 | Mem:0.16M, Peak:0.16M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:44.56M (Peak 68.75M) | Time:00:00.08 | Mem:0.16M, Peak:0.16M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:44.91M (Peak 68.75M) | Time:00:00.08 | Mem:0.16M, Peak:0.16M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:45.48M (Peak 68.75M) | Time:00:00.08 | Mem:0.21M, Peak:0.21M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:45.38M (Peak 68.75M) | Time:00:00.08 | Mem:0.64M, Peak:0.64M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:45.40M (Peak 68.75M) | Time:00:00.08 | Mem:0.64M, Peak:0.64M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:45.40M (Peak 68.75M) | Time:00:00.08 | Mem:1.35M, Peak:1.35M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:45.40M (Peak 68.75M) | Time:00:00.09 | Mem:2.19M, Peak:2.90M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:45.40M (Peak 68.75M) | Time:00:00.09 | Mem:2.19M, Peak:2.90M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:46.99M (Peak 68.75M) | Time:00:00.09 | Mem:2.19M, Peak:2.90M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:46.99M (Peak 68.75M) | Time:00:00.09 | Mem:3.79M, Peak:3.79M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:46.99M (Peak 68.75M) | Time:00:00.09 | Mem:3.79M, Peak:3.79M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:46.99M (Peak 68.75M) | Time:00:00.09 | Mem:3.80M, Peak:3.80M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:46.99M (Peak 68.75M) | Time:00:00.09 | Mem:3.80M, Peak:3.80M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:46.99M (Peak 68.75M) | Time:00:00.09 | Mem:3.80M, Peak:3.80M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:46.99M (Peak 68.75M) | Time:00:00.09 | Mem:3.88M, Peak:3.88M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:46.99M (Peak 68.75M) | Time:00:00.09 | Mem:3.88M, Peak:3.88M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:47.30M (Peak 68.75M) | Time:00:00.09 | Mem:4.19M, Peak:4.19M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:47.30M (Peak 68.75M) | Time:00:00.09 | Mem:4.19M, Peak:4.19M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:47.31M (Peak 68.75M) | Time:00:00.09 | Mem:4.11M, Peak:4.19M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:47.31M (Peak 68.75M) | Time:00:00.09 | Mem:4.19M, Peak:4.19M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:47.31M (Peak 68.75M) | Time:00:00.09 | Mem:4.19M, Peak:4.19M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:47.32M (Peak 68.75M) | Time:00:00.09 | Mem:4.19M, Peak:4.19M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:47.32M (Peak 68.75M) | Time:00:00.09 | Mem:4.19M, Peak:4.19M | Scene, ViewLayer | Sample 0/48
+Fra:1 Mem:57.24M (Peak 68.75M) | Time:00:00.22 | Remaining:00:05.94 | Mem:14.08M, Peak:14.08M | Scene, ViewLayer | Sample 1/48
+Fra:1 Mem:61.69M (Peak 68.75M) | Time:00:06.29 | Mem:14.08M, Peak:14.08M | Scene, ViewLayer | Sample 48/48
+Fra:1 Mem:61.69M (Peak 68.75M) | Time:00:06.29 | Mem:14.08M, Peak:14.08M | Scene, ViewLayer | Finished
+Fra:1 Mem:46.63M (Peak 68.75M) | Time:00:06.30 | Compositing
+Fra:1 Mem:46.63M (Peak 68.75M) | Time:00:06.30 | Compositing | Initializing execution
+Fra:1 Mem:46.63M (Peak 68.75M) | Time:00:06.30 | Compositing | Operation 2-5
+Fra:1 Mem:48.67M (Peak 68.75M) | Time:00:06.30 | Compositing | Operation 3-5
+Fra:1 Mem:48.67M (Peak 68.75M) | Time:00:06.30 | Compositing | Operation 4-5
+Fra:1 Mem:49.17M (Peak 68.75M) | Time:00:06.30 | Compositing | Operation 5-5
+Fra:1 Mem:49.17M (Peak 68.75M) | Time:00:06.30 | Compositing | Operation 6-5
+Saved: 'C:\Outernet\world\art\flat\depth0001.exr'
+Saved: 'C:\Outernet\world\art\flat\raw.png'
+Time: 00:06.49 (Saving: 00:00.18)
+
+Info: Saved "flat.blend"
+
+Blender quit
