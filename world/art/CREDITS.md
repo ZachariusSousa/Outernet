@@ -18,3 +18,6 @@ See textures/textures.json and textures/CREDITS.md. All current generic textures
 
 ## Live block creatures
 Approved project reference art/agents/style-test.svg is parsed into original live block geometry. Existing project prop SVGs are extruded for the twelve interest props. No external models/textures or additional licensed assets were imported during integration. New skyline/facade stand-ins are credited in textures/CREDITS.md and textures.json.
+
+## Soft model pass
+Verified Kenney Furniture Kit 2.0, Car Kit 3.1 and City Kit Suburban 2.0, CC0 1.0; URLs and used files in models/models.json and pack licenses in models/<pack>/source/License.txt. Imported/remapped through Blender MCP. Runtime contact shadow gradients are original OuterNet code-generated artwork. Existing concept/reference images are not used as textures.

@@ -1,4 +1,4 @@
-// Effective look; Claude c71d3dd values preserved. Geometry lives in object modules.
+// Soft HD-2D look; Claude colors and chunky depths preserved.
 export const look = {
   "textures": {
     "density": 32,
@@ -70,8 +70,8 @@ export const look = {
       "threshold": 1.4
     },
     "focus": {
-      "aperture": 0.00008,
-      "maxblur": 0.004
+      "aperture": 0.00016,
+      "maxblur": 0.009
     },
     "fog": {
       "color": "#243152",
@@ -363,5 +363,45 @@ export const look = {
     "color": "#859879",
     "pathColor": "#e3b476",
     "radius": 0.15
+  },
+  "softness": {
+    "shadowType": "pcf",
+    "shadowRadius": 4,
+    "ao": {
+      "enabled": true,
+      "intensity": 0.006,
+      "scale": 2,
+      "kernel": 14,
+      "blurRadius": 6,
+      "max": 0.22
+    },
+    "contact": {
+      "size": 0.5,
+      "opacity": 0.17,
+      "texels": 64,
+      "lift": 0.012
+    },
+    "creatureRadius": 0.2,
+    "creatureSegments": 3,
+    "shadowBias": 0.02
+  },
+  "imperfection": {
+    "seed": 29,
+    "offset": 0.035,
+    "yaw": 0.045,
+    "tilt": 0.012,
+    "scale": 0.035
+  },
+  "modelStyle": {
+    "roughness": 0.85,
+    "variation": 0.025,
+    "lampEmission": 0.7,
+    "remaps": {
+      "carpet": "#f5e8cf",
+      "wood": "#98856e",
+      "leaf": "#53715b",
+      "plant": "#53715b",
+      "metal": "#354158"
+    }
   }
 };

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "blender": {
+      "command": "C:\\Users\\z1sou\\.local\\blender-mcp-venv\\Scripts\\blender-mcp.exe",
+      "args": [],
+      "env": {
+        "BLENDER_MCP_DISABLE_TELEMETRY": "true"
+      }
+    }
+  }
+}

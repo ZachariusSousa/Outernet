@@ -1,3 +1,6 @@
+import gamingChair from './gamingChair.js';
+import clutterBooks from './clutterBooks.js';
+import clutterLaptop from './clutterLaptop.js';
 import art from './art.js';
 import bay from './bay.js';
 import beanbag from './beanbag.js';
@@ -26,4 +29,4 @@ import sunken from './sunken.js';
 import tablelamp from './tablelamp.js';
 import terrace from './terrace.js';
 import tv from './tv.js';
-export default {art,bay,beanbag,bookshelf,bulkhead,chair,city,coffee,desk,dining,firepit,island,kitchen,lamp,lounger,pendant,pine,planter,railing,rug,shell,sofa,steps,stool,sunken,tablelamp,terrace,tv};
+export default {gamingChair,clutterBooks,clutterLaptop,art,bay,beanbag,bookshelf,bulkhead,chair,city,coffee,desk,dining,firepit,island,kitchen,lamp,lounger,pendant,pine,planter,railing,rug,shell,sofa,steps,stool,sunken,tablelamp,terrace,tv};

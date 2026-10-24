@@ -1,0 +1,172 @@
+2026-10-24 12:01:20,014 - BlenderMCPServer - INFO - Connected to Blender at localhost:9876
+2026-10-24 12:01:20,014 - BlenderMCPServer - INFO - Created new persistent connection to Blender
+2026-10-24 12:01:20,014 - BlenderMCPServer - INFO - Sending command: get_addon_info with params: None
+2026-10-24 12:01:20,014 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-10-24 12:01:20,049 - BlenderMCPServer - INFO - Received complete response (465 bytes)
+2026-10-24 12:01:20,049 - BlenderMCPServer - INFO - Received 465 bytes of data
+2026-10-24 12:01:20,049 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-10-24 12:01:20,052 - BlenderMCPServer - INFO - Blender addon up to date (protocol 14, addon [1, 8], Blender 4.2.0)
+2026-10-24 12:01:20,052 - BlenderMCPServer - INFO - Searching Poly Pizza models with query: mug, category: None, licence: CC0, animated: False, limit: 3
+2026-10-24 12:01:20,052 - BlenderMCPServer - INFO - Sending command: search_polypizza_models with params: {'query': 'mug', 'category': None, 'licence': 1, 'animated': False, 'limit': 3}
+2026-10-24 12:01:20,052 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-10-24 12:01:20,113 - BlenderMCPServer - INFO - Received complete response (79 bytes)
+2026-10-24 12:01:20,113 - BlenderMCPServer - INFO - Received 79 bytes of data
+2026-10-24 12:01:20,113 - BlenderMCPServer - INFO - Response parsed, status: error
+2026-10-24 12:01:20,113 - BlenderMCPServer - ERROR - Blender error: Unknown command type: search_polypizza_models
+2026-10-24 12:01:20,113 - BlenderMCPServer - ERROR - Error communicating with Blender: Unknown command type: search_polypizza_models
+2026-10-24 12:01:20,113 - BlenderMCPServer - ERROR - Error searching Poly Pizza models: Communication error with Blender: Unknown command type: search_polypizza_models
+2026-10-24 12:01:20,115 - BlenderMCPServer - ERROR - Traceback (most recent call last):
+  File "C:\Users\z1sou\.local\blender-mcp-venv\Lib\site-packages\blender_mcp\server.py", line 244, in _send_command_locked
+    raise Exception(response.get("message", "Unknown error from Blender"))
+Exception: Unknown command type: search_polypizza_models
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\z1sou\.local\blender-mcp-venv\Lib\site-packages\blender_mcp\server.py", line 1339, in _search_polypizza
+    result = blender.send_command("search_polypizza_models", {
+        "query": query,
+    ...<3 lines>...
+        "limit": limit
+    })
+  File "C:\Users\z1sou\.local\blender-mcp-venv\Lib\site-packages\blender_mcp\server.py", line 211, in send_command
+    return self._send_command_locked(command_type, params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\z1sou\.local\blender-mcp-venv\Lib\site-packages\blender_mcp\server.py", line 267, in _send_command_locked
+    raise Exception(f"Communication error with Blender: {str(e)}")
+Exception: Communication error with Blender: Unknown command type: search_polypizza_models
+
+2026-10-24 12:01:20,116 - BlenderMCPServer - INFO - Connected to Blender at localhost:9876
+2026-10-24 12:01:20,116 - BlenderMCPServer - INFO - Sending command: get_telemetry_consent with params: None
+2026-10-24 12:01:20,116 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-10-24 12:01:20,176 - BlenderMCPServer - INFO - Received complete response (51 bytes)
+2026-10-24 12:01:20,176 - BlenderMCPServer - INFO - Received 51 bytes of data
+2026-10-24 12:01:20,176 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-10-24 12:01:20,222 - BlenderMCPServer - INFO - Searching Poly Pizza models with query: bean bag, category: None, licence: CC0, animated: False, limit: 3
+2026-10-24 12:01:20,223 - BlenderMCPServer - INFO - Sending command: search_polypizza_models with params: {'query': 'bean bag', 'category': None, 'licence': 1, 'animated': False, 'limit': 3}
+2026-10-24 12:01:20,223 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-10-24 12:01:20,239 - BlenderMCPServer - INFO - Received complete response (79 bytes)
+2026-10-24 12:01:20,239 - BlenderMCPServer - INFO - Received 79 bytes of data
+2026-10-24 12:01:20,240 - BlenderMCPServer - INFO - Response parsed, status: error
+2026-10-24 12:01:20,240 - BlenderMCPServer - ERROR - Blender error: Unknown command type: search_polypizza_models
+2026-10-24 12:01:20,240 - BlenderMCPServer - ERROR - Error communicating with Blender: Unknown command type: search_polypizza_models
+2026-10-24 12:01:20,240 - BlenderMCPServer - ERROR - Error searching Poly Pizza models: Communication error with Blender: Unknown command type: search_polypizza_models
+2026-10-24 12:01:20,241 - BlenderMCPServer - ERROR - Traceback (most recent call last):
+  File "C:\Users\z1sou\.local\blender-mcp-venv\Lib\site-packages\blender_mcp\server.py", line 244, in _send_command_locked
+    raise Exception(response.get("message", "Unknown error from Blender"))
+Exception: Unknown command type: search_polypizza_models
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\z1sou\.local\blender-mcp-venv\Lib\site-packages\blender_mcp\server.py", line 1339, in _search_polypizza
+    result = blender.send_command("search_polypizza_models", {
+        "query": query,
+    ...<3 lines>...
+        "limit": limit
+    })
+  File "C:\Users\z1sou\.local\blender-mcp-venv\Lib\site-packages\blender_mcp\server.py", line 211, in send_command
+    return self._send_command_locked(command_type, params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\z1sou\.local\blender-mcp-venv\Lib\site-packages\blender_mcp\server.py", line 267, in _send_command_locked
+    raise Exception(f"Communication error with Blender: {str(e)}")
+Exception: Communication error with Blender: Unknown command type: search_polypizza_models
+
+2026-10-24 12:01:20,241 - BlenderMCPServer - INFO - Searching Poly Pizza models with query: hoodie, category: None, licence: CC0, animated: False, limit: 3
+2026-10-24 12:01:20,242 - BlenderMCPServer - INFO - Connected to Blender at localhost:9876
+2026-10-24 12:01:20,242 - BlenderMCPServer - INFO - Sending command: search_polypizza_models with params: {'query': 'hoodie', 'category': None, 'licence': 1, 'animated': False, 'limit': 3}
+2026-10-24 12:01:20,242 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-10-24 12:01:20,303 - BlenderMCPServer - INFO - Received complete response (79 bytes)
+2026-10-24 12:01:20,303 - BlenderMCPServer - INFO - Received 79 bytes of data
+2026-10-24 12:01:20,303 - BlenderMCPServer - INFO - Response parsed, status: error
+2026-10-24 12:01:20,303 - BlenderMCPServer - ERROR - Blender error: Unknown command type: search_polypizza_models
+2026-10-24 12:01:20,303 - BlenderMCPServer - ERROR - Error communicating with Blender: Unknown command type: search_polypizza_models
+2026-10-24 12:01:20,303 - BlenderMCPServer - ERROR - Error searching Poly Pizza models: Communication error with Blender: Unknown command type: search_polypizza_models
+2026-10-24 12:01:20,304 - BlenderMCPServer - ERROR - Traceback (most recent call last):
+  File "C:\Users\z1sou\.local\blender-mcp-venv\Lib\site-packages\blender_mcp\server.py", line 244, in _send_command_locked
+    raise Exception(response.get("message", "Unknown error from Blender"))
+Exception: Unknown command type: search_polypizza_models
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\z1sou\.local\blender-mcp-venv\Lib\site-packages\blender_mcp\server.py", line 1339, in _search_polypizza
+    result = blender.send_command("search_polypizza_models", {
+        "query": query,
+    ...<3 lines>...
+        "limit": limit
+    })
+  File "C:\Users\z1sou\.local\blender-mcp-venv\Lib\site-packages\blender_mcp\server.py", line 211, in send_command
+    return self._send_command_locked(command_type, params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\z1sou\.local\blender-mcp-venv\Lib\site-packages\blender_mcp\server.py", line 267, in _send_command_locked
+    raise Exception(f"Communication error with Blender: {str(e)}")
+Exception: Communication error with Blender: Unknown command type: search_polypizza_models
+
+2026-10-24 12:01:20,304 - BlenderMCPServer - INFO - Searching Poly Pizza models with query: shoes, category: None, licence: CC0, animated: False, limit: 3
+2026-10-24 12:01:20,305 - BlenderMCPServer - INFO - Connected to Blender at localhost:9876
+2026-10-24 12:01:20,305 - BlenderMCPServer - INFO - Sending command: search_polypizza_models with params: {'query': 'shoes', 'category': None, 'licence': 1, 'animated': False, 'limit': 3}
+2026-10-24 12:01:20,305 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-10-24 12:01:20,366 - BlenderMCPServer - INFO - Received complete response (79 bytes)
+2026-10-24 12:01:20,367 - BlenderMCPServer - INFO - Received 79 bytes of data
+2026-10-24 12:01:20,367 - BlenderMCPServer - INFO - Response parsed, status: error
+2026-10-24 12:01:20,367 - BlenderMCPServer - ERROR - Blender error: Unknown command type: search_polypizza_models
+2026-10-24 12:01:20,367 - BlenderMCPServer - ERROR - Error communicating with Blender: Unknown command type: search_polypizza_models
+2026-10-24 12:01:20,367 - BlenderMCPServer - ERROR - Error searching Poly Pizza models: Communication error with Blender: Unknown command type: search_polypizza_models
+2026-10-24 12:01:20,368 - BlenderMCPServer - ERROR - Traceback (most recent call last):
+  File "C:\Users\z1sou\.local\blender-mcp-venv\Lib\site-packages\blender_mcp\server.py", line 244, in _send_command_locked
+    raise Exception(response.get("message", "Unknown error from Blender"))
+Exception: Unknown command type: search_polypizza_models
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\z1sou\.local\blender-mcp-venv\Lib\site-packages\blender_mcp\server.py", line 1339, in _search_polypizza
+    result = blender.send_command("search_polypizza_models", {
+        "query": query,
+    ...<3 lines>...
+        "limit": limit
+    })
+  File "C:\Users\z1sou\.local\blender-mcp-venv\Lib\site-packages\blender_mcp\server.py", line 211, in send_command
+    return self._send_command_locked(command_type, params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\z1sou\.local\blender-mcp-venv\Lib\site-packages\blender_mcp\server.py", line 267, in _send_command_locked
+    raise Exception(f"Communication error with Blender: {str(e)}")
+Exception: Communication error with Blender: Unknown command type: search_polypizza_models
+
+2026-10-24 12:01:20,368 - BlenderMCPServer - INFO - Searching Poly Pizza models with query: fire pit, category: None, licence: CC0, animated: False, limit: 3
+2026-10-24 12:01:20,369 - BlenderMCPServer - INFO - Connected to Blender at localhost:9876
+2026-10-24 12:01:20,369 - BlenderMCPServer - INFO - Sending command: search_polypizza_models with params: {'query': 'fire pit', 'category': None, 'licence': 1, 'animated': False, 'limit': 3}
+2026-10-24 12:01:20,369 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-10-24 12:01:20,429 - BlenderMCPServer - INFO - Received complete response (79 bytes)
+2026-10-24 12:01:20,429 - BlenderMCPServer - INFO - Received 79 bytes of data
+2026-10-24 12:01:20,429 - BlenderMCPServer - INFO - Response parsed, status: error
+2026-10-24 12:01:20,429 - BlenderMCPServer - ERROR - Blender error: Unknown command type: search_polypizza_models
+2026-10-24 12:01:20,429 - BlenderMCPServer - ERROR - Error communicating with Blender: Unknown command type: search_polypizza_models
+2026-10-24 12:01:20,429 - BlenderMCPServer - ERROR - Error searching Poly Pizza models: Communication error with Blender: Unknown command type: search_polypizza_models
+2026-10-24 12:01:20,430 - BlenderMCPServer - ERROR - Traceback (most recent call last):
+  File "C:\Users\z1sou\.local\blender-mcp-venv\Lib\site-packages\blender_mcp\server.py", line 244, in _send_command_locked
+    raise Exception(response.get("message", "Unknown error from Blender"))
+Exception: Unknown command type: search_polypizza_models
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\z1sou\.local\blender-mcp-venv\Lib\site-packages\blender_mcp\server.py", line 1339, in _search_polypizza
+    result = blender.send_command("search_polypizza_models", {
+        "query": query,
+    ...<3 lines>...
+        "limit": limit
+    })
+  File "C:\Users\z1sou\.local\blender-mcp-venv\Lib\site-packages\blender_mcp\server.py", line 211, in send_command
+    return self._send_command_locked(command_type, params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\z1sou\.local\blender-mcp-venv\Lib\site-packages\blender_mcp\server.py", line 267, in _send_command_locked
+    raise Exception(f"Communication error with Blender: {str(e)}")
+Exception: Communication error with Blender: Unknown command type: search_polypizza_models
+
+mug Poly Pizza is switched off. Ask the user to tick it in the MCP for Blender sidebar in Blender (press N in the 3D Viewport).
+bean bag Poly Pizza is switched off. Ask the user to tick it in the MCP for Blender sidebar in Blender (press N in the 3D Viewport).
+hoodie Poly Pizza is switched off. Ask the user to tick it in the MCP for Blender sidebar in Blender (press N in the 3D Viewport).
+shoes Poly Pizza is switched off. Ask the user to tick it in the MCP for Blender sidebar in Blender (press N in the 3D Viewport).
+fire pit Poly Pizza is switched off. Ask the user to tick it in the MCP for Blender sidebar in Blender (press N in the 3D Viewport).

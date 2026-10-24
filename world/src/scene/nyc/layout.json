@@ -5,7 +5,8 @@
       0,
       0,
       0
-    ]
+    ],
+    "aligned": true
   },
   {
     "type": "sofa",
@@ -13,7 +14,8 @@
       -1,
       -0.18,
       0
-    ]
+    ],
+    "aligned": false
   },
   {
     "type": "coffee",
@@ -21,7 +23,8 @@
       -0.3,
       -0.18,
       2.2
-    ]
+    ],
+    "aligned": false
   },
   {
     "type": "rug",
@@ -29,7 +32,8 @@
       -0.3,
       0,
       1.4
-    ]
+    ],
+    "aligned": true
   },
   {
     "type": "tv",
@@ -38,7 +42,8 @@
       0,
       1
     ],
-    "rotation": 0
+    "rotation": 0,
+    "aligned": true
   },
   {
     "type": "kitchen",
@@ -46,7 +51,8 @@
       -3,
       0,
       -4.4
-    ]
+    ],
+    "aligned": true
   },
   {
     "type": "island",
@@ -54,7 +60,8 @@
       -3.2,
       0,
       -2.4
-    ]
+    ],
+    "aligned": false
   },
   {
     "type": "stool",
@@ -62,7 +69,8 @@
       -4.4,
       0,
       -1.2
-    ]
+    ],
+    "aligned": false
   },
   {
     "type": "stool",
@@ -70,7 +78,8 @@
       -3.2,
       0,
       -1.2
-    ]
+    ],
+    "aligned": false
   },
   {
     "type": "stool",
@@ -78,7 +87,8 @@
       -2,
       0,
       -1.2
-    ]
+    ],
+    "aligned": false
   },
   {
     "type": "desk",
@@ -86,7 +96,8 @@
       2.7,
       0,
       -3.7
-    ]
+    ],
+    "aligned": true
   },
   {
     "type": "beanbag",
@@ -94,7 +105,8 @@
       1.3,
       -0.18,
       3.7
-    ]
+    ],
+    "aligned": false
   },
   {
     "type": "beanbag",
@@ -102,7 +114,8 @@
       2.8,
       -0.18,
       3.3
-    ]
+    ],
+    "aligned": false
   },
   {
     "type": "planter",
@@ -110,7 +123,8 @@
       -6,
       0,
       -3.4
-    ]
+    ],
+    "aligned": false
   },
   {
     "type": "planter",
@@ -118,7 +132,8 @@
       4.1,
       0,
       -3.7
-    ]
+    ],
+    "aligned": false
   },
   {
     "type": "planter",
@@ -126,7 +141,8 @@
       5,
       0,
       3
-    ]
+    ],
+    "aligned": false
   },
   {
     "type": "bookshelf",
@@ -134,7 +150,8 @@
       6,
       0,
       -3.7
-    ]
+    ],
+    "aligned": true
   },
   {
     "type": "lamp",
@@ -142,7 +159,8 @@
       -3.7,
       0,
       1.4
-    ]
+    ],
+    "aligned": false
   },
   {
     "type": "lamp",
@@ -150,7 +168,8 @@
       4,
       0,
       2.7
-    ]
+    ],
+    "aligned": false
   },
   {
     "type": "firepit",
@@ -158,7 +177,8 @@
       -7.8,
       -0.42,
       3
-    ]
+    ],
+    "aligned": false
   },
   {
     "type": "pine",
@@ -166,7 +186,8 @@
       -8.1,
       -0.42,
       -4
-    ]
+    ],
+    "aligned": false
   },
   {
     "type": "pine",
@@ -174,7 +195,8 @@
       -8.1,
       -0.42,
       5.4
-    ]
+    ],
+    "aligned": false
   },
   {
     "type": "pine",
@@ -182,7 +204,8 @@
       6.5,
       -0.42,
       6.1
-    ]
+    ],
+    "aligned": false
   },
   {
     "type": "lounger",
@@ -190,7 +213,8 @@
       -7.8,
       -0.42,
       0.2
-    ]
+    ],
+    "aligned": false
   },
   {
     "type": "lounger",
@@ -198,7 +222,8 @@
       -6.2,
       -0.42,
       6
-    ]
+    ],
+    "aligned": false
   },
   {
     "type": "dining",
@@ -206,7 +231,8 @@
       -7.5,
       -0.42,
       -2
-    ]
+    ],
+    "aligned": false
   },
   {
     "type": "railing",
@@ -214,7 +240,8 @@
       -6,
       -0.42,
       7
-    ]
+    ],
+    "aligned": true
   },
   {
     "type": "railing",
@@ -222,7 +249,8 @@
       -4,
       -0.42,
       7
-    ]
+    ],
+    "aligned": true
   },
   {
     "type": "railing",
@@ -230,7 +258,8 @@
       -2,
       -0.42,
       7
-    ]
+    ],
+    "aligned": true
   },
   {
     "type": "railing",
@@ -238,7 +267,8 @@
       0,
       -0.42,
       7
-    ]
+    ],
+    "aligned": true
   },
   {
     "type": "railing",
@@ -246,7 +276,8 @@
       2,
       -0.42,
       7
-    ]
+    ],
+    "aligned": true
   },
   {
     "type": "railing",
@@ -254,7 +285,8 @@
       4,
       -0.42,
       7
-    ]
+    ],
+    "aligned": true
   },
   {
     "type": "railing",
@@ -262,7 +294,8 @@
       6,
       -0.42,
       7
-    ]
+    ],
+    "aligned": true
   },
   {
     "type": "terrace",
@@ -270,7 +303,8 @@
       0,
       0,
       0
-    ]
+    ],
+    "aligned": true
   },
   {
     "type": "sunken",
@@ -278,7 +312,8 @@
       -0.3,
       0,
       1.3
-    ]
+    ],
+    "aligned": true
   },
   {
     "type": "steps",
@@ -286,7 +321,8 @@
       -6.5,
       0,
       2.5
-    ]
+    ],
+    "aligned": true
   },
   {
     "type": "bay",
@@ -294,7 +330,8 @@
       -7.4,
       0,
       -0.5
-    ]
+    ],
+    "aligned": true
   },
   {
     "type": "bulkhead",
@@ -302,7 +339,8 @@
       5,
       3.7,
       -4
-    ]
+    ],
+    "aligned": true
   },
   {
     "type": "pendant",
@@ -310,7 +348,8 @@
       -4,
       0,
       -2.4
-    ]
+    ],
+    "aligned": false
   },
   {
     "type": "pendant",
@@ -318,7 +357,8 @@
       -2.6,
       0,
       -2.4
-    ]
+    ],
+    "aligned": false
   },
   {
     "type": "tablelamp",
@@ -326,7 +366,8 @@
       3.3,
       0,
       3.7
-    ]
+    ],
+    "aligned": false
   },
   {
     "type": "tablelamp",
@@ -334,7 +375,8 @@
       -5.7,
       0,
       2
-    ]
+    ],
+    "aligned": false
   },
   {
     "type": "lamp",
@@ -342,7 +384,8 @@
       5.8,
       0,
       -1
-    ]
+    ],
+    "aligned": false
   },
   {
     "type": "planter",
@@ -350,7 +393,8 @@
       -5.8,
       0,
       -0.5
-    ]
+    ],
+    "aligned": false
   },
   {
     "type": "planter",
@@ -358,7 +402,8 @@
       1,
       0,
       -4.1
-    ]
+    ],
+    "aligned": false
   },
   {
     "type": "planter",
@@ -366,7 +411,8 @@
       5.9,
       0,
       4
-    ]
+    ],
+    "aligned": false
   },
   {
     "type": "art",
@@ -374,7 +420,8 @@
       5.6,
       0,
       -4.8
-    ]
+    ],
+    "aligned": false
   },
   {
     "type": "art",
@@ -382,7 +429,8 @@
       4.3,
       0,
       -4.8
-    ]
+    ],
+    "aligned": false
   },
   {
     "type": "chair",
@@ -390,7 +438,8 @@
       -7.5,
       -0.42,
       -3
-    ]
+    ],
+    "aligned": false
   },
   {
     "type": "chair",
@@ -398,7 +447,8 @@
       -7.5,
       -0.42,
       -1
-    ]
+    ],
+    "aligned": false
   },
   {
     "type": "city",
@@ -406,6 +456,52 @@
       0,
       0,
       0
-    ]
+    ],
+    "aligned": true
+  },
+  {
+    "type": "gamingChair",
+    "position": [
+      2.7,
+      0,
+      -2.6
+    ],
+    "aligned": false
+  },
+  {
+    "type": "clutterBooks",
+    "position": [
+      -0.5,
+      0.5,
+      2
+    ],
+    "aligned": false
+  },
+  {
+    "type": "clutterBooks",
+    "position": [
+      -0.1,
+      0.6,
+      2.2
+    ],
+    "aligned": false
+  },
+  {
+    "type": "clutterBooks",
+    "position": [
+      -0.3,
+      0.7,
+      2.25
+    ],
+    "aligned": false
+  },
+  {
+    "type": "clutterLaptop",
+    "position": [
+      0.4,
+      0.7,
+      0.2
+    ],
+    "aligned": false
   }
 ]

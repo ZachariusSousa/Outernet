@@ -48,3 +48,10 @@ The live page now loads the fake log. Play/pause, 1×/4×/16×, file picker or J
 P toggles placement editing and pauses replay updates. Drag spot spheres or path waypoints on their current floor plane. Copy spots JSON writes to clipboard or downloads; save it over src/scene/nyc/spots.json to persist. Apartment geometry is in each object module, positions in layout.json, and effective look settings (including Claude's look pass) in one clean src/look.js object.
 
 The generator now labels space nyc. Run python world/tools/fake_log.py --seed 1 --minutes 10 and --check as before; copy generated fixture to public/fixtures for production. Evidence and known limitations: docs/progress-2026-10-24-world-integration.md. No integrated-GPU performance claim yet.
+
+## Soft HD-2D models
+Most furniture/plant/lamp modules now assemble verified CC0 Kenney GLBs from art/models/. models.json records every exported asset and its source/license. Source packs and their original License.txt are preserved. Missing/substitute models are listed in docs/model-wishlist.md.
+
+Blender conversion: world/blender/prepare_models_mcp.py runs with the installed Blender MCP Python environment while Blender and its add-on are open. It generates the repeatable Blender-only soften_pack_assets.py and exports soft GLBs. Poly Pizza CC0 searches were unavailable because that integration is switched off in the add-on. All current imported models are Kenney CC0; no CC-BY assets used.
+
+Look.js holds softness, contact shadows, AO, material remaps and seeded placement variation. Mark layout.json objects aligned to disable jitter. Updated visuals/checklist: docs/progress-2026-10-24-soft-models.md. This is a visual/model pass, not a new claim of complete W0.

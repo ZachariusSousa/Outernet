@@ -578,4 +578,4 @@ export const parts=[
 ];
 export default ()=>{const g=object(parts,'terrace');const arc=(radius,y)=>new T.CatmullRomCurve3(Array.from({length:L.terrace.railSegments+1},(_,i)=>{const a=i/L.terrace.railSegments*Math.PI/2;return new T.Vector3(-8-radius*Math.cos(a),y,5+radius*Math.sin(a))}));
 for(const [radius,y,tube,m] of [[2,.94,L.terrace.railRadius,'dark'],[2,1.02,L.terrace.capRadius,'snow'],[1.7,-.18,L.terrace.planterRadius,'stone'],[1.7,.04,L.terrace.capRadius,'snow']])g.add(new T.Mesh(new T.TubeGeometry(arc(radius,y),L.terrace.railSegments,tube,6,false),material(m,Math.PI*radius/2,tube*Math.PI*2)));
-return g};
+for(const p of [[-8.7,-.28,-3],[-8.8,-.28,4.8],[-5.8,-.28,6.4],[5.8,-.28,6.4]]){const snow=new T.Mesh(new T.SphereGeometry(.5,L.render.segments,L.render.segments),material('snow',1,1));snow.position.fromArray(p);snow.scale.set(1.7,.35,1.1);g.add(snow)}return g};

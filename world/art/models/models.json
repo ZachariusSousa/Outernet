@@ -1,0 +1,344 @@
+[
+  {
+    "name": "loungeDesignSofa",
+    "file": "kenney-furniture/soft/loungeDesignSofa.glb",
+    "original": "kenney-furniture\\source\\Models\\GLTF format\\loungeDesignSofa.glb",
+    "pack": "kenney-furniture",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/furniture-kit"
+  },
+  {
+    "name": "loungeDesignSofaCorner",
+    "file": "kenney-furniture/soft/loungeDesignSofaCorner.glb",
+    "original": "kenney-furniture\\source\\Models\\GLTF format\\loungeDesignSofaCorner.glb",
+    "pack": "kenney-furniture",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/furniture-kit"
+  },
+  {
+    "name": "loungeSofaOttoman",
+    "file": "kenney-furniture/soft/loungeSofaOttoman.glb",
+    "original": "kenney-furniture\\source\\Models\\GLTF format\\loungeSofaOttoman.glb",
+    "pack": "kenney-furniture",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/furniture-kit"
+  },
+  {
+    "name": "tableCoffeeGlass",
+    "file": "kenney-furniture/soft/tableCoffeeGlass.glb",
+    "original": "kenney-furniture\\source\\Models\\GLTF format\\tableCoffeeGlass.glb",
+    "pack": "kenney-furniture",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/furniture-kit"
+  },
+  {
+    "name": "loungeChairRelax",
+    "file": "kenney-furniture/soft/loungeChairRelax.glb",
+    "original": "kenney-furniture\\source\\Models\\GLTF format\\loungeChairRelax.glb",
+    "pack": "kenney-furniture",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/furniture-kit"
+  },
+  {
+    "name": "televisionModern",
+    "file": "kenney-furniture/soft/televisionModern.glb",
+    "original": "kenney-furniture\\source\\Models\\GLTF format\\televisionModern.glb",
+    "pack": "kenney-furniture",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/furniture-kit"
+  },
+  {
+    "name": "cabinetTelevision",
+    "file": "kenney-furniture/soft/cabinetTelevision.glb",
+    "original": "kenney-furniture\\source\\Models\\GLTF format\\cabinetTelevision.glb",
+    "pack": "kenney-furniture",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/furniture-kit"
+  },
+  {
+    "name": "kitchenCabinet",
+    "file": "kenney-furniture/soft/kitchenCabinet.glb",
+    "original": "kenney-furniture\\source\\Models\\GLTF format\\kitchenCabinet.glb",
+    "pack": "kenney-furniture",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/furniture-kit"
+  },
+  {
+    "name": "kitchenCabinetUpper",
+    "file": "kenney-furniture/soft/kitchenCabinetUpper.glb",
+    "original": "kenney-furniture\\source\\Models\\GLTF format\\kitchenCabinetUpper.glb",
+    "pack": "kenney-furniture",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/furniture-kit"
+  },
+  {
+    "name": "kitchenFridge",
+    "file": "kenney-furniture/soft/kitchenFridge.glb",
+    "original": "kenney-furniture\\source\\Models\\GLTF format\\kitchenFridge.glb",
+    "pack": "kenney-furniture",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/furniture-kit"
+  },
+  {
+    "name": "kitchenStove",
+    "file": "kenney-furniture/soft/kitchenStove.glb",
+    "original": "kenney-furniture\\source\\Models\\GLTF format\\kitchenStove.glb",
+    "pack": "kenney-furniture",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/furniture-kit"
+  },
+  {
+    "name": "kitchenBar",
+    "file": "kenney-furniture/soft/kitchenBar.glb",
+    "original": "kenney-furniture\\source\\Models\\GLTF format\\kitchenBar.glb",
+    "pack": "kenney-furniture",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/furniture-kit"
+  },
+  {
+    "name": "stoolBar",
+    "file": "kenney-furniture/soft/stoolBar.glb",
+    "original": "kenney-furniture\\source\\Models\\GLTF format\\stoolBar.glb",
+    "pack": "kenney-furniture",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/furniture-kit"
+  },
+  {
+    "name": "desk",
+    "file": "kenney-furniture/soft/desk.glb",
+    "original": "kenney-furniture\\source\\Models\\GLTF format\\desk.glb",
+    "pack": "kenney-furniture",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/furniture-kit"
+  },
+  {
+    "name": "computerScreen",
+    "file": "kenney-furniture/soft/computerScreen.glb",
+    "original": "kenney-furniture\\source\\Models\\GLTF format\\computerScreen.glb",
+    "pack": "kenney-furniture",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/furniture-kit"
+  },
+  {
+    "name": "computerKeyboard",
+    "file": "kenney-furniture/soft/computerKeyboard.glb",
+    "original": "kenney-furniture\\source\\Models\\GLTF format\\computerKeyboard.glb",
+    "pack": "kenney-furniture",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/furniture-kit"
+  },
+  {
+    "name": "computerMouse",
+    "file": "kenney-furniture/soft/computerMouse.glb",
+    "original": "kenney-furniture\\source\\Models\\GLTF format\\computerMouse.glb",
+    "pack": "kenney-furniture",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/furniture-kit"
+  },
+  {
+    "name": "chairDesk",
+    "file": "kenney-furniture/soft/chairDesk.glb",
+    "original": "kenney-furniture\\source\\Models\\GLTF format\\chairDesk.glb",
+    "pack": "kenney-furniture",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/furniture-kit"
+  },
+  {
+    "name": "bookcaseOpen",
+    "file": "kenney-furniture/soft/bookcaseOpen.glb",
+    "original": "kenney-furniture\\source\\Models\\GLTF format\\bookcaseOpen.glb",
+    "pack": "kenney-furniture",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/furniture-kit"
+  },
+  {
+    "name": "pottedPlant",
+    "file": "kenney-furniture/soft/pottedPlant.glb",
+    "original": "kenney-furniture\\source\\Models\\GLTF format\\pottedPlant.glb",
+    "pack": "kenney-furniture",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/furniture-kit"
+  },
+  {
+    "name": "plantSmall1",
+    "file": "kenney-furniture/soft/plantSmall1.glb",
+    "original": "kenney-furniture\\source\\Models\\GLTF format\\plantSmall1.glb",
+    "pack": "kenney-furniture",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/furniture-kit"
+  },
+  {
+    "name": "lampRoundFloor",
+    "file": "kenney-furniture/soft/lampRoundFloor.glb",
+    "original": "kenney-furniture\\source\\Models\\GLTF format\\lampRoundFloor.glb",
+    "pack": "kenney-furniture",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/furniture-kit"
+  },
+  {
+    "name": "lampRoundTable",
+    "file": "kenney-furniture/soft/lampRoundTable.glb",
+    "original": "kenney-furniture\\source\\Models\\GLTF format\\lampRoundTable.glb",
+    "pack": "kenney-furniture",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/furniture-kit"
+  },
+  {
+    "name": "lampSquareCeiling",
+    "file": "kenney-furniture/soft/lampSquareCeiling.glb",
+    "original": "kenney-furniture\\source\\Models\\GLTF format\\lampSquareCeiling.glb",
+    "pack": "kenney-furniture",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/furniture-kit"
+  },
+  {
+    "name": "tableRound",
+    "file": "kenney-furniture/soft/tableRound.glb",
+    "original": "kenney-furniture\\source\\Models\\GLTF format\\tableRound.glb",
+    "pack": "kenney-furniture",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/furniture-kit"
+  },
+  {
+    "name": "chairRounded",
+    "file": "kenney-furniture/soft/chairRounded.glb",
+    "original": "kenney-furniture\\source\\Models\\GLTF format\\chairRounded.glb",
+    "pack": "kenney-furniture",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/furniture-kit"
+  },
+  {
+    "name": "loungeChair",
+    "file": "kenney-furniture/soft/loungeChair.glb",
+    "original": "kenney-furniture\\source\\Models\\GLTF format\\loungeChair.glb",
+    "pack": "kenney-furniture",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/furniture-kit"
+  },
+  {
+    "name": "pillow",
+    "file": "kenney-furniture/soft/pillow.glb",
+    "original": "kenney-furniture\\source\\Models\\GLTF format\\pillow.glb",
+    "pack": "kenney-furniture",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/furniture-kit"
+  },
+  {
+    "name": "books",
+    "file": "kenney-furniture/soft/books.glb",
+    "original": "kenney-furniture\\source\\Models\\GLTF format\\books.glb",
+    "pack": "kenney-furniture",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/furniture-kit"
+  },
+  {
+    "name": "sideTable",
+    "file": "kenney-furniture/soft/sideTable.glb",
+    "original": "kenney-furniture\\source\\Models\\GLTF format\\sideTable.glb",
+    "pack": "kenney-furniture",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/furniture-kit"
+  },
+  {
+    "name": "kitchenCoffeeMachine",
+    "file": "kenney-furniture/soft/kitchenCoffeeMachine.glb",
+    "original": "kenney-furniture\\source\\Models\\GLTF format\\kitchenCoffeeMachine.glb",
+    "pack": "kenney-furniture",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/furniture-kit"
+  },
+  {
+    "name": "laptop",
+    "file": "kenney-furniture/soft/laptop.glb",
+    "original": "kenney-furniture\\source\\Models\\GLTF format\\laptop.glb",
+    "pack": "kenney-furniture",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/furniture-kit"
+  },
+  {
+    "name": "rugRound",
+    "file": "kenney-furniture/soft/rugRound.glb",
+    "original": "kenney-furniture\\source\\Models\\GLTF format\\rugRound.glb",
+    "pack": "kenney-furniture",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/furniture-kit"
+  },
+  {
+    "name": "taxi",
+    "file": "kenney-cars/soft/taxi.glb",
+    "original": "kenney-cars\\source\\Models\\GLB format\\taxi.glb",
+    "pack": "kenney-cars",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/car-kit"
+  },
+  {
+    "name": "sedan",
+    "file": "kenney-cars/soft/sedan.glb",
+    "original": "kenney-cars\\source\\Models\\GLB format\\sedan.glb",
+    "pack": "kenney-cars",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/car-kit"
+  },
+  {
+    "name": "planter",
+    "file": "kenney-city/soft/planter.glb",
+    "original": "kenney-city\\source\\Models\\GLB format\\planter.glb",
+    "pack": "kenney-city",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/city-kit-suburban"
+  },
+  {
+    "name": "tree-small",
+    "file": "kenney-city/soft/tree-small.glb",
+    "original": "kenney-city\\source\\Models\\GLB format\\tree-small.glb",
+    "pack": "kenney-city",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/city-kit-suburban"
+  },
+  {
+    "name": "tree-large",
+    "file": "kenney-city/soft/tree-large.glb",
+    "original": "kenney-city\\source\\Models\\GLB format\\tree-large.glb",
+    "pack": "kenney-city",
+    "author": "Kenney",
+    "license": "CC0-1.0",
+    "url": "https://kenney.nl/assets/city-kit-suburban"
+  }
+]
