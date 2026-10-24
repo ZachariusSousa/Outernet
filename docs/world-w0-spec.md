@@ -3,7 +3,7 @@
 This is the handoff for the first build of the world frontend. `docs/design.md` ("The world" section) is the vision. This file is what to build now. If the two disagree, this file wins for W0. Ask Zach if something here is unclear rather than guessing.
 
 ## Goal
-A browser page showing **a dark, lived-in New York living room on a snowy night, seen at eye level, as lofi pixel art**, with **12 agents** going about their day, replaying an event log. Pretty first: it should feel like a VRChat hangout world or a lofi YouTube background you leave open on a second monitor, an escape while you work. Starting with one room keeps W0 small; more spaces come later. People only watch; nothing in the world is clickable except agents (to inspect them) and the camera.
+A browser page showing **a dark, lived-in New York living room on a snowy night, as an isometric lofi pixel-art cutaway**, with **12 agents** going about their day, replaying an event log. Pretty first: it should feel like a VRChat hangout world or a lofi YouTube background you leave open on a second monitor, an escape while you work. Starting with one room keeps W0 small; more spaces come later. People only watch; nothing in the world is clickable except agents (to inspect them) and the camera.
 
 ## Out of scope for W0
 The apartment and any other space, choosing a home space, time-of-day and weather settings (W0 is fixed at a snowy evening, but keep them as look values), sound and music, debug overlays, timeline scrubber, live streaming from the simulator, chat overlay, connect screen, reputation lanterns, user avatars. Don't build hooks for these beyond keeping the code tidy.
@@ -68,11 +68,11 @@ Interests are assigned across models with three unrelated interests per model. N
 
 Species comes from `model` (unknown diffusion model = jellyfish, unknown AR model = red panda, per design.md). The three agents sharing a species also get a small color tint each so they can be told apart.
 
-## 4. The New York living room (eye-level lofi pixel art)
-**Target:** `docs/look-refs/ref-lofi-neon-room.png` is the one Zach picked as "that's it": you are *inside* a dark cozy room at eye level, with a neon sign, a fireplace, a TV, and the night city through floor-to-ceiling glass. We make that as **lofi pixel art** (like pixel lofi stream backgrounds), not as a painting and not isometric. (Iso dioramas felt like looking *at* a game map; see `docs/look-refs/studio-v1-12-agents*.png` for the last iso attempt.)
+## 4. The New York living room (isometric lofi pixel cutaway)
+**Target:** the **mood** of `docs/look-refs/ref-lofi-neon-room.png` (Zach's "that's it": a dark cozy room with a neon sign, a fireplace, a TV and the night city through floor-to-ceiling glass), drawn as an **isometric pixel cutaway** like `ref-iso-pixel-room.png` (Zach wants to look down into the room). The earlier iso attempts failed on the room (luxury penthouse, then a studio that wasn't it), on generic feel, and on unlit sticker-like creatures, not on the view; this version fixes those.
 
-**The scene:** a lived-in (not luxury) living room high up in a Midtown apartment, at night in falling snow, seen from a slightly raised eye-level camera looking toward the windows.
-- Back wall: floor-to-ceiling windows with dark frames, the snowy city glowing beyond.
+**The scene:** a lived-in (not luxury) living room high up in a Midtown apartment tower, at night in falling snow, seen as a classic 2:1 isometric cutaway (the two near walls removed), with a thin slice of the tower's facade below the floor fading down into darkness.
+- The two back walls: mostly floor-to-ceiling windows with dark frames (the snowy city glows beyond), with one solid wall section for the fireplace and the neon sign.
 - One side: a fireplace with a low fire, a TV above or beside it, shelves with books, records and plants.
 - Front and middle: a big worn sofa and armchair facing a low coffee table on a rug, floor cushions, a beanbag, a side table with a lamp, a tea tray. There's enough visible floor for 12 small creatures to sit, lie, and walk between the sofa, window, fireplace and table.
 - Other side: a small desk by the window with a laptop and a desk lamp, and a big plant.
@@ -80,10 +80,10 @@ Species comes from `model` (unknown diffusion model = jellyfish, unknown AR mode
 - Lights low: the room mostly in deep blue-purple shadow, lit by the fire, the lamp, the TV and the city glow.
 
 **How it's made (layers, back to front):**
-- **City backdrop** (`art/nyc/backdrop.png`): the snowy night skyline as seen through the windows at eye level from a high floor, with slight parallax.
-- **The room** (`art/nyc/room.png`): one AI-generated pixel image of the furnished room, composed and lit together. Window panes are magenta `#FF00FF` and become transparent so the backdrop shows through. Cleaned to true pixel art (no dithering, whole-number scaling) with the winning cleanup.
+- **City backdrop** (`art/nyc/backdrop.png`): the snowy night skyline around and behind the tower, seen from high up, filling the whole view (through the windows and around the building), with slight parallax.
+- **The room** (`art/nyc/room.png`): one AI-generated isometric pixel image of the furnished room on its slice of tower, composed and lit together. Window panes and everything around the building are magenta `#FF00FF` and become transparent, so the backdrop shows through and around it. Cleaned to true pixel art (no dithering, whole-number scaling) with the winning cleanup.
 - **Glass:** a subtle tint and reflections over the panes, and snow falling outside.
-- **Agents and occluders:** occluder polygons with foot lines around the sofa back, armchair, coffee table, desk and big plant (drawn in placement mode), so agents sit behind and in front of things correctly. Agents nearer the camera (lower on screen) are drawn slightly larger, by whole-pixel steps at most one or two sizes, to give depth.
+- **Agents and occluders:** occluder polygons with foot lines around the sofa back, armchair, coffee table, desk and big plant (drawn in placement mode), so agents sit behind and in front of things correctly. 
 - **Code-drawn neon sign:** the owner picks the color (default pink) and a short word or a simple shape (a moon, a heart, a wave). Drawn in a pixel neon font with a glow and a gentle flicker, and its glow tints the nearby wall and creatures.
 - **Lofi grade:** a night layer darkening the room toward blue-purple, soft light pools around the fire, lamps, TV, screens and neon; glow halos; a gentle vignette and grain; steam from mugs; flicker on the fire and TV.
 - **Small decor sprites:** a few swappable small items (plants, mugs, books, posters) cut from a magenta sheet by `tools/sprite_cut.py`.
@@ -91,7 +91,7 @@ Species comes from `model` (unknown diffusion model = jellyfish, unknown AR mode
 
 **Room-lit creatures:** the block creatures keep the approved designs exactly, but are lit by the room: each light pool and the neon tint them by distance (warm near the fire and lamp, pink-purple near the neon, blue near the window), they get a 1-pixel rim highlight on the side facing the nearest strong light, a 1-pixel dark outline in a darker shade of their own color, and a soft contact shadow. The night layer darkens them like everything else. They should look like they're in the room, not pasted on.
 
-**Scene file** `art/nyc/scene.json` (image pixel coordinates): occluders and foot lines, window pane polygons, light pools (position, radius, color, strength, flicker), the neon sign's position and size, and **hangout spots**: each with x, y, pose (`sit`, `lie`, `stand`, `floor`), facing (left or right), a depth scale, and tags (`comfy`, `game` grouped for partners, `window`, `snack`, `fire`), plus walk paths. Agents take the nearest free spot for their activity, so they never overlap. Placement mode edits all of it and copies the JSON.
+**Scene file** `art/nyc/scene.json` (image pixel coordinates): occluders and foot lines, window pane polygons, light pools (position, radius, color, strength, flicker), the neon sign's position and size, and **hangout spots**: each with x, y, pose (`sit`, `lie`, `stand`, `floor`), facing (left or right), and tags (`comfy`, `game` grouped for partners, `window`, `snack`, `fire`), plus walk paths. Agents take the nearest free spot for their activity, so they never overlap. Placement mode edits all of it and copies the JSON.
 
 ## 5. Agents and animation
 Implement the event → animation table in design.md ("The world" → Event → animation). Agents act like people: **the activity shows in what an agent holds and does, not at a fixed station.**

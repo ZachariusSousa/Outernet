@@ -1,0 +1,16 @@
+Lofi pixel art, like a detailed pixel art lofi stream background, wide landscape 16:9. Use the attached previous concept ONLY for low night lighting, muted palette, cozy furniture mood and crisp pixel art treatment. Completely change the camera and room composition as described below: camera INSIDE the room at eye level, slightly raised to see some floor and tabletop, looking toward a wall of floor-to-ceiling windows. Natural interior perspective with depth, NOT an isometric exterior cutaway, NOT a floating building, NOT a rooftop scene.
+
+A dark, cozy, lived-in living room high up in a New York apartment at night. Not luxury: worn, warm, a bit messy. Cozy familiar home, slightly shabby wood and upholstery, substantial furniture and clear comfortable circulation paths.
+
+- Back wall: large floor-to-ceiling windows with dark frames, filling much of the rear wall. EVERY glass pane is perfectly uniform solid flat magenta #FF00FF. No scenery in any window.
+- Left side: a fireplace with a LOW warm fire, a TV BESIDE it on a low cabinet, shelves with books, records, plants and a record player.
+- Front and middle: a big worn sofa and an armchair facing a low wooden coffee table on a patterned rug, with TWO mugs, a candle and a board game; floor cushions and a beanbag; a side table with a small warm lamp; a tea tray with a kettle.
+- Right side: a small desk by the window with a laptop and a desk lamp, and a big leafy plant.
+- A plain EMPTY wall area on the UPPER LEFT for a future sign. Leave that wall patch completely blank: no lettering, posters, frames or signage there.
+- Leave clear OPEN FLOOR between the sofa, the table, the window and the fireplace. Sofa can sit across the foreground in a three-quarter/back-side view; furniture groups frame readable walking space, no obstruction wall of objects across all the floor.
+
+Lights LOW, late at night: room MOSTLY in deep blue-purple shadow, lit by the low fire, the small warm side-table lamp, laptop and dim TV glow. Desk lamp physically present, subdued/unlit so there is no extra bright lighting. Candle tiny and low. Localized soft amber pools around warm sources, subtle cool blue laptop/TV glow, genuinely dark corners, muted colors, calm nostalgic lofi mood. Retain detail in shadow without turning the whole room bright. No ceiling lights, no sunlight.
+
+CHROMA KEY is essential: Every window pane is EXACT solid flat magenta #FF00FF, perfectly flat edge-to-edge, no shading or gradients, NO pink tint or magenta bounce on the frames, walls, plants or furniture. Magenta is a placeholder mask for a city added later, NOT a glowing light source. Furnishings may silhouette naturally in front of the magenta panes. No rooftop deck or tower, no exterior blank magenta surrounding the room: the composition is edge-to-edge indoor living-room illustration, magenta ONLY within windows.
+
+Detailed but CLEAN crisp PIXEL ART: visible consistent pixel clusters, limited palette, flat pixel shading with restrained light bands, no dithering, no speckled noise, no blur or photographic 3D smoothness. Materials readable as worn fabric, wood, brick and leafy plants without noisy texture. NO text anywhere, NO people, NO animals, NO characters, NO logos.
