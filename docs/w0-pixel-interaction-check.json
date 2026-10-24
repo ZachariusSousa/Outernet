@@ -1,0 +1,58 @@
+{
+  "depth": {
+    "behind": {
+      "actual": [
+        121,
+        101,
+        154,
+        255
+      ],
+      "room": [
+        121,
+        101,
+        154,
+        255
+      ]
+    },
+    "front": {
+      "actual": [
+        225,
+        155,
+        174,
+        255
+      ],
+      "room": [
+        133,
+        96,
+        74,
+        255
+      ]
+    },
+    "rgbChanged": true
+  },
+  "card": true,
+  "follow": true,
+  "placementExport": true,
+  "newPolygon": true,
+  "resizes": [
+    {
+      "canvas": 900,
+      "stage": 900,
+      "scale": 1,
+      "pixelRatio": 1.25
+    },
+    {
+      "canvas": 1920,
+      "stage": 1920,
+      "scale": 3,
+      "pixelRatio": 1.25
+    },
+    {
+      "canvas": 1440,
+      "stage": 1440,
+      "scale": 4,
+      "pixelRatio": 1.25
+    }
+  ],
+  "errors": []
+}

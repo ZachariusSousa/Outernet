@@ -1,0 +1,11 @@
+{
+  "generator_deterministic": true,
+  "sha256": "d3d06381b0faabde201533666d0d5544b66baa56509ec2867a70996812360ed7",
+  "reference_size": [
+    480,
+    360
+  ],
+  "reference_colors": 44,
+  "palette_only": true,
+  "synthetic_4x_grid_detected": 4
+}

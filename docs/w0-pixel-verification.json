@@ -1,0 +1,102 @@
+{
+  "results": {
+    "runs": [
+      {
+        "speed": 1,
+        "cursor": 529,
+        "total": 529,
+        "sim": 603.0000000000686,
+        "overlap": 0,
+        "maxPending": 2.499999999999995,
+        "states": [
+          "resting",
+          "studying",
+          "playing",
+          "helping",
+          "serving_owner"
+        ],
+        "effects": [
+          "sleep",
+          "search",
+          "load_skill",
+          "ask_peer",
+          "answer",
+          "plane",
+          "open_page",
+          "save_note",
+          "sticky",
+          "sparkle",
+          "poof"
+        ]
+      },
+      {
+        "speed": 4,
+        "cursor": 529,
+        "total": 529,
+        "sim": 602.9999999999828,
+        "overlap": 0,
+        "maxPending": 3.199999999999818,
+        "states": [
+          "resting",
+          "studying",
+          "playing",
+          "helping",
+          "serving_owner"
+        ],
+        "effects": [
+          "sleep",
+          "search",
+          "load_skill",
+          "ask_peer",
+          "answer",
+          "plane",
+          "open_page",
+          "save_note",
+          "sticky",
+          "sparkle",
+          "poof"
+        ]
+      },
+      {
+        "speed": 16,
+        "cursor": 529,
+        "total": 529,
+        "sim": 603.4000000000043,
+        "overlap": 0,
+        "maxPending": 0,
+        "states": [
+          "resting",
+          "studying",
+          "playing",
+          "helping",
+          "serving_owner"
+        ],
+        "effects": [
+          "sleep",
+          "poof",
+          "search",
+          "load_skill",
+          "ask_peer",
+          "answer",
+          "plane",
+          "open_page",
+          "save_note",
+          "sticky",
+          "sparkle"
+        ]
+      }
+    ],
+    "plane": {
+      "duration": 3.5,
+      "retained": true,
+      "receiver": "node-02"
+    },
+    "view": {
+      "scale": 2,
+      "x": 240,
+      "y": 66
+    },
+    "context": true
+  },
+  "errors": []
+}

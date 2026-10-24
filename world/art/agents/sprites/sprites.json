@@ -1,0 +1,114 @@
+{
+  "axolotl": {
+    "size": [
+      36,
+      30
+    ],
+    "foot": [
+      16,
+      23
+    ],
+    "bodyColor": "#f2a7bb",
+    "frames": [
+      "axolotl-0-stand-0-0.png",
+      "axolotl-0-stand-1-0.png",
+      "axolotl-0-sit-0-0.png",
+      "axolotl-0-sit-1-0.png",
+      "axolotl-1-stand-0-0.png",
+      "axolotl-1-stand-1-0.png",
+      "axolotl-1-sit-0-0.png",
+      "axolotl-1-sit-1-0.png",
+      "axolotl-2-stand-0-0.png",
+      "axolotl-2-stand-1-0.png",
+      "axolotl-2-sit-0-0.png",
+      "axolotl-2-sit-1-0.png"
+    ]
+  },
+  "moth": {
+    "size": [
+      36,
+      30
+    ],
+    "foot": [
+      16,
+      23
+    ],
+    "bodyColor": "#efe2c4",
+    "frames": [
+      "moth-0-stand-0-0.png",
+      "moth-0-stand-0-1.png",
+      "moth-0-stand-1-0.png",
+      "moth-0-stand-1-1.png",
+      "moth-0-sit-0-0.png",
+      "moth-0-sit-0-1.png",
+      "moth-0-sit-1-0.png",
+      "moth-0-sit-1-1.png",
+      "moth-1-stand-0-0.png",
+      "moth-1-stand-0-1.png",
+      "moth-1-stand-1-0.png",
+      "moth-1-stand-1-1.png",
+      "moth-1-sit-0-0.png",
+      "moth-1-sit-0-1.png",
+      "moth-1-sit-1-0.png",
+      "moth-1-sit-1-1.png",
+      "moth-2-stand-0-0.png",
+      "moth-2-stand-0-1.png",
+      "moth-2-stand-1-0.png",
+      "moth-2-stand-1-1.png",
+      "moth-2-sit-0-0.png",
+      "moth-2-sit-0-1.png",
+      "moth-2-sit-1-0.png",
+      "moth-2-sit-1-1.png"
+    ]
+  },
+  "raccoon": {
+    "size": [
+      36,
+      30
+    ],
+    "foot": [
+      16,
+      23
+    ],
+    "bodyColor": "#9aa3ad",
+    "frames": [
+      "raccoon-0-stand-0-0.png",
+      "raccoon-0-stand-1-0.png",
+      "raccoon-0-sit-0-0.png",
+      "raccoon-0-sit-1-0.png",
+      "raccoon-1-stand-0-0.png",
+      "raccoon-1-stand-1-0.png",
+      "raccoon-1-sit-0-0.png",
+      "raccoon-1-sit-1-0.png",
+      "raccoon-2-stand-0-0.png",
+      "raccoon-2-stand-1-0.png",
+      "raccoon-2-sit-0-0.png",
+      "raccoon-2-sit-1-0.png"
+    ]
+  },
+  "beaver": {
+    "size": [
+      36,
+      30
+    ],
+    "foot": [
+      16,
+      23
+    ],
+    "bodyColor": "#b0703f",
+    "frames": [
+      "beaver-0-stand-0-0.png",
+      "beaver-0-stand-1-0.png",
+      "beaver-0-sit-0-0.png",
+      "beaver-0-sit-1-0.png",
+      "beaver-1-stand-0-0.png",
+      "beaver-1-stand-1-0.png",
+      "beaver-1-sit-0-0.png",
+      "beaver-1-sit-1-0.png",
+      "beaver-2-stand-0-0.png",
+      "beaver-2-stand-1-0.png",
+      "beaver-2-sit-0-0.png",
+      "beaver-2-sit-1-0.png"
+    ]
+  }
+}

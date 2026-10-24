@@ -1,0 +1,12 @@
+import {chromium} from 'playwright';
+import assert from 'node:assert/strict';
+import {writeFileSync} from 'node:fs';
+const b=await chromium.launch({headless:true,channel:'msedge'}),p=await b.newPage({viewport:{width:1440,height:1000}}),errors=[];
+p.on('pageerror',e=>errors.push(String(e)));p.on('console',m=>{if(m.type()==='error')errors.push(m.text())});await p.goto('http://127.0.0.1:5180/?scene=modular&art=1');await p.waitForFunction(()=>window.world?.agents.length===12);
+await p.keyboard.press('p');await p.selectOption('#edit-kind','furniture');await p.selectOption('#edit-object','4');
+const before=await p.evaluate(()=>structuredClone(world.data.objects[4]));const v=await p.evaluate(()=>({...worldView.view,top:document.querySelector('#stage').getBoundingClientRect().top}));
+const cx=before.x+before.width/2,cy=before.y+before.height/2;await p.mouse.move(v.x+cx*v.scale,v.top+v.y+cy*v.scale);await p.mouse.down();await p.mouse.move(v.x+(cx+8)*v.scale,v.top+v.y+(cy+4)*v.scale);await p.mouse.up();assert.equal(await p.evaluate(()=>world.data.objects[4].x),before.x+8);
+await p.click('#mirror');assert.equal(await p.evaluate(()=>world.data.objects[4].flipX),!before.flipX);const count=await p.evaluate(()=>world.data.objects.length);await p.click('#duplicate');assert.equal(await p.evaluate(()=>world.data.objects.length),count+1);await p.click('#export');assert.equal(await p.evaluate(()=>JSON.parse(window.exportedScene).objects.length),count+1);
+const resized=await p.evaluate(()=>{const selection=worldView.selection,o=selection.o;const h=worldView.handles.find(h=>h.entry.o===o&&h.type==='size');const before=o.width;h.set({x:o.x+o.width+8,y:o.y+o.height});return o.width===before+8});assert(resized);assert.deepEqual(errors,[]);
+writeFileSync('docs/w0-modular-check.json',JSON.stringify({objects:count,drag:true,mirror:true,duplicate:true,resize:resized,export:true,errors},null,2));
+await p.reload();await p.waitForFunction(()=>window.world?.agents.length===12);await p.screenshot({path:'C:/Outernet/docs/w0-modular-first-layout.png'});await p.keyboard.press('p');await p.selectOption('#edit-kind','furniture');await p.screenshot({path:'C:/Outernet/docs/w0-modular-placement.png'});console.log('Modular preview: drag, mirror, duplicate, resize, export all pass; no console errors.');await b.close();

@@ -1,0 +1,3 @@
+import {chromium} from 'playwright';
+const b=await chromium.launch({headless:true,channel:'msedge'}),p=await b.newPage({viewport:{width:1440,height:1000}}),errors=[];p.on('pageerror',e=>errors.push(String(e)));p.on('console',m=>{if(m.type()==='error')errors.push(m.text())});
+await p.goto('http://127.0.0.1:5180/?scene=modular&art=1');await p.waitForFunction(()=>window.world?.agents.length===12);await p.waitForTimeout(400);await p.screenshot({path:'C:/Outernet/docs/w0-modular-first-layout.png'});console.log(JSON.stringify({errors,objects:await p.evaluate(()=>world.data.objects.length)}));await b.close();

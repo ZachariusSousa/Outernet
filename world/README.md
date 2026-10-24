@@ -1,57 +1,86 @@
-# OuterNet illustrated W0
+# OuterNet W0 Â· pixel room
 
-From world/: `npm install`, then `npm run dev`. Open the printed URL. `npm run build` packages the page and art into dist/.
+A native 480 Ã— 360 Canvas 2D room, with live pixel sprites and JSONL playback. The page no longer imports three.js. The retired 3D implementation remains in Git history and its source folders.
 
-From the repository root:
+## Run
 
-    python world/tools/fake_log.py --seed 1 --minutes 10 > world/fixtures/fake-run.jsonl
-    python world/tools/fake_log.py --check world/fixtures/fake-run.jsonl
+From `C:/Outernet`:
 
-Copy the regenerated log into world/public/fixtures/ for production. The event contract and generator are unchanged. Open log or drag a JSONL onto the page. Play/pause and 1x/4x/16x retain the original behavior. Click a puppet for the existing agent card; Follow gently zooms toward it, Esc stops following.
+```powershell
+npm install --prefix world
+npm run dev --prefix world
+```
 
-## Placement mode
-Press P. Playback freezes while editing. Drag colored spot circles, path waypoint circles, furniture foot-line handles or decor handles. Copy scene JSON exports the current configuration (downloads if clipboard is unavailable). Save that JSON over art/cabin/scene.json and reload. Pink foot lines change sorting only, not the artwork position. Each furniture entry also has x/y offsets editable in JSON. Escape stops follow; P exits placement.
+Open the local address printed by Vite. The current review server is http://127.0.0.1:5180. `npm run build --prefix world` makes a static build in `world/dist`.
 
-## Replaceable art contract
-- cabin/sky.png, room.png, front.png, light.png, night.png: transparent RGBA 3840×2160. Furniture is a sixth logical layer, with individual full-size transparent PNGs under furniture/.
-- scene.json: image dimensions, layer filenames, furniture offsets and footY, spot positions/facing/poses, directed path waypoints, decor sticker placements, light-region rectangles and window bounds.
-- agents/<species>/*.png: 512×512 transparent parts. <species>.json defines part drawing order, pivot and position in that shared canvas, foot origin, and head/hand anchors. A different part layout can be supplied through JSON.
-- props/*.png and decor/*.png: 128×128. planes/*.png: 192×128.
-- Swap files under the same names and reload. No renderer edits required. Art is plainly labeled placeholder, not final illustration.
+## Fake log
 
-To regenerate original placeholders from the repository root: `node world/tools/placeholder_art.mjs` (overwrites art and placements; do not run after adding final art).
+The generator and validator are unchanged. Same seed gives the same log.
 
-Canvas 2D draws sky, room, foot-sorted furniture/puppets, front, additive light regions, then multiply night. Settings live in src/look.js; positional art metadata lives in scene.json and puppet JSON.
+```powershell
+python world/tools/fake_log.py --seed 1 --minutes 10 | Set-Content -Encoding utf8 world/fixtures/fake-run.jsonl
+python world/tools/fake_log.py --check world/fixtures/fake-run.jsonl
+Copy-Item world/fixtures/fake-run.jsonl world/public/fixtures/fake-run.jsonl
+```
 
-## Locked block SVG art (2026-10-24)
-The active cabin layers/furniture are now 1920×1080 SVGs. Four roster species use SVG parts split directly from style-test.svg, in 144×112 canvases. Props are 64×64, planes 80×64, decor 32×32. scene.json references the active files. The older PNG files are inactive for the roster but retained for fallback species. Do not run placeholder_art.mjs over this art. Press P to adjust scene placements and copy the JSON.
+Vite serves the copy under `public`. You can also open any JSONL through **Open log**, or drop it on the page. The run ID stays visible. Controls: pause/play and 1Ã— / 4Ã— / 16Ã—. The initial clock is three simulated seconds behind. Walks last 2.5 real seconds at 1Ã—; a blocked walk resolves by a visible poof within five real seconds, and 16Ã— always uses poofs. Tool effects shorten when animation demand passes five seconds. Message receipts never remove an in-flight plane.
 
-See docs/progress-2026-10-24-block-art.md for checklist limitations.
+## Clean Zach's room image
 
-## Blender flat render checkpoint
-From repository root run `world/.tools/blender-4.2.0-windows-x64/blender.exe -b -t 8 -P world/blender/build_flat.py` (or use any installed Blender 4.2+). It uses CPU Cycles. Tune blender/look_render.py. Output is art/flat/beauty.png plus 4× preview, raw render, depth.exr, camera.json and lights.json. The saved source is blender/flat.blend. The current page still uses the earlier renderer until the render is approved and camera/depth matching is implemented.
+Requires Python with Pillow (`python -m pip install Pillow`). Native size and palette come from `src/look.js`:
 
-## New York render checkpoint
-Run `world/.tools/blender-4.2.0-windows-x64/blender.exe -b -t 8 -P world/blender/build_nyc.py` from the repository root with Blender 4.2+. Settings are in blender/look_render.py. The previous flat build uses preserved look_flat.py. NYC outputs go to art/nyc/: beauty.png (960×1080), beauty-x4.png (whole tall image enlarged), penthouse-x4.png (intimate crop), raw.png, depth.exr, normal.exr, camera.json and lights.json. No dithering is applied. This is the scene-review checkpoint; RGB/window masks and frontend matching follow approval.
+```powershell
+python world/tools/pixel_clean.py path/to/generated-image.png world/art/nyc/room.png
+# Optional overrides for inconsistent AI grids or a different native canvas:
+python world/tools/pixel_clean.py input.png output.png --pixel-size 4 --size 480 360
+```
 
-## Active HD-2D scene review
-`cd world; npm install; npm run dev` opens the live penthouse and terrace. Scroll zooms; drag gives a limited orbit that springs back. This is step 1 only; the page does not currently replay logs. Existing playback/card code is saved in src/legacy-playback.js for reintegration in step 3.
+The cleaner reports the detected integer source pixel size and confidence. It only trusts a repeated edge phase on both axes. Inconsistent or already native art defaults to 1; it cannot infer an artist's intended grid perfectly. It recovers that grid, uses nearest-neighbor resizing, preserves aspect ratio with letterboxing, and snaps to the configured palette with **no dithering**. The reference test is `docs/pixel-clean-test.png` (44 palette colors).
 
-Edit src/scene/nyc/layout.json to move/rotate objects; each type has a module. All tunable scene settings, model parts and the texture palette live in src/look.js. Textures are original procedural CC0 stand-ins. `python world/tools/standin_textures.py` regenerates them from repository root (requires Pillow). `python world/tools/pixel_clean.py input.png output.png --size 64 64` resizes and snaps an image to look.js's palette, without dithering; Node and Pillow are required. Prompts for special artwork are in docs/texture-wishlist.md. `npm run build` packages art and the page.
+Replace only `art/nyc/room.png`, then edit the scene to fit it. Record Zach's image tool and prompt in `art/nyc/CREDITS.md`. No final AI room has been supplied yet: the current room is explicitly a schematic placeholder.
 
-## City review (step 2)
-Scene now includes surrounding towers, a stepped main tower, river lights and snowy street. Cars, pedestrians, steam, traffic signals, antenna and window brightness animate live. Scroll pulls back toward the street. Texture prompts are prioritized in docs/texture-wishlist.md. Detailed verification/limitations: docs/progress-2026-10-24-hd2d-city.md. Agent/playback integration remains step 3.
+## View and placement
 
-## Integrated world review
-The live page now loads the fake log. Play/pause, 1×/4×/16×, file picker or JSONL drop. Click a creature for name/species/model/interest/state/tool/library size and expandable last-five raw events. Follow tracks it; Esc stops. Resting creatures wander among tagged hangouts.
+Wheel or + / âˆ’: fit, fit+1, fit+2. Each step adds one integer scale factor; the scene never stretches. Drag to pan when zoomed. A smaller-than-native window stays at 1Ã— and can pan. Title and controls have separate space. Click a creature for its state, tool preview, library pages and expandable last five raw events. **Follow** centers it at a zoomed scale; Esc releases it.
 
-P toggles placement editing and pauses replay updates. Drag spot spheres or path waypoints on their current floor plane. Copy spots JSON writes to clipboard or downloads; save it over src/scene/nyc/spots.json to persist. Apartment geometry is in each object module, positions in layout.json, and effective look settings (including Claude's look pass) in one clean src/look.js object.
+**P** or **Place** pauses the scene for editing. Pick a layer and an object in the editor:
 
-The generator now labels space nyc. Run python world/tools/fake_log.py --seed 1 --minutes 10 and --check as before; copy generated fixture to public/fixtures for production. Evidence and known limitations: docs/progress-2026-10-24-world-integration.md. No integrated-GPU performance claim yet.
+- Drag spot centers; edit pose, facing, comma-separated tags and game group.
+- Drag path waypoints. Add object creates a new path; click waypoints, then Enter.
+- Drag polygon vertices or the center to move an entire region. Orange foot-line handles set occluder depth independently.
+- Shift-click appends a polygon vertex; Alt-click removes one. Add object draws a polygon; Enter finishes and Esc cancels.
+- Lights have editable color and flicker multiplier. RGB tint and overall strengths live in `look.js`.
+- Window rectangles have move and resize handles. Select a window, then Add twinkle. Snow clips to the window polygon.
+- Add object also creates spots and steam sources. Delete selected removes an object.
 
-## Soft HD-2D models
-Most furniture/plant/lamp modules now assemble verified CC0 Kenney GLBs from art/models/. models.json records every exported asset and its source/license. Source packs and their original License.txt are preserved. Missing/substitute models are listed in docs/model-wishlist.md.
+**Copy scene JSON** copies all edits, or downloads `scene.json` if clipboard access is unavailable. Save it over `world/art/nyc/scene.json`; edits are not written to disk automatically.
 
-Blender conversion: world/blender/prepare_models_mcp.py runs with the installed Blender MCP Python environment while Blender and its add-on are open. It generates the repeatable Blender-only soften_pack_assets.py and exports soft GLBs. Poly Pizza CC0 searches were unavailable because that integration is switched off in the add-on. All current imported models are Kenney CC0; no CC-BY assets used.
+Spots, walk paths and occluders use native image pixels. Spots reserve their destination; collision checks also protect moving agents. Studying chooses a nearby free comfy spot; playing prefers its partner's game group; helping and serving stay put. Resting wanders every 20â€“60 real seconds and may nap or snack without changing the card's true state.
 
-Look.js holds softness, contact shadows, AO, material remaps and seeded placement variation. Mark layout.json objects aligned to disable jitter. Updated visuals/checklist: docs/progress-2026-10-24-soft-models.md. This is a visual/model pass, not a new claim of complete W0.
+The room is drawn once. Agents and clipped cut-outs of that same image are then sorted by foot y, so furniture can hide an agent behind it. Window snow, city twinkles, RGB, lamp flicker, mug steam and dust are live layers.
+
+## Art and tuning
+
+`src/look.js` contains palette, lighting, grade, weather, camera and sprite timings. Approved creature rectangles are rasterized directly from `art/agents/style-test.svg`, with 8 SVG units = 2 native pixels. Body-only tint variants, blink, feet-hidden seated frames and moth wing frames are prebuilt; flips, 1-pixel bob, walking hop and lying poses happen on the native canvas. Interest props reuse the project SVGs; activity items and effects are tiny procedural sprites.
+
+`python world/tools/build_pixel_assets.py` rebuilds the **placeholder** room, scene and sprite frames. Do not run it over a real room or a hand-edited scene without keeping those files first. Source artwork and retired render evidence are preserved.
+
+## Focused checks
+
+With the dev server on port 5180 (or adjust the URL in the scripts):
+
+```powershell
+node world/tools/verify_canvas.mjs
+node world/tools/check_canvas_interactions.mjs
+node world/tools/check_pixel_hangouts.mjs
+npm run build --prefix world
+```
+
+Checks use local Playwright with installed Edge. The first fast-forwards the complete log using controlled 0.1-second clock ticks at all three speeds, checks overlaps, renders the scene during playback and saves fit / fit+2 / placement screenshots. The second checks exact occlusion pixels, RGB tint, actual card clicks, follow, placement export and viewport resizing. These checks avoid waiting thirty minutes of wall time. Results and the dated checklist are in `docs/`.
+
+
+## Modular art layout preview
+
+Open `http://127.0.0.1:5180/?scene=modular&art=1` for the first assembled generated-art layout. The architecture is one image, and furniture is independent transparent PNGs. Press **P**, choose **Furniture**, then drag a center, resize a corner, or use **Mirror** / **Duplicate**. **Copy scene JSON** exports all placements; save to `world/art/nyc/modular-v1/scene.json`.
+
+There are currently 13 sprite types and 18 placed instances. The table lamp and balcony pine are pending. Raw art and exact image_gen prompts are retained in the pack's `raw/` and `generation.json`. `python world/tools/prepare_modular_room.py` rebuilds cleaned sprites and the initial layout (keep edited scene.json before running it). The cleaner now preserves transparency; `--trim --alpha-cutoff 128` produces crisp cut-out furniture edges.

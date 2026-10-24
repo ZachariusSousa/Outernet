@@ -1,0 +1,197 @@
+{
+  "sectional": {
+    "source": [
+      1436,
+      785
+    ],
+    "detected_pixel_size": 1,
+    "confidence": 0,
+    "used_pixel_size": 1,
+    "output": [
+      126,
+      84
+    ],
+    "colors": 32,
+    "dithering": false
+  },
+  "coffee-table": {
+    "source": [
+      1041,
+      724
+    ],
+    "detected_pixel_size": 1,
+    "confidence": 0,
+    "used_pixel_size": 1,
+    "output": [
+      66,
+      46
+    ],
+    "colors": 37,
+    "dithering": false
+  },
+  "rug": {
+    "source": [
+      1301,
+      757
+    ],
+    "detected_pixel_size": 1,
+    "confidence": 0,
+    "used_pixel_size": 1,
+    "output": [
+      106,
+      66
+    ],
+    "colors": 22,
+    "dithering": false
+  },
+  "beanbag": {
+    "source": [
+      829,
+      768
+    ],
+    "detected_pixel_size": 1,
+    "confidence": 0,
+    "used_pixel_size": 1,
+    "output": [
+      34,
+      34
+    ],
+    "colors": 16,
+    "dithering": false
+  },
+  "media-unit": {
+    "source": [
+      1113,
+      1025
+    ],
+    "detected_pixel_size": 1,
+    "confidence": 0,
+    "used_pixel_size": 1,
+    "output": [
+      82,
+      64
+    ],
+    "colors": 33,
+    "dithering": false
+  },
+  "kitchen-cabinets": {
+    "source": [
+      1092,
+      1019
+    ],
+    "detected_pixel_size": 1,
+    "confidence": 0,
+    "used_pixel_size": 1,
+    "output": [
+      78,
+      57
+    ],
+    "colors": 30,
+    "dithering": false
+  },
+  "island": {
+    "source": [
+      873,
+      872
+    ],
+    "detected_pixel_size": 1,
+    "confidence": 0,
+    "used_pixel_size": 1,
+    "output": [
+      60,
+      46
+    ],
+    "colors": 27,
+    "dithering": false
+  },
+  "stool": {
+    "source": [
+      613,
+      964
+    ],
+    "detected_pixel_size": 1,
+    "confidence": 0,
+    "used_pixel_size": 1,
+    "output": [
+      20,
+      28
+    ],
+    "colors": 20,
+    "dithering": false
+  },
+  "desk": {
+    "source": [
+      1215,
+      1018
+    ],
+    "detected_pixel_size": 1,
+    "confidence": 0,
+    "used_pixel_size": 1,
+    "output": [
+      74,
+      50
+    ],
+    "colors": 35,
+    "dithering": false
+  },
+  "gaming-chair": {
+    "source": [
+      665,
+      1055
+    ],
+    "detected_pixel_size": 1,
+    "confidence": 0,
+    "used_pixel_size": 1,
+    "output": [
+      28,
+      38
+    ],
+    "colors": 19,
+    "dithering": false
+  },
+  "bookshelf": {
+    "source": [
+      464,
+      1071
+    ],
+    "detected_pixel_size": 1,
+    "confidence": 0,
+    "used_pixel_size": 1,
+    "output": [
+      32,
+      62
+    ],
+    "colors": 32,
+    "dithering": false
+  },
+  "plant": {
+    "source": [
+      888,
+      1029
+    ],
+    "detected_pixel_size": 1,
+    "confidence": 0,
+    "used_pixel_size": 1,
+    "output": [
+      24,
+      36
+    ],
+    "colors": 23,
+    "dithering": false
+  },
+  "floor-lamp": {
+    "source": [
+      326,
+      1164
+    ],
+    "detected_pixel_size": 1,
+    "confidence": 0,
+    "used_pixel_size": 1,
+    "output": [
+      18,
+      48
+    ],
+    "colors": 16,
+    "dithering": false
+  }
+}

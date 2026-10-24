@@ -1,0 +1,24 @@
+{
+  "wanderers": 12,
+  "games": [
+    {
+      "node": "node-01",
+      "state": "playing",
+      "group": "table",
+      "tags": [
+        "game",
+        "comfy"
+      ]
+    },
+    {
+      "node": "node-02",
+      "state": "playing",
+      "group": "table",
+      "tags": [
+        "game",
+        "comfy"
+      ]
+    }
+  ],
+  "separated": true
+}

@@ -1,0 +1,740 @@
+{
+  "width": 480,
+  "height": 360,
+  "placeholder": true,
+  "occluders": [
+    {
+      "id": "sofa",
+      "polygon": [
+        [
+          72,
+          176
+        ],
+        [
+          116,
+          153
+        ],
+        [
+          170,
+          180
+        ],
+        [
+          170,
+          195
+        ],
+        [
+          126,
+          217
+        ],
+        [
+          72,
+          190
+        ]
+      ],
+      "foot": {
+        "x": 72,
+        "y": 207
+      }
+    },
+    {
+      "id": "island",
+      "polygon": [
+        [
+          302,
+          185
+        ],
+        [
+          334,
+          169
+        ],
+        [
+          390,
+          197
+        ],
+        [
+          390,
+          215
+        ],
+        [
+          359,
+          232
+        ],
+        [
+          302,
+          203
+        ]
+      ],
+      "foot": {
+        "x": 302,
+        "y": 225
+      }
+    },
+    {
+      "id": "coffee-table",
+      "polygon": [
+        [
+          200,
+          224
+        ],
+        [
+          227,
+          210
+        ],
+        [
+          261,
+          227
+        ],
+        [
+          261,
+          237
+        ],
+        [
+          234,
+          251
+        ],
+        [
+          200,
+          234
+        ]
+      ],
+      "foot": {
+        "x": 200,
+        "y": 245
+      }
+    },
+    {
+      "id": "desk",
+      "polygon": [
+        [
+          150,
+          136
+        ],
+        [
+          177,
+          122
+        ],
+        [
+          213,
+          140
+        ],
+        [
+          213,
+          151
+        ],
+        [
+          186,
+          165
+        ],
+        [
+          150,
+          147
+        ]
+      ],
+      "foot": {
+        "x": 150,
+        "y": 156
+      }
+    },
+    {
+      "id": "tv-unit",
+      "polygon": [
+        [
+          52,
+          144
+        ],
+        [
+          79,
+          130
+        ],
+        [
+          106,
+          143
+        ],
+        [
+          106,
+          156
+        ],
+        [
+          80,
+          170
+        ],
+        [
+          52,
+          156
+        ]
+      ],
+      "foot": {
+        "x": 52,
+        "y": 166
+      }
+    },
+    {
+      "id": "plant",
+      "polygon": [
+        [
+          398,
+          238
+        ],
+        [
+          408,
+          233
+        ],
+        [
+          418,
+          239
+        ],
+        [
+          415,
+          251
+        ],
+        [
+          402,
+          251
+        ]
+      ],
+      "foot": {
+        "x": 398,
+        "y": 252
+      }
+    }
+  ],
+  "spots": [
+    {
+      "id": "spot-00",
+      "x": 101,
+      "y": 220,
+      "pose": "sit",
+      "facing": "right",
+      "tags": [
+        "comfy"
+      ],
+      "group": null
+    },
+    {
+      "id": "spot-01",
+      "x": 144,
+      "y": 241,
+      "pose": "sit",
+      "facing": "left",
+      "tags": [
+        "comfy"
+      ],
+      "group": null
+    },
+    {
+      "id": "spot-02",
+      "x": 187,
+      "y": 263,
+      "pose": "floor",
+      "facing": "right",
+      "tags": [
+        "comfy"
+      ],
+      "group": null
+    },
+    {
+      "id": "spot-03",
+      "x": 230,
+      "y": 285,
+      "pose": "lie",
+      "facing": "left",
+      "tags": [
+        "comfy"
+      ],
+      "group": null
+    },
+    {
+      "id": "spot-04",
+      "x": 275,
+      "y": 302,
+      "pose": "floor",
+      "facing": "right",
+      "tags": [
+        "comfy"
+      ],
+      "group": null
+    },
+    {
+      "id": "spot-05",
+      "x": 320,
+      "y": 278,
+      "pose": "stand",
+      "facing": "left",
+      "tags": [
+        "terrace",
+        "snack"
+      ],
+      "group": null
+    },
+    {
+      "id": "spot-06",
+      "x": 365,
+      "y": 255,
+      "pose": "stand",
+      "facing": "right",
+      "tags": [
+        "terrace",
+        "snack"
+      ],
+      "group": null
+    },
+    {
+      "id": "spot-07",
+      "x": 401,
+      "y": 225,
+      "pose": "stand",
+      "facing": "left",
+      "tags": [
+        "terrace",
+        "snack"
+      ],
+      "group": null
+    },
+    {
+      "id": "spot-08",
+      "x": 354,
+      "y": 186,
+      "pose": "stand",
+      "facing": "right",
+      "tags": [
+        "window",
+        "comfy"
+      ],
+      "group": null
+    },
+    {
+      "id": "spot-09",
+      "x": 300,
+      "y": 161,
+      "pose": "stand",
+      "facing": "left",
+      "tags": [
+        "window",
+        "comfy"
+      ],
+      "group": null
+    },
+    {
+      "id": "spot-10",
+      "x": 250,
+      "y": 137,
+      "pose": "stand",
+      "facing": "right",
+      "tags": [
+        "window",
+        "comfy"
+      ],
+      "group": null
+    },
+    {
+      "id": "spot-11",
+      "x": 206,
+      "y": 161,
+      "pose": "stand",
+      "facing": "left",
+      "tags": [
+        "window",
+        "comfy"
+      ],
+      "group": null
+    },
+    {
+      "id": "spot-12",
+      "x": 180,
+      "y": 220,
+      "pose": "sit",
+      "facing": "right",
+      "tags": [
+        "game",
+        "comfy"
+      ],
+      "group": "table"
+    },
+    {
+      "id": "spot-13",
+      "x": 225,
+      "y": 190,
+      "pose": "sit",
+      "facing": "left",
+      "tags": [
+        "game",
+        "comfy"
+      ],
+      "group": "table"
+    },
+    {
+      "id": "spot-14",
+      "x": 277,
+      "y": 260,
+      "pose": "stand",
+      "facing": "right",
+      "tags": [
+        "comfy"
+      ],
+      "group": null
+    },
+    {
+      "id": "spot-15",
+      "x": 322,
+      "y": 239,
+      "pose": "stand",
+      "facing": "left",
+      "tags": [
+        "snack",
+        "comfy"
+      ],
+      "group": null
+    },
+    {
+      "id": "spot-16",
+      "x": 365,
+      "y": 212,
+      "pose": "stand",
+      "facing": "right",
+      "tags": [
+        "snack",
+        "comfy"
+      ],
+      "group": null
+    },
+    {
+      "id": "spot-17",
+      "x": 317,
+      "y": 203,
+      "pose": "stand",
+      "facing": "left",
+      "tags": [
+        "snack",
+        "comfy"
+      ],
+      "group": null
+    },
+    {
+      "id": "spot-18",
+      "x": 269,
+      "y": 184,
+      "pose": "stand",
+      "facing": "right",
+      "tags": [
+        "comfy"
+      ],
+      "group": null
+    },
+    {
+      "id": "spot-19",
+      "x": 280,
+      "y": 220,
+      "pose": "sit",
+      "facing": "left",
+      "tags": [
+        "game",
+        "comfy"
+      ],
+      "group": "table"
+    },
+    {
+      "id": "spot-20",
+      "x": 180,
+      "y": 181,
+      "pose": "stand",
+      "facing": "right",
+      "tags": [
+        "comfy"
+      ],
+      "group": null
+    },
+    {
+      "id": "spot-21",
+      "x": 134,
+      "y": 160,
+      "pose": "stand",
+      "facing": "left",
+      "tags": [
+        "comfy"
+      ],
+      "group": null
+    },
+    {
+      "id": "spot-22",
+      "x": 88,
+      "y": 181,
+      "pose": "stand",
+      "facing": "right",
+      "tags": [
+        "comfy"
+      ],
+      "group": null
+    },
+    {
+      "id": "spot-23",
+      "x": 230,
+      "y": 278,
+      "pose": "sit",
+      "facing": "left",
+      "tags": [
+        "game",
+        "comfy"
+      ],
+      "group": "table"
+    }
+  ],
+  "paths": [
+    {
+      "id": "aisle",
+      "points": [
+        {
+          "x": 95,
+          "y": 224
+        },
+        {
+          "x": 148,
+          "y": 242
+        },
+        {
+          "x": 192,
+          "y": 260
+        },
+        {
+          "x": 235,
+          "y": 283
+        },
+        {
+          "x": 279,
+          "y": 294
+        },
+        {
+          "x": 320,
+          "y": 270
+        },
+        {
+          "x": 365,
+          "y": 246
+        },
+        {
+          "x": 402,
+          "y": 222
+        },
+        {
+          "x": 375,
+          "y": 188
+        },
+        {
+          "x": 329,
+          "y": 165
+        },
+        {
+          "x": 282,
+          "y": 142
+        },
+        {
+          "x": 235,
+          "y": 123
+        },
+        {
+          "x": 203,
+          "y": 157
+        },
+        {
+          "x": 163,
+          "y": 183
+        },
+        {
+          "x": 125,
+          "y": 205
+        },
+        {
+          "x": 95,
+          "y": 224
+        }
+      ]
+    },
+    {
+      "id": "middle",
+      "points": [
+        {
+          "x": 163,
+          "y": 183
+        },
+        {
+          "x": 200,
+          "y": 202
+        },
+        {
+          "x": 250,
+          "y": 194
+        },
+        {
+          "x": 278,
+          "y": 222
+        },
+        {
+          "x": 320,
+          "y": 243
+        },
+        {
+          "x": 365,
+          "y": 246
+        }
+      ]
+    }
+  ],
+  "lights": [
+    {
+      "id": "lamp-left",
+      "color": "#ffcf8a",
+      "flicker": 1,
+      "polygon": [
+        [
+          93,
+          140
+        ],
+        [
+          148,
+          140
+        ],
+        [
+          160,
+          196
+        ],
+        [
+          100,
+          210
+        ]
+      ]
+    },
+    {
+      "id": "lamp-kitchen",
+      "color": "#ffcf8a",
+      "flicker": 0.5,
+      "polygon": [
+        [
+          286,
+          159
+        ],
+        [
+          341,
+          172
+        ],
+        [
+          362,
+          209
+        ],
+        [
+          297,
+          191
+        ]
+      ]
+    },
+    {
+      "id": "tv",
+      "color": "#60758c",
+      "flicker": 0.4,
+      "polygon": [
+        [
+          56,
+          135
+        ],
+        [
+          103,
+          130
+        ],
+        [
+          135,
+          189
+        ],
+        [
+          78,
+          191
+        ]
+      ]
+    }
+  ],
+  "rgb": {
+    "id": "rgb",
+    "polygon": [
+      [
+        224,
+        26
+      ],
+      [
+        438,
+        133
+      ],
+      [
+        438,
+        136
+      ],
+      [
+        224,
+        29
+      ]
+    ]
+  },
+  "windows": [
+    {
+      "id": "city-window",
+      "polygon": [
+        [
+          251,
+          52
+        ],
+        [
+          427,
+          140
+        ],
+        [
+          427,
+          184
+        ],
+        [
+          251,
+          96
+        ]
+      ],
+      "twinkles": [
+        {
+          "x": 269,
+          "y": 81,
+          "w": 2,
+          "h": 2
+        },
+        {
+          "x": 293,
+          "y": 99,
+          "w": 2,
+          "h": 2
+        },
+        {
+          "x": 319,
+          "y": 106,
+          "w": 2,
+          "h": 2
+        },
+        {
+          "x": 347,
+          "y": 126,
+          "w": 2,
+          "h": 2
+        },
+        {
+          "x": 378,
+          "y": 137,
+          "w": 2,
+          "h": 2
+        },
+        {
+          "x": 408,
+          "y": 154,
+          "w": 2,
+          "h": 2
+        }
+      ]
+    }
+  ],
+  "steam": [
+    {
+      "x": 236,
+      "y": 224
+    }
+  ]
+}
