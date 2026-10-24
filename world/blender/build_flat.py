@@ -2,7 +2,7 @@ import bpy,sys,math,json,random
 from pathlib import Path
 from mathutils import Vector
 import numpy as np
-HERE=Path(__file__).resolve().parent;sys.path.insert(0,str(HERE));from look_render import LOOK as L
+HERE=Path(__file__).resolve().parent;sys.path.insert(0,str(HERE));from look_flat import LOOK as L
 OUT=HERE.parent/'art/flat';OUT.mkdir(parents=True,exist_ok=True);rng=random.Random(L['seed'])
 bpy.ops.object.select_all(action='SELECT');bpy.ops.object.delete(use_global=False)
 s=bpy.context.scene;s.render.engine='CYCLES';s.cycles.device='CPU';s.cycles.samples=L['samples'];s.cycles.use_denoising=True;s.cycles.seed=L['seed'];s.render.resolution_x,s.render.resolution_y=L['resolution'];s.render.resolution_percentage=100
@@ -66,3 +66,4 @@ for factor,name in [(1,'beauty.png'),(4,'beauty-x4.png')]:
  data=np.repeat(np.repeat(rgba,factor,axis=0),factor,axis=1);img=bpy.data.images.new(name,width=w*factor,height=h*factor);img.pixels.foreach_set(data.astype(np.float32).ravel());img.filepath_raw=str(OUT/name);img.file_format='PNG';img.save()
 for f in OUT.glob('depth*.exr'):
  if f.name!='depth.exr':f.replace(OUT/'depth.exr');break
+

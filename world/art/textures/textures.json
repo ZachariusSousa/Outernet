@@ -1,0 +1,134 @@
+[
+  {
+    "file": "wood.png",
+    "size": [
+      64,
+      64
+    ],
+    "source": "procedural",
+    "license": "CC0-1.0",
+    "author": "OuterNet",
+    "density": 32
+  },
+  {
+    "file": "parquet.png",
+    "size": [
+      64,
+      64
+    ],
+    "source": "claude",
+    "license": "CC0-1.0",
+    "author": "Claude",
+    "density": 32
+  },
+  {
+    "file": "fabric.png",
+    "size": [
+      64,
+      64
+    ],
+    "source": "procedural",
+    "license": "CC0-1.0",
+    "author": "OuterNet",
+    "density": 32
+  },
+  {
+    "file": "metal.png",
+    "size": [
+      64,
+      64
+    ],
+    "source": "procedural",
+    "license": "CC0-1.0",
+    "author": "OuterNet",
+    "density": 32
+  },
+  {
+    "file": "rug.png",
+    "size": [
+      64,
+      64
+    ],
+    "source": "procedural",
+    "license": "CC0-1.0",
+    "author": "OuterNet",
+    "density": 32
+  },
+  {
+    "file": "snow.png",
+    "size": [
+      64,
+      64
+    ],
+    "source": "procedural",
+    "license": "CC0-1.0",
+    "author": "OuterNet",
+    "density": 32
+  },
+  {
+    "file": "stone.png",
+    "size": [
+      64,
+      64
+    ],
+    "source": "procedural",
+    "license": "CC0-1.0",
+    "author": "OuterNet",
+    "density": 32
+  },
+  {
+    "file": "concrete.png",
+    "size": [
+      64,
+      64
+    ],
+    "source": "procedural",
+    "license": "CC0-1.0",
+    "author": "OuterNet",
+    "density": 32
+  },
+  {
+    "file": "leaf.png",
+    "size": [
+      64,
+      64
+    ],
+    "source": "procedural",
+    "license": "CC0-1.0",
+    "author": "OuterNet",
+    "density": 32
+  },
+  {
+    "file": "tv-screen.png",
+    "size": [
+      128,
+      64
+    ],
+    "source": "procedural",
+    "license": "CC0-1.0",
+    "author": "OuterNet",
+    "density": 32
+  },
+  {
+    "file": "white.png",
+    "size": [
+      64,
+      64
+    ],
+    "source": "procedural",
+    "license": "CC0-1.0",
+    "author": "OuterNet",
+    "density": 32
+  },
+  {
+    "file": "velvet.png",
+    "size": [
+      64,
+      64
+    ],
+    "source": "procedural",
+    "license": "CC0-1.0",
+    "author": "OuterNet",
+    "density": 32
+  }
+]

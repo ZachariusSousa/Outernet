@@ -1,0 +1,411 @@
+[
+  {
+    "type": "shell",
+    "position": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "type": "sofa",
+    "position": [
+      -1,
+      -0.18,
+      0
+    ]
+  },
+  {
+    "type": "coffee",
+    "position": [
+      -0.3,
+      -0.18,
+      2.2
+    ]
+  },
+  {
+    "type": "rug",
+    "position": [
+      -0.3,
+      0,
+      1.4
+    ]
+  },
+  {
+    "type": "tv",
+    "position": [
+      5,
+      0,
+      1
+    ],
+    "rotation": 0
+  },
+  {
+    "type": "kitchen",
+    "position": [
+      -3,
+      0,
+      -4.4
+    ]
+  },
+  {
+    "type": "island",
+    "position": [
+      -3.2,
+      0,
+      -2.4
+    ]
+  },
+  {
+    "type": "stool",
+    "position": [
+      -4.4,
+      0,
+      -1.2
+    ]
+  },
+  {
+    "type": "stool",
+    "position": [
+      -3.2,
+      0,
+      -1.2
+    ]
+  },
+  {
+    "type": "stool",
+    "position": [
+      -2,
+      0,
+      -1.2
+    ]
+  },
+  {
+    "type": "desk",
+    "position": [
+      2.7,
+      0,
+      -3.7
+    ]
+  },
+  {
+    "type": "beanbag",
+    "position": [
+      1.3,
+      -0.18,
+      3.7
+    ]
+  },
+  {
+    "type": "beanbag",
+    "position": [
+      2.8,
+      -0.18,
+      3.3
+    ]
+  },
+  {
+    "type": "planter",
+    "position": [
+      -6,
+      0,
+      -3.4
+    ]
+  },
+  {
+    "type": "planter",
+    "position": [
+      4.1,
+      0,
+      -3.7
+    ]
+  },
+  {
+    "type": "planter",
+    "position": [
+      5,
+      0,
+      3
+    ]
+  },
+  {
+    "type": "bookshelf",
+    "position": [
+      6,
+      0,
+      -3.7
+    ]
+  },
+  {
+    "type": "lamp",
+    "position": [
+      -3.7,
+      0,
+      1.4
+    ]
+  },
+  {
+    "type": "lamp",
+    "position": [
+      4,
+      0,
+      2.7
+    ]
+  },
+  {
+    "type": "firepit",
+    "position": [
+      -7.8,
+      -0.42,
+      3
+    ]
+  },
+  {
+    "type": "pine",
+    "position": [
+      -8.1,
+      -0.42,
+      -4
+    ]
+  },
+  {
+    "type": "pine",
+    "position": [
+      -8.1,
+      -0.42,
+      5.4
+    ]
+  },
+  {
+    "type": "pine",
+    "position": [
+      6.5,
+      -0.42,
+      6.1
+    ]
+  },
+  {
+    "type": "lounger",
+    "position": [
+      -7.8,
+      -0.42,
+      0.2
+    ]
+  },
+  {
+    "type": "lounger",
+    "position": [
+      -6.2,
+      -0.42,
+      6
+    ]
+  },
+  {
+    "type": "dining",
+    "position": [
+      -7.5,
+      -0.42,
+      -2
+    ]
+  },
+  {
+    "type": "railing",
+    "position": [
+      -6,
+      -0.42,
+      7
+    ]
+  },
+  {
+    "type": "railing",
+    "position": [
+      -4,
+      -0.42,
+      7
+    ]
+  },
+  {
+    "type": "railing",
+    "position": [
+      -2,
+      -0.42,
+      7
+    ]
+  },
+  {
+    "type": "railing",
+    "position": [
+      0,
+      -0.42,
+      7
+    ]
+  },
+  {
+    "type": "railing",
+    "position": [
+      2,
+      -0.42,
+      7
+    ]
+  },
+  {
+    "type": "railing",
+    "position": [
+      4,
+      -0.42,
+      7
+    ]
+  },
+  {
+    "type": "railing",
+    "position": [
+      6,
+      -0.42,
+      7
+    ]
+  },
+  {
+    "type": "terrace",
+    "position": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "type": "sunken",
+    "position": [
+      -0.3,
+      0,
+      1.3
+    ]
+  },
+  {
+    "type": "steps",
+    "position": [
+      -6.5,
+      0,
+      2.5
+    ]
+  },
+  {
+    "type": "bay",
+    "position": [
+      -7.4,
+      0,
+      -0.5
+    ]
+  },
+  {
+    "type": "bulkhead",
+    "position": [
+      5,
+      3.7,
+      -4
+    ]
+  },
+  {
+    "type": "pendant",
+    "position": [
+      -4,
+      0,
+      -2.4
+    ]
+  },
+  {
+    "type": "pendant",
+    "position": [
+      -2.6,
+      0,
+      -2.4
+    ]
+  },
+  {
+    "type": "tablelamp",
+    "position": [
+      3.3,
+      0,
+      3.7
+    ]
+  },
+  {
+    "type": "tablelamp",
+    "position": [
+      -5.7,
+      0,
+      2
+    ]
+  },
+  {
+    "type": "lamp",
+    "position": [
+      5.8,
+      0,
+      -1
+    ]
+  },
+  {
+    "type": "planter",
+    "position": [
+      -5.8,
+      0,
+      -0.5
+    ]
+  },
+  {
+    "type": "planter",
+    "position": [
+      1,
+      0,
+      -4.1
+    ]
+  },
+  {
+    "type": "planter",
+    "position": [
+      5.9,
+      0,
+      4
+    ]
+  },
+  {
+    "type": "art",
+    "position": [
+      5.6,
+      0,
+      -4.8
+    ]
+  },
+  {
+    "type": "art",
+    "position": [
+      4.3,
+      0,
+      -4.8
+    ]
+  },
+  {
+    "type": "chair",
+    "position": [
+      -7.5,
+      -0.42,
+      -3
+    ]
+  },
+  {
+    "type": "chair",
+    "position": [
+      -7.5,
+      -0.42,
+      -1
+    ]
+  },
+  {
+    "type": "city",
+    "position": [
+      0,
+      0,
+      0
+    ]
+  }
+]
