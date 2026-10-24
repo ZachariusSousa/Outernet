@@ -1,2 +1,43 @@
 import {object} from './object.js';
-export default ()=>object('stool');
+export const parts=[
+  [
+    [
+      0,
+      0.65,
+      0
+    ],
+    [
+      0.55,
+      0.15,
+      0.55
+    ],
+    "wood"
+  ],
+  [
+    [
+      0,
+      0.3,
+      0
+    ],
+    [
+      0.1,
+      0.6,
+      0.1
+    ],
+    "dark"
+  ],
+  [
+    [
+      0,
+      0.04,
+      0
+    ],
+    [
+      0.45,
+      0.08,
+      0.45
+    ],
+    "dark"
+  ]
+];
+export default ()=>object(parts,'stool');

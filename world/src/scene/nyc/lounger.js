@@ -1,2 +1,57 @@
 import {object} from './object.js';
-export default ()=>object('lounger');
+export const parts=[
+  [
+    [
+      0,
+      0.35,
+      0
+    ],
+    [
+      0.8,
+      0.15,
+      1.8
+    ],
+    "cream"
+  ],
+  [
+    [
+      0,
+      0.42,
+      0
+    ],
+    [
+      0.85,
+      0.06,
+      1.8
+    ],
+    "snow"
+  ],
+  [
+    [
+      0,
+      0.18,
+      0
+    ],
+    [
+      0.55,
+      0.3,
+      1.4
+    ],
+    "dark"
+  ],
+  [
+    [
+      0,
+      0.5,
+      0
+    ],
+    [
+      0.9,
+      0.18,
+      1.85
+    ],
+    "snow",
+    "sphere"
+  ]
+];
+export default ()=>object(parts,'lounger');

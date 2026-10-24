@@ -1,2 +1,56 @@
 import {object} from './object.js';
-export default ()=>object('chair');
+export const parts=[
+  [
+    [
+      0,
+      0.45,
+      0
+    ],
+    [
+      0.6,
+      0.12,
+      0.6
+    ],
+    "wood"
+  ],
+  [
+    [
+      0,
+      0.8,
+      -0.25
+    ],
+    [
+      0.6,
+      0.6,
+      0.1
+    ],
+    "wood"
+  ],
+  [
+    [
+      -0.22,
+      0.22,
+      0
+    ],
+    [
+      0.07,
+      0.45,
+      0.5
+    ],
+    "dark"
+  ],
+  [
+    [
+      0.22,
+      0.22,
+      0
+    ],
+    [
+      0.07,
+      0.45,
+      0.5
+    ],
+    "dark"
+  ]
+];
+export default ()=>object(parts,'chair');

@@ -1,2 +1,43 @@
 import {object} from './object.js';
-export default ()=>object('island');
+export const parts=[
+  [
+    [
+      0,
+      0.5,
+      0
+    ],
+    [
+      3.2,
+      1,
+      1.25
+    ],
+    "wood"
+  ],
+  [
+    [
+      0,
+      1.07,
+      0
+    ],
+    [
+      3.5,
+      0.16,
+      1.5
+    ],
+    "stone"
+  ],
+  [
+    [
+      0.6,
+      1.2,
+      0
+    ],
+    [
+      0.6,
+      0.15,
+      0.35
+    ],
+    "green"
+  ]
+];
+export default ()=>object(parts,'island');

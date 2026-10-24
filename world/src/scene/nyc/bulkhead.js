@@ -1,2 +1,43 @@
 import {object} from './object.js';
-export default ()=>object('bulkhead');
+export const parts=[
+  [
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      2.4,
+      2,
+      2
+    ],
+    "wall"
+  ],
+  [
+    [
+      0,
+      2.1,
+      0
+    ],
+    [
+      2.7,
+      0.25,
+      2.3
+    ],
+    "snow"
+  ],
+  [
+    [
+      0,
+      0.8,
+      1.03
+    ],
+    [
+      1,
+      1.6,
+      0.05
+    ],
+    "dark"
+  ]
+];
+export default ()=>object(parts,'bulkhead');

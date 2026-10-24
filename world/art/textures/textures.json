@@ -130,5 +130,25 @@
     "license": "CC0-1.0",
     "author": "OuterNet",
     "density": 32
+  },
+  {
+    "file": "facade-distant.png",
+    "size": [
+      64,
+      64
+    ],
+    "source": "procedural",
+    "license": "CC0-1.0",
+    "author": "OuterNet"
+  },
+  {
+    "file": "skyline-card.png",
+    "size": [
+      512,
+      128
+    ],
+    "source": "procedural",
+    "license": "CC0-1.0",
+    "author": "OuterNet"
   }
 ]

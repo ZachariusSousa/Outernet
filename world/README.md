@@ -41,3 +41,10 @@ Edit src/scene/nyc/layout.json to move/rotate objects; each type has a module. A
 
 ## City review (step 2)
 Scene now includes surrounding towers, a stepped main tower, river lights and snowy street. Cars, pedestrians, steam, traffic signals, antenna and window brightness animate live. Scroll pulls back toward the street. Texture prompts are prioritized in docs/texture-wishlist.md. Detailed verification/limitations: docs/progress-2026-10-24-hd2d-city.md. Agent/playback integration remains step 3.
+
+## Integrated world review
+The live page now loads the fake log. Play/pause, 1×/4×/16×, file picker or JSONL drop. Click a creature for name/species/model/interest/state/tool/library size and expandable last-five raw events. Follow tracks it; Esc stops. Resting creatures wander among tagged hangouts.
+
+P toggles placement editing and pauses replay updates. Drag spot spheres or path waypoints on their current floor plane. Copy spots JSON writes to clipboard or downloads; save it over src/scene/nyc/spots.json to persist. Apartment geometry is in each object module, positions in layout.json, and effective look settings (including Claude's look pass) in one clean src/look.js object.
+
+The generator now labels space nyc. Run python world/tools/fake_log.py --seed 1 --minutes 10 and --check as before; copy generated fixture to public/fixtures for production. Evidence and known limitations: docs/progress-2026-10-24-world-integration.md. No integrated-GPU performance claim yet.

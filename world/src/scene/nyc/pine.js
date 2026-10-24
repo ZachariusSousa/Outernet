@@ -1,2 +1,59 @@
 import {object} from './object.js';
-export default ()=>object('pine');
+export const parts=[
+  [
+    [
+      0,
+      0.4,
+      0
+    ],
+    [
+      0.8,
+      0.7,
+      0.8
+    ],
+    "wood"
+  ],
+  [
+    [
+      0,
+      1.1,
+      0
+    ],
+    [
+      1.2,
+      1.4,
+      1.2
+    ],
+    "green",
+    "cone"
+  ],
+  [
+    [
+      0,
+      1.25,
+      0
+    ],
+    [
+      0.8,
+      1.2,
+      0.8
+    ],
+    "snow",
+    "cone"
+  ],
+  [
+    [
+      0,
+      1.9,
+      0
+    ],
+    [
+      0.55,
+      0.8,
+      0.55
+    ],
+    "snow",
+    "cone"
+  ]
+];
+export default ()=>object(parts,'pine');

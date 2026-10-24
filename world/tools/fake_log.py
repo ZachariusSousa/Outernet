@@ -5,7 +5,7 @@ MODELS=['llada2.2-mini','dream-v0-instruct-7b','qwen3.5-9b','gemma-4-e4b']
 STATES=['studying','playing','helping','serving_owner','resting']
 TOOLS=['search','open_page','save_note','load_skill','ask_peer','answer']
 def generate(seed,minutes):
- r=random.Random(seed); events=[]; nodes=[dict(node=f'node-{i+1:02}',name=n,model=MODELS[i//3],engine='diffusion' if i<6 else 'ar',interest=INTERESTS[i],space='cabin',library_pages=[30,100,200][i%3]) for i,n in enumerate(NAMES)]
+ r=random.Random(seed); events=[]; nodes=[dict(node=f'node-{i+1:02}',name=n,model=MODELS[i//3],engine='diffusion' if i<6 else 'ar',interest=INTERESTS[i],space='nyc',library_pages=[30,100,200][i%3]) for i,n in enumerate(NAMES)]
  def emit(t,i,event,detail,**extra):
   events.append(dict(t=round(t,3),run=f'fake-{seed:03}',node=nodes[i]['node'] if i>=0 else 'sim',model=nodes[i]['model'] if i>=0 else 'sim',event=event,detail=detail,**extra))
  emit(0,-1,'roster',dict(nodes=nodes)); end=minutes*60

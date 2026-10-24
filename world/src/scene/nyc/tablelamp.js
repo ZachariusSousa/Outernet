@@ -1,2 +1,46 @@
 import {object} from './object.js';
-export default ()=>object('tablelamp');
+export const parts=[
+  [
+    [
+      0,
+      0.45,
+      0
+    ],
+    [
+      0.65,
+      0.9,
+      0.65
+    ],
+    "wood",
+    "cylinder"
+  ],
+  [
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0.08,
+      0.3,
+      0.08
+    ],
+    "dark",
+    "cylinder"
+  ],
+  [
+    [
+      0,
+      1.3,
+      0
+    ],
+    [
+      0.4,
+      0.4,
+      0.4
+    ],
+    "bulb",
+    "sphere"
+  ]
+];
+export default ()=>object(parts,'tablelamp');

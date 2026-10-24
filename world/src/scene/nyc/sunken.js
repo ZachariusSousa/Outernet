@@ -1,2 +1,3 @@
 import {object} from './object.js';
-export default ()=>object('sunken');
+export const parts=[];
+export default ()=>object(parts,'sunken');

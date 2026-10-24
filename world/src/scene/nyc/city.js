@@ -16,8 +16,12 @@ export default function city(){
  tower(0,0,15,11,27.3,'setback'); // 27.3 so the 3 setback tiers end under the penthouse slab instead of poking through the floor
  // Wedding-cake crown beneath the apartment and its wider snowy setback.
  for(const [y,w,d] of [[-2,19,15],[-3.8,18,14],[-5.4,17,13]]){add([0,y,0],[w,1.4,d],stone);add([0,y+.76,0],[w+.15,.16,d+.15],snow)}
- for(const [x,z,w,d,h,v] of [[-22,-15,10,10,29,'water'],[-6,-24,9,10,38,'crown'],[13,-20,9,9,33,'slant'],[24,-5,8,10,24,'water'],[-22,8,9,8,17,'setback'],[22,17,8,8,12,'crown'],[0,-42,7,7,43,'crown']])tower(x,z,w,d,h,v);
- add([0,C.floorY-.5,0],[110,.5,100],snow);add([0,C.floorY,17],[C.roadLength,.1,C.roadWidth],'#1b2b43');add([19,C.floorY,.5],[10,.1,70],'#1b2b43');
+ for(const [x,z,w,d,h,v] of [[-22,-15,10,10,22,'water'],[-6,-24,9,10,25,'crown'],[13,-20,9,9,23,'slant'],[24,-5,8,10,19,'water'],[-22,8,9,8,15,'setback'],[22,17,8,8,12,'crown'],[0,-42,7,7,45,'crown']])tower(x,z,w,d,h,v);
+
+ // Snowy block footprints separated by a street grid, instead of one featureless ground plane.
+ const H=C.horizon;for(let x=-H.extent;x<=H.extent;x+=H.spacing)for(let z=-H.extent;z<=H.extent;z+=H.spacing){add([x,C.floorY-.5,z],[H.spacing-4,.5,H.spacing-4],snow);if(Math.abs(x)<32&&Math.abs(z)<48||z>5&&Math.abs(x)<36)continue;const height=H.minHeight+rand()*(H.maxHeight-H.minHeight),w=7+rand()*5,d=7+rand()*5;tower(x,z,w,d,height,['water','crown','setback','slant'][Math.floor(rand()*4)]);}
+ const horizonMap=new T.TextureLoader().load('/art/textures/'+H.card);horizonMap.colorSpace=T.SRGBColorSpace;horizonMap.minFilter=horizonMap.magFilter=T.NearestFilter;horizonMap.generateMipmaps=false;const card=new T.Mesh(new T.PlaneGeometry(...H.cardSize),new T.MeshBasicMaterial({map:horizonMap,transparent:true,depthWrite:false,fog:true}));card.position.set(...H.cardPosition);g.add(card);
+ add([0,C.floorY,17],[C.roadLength,.1,C.roadWidth],'#1b2b43');add([19,C.floorY,.5],[10,.1,70],'#1b2b43');
  for(const z of [9,25])add([0,C.floorY+.2,z],[100,.4,3],snow);
  for(let x=13;x<26;x+=2)add([x,C.floorY+.07,17],[.8,.03,10],snow);
  for(let x=-40;x<42;x+=8){add([x,C.floorY+2.5,9],[.1,5,.1],stone);add([x,C.floorY+5,9],[.6,.15,.35],C.windowColors[0],C.emission*2);add([x,C.floorY+1,-6],[3,.05,1.6],C.windowColors[0],C.emission)}

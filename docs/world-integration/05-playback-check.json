@@ -1,0 +1,30 @@
+{
+  "errors": [],
+  "reports": [
+    {
+      "speed": 1,
+      "sim": 607.1000000000695,
+      "cursor": 529,
+      "total": 529,
+      "agents": 12,
+      "uniqueSlots": 12
+    },
+    {
+      "speed": 4,
+      "sim": 607.1498999999826,
+      "cursor": 529,
+      "total": 529,
+      "agents": 12,
+      "uniqueSlots": 12
+    },
+    {
+      "speed": 16,
+      "sim": 608.4624000000043,
+      "cursor": 529,
+      "total": 529,
+      "agents": 12,
+      "uniqueSlots": 12
+    }
+  ],
+  "card": true
+}

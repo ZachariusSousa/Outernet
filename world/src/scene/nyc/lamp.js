@@ -1,2 +1,43 @@
 import {object} from './object.js';
-export default ()=>object('lamp');
+export const parts=[
+  [
+    [
+      0,
+      0.8,
+      0
+    ],
+    [
+      0.06,
+      1.6,
+      0.06
+    ],
+    "dark"
+  ],
+  [
+    [
+      0,
+      1.65,
+      0
+    ],
+    [
+      0.5,
+      0.55,
+      0.5
+    ],
+    "bulb"
+  ],
+  [
+    [
+      0,
+      0.04,
+      0
+    ],
+    [
+      0.4,
+      0.08,
+      0.4
+    ],
+    "dark"
+  ]
+];
+export default ()=>object(parts,'lamp');
